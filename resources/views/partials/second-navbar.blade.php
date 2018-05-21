@@ -22,8 +22,21 @@
 				</ul>
 			</li>
 
-			<li><a href="{{ route('vendors.index') }}"><i class="icon-cc position-left"></i> Vendors</a></li>
-			<li><a href="#"><i class="icon-safe position-left"></i> Items Tests Passed</a></li>
+			<li><a href="{{ route('vendors.index') }}"><i class="icon-ship position-left"></i> Vendors</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="icon-safe position-left"></i> Item Test Records <span class="caret"></span>
+				</a>
+
+				<ul class="dropdown-menu width-250">
+					<li class="dropdown-header">Manage Sections</li>
+					<li><a href="{{ route('items-test-records.index') }}"><i class="icon-cog4"></i> Manage</a></li>
+					<li><a href="{{ route('items-test-records.create') }}"><i class="icon-add"></i> Add New</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class="icon-cc position-left"></i> View Cerfiticate of Conformity</a></li>
+			<li><a href="#"><i class="icon-pie-chart2 position-left"></i> View Item Safety Test Report</a></li>
+			<li><a href="#"><i class="icon-database-export position-left"></i> Export Item Safety Tests to Excel</a></li>
 			<li><a href="#"><i class="icon-archive position-left"></i> Archive</a></li>
 		</ul>
 	</div>

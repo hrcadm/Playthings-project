@@ -56,12 +56,12 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 
 	Route::resource('factories', 'FactoryController');
 
-	Route::resource('items-test-passed', 'ItemsTestPassedController');
-
 	Route::resource('items', 'ItemController');
 
 	Route::resource('labs', 'LabController');
 
 	Route::resource('standards', 'StandardController');
+
+	Route::resource('items-test-records', 'ItemsTestRecordController');
 
 });

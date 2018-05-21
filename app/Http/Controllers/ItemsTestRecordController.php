@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\ItemsTestPassed;
+use App\Models\ItemsTestRecord;
 
-class ItemsTestPassedController extends Controller
+class ItemsTestRecordController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,9 @@ class ItemsTestPassedController extends Controller
      */
     public function index()
     {
-        //
+        $itemsTest = ItemsTestRecord::paginate(10);
+
+        return view('itemstestrecords.index', compact('itemsTest'));
     }
 
     /**
@@ -24,7 +26,7 @@ class ItemsTestPassedController extends Controller
      */
     public function create()
     {
-        //
+        return view('itemstestrecords.manage');
     }
 
     /**
@@ -39,17 +41,6 @@ class ItemsTestPassedController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
@@ -57,7 +48,9 @@ class ItemsTestPassedController extends Controller
      */
     public function edit($id)
     {
-        //
+        $itemTest = ItemsTestRecord::findOrFail($id);
+
+        return view('itemstestrecords.manage', compact('itemTest'));
     }
 
     /**
