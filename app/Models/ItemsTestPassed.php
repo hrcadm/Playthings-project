@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ItemsTestPassed extends Model
+{
+    protected $table = 'vwrptitemtestspassed';
+
+    public $timestamps = false;
+
+    protected $fillable = [
+    	'ItemID', 'TestLab', 'Active', 'Desc1', 'LabName', 'StdName', 'StdDesc', 'TestDate', 'TestReptPdf', 'ReptNo', 'SubstrateLvl', 'SurfaceLvl'
+    ];
+
+    public function item()
+    {
+    	return $this->hasMany('App\Models\Item', 'itemid');
+    }
+}
