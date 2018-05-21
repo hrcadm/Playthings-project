@@ -14,7 +14,7 @@ class CreateVwvendorsTable extends Migration {
 	{
 		Schema::create('vwvendors', function(Blueprint $table)
 		{
-			$table->integer('wdt_ID', true);
+			$table->integer('id', true);
 			$table->integer('cono')->nullable();
 			$table->string('vendno')->nullable();
 			$table->string('vendname')->nullable();

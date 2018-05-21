@@ -14,7 +14,7 @@ class CreateVwfactoriesTable extends Migration {
 	{
 		Schema::create('vwfactories', function(Blueprint $table)
 		{
-			$table->integer('wdt_ID', true);
+			$table->integer('id', true);
 			$table->string('factno')->nullable();
 			$table->string('vendorno')->nullable();
 			$table->string('factname')->nullable();

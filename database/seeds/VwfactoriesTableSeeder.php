@@ -12,14 +12,14 @@ class VwfactoriesTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('vwfactories')->delete();
-        
+
         \DB::table('vwfactories')->insert(array (
-            0 => 
+            0 =>
             array (
-                'wdt_ID' => 1,
+                'id' => 1,
                 'factno' => '1012501',
                 'vendorno' => '10125',
             'factname' => 'Shunru Metal Plastic Products(ShenZhen)Co.,Ltd.',
@@ -36,9 +36,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d1>',
             ),
-            1 => 
+            1 =>
             array (
-                'wdt_ID' => 2,
+                'id' => 2,
                 'factno' => '1012502',
                 'vendorno' => '10125',
                 'factname' => 'YICK SHUN International Manufacturing Limited',
@@ -55,9 +55,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d2>',
             ),
-            2 => 
+            2 =>
             array (
-                'wdt_ID' => 3,
+                'id' => 3,
                 'factno' => '1012503',
                 'vendorno' => '10125',
                 'factname' => 'YICK SHUN Electronic Toys Manufactory Limited',
@@ -74,9 +74,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d3>',
             ),
-            3 => 
+            3 =>
             array (
-                'wdt_ID' => 4,
+                'id' => 4,
                 'factno' => '1012504',
                 'vendorno' => '10125',
                 'factname' => 'Starkis Toys Factory Shixing Xian',
@@ -93,9 +93,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d4>',
             ),
-            4 => 
+            4 =>
             array (
-                'wdt_ID' => 5,
+                'id' => 5,
                 'factno' => '1020001',
                 'vendorno' => '10200',
                 'factname' => 'TEAM WORK PRINTING FACTORY',
@@ -112,9 +112,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d5>',
             ),
-            5 => 
+            5 =>
             array (
-                'wdt_ID' => 6,
+                'id' => 6,
                 'factno' => '1035001',
                 'vendorno' => '10350',
                 'factname' => 'DongGuan Elite Toys Co.,Ltd.',
@@ -131,9 +131,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d6>',
             ),
-            6 => 
+            6 =>
             array (
-                'wdt_ID' => 7,
+                'id' => 7,
                 'factno' => '1035002',
                 'vendorno' => '10350',
             'factname' => 'DONG GUAN FENG SHALING EVER GLORY (CHUNG HING)TOYS MANUFACTURING FTY',
@@ -150,9 +150,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d7>',
             ),
-            7 => 
+            7 =>
             array (
-                'wdt_ID' => 8,
+                'id' => 8,
                 'factno' => '1035003',
                 'vendorno' => '10350',
                 'factname' => 'Dongguan Elect Plastic Products Co.,Ltd.',
@@ -169,9 +169,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d8>',
             ),
-            8 => 
+            8 =>
             array (
-                'wdt_ID' => 9,
+                'id' => 9,
                 'factno' => '1035004',
                 'vendorno' => '10350',
             'factname' => 'Vital (BuJi) Manufactory',
@@ -188,9 +188,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007d9>',
             ),
-            9 => 
+            9 =>
             array (
-                'wdt_ID' => 10,
+                'id' => 10,
                 'factno' => '1035005',
                 'vendorno' => '10350',
                 'factname' => 'Kader Industrial Company',
@@ -207,9 +207,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0007b89a>',
             ),
-            10 => 
+            10 =>
             array (
-                'wdt_ID' => 11,
+                'id' => 11,
                 'factno' => '1035006',
                 'vendorno' => '10350',
                 'factname' => 'LUNG CHEONG TOYS',
@@ -226,9 +226,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0007b89b>',
             ),
-            11 => 
+            11 =>
             array (
-                'wdt_ID' => 12,
+                'id' => 12,
                 'factno' => '1035008',
                 'vendorno' => '10350',
                 'factname' => 'Dongguan Wise-kid Plastics Products Mfg. Co. Ltd.',
@@ -245,9 +245,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => 0,
                 'ssmatimestamp' => '<00000000 0007e771>',
             ),
-            12 => 
+            12 =>
             array (
-                'wdt_ID' => 13,
+                'id' => 13,
                 'factno' => '1035009',
                 'vendorno' => '10350',
                 'factname' => 'Buji Heisei Manufactory',
@@ -264,9 +264,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00096643>',
             ),
-            13 => 
+            13 =>
             array (
-                'wdt_ID' => 14,
+                'id' => 14,
                 'factno' => '1035010',
                 'vendorno' => '10350',
                 'factname' => 'Epoch Industrial Co. LTD',
@@ -283,9 +283,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0016fae4>',
             ),
-            14 => 
+            14 =>
             array (
-                'wdt_ID' => 15,
+                'id' => 15,
                 'factno' => '1040001',
                 'vendorno' => '10400',
                 'factname' => 'Quercetti & Co SPA',
@@ -302,9 +302,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007db>',
             ),
-            15 => 
+            15 =>
             array (
-                'wdt_ID' => 16,
+                'id' => 16,
                 'factno' => '1255001',
                 'vendorno' => '12550',
                 'factname' => 'Honeykid Toy Manufactory',
@@ -321,9 +321,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007dc>',
             ),
-            16 => 
+            16 =>
             array (
-                'wdt_ID' => 17,
+                'id' => 17,
                 'factno' => '1312001',
                 'vendorno' => '13120',
                 'factname' => 'Kiddieland Industrial Ltd.',
@@ -340,9 +340,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007dd>',
             ),
-            17 => 
+            17 =>
             array (
-                'wdt_ID' => 18,
+                'id' => 18,
                 'factno' => '1340501',
                 'vendorno' => '13405',
                 'factname' => 'Keenway Industries Ltd',
@@ -359,9 +359,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007de>',
             ),
-            18 => 
+            18 =>
             array (
-                'wdt_ID' => 19,
+                'id' => 19,
                 'factno' => '1340502',
                 'vendorno' => '13405',
                 'factname' => 'Dongguan Keenway Metal & Plastic Toys Co., Ltd.',
@@ -378,9 +378,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007df>',
             ),
-            19 => 
+            19 =>
             array (
-                'wdt_ID' => 20,
+                'id' => 20,
                 'factno' => '1376001',
                 'vendorno' => '13760',
                 'factname' => 'T.T. Technoplast Co., Ltd.',
@@ -397,9 +397,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => 0,
                 'ssmatimestamp' => '<00000000 000007e0>',
             ),
-            20 => 
+            20 =>
             array (
-                'wdt_ID' => 21,
+                'id' => 21,
                 'factno' => '1400001',
                 'vendorno' => '14000',
                 'factname' => 'KOK Hong Matel Plastic Manufactory',
@@ -416,9 +416,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e1>',
             ),
-            21 => 
+            21 =>
             array (
-                'wdt_ID' => 22,
+                'id' => 22,
                 'factno' => '1440001',
                 'vendorno' => '14400',
             'factname' => 'Motormax Industries (Heyuan) Ltd.',
@@ -435,9 +435,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e2>',
             ),
-            22 => 
+            22 =>
             array (
-                'wdt_ID' => 23,
+                'id' => 23,
                 'factno' => '1440002',
                 'vendorno' => '14400',
                 'factname' => 'Dongguan TungFat Toy Fty. Ltd',
@@ -454,9 +454,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e3>',
             ),
-            23 => 
+            23 =>
             array (
-                'wdt_ID' => 24,
+                'id' => 24,
                 'factno' => '1453001',
                 'vendorno' => '14530',
                 'factname' => 'Dongguan Park Plastics Manufactory Ltd',
@@ -473,9 +473,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e4>',
             ),
-            24 => 
+            24 =>
             array (
-                'wdt_ID' => 25,
+                'id' => 25,
                 'factno' => '1454501',
                 'vendorno' => '14545',
             'factname' => 'Kidtoys (Shenzhen) Toys Ltd.',
@@ -492,9 +492,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e5>',
             ),
-            25 => 
+            25 =>
             array (
-                'wdt_ID' => 26,
+                'id' => 26,
                 'factno' => '1455001',
                 'vendorno' => '14550',
                 'factname' => 'Franki Toys Factory',
@@ -511,9 +511,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e6>',
             ),
-            26 => 
+            26 =>
             array (
-                'wdt_ID' => 27,
+                'id' => 27,
                 'factno' => '1456701',
                 'vendorno' => '14567',
                 'factname' => 'Dongguan Cheerful Toy Factory Ltd',
@@ -530,9 +530,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e7>',
             ),
-            27 => 
+            27 =>
             array (
-                'wdt_ID' => 28,
+                'id' => 28,
                 'factno' => '1456702',
                 'vendorno' => '14567',
                 'factname' => 'Dongguan Changan Shatou Junjia Plastic Products Factory',
@@ -549,9 +549,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e8>',
             ),
-            28 => 
+            28 =>
             array (
-                'wdt_ID' => 29,
+                'id' => 29,
                 'factno' => '1458201',
                 'vendorno' => '14582',
                 'factname' => 'CHEERFUL TOY FACTORY LTD',
@@ -568,9 +568,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007e9>',
             ),
-            29 => 
+            29 =>
             array (
-                'wdt_ID' => 30,
+                'id' => 30,
                 'factno' => '1459001',
                 'vendorno' => '14590',
             'factname' => 'Kidtoys (Shenzhen) Toys Ltd.',
@@ -587,9 +587,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007ea>',
             ),
-            30 => 
+            30 =>
             array (
-                'wdt_ID' => 31,
+                'id' => 31,
                 'factno' => '1459701',
                 'vendorno' => '14597',
                 'factname' => 'ONLI Electrical Appliances Enterprise Co. Ltd.',
@@ -606,9 +606,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007eb>',
             ),
-            31 => 
+            31 =>
             array (
-                'wdt_ID' => 32,
+                'id' => 32,
                 'factno' => '1459702',
                 'vendorno' => '14597',
             'factname' => 'Yong Hao Chang Toys (Shenzhen) Co., Ltd.',
@@ -625,9 +625,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007ec>',
             ),
-            32 => 
+            32 =>
             array (
-                'wdt_ID' => 33,
+                'id' => 33,
                 'factno' => '1460101',
                 'vendorno' => '14601',
                 'factname' => 'Dongguan Maple Toys Co., Ltd',
@@ -644,9 +644,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007ed>',
             ),
-            33 => 
+            33 =>
             array (
-                'wdt_ID' => 34,
+                'id' => 34,
                 'factno' => '1460301',
                 'vendorno' => '14603',
                 'factname' => 'Chern Shianq Industry Co., Ltd.',
@@ -663,9 +663,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007ee>',
             ),
-            34 => 
+            34 =>
             array (
-                'wdt_ID' => 35,
+                'id' => 35,
                 'factno' => '1460302',
                 'vendorno' => '14603',
                 'factname' => 'Fun Mart Industry Co., Ltd.',
@@ -682,9 +682,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00021b11>',
             ),
-            35 => 
+            35 =>
             array (
-                'wdt_ID' => 36,
+                'id' => 36,
                 'factno' => '1460401',
                 'vendorno' => '14604',
                 'factname' => 'YUEN KWONG PLASTICS MFG., CO., LTD',
@@ -701,9 +701,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007ef>',
             ),
-            36 => 
+            36 =>
             array (
-                'wdt_ID' => 37,
+                'id' => 37,
                 'factno' => '1460701',
                 'vendorno' => '14607',
                 'factname' => 'ARTOY INDUSTRIAL FACTORY',
@@ -720,9 +720,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f0>',
             ),
-            37 => 
+            37 =>
             array (
-                'wdt_ID' => 38,
+                'id' => 38,
                 'factno' => '1461501',
                 'vendorno' => '14615',
                 'factname' => 'Tree Toys Corp',
@@ -739,9 +739,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f1>',
             ),
-            38 => 
+            38 =>
             array (
-                'wdt_ID' => 39,
+                'id' => 39,
                 'factno' => '1461502',
                 'vendorno' => '14615',
                 'factname' => 'Ningbo Tree Toys Co. LTD',
@@ -758,9 +758,9 @@ class VwfactoriesTableSeeder extends Seeder
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00097db2>',
             ),
-            39 => 
+            39 =>
             array (
-                'wdt_ID' => 40,
+                'id' => 40,
                 'factno' => '1461701',
                 'vendorno' => '14617',
                 'factname' => 'Dongguan Liao Bu Jia Feng Plastic Toy Factory',
@@ -778,9 +778,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f2>',
             ),
-            40 => 
+            40 =>
             array (
-                'wdt_ID' => 41,
+                'id' => 41,
                 'factno' => '1461702',
                 'vendorno' => '14617',
             'factname' => 'Guangdong Huawei Toys Crat (Group) Co., LTD',
@@ -797,9 +797,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00097db1>',
             ),
-            41 => 
+            41 =>
             array (
-                'wdt_ID' => 42,
+                'id' => 42,
                 'factno' => '1461901',
                 'vendorno' => '14619',
                 'factname' => 'Luen Hing Tai Toys Factory',
@@ -816,9 +816,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f3>',
             ),
-            42 => 
+            42 =>
             array (
-                'wdt_ID' => 43,
+                'id' => 43,
                 'factno' => '1462901',
                 'vendorno' => '14629',
             'factname' => 'Dongguan Huanjing Taiway (Shingkee) Toys Factory',
@@ -835,9 +835,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f4>',
             ),
-            43 => 
+            43 =>
             array (
-                'wdt_ID' => 44,
+                'id' => 44,
                 'factno' => '1463301',
                 'vendorno' => '14633',
                 'factname' => 'Zhejiang Playwell Toy Co.,Ltd',
@@ -854,9 +854,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f5>',
             ),
-            44 => 
+            44 =>
             array (
-                'wdt_ID' => 45,
+                'id' => 45,
                 'factno' => '1464101',
                 'vendorno' => '14641',
                 'factname' => 'Dongguan Richbo Plastic MFY. Co.',
@@ -873,9 +873,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f6>',
             ),
-            45 => 
+            45 =>
             array (
-                'wdt_ID' => 46,
+                'id' => 46,
                 'factno' => '1464102',
                 'vendorno' => '30108',
                 'factname' => 'GuoTong Printing Products Ltd',
@@ -892,9 +892,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f2ad5>',
             ),
-            46 => 
+            46 =>
             array (
-                'wdt_ID' => 47,
+                'id' => 47,
                 'factno' => '1464901',
                 'vendorno' => '14649',
                 'factname' => 'Dongguan Chen Ye Toys Manufactory',
@@ -911,9 +911,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f7>',
             ),
-            47 => 
+            47 =>
             array (
-                'wdt_ID' => 48,
+                'id' => 48,
                 'factno' => '1465101',
                 'vendorno' => '14651',
             'factname' => 'MAGIKER (MEI ZHOU) FACTORY',
@@ -930,9 +930,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f8>',
             ),
-            48 => 
+            48 =>
             array (
-                'wdt_ID' => 49,
+                'id' => 49,
                 'factno' => '1465501',
                 'vendorno' => '14655',
                 'factname' => 'Dong Guan, Tang Xia, Jian Ye Plastic Factory',
@@ -949,9 +949,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007f9>',
             ),
-            49 => 
+            49 =>
             array (
-                'wdt_ID' => 50,
+                'id' => 50,
                 'factno' => '1465601',
                 'vendorno' => '14656',
                 'factname' => 'HI-TECH PLASTIC & METAL MANUFACTORY',
@@ -968,9 +968,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007fa>',
             ),
-            50 => 
+            50 =>
             array (
-                'wdt_ID' => 51,
+                'id' => 51,
                 'factno' => '1466201',
                 'vendorno' => '14662',
                 'factname' => 'BaoLingDeng Industry & Trade Co., Ltd.',
@@ -987,9 +987,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007fb>',
             ),
-            51 => 
+            51 =>
             array (
-                'wdt_ID' => 52,
+                'id' => 52,
                 'factno' => '1466701',
                 'vendorno' => '14667',
                 'factname' => 'Germton Enterprises Ltd',
@@ -1006,9 +1006,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007fc>',
             ),
-            52 => 
+            52 =>
             array (
-                'wdt_ID' => 53,
+                'id' => 53,
                 'factno' => '1467001',
                 'vendorno' => '14670',
                 'factname' => 'Shenzhen Patech Plastic & Electronic Manufactory',
@@ -1025,9 +1025,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007fd>',
             ),
-            53 => 
+            53 =>
             array (
-                'wdt_ID' => 54,
+                'id' => 54,
                 'factno' => '1467501',
                 'vendorno' => '14675',
                 'factname' => 'DONG GUAN HUANG JIAN LONG JIAN TIAN HONG FA TOYS FACTORY',
@@ -1044,9 +1044,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000007fe>',
             ),
-            54 => 
+            54 =>
             array (
-                'wdt_ID' => 55,
+                'id' => 55,
                 'factno' => '1467701',
                 'vendorno' => '14677',
                 'factname' => 'Yunhe Hunter Wooden Products Co Ltd',
@@ -1063,9 +1063,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000222e8>',
             ),
-            55 => 
+            55 =>
             array (
-                'wdt_ID' => 56,
+                'id' => 56,
                 'factno' => '1467702',
                 'vendorno' => '14677',
                 'factname' => 'D& S Metal & Plastic Factory',
@@ -1082,9 +1082,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000222ee>',
             ),
-            56 => 
+            56 =>
             array (
-                'wdt_ID' => 57,
+                'id' => 57,
                 'factno' => '1467801',
                 'vendorno' => '14678',
                 'factname' => 'All Kids Coloring Co., Limited',
@@ -1101,9 +1101,9 @@ production@jiafengfty.com',
                 'factwebsite' => 0,
                 'ssmatimestamp' => '<00000000 000007ff>',
             ),
-            57 => 
+            57 =>
             array (
-                'wdt_ID' => 58,
+                'id' => 58,
                 'factno' => '1467901',
                 'vendorno' => '14679',
                 'factname' => 'Technic Star Products',
@@ -1120,9 +1120,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000801>',
             ),
-            58 => 
+            58 =>
             array (
-                'wdt_ID' => 59,
+                'id' => 59,
                 'factno' => '1468101',
                 'vendorno' => '14681',
                 'factname' => 'Hoi Ming Plastic Products Factory',
@@ -1139,9 +1139,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000802>',
             ),
-            59 => 
+            59 =>
             array (
-                'wdt_ID' => 60,
+                'id' => 60,
                 'factno' => '1468501',
                 'vendorno' => '14685',
                 'factname' => 'Future Art Ware Co., Ltd.',
@@ -1158,9 +1158,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000803>',
             ),
-            60 => 
+            60 =>
             array (
-                'wdt_ID' => 61,
+                'id' => 61,
                 'factno' => '1468701',
                 'vendorno' => '14687',
                 'factname' => 'Zhejiang Sorbo Electronic Co., Ltd',
@@ -1177,9 +1177,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0002328c>',
             ),
-            61 => 
+            61 =>
             array (
-                'wdt_ID' => 62,
+                'id' => 62,
                 'factno' => '1468702',
                 'vendorno' => '14687',
                 'factname' => 'Wenzhou Donteng Electronic Co., Ltd',
@@ -1196,9 +1196,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0002328d>',
             ),
-            62 => 
+            62 =>
             array (
-                'wdt_ID' => 63,
+                'id' => 63,
                 'factno' => '1469201',
                 'vendorno' => '14692',
                 'factname' => 'Superfine Holding LTD',
@@ -1215,9 +1215,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0006f544>',
             ),
-            63 => 
+            63 =>
             array (
-                'wdt_ID' => 64,
+                'id' => 64,
                 'factno' => '1471101',
                 'vendorno' => '14711',
                 'factname' => 'Dong Guan Wang Yat Plastic Toys Co., Ltd.',
@@ -1234,9 +1234,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000762a5>',
             ),
-            64 => 
+            64 =>
             array (
-                'wdt_ID' => 65,
+                'id' => 65,
                 'factno' => '1473201',
                 'vendorno' => '14732',
             'factname' => 'Qingdao Dream Arts & Crafts Co., Ltd. (DA)',
@@ -1253,9 +1253,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f2ad3>',
             ),
-            65 => 
+            65 =>
             array (
-                'wdt_ID' => 66,
+                'id' => 66,
                 'factno' => '1473202',
                 'vendorno' => '14732',
             'factname' => 'Qingdao Tongshang Toys Co., Ltd. (TS)',
@@ -1272,9 +1272,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f2ad6>',
             ),
-            66 => 
+            66 =>
             array (
-                'wdt_ID' => 67,
+                'id' => 67,
                 'factno' => '1473203',
                 'vendorno' => '14732',
             'factname' => 'ZHUCHENG HUANUO CRAFTWORK CO.,LTD. (ZC)',
@@ -1291,9 +1291,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f2ad7>',
             ),
-            67 => 
+            67 =>
             array (
-                'wdt_ID' => 68,
+                'id' => 68,
                 'factno' => '1473204',
                 'vendorno' => '14732',
             'factname' => 'QINGDAO SHENGLIN ARTS & CRAFTS CO.,LTD (SN)',
@@ -1310,9 +1310,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f2ad8>',
             ),
-            68 => 
+            68 =>
             array (
-                'wdt_ID' => 69,
+                'id' => 69,
                 'factno' => '1473205',
                 'vendorno' => '14732',
             'factname' => 'Inhesion Industrial (M) Sdn. Bhd., Malaysia (INM)',
@@ -1329,9 +1329,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f32a1>',
             ),
-            69 => 
+            69 =>
             array (
-                'wdt_ID' => 70,
+                'id' => 70,
                 'factno' => '1473206',
                 'vendorno' => '14732',
             'factname' => 'Dongguan Chip Wo Plastic & Metal Prod. Co. Ltd. (CW)',
@@ -1348,9 +1348,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f32a2>',
             ),
-            70 => 
+            70 =>
             array (
-                'wdt_ID' => 71,
+                'id' => 71,
                 'factno' => '1473207',
                 'vendorno' => '14732',
             'factname' => 'DONGGUAN QINGXI SANZHONG YONG CHENG HANDBAGS FTY (SL)',
@@ -1367,9 +1367,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f32a3>',
             ),
-            71 => 
+            71 =>
             array (
-                'wdt_ID' => 72,
+                'id' => 72,
                 'factno' => '1473208',
                 'vendorno' => '14732',
             'factname' => 'Dongguan Fine Makers Gift Factory Company Limited (FM)',
@@ -1386,9 +1386,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 000f32a4>',
             ),
-            72 => 
+            72 =>
             array (
-                'wdt_ID' => 73,
+                'id' => 73,
                 'factno' => '2367501',
                 'vendorno' => '23675',
                 'factname' => 'Forever True International',
@@ -1405,9 +1405,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000804>',
             ),
-            73 => 
+            73 =>
             array (
-                'wdt_ID' => 74,
+                'id' => 74,
                 'factno' => '2367502',
                 'vendorno' => '23675',
                 'factname' => 'Gakken',
@@ -1424,9 +1424,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000805>',
             ),
-            74 => 
+            74 =>
             array (
-                'wdt_ID' => 75,
+                'id' => 75,
                 'factno' => '2367503',
                 'vendorno' => '23675',
                 'factname' => 'Longshore Limited',
@@ -1443,9 +1443,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000806>',
             ),
-            75 => 
+            75 =>
             array (
-                'wdt_ID' => 76,
+                'id' => 76,
                 'factno' => '2367504',
                 'vendorno' => '23675',
                 'factname' => 'Lung Cheong',
@@ -1462,9 +1462,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000807>',
             ),
-            76 => 
+            76 =>
             array (
-                'wdt_ID' => 77,
+                'id' => 77,
                 'factno' => '2367505',
                 'vendorno' => '23675',
                 'factname' => 'Max Peace',
@@ -1481,9 +1481,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000808>',
             ),
-            77 => 
+            77 =>
             array (
-                'wdt_ID' => 78,
+                'id' => 78,
                 'factno' => '2367506',
                 'vendorno' => '23675',
                 'factname' => 'Qualidux',
@@ -1500,9 +1500,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000809>',
             ),
-            78 => 
+            78 =>
             array (
-                'wdt_ID' => 79,
+                'id' => 79,
                 'factno' => '2367507',
                 'vendorno' => '23675',
                 'factname' => 'Sane Product',
@@ -1519,9 +1519,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0000080a>',
             ),
-            79 => 
+            79 =>
             array (
-                'wdt_ID' => 80,
+                'id' => 80,
                 'factno' => '2367508',
                 'vendorno' => '23675',
                 'factname' => 'Tomy Thailand',
@@ -1538,9 +1538,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0000080b>',
             ),
-            80 => 
+            80 =>
             array (
-                'wdt_ID' => 81,
+                'id' => 81,
                 'factno' => '2367509',
                 'vendorno' => '23675',
                 'factname' => 'Topco Manufacture Ltd',
@@ -1557,9 +1557,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0000080c>',
             ),
-            81 => 
+            81 =>
             array (
-                'wdt_ID' => 82,
+                'id' => 82,
                 'factno' => '2367510',
                 'vendorno' => '23675',
                 'factname' => 'Wah Shing',
@@ -1576,9 +1576,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0000080d>',
             ),
-            82 => 
+            82 =>
             array (
-                'wdt_ID' => 83,
+                'id' => 83,
                 'factno' => '2367511',
                 'vendorno' => '23675',
                 'factname' => 'Well Hopes',
@@ -1595,9 +1595,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0000080e>',
             ),
-            83 => 
+            83 =>
             array (
-                'wdt_ID' => 84,
+                'id' => 84,
                 'factno' => '2367512',
                 'vendorno' => '23675',
                 'factname' => 'Well Power',
@@ -1614,9 +1614,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 0000080f>',
             ),
-            84 => 
+            84 =>
             array (
-                'wdt_ID' => 85,
+                'id' => 85,
                 'factno' => '2664501',
                 'vendorno' => '26645',
             'factname' => 'Intex Toys & Plastic Electronic (Dongguan) Ltd.',
@@ -1633,9 +1633,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000810>',
             ),
-            85 => 
+            85 =>
             array (
-                'wdt_ID' => 86,
+                'id' => 86,
                 'factno' => '2732001',
                 'vendorno' => '27320',
                 'factname' => 'Marilis Ltd',
@@ -1652,9 +1652,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000811>',
             ),
-            86 => 
+            86 =>
             array (
-                'wdt_ID' => 87,
+                'id' => 87,
                 'factno' => '2903101',
                 'vendorno' => '29031',
                 'factname' => 'Dongguan TaiFat Toy Factory Ltd',
@@ -1671,9 +1671,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000812>',
             ),
-            87 => 
+            87 =>
             array (
-                'wdt_ID' => 88,
+                'id' => 88,
                 'factno' => '2903102',
                 'vendorno' => '29031',
                 'factname' => 'Dongguan Tungfat Toy Factory. Co. Ltd',
@@ -1690,9 +1690,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000813>',
             ),
-            88 => 
+            88 =>
             array (
-                'wdt_ID' => 89,
+                'id' => 89,
                 'factno' => '2903103',
                 'vendorno' => '29031',
                 'factname' => 'Shiner Metal and Plastic Factory',
@@ -1709,9 +1709,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000814>',
             ),
-            89 => 
+            89 =>
             array (
-                'wdt_ID' => 90,
+                'id' => 90,
                 'factno' => '2903104',
                 'vendorno' => '29031',
                 'factname' => 'Dong Guan Tang Xia Wide Bright Diecasting & Plastic Toys Factory',
@@ -1728,9 +1728,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000815>',
             ),
-            90 => 
+            90 =>
             array (
-                'wdt_ID' => 91,
+                'id' => 91,
                 'factno' => '2903105',
                 'vendorno' => '29031',
                 'factname' => 'Dongguan Park Plastics Manufactory Ltd',
@@ -1747,9 +1747,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000816>',
             ),
-            91 => 
+            91 =>
             array (
-                'wdt_ID' => 92,
+                'id' => 92,
                 'factno' => '2903106',
                 'vendorno' => '29031',
                 'factname' => 'Shenzhen Long Gong Qu Bao An Wah Shing Manufactory',
@@ -1766,9 +1766,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000817>',
             ),
-            92 => 
+            92 =>
             array (
-                'wdt_ID' => 93,
+                'id' => 93,
                 'factno' => '2903107',
                 'vendorno' => '29031',
                 'factname' => 'Heng Gang Bao Ah Wah Shing Mfy',
@@ -1785,9 +1785,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00000818>',
             ),
-            93 => 
+            93 =>
             array (
-                'wdt_ID' => 94,
+                'id' => 94,
                 'factno' => '2903108',
                 'vendorno' => '29031',
                 'factname' => 'Guanghua Arts & Crafts Co. Ltd.',
@@ -1804,9 +1804,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00021341>',
             ),
-            94 => 
+            94 =>
             array (
-                'wdt_ID' => 95,
+                'id' => 95,
                 'factno' => '2903109',
                 'vendorno' => '29031',
                 'factname' => 'Dongguan Maple Toys Co., Ltd',
@@ -1823,9 +1823,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00021342>',
             ),
-            95 => 
+            95 =>
             array (
-                'wdt_ID' => 96,
+                'id' => 96,
                 'factno' => '2903110',
                 'vendorno' => '29031',
                 'factname' => 'Franki Toys Factory',
@@ -1842,9 +1842,9 @@ production@jiafengfty.com',
                 'factwebsite' => NULL,
                 'ssmatimestamp' => '<00000000 00022304>',
             ),
-            96 => 
+            96 =>
             array (
-                'wdt_ID' => 97,
+                'id' => 97,
                 'factno' => '2948101',
                 'vendorno' => '29481',
                 'factname' => 'TETRO',
@@ -1862,7 +1862,7 @@ production@jiafengfty.com',
                 'ssmatimestamp' => '<00000000 00000819>',
             ),
         ));
-        
-        
+
+
     }
 }
