@@ -23,9 +23,9 @@
                         <h3 class="panel-title">
                             <i class="glyphicon glyphicon-file"></i>
                             @if(isset($itemTest))
-                                Test Information
+                                Item Test Information
                             @else
-                                Add New Test
+                                Add New Item Test
                             @endif
                         </h3>
                     </div>
@@ -54,21 +54,21 @@
                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 
                                 <div class="row table editUserTableData">
-                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Item</div>
+                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Select Item</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
                                         {{ Form::text('ItemID', null, ['autofocus' => 'autofocus', 'class' => 'form-control']) }}
                                     </div>
                                 </div>
 
                                 <div class="row table editUserTableData">
-                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Test Lab</div>
+                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Select Lab</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::text('TestLab', null, ['autofocus' => 'autofocus', 'class' => 'form-control']) }}
+                                        {{ Form::text('LabName', null, ['autofocus' => 'autofocus', 'class' => 'form-control']) }}
                                     </div>
                                 </div>
 
                                 <div class="row table editUserTableData">
-                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Active</div>
+                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Select Factory</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
                                         {{ Form::text('Active', null, ['autofocus' => 'autofocus', 'class' => 'form-control']) }}
                                     </div>
@@ -78,13 +78,6 @@
                                     <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Description</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
                                         {{ Form::text('Desc1', null, ['autofocus' => 'autofocus', 'class' => 'form-control']) }}
-                                    </div>
-                                </div>
-
-                                <div class="row table editUserTableData">
-                                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Lab Name</div>
-                                    <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::text('LabName', null, ['autofocus' => 'autofocus', 'class' => 'form-control']) }}
                                     </div>
                                 </div>
 

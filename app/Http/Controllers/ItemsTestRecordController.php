@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\ItemsTestRecord;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ItemsTestRecordController extends Controller
 {
@@ -14,7 +15,14 @@ class ItemsTestRecordController extends Controller
      */
     public function index()
     {
-        $itemsTest = ItemsTestRecord::paginate(10);
+        if(Auth::user()->role === 'admin')
+        {
+            $itemsTest = ItemsTestRecord::whereYear('TestDate', '=', date('Y'))->paginate(10);
+
+            return view('itemstestrecords.index', compact('itemsTest'));
+        }
+
+        $itemsTest = ItemsTestRecord::whereYear('TestDate', '>=', '2016')->paginate(10);
 
         return view('itemstestrecords.index', compact('itemsTest'));
     }

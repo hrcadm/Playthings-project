@@ -6,6 +6,10 @@
 <div class="panel panel-default">
     <div class="panel-heading text-center">
         <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Test</a>
+        {!! Form::open() !!}
+        {{ Form::label('Select year Filter') }}
+        {{ Form::select('year', [], ['id' => 'yearSelect', 'onload' => getYears()]) }}
+        {!! Form::close() !!}
     </div>
 
     <div class="panel-body table-responsive">
@@ -49,3 +53,21 @@
 
 @stop
 
+@section('javascripts')
+<script>
+    function getYears()
+    {
+        var max = new Date().getFullYear(),
+        min = max - 18,
+        select = document.getElementById('yearSelect');
+
+        var years = [];
+
+        for (var i = min; i<=max; i++){
+            years.push(i);
+            console.log(years);
+        }
+    }
+
+</script>
+@stop
