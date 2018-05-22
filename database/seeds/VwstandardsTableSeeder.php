@@ -6,18 +6,18 @@ class VwstandardsTableSeeder extends Seeder
 {
 
     /**
-     * Auto generated seed file
+     * Auto generated seed file/
      *
      * @return void
      */
     public function run()
     {
-        
+
 
         \DB::table('vwstandards')->delete();
-        
+
         \DB::table('vwstandards')->insert(array (
-            0 => 
+            0 =>
             array (
                 'wdt_ID' => 1,
                 'id' => 3,
@@ -25,7 +25,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM D4236',
                 'stddesc' => 'Labeling of Art Materials',
             ),
-            1 => 
+            1 =>
             array (
                 'wdt_ID' => 2,
                 'id' => 8,
@@ -33,7 +33,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'FCC 47 CFR15:2007 - Radiation Interference',
                 'stddesc' => 'Radiation Interference',
             ),
-            2 => 
+            2 =>
             array (
                 'wdt_ID' => 3,
                 'id' => 12,
@@ -41,7 +41,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'CPSIA Section 101',
                 'stddesc' => 'Total Lead content',
             ),
-            3 => 
+            3 =>
             array (
                 'wdt_ID' => 4,
                 'id' => 14,
@@ -49,7 +49,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'CPSIA Section 108',
                 'stddesc' => 'Phthalates',
             ),
-            4 => 
+            4 =>
             array (
                 'wdt_ID' => 5,
                 'id' => 15,
@@ -57,7 +57,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => '16 CFR 1500.3(b)(5)-(9)&(c)(1)-(5) - TRA',
                 'stddesc' => 'TRA - Toxicology & Hazardous Substances.',
             ),
-            5 => 
+            5 =>
             array (
                 'wdt_ID' => 6,
                 'id' => 16,
@@ -65,7 +65,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => '16 CFR 1500.14(b)(8) - Art Materials',
                 'stddesc' => 'Art Materials.',
             ),
-            6 => 
+            6 =>
             array (
                 'wdt_ID' => 7,
                 'id' => 21,
@@ -73,7 +73,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR 1500.19',
             'stddesc' => 'CSPA Labeling (small parts, etc.)',
             ),
-            7 => 
+            7 =>
             array (
                 'wdt_ID' => 8,
                 'id' => 22,
@@ -81,7 +81,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR 1500.44',
                 'stddesc' => 'Flammability',
             ),
-            8 => 
+            8 =>
             array (
                 'wdt_ID' => 9,
                 'id' => 23,
@@ -89,7 +89,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR 1500.48 & 49 - Sharp Points/Edges',
                 'stddesc' => 'Sharp points/Edges',
             ),
-            9 => 
+            9 =>
             array (
                 'wdt_ID' => 10,
                 'id' => 24,
@@ -97,7 +97,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR Part 1501 - Small Parts',
                 'stddesc' => 'Small Parts',
             ),
-            10 => 
+            10 =>
             array (
                 'wdt_ID' => 11,
                 'id' => 25,
@@ -105,7 +105,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR Part 1505 - Elec. Operated Toys',
                 'stddesc' => 'Electrically Operated Toys & Childrens Articles',
             ),
-            11 => 
+            11 =>
             array (
                 'wdt_ID' => 12,
                 'id' => 29,
@@ -113,7 +113,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR Part 1611',
                 'stddesc' => 'Flammability of Vinyl Plastic Film',
             ),
-            12 => 
+            12 =>
             array (
                 'wdt_ID' => 13,
                 'id' => 31,
@@ -121,7 +121,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'CA Proposition 65',
                 'stddesc' => 'lead & Phthalate limitations',
             ),
-            13 => 
+            13 =>
             array (
                 'wdt_ID' => 14,
                 'id' => 33,
@@ -129,7 +129,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'WA',
                 'stddesc' => 'Cadmium or Phthalates in certain children\'s products',
             ),
-            14 => 
+            14 =>
             array (
                 'wdt_ID' => 15,
                 'id' => 36,
@@ -137,7 +137,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => '16 CFR 1500.3(c) (6)(vi)',
                 'stddesc' => 'Flammability Test on Rigid and Pliable Solids',
             ),
-            15 => 
+            15 =>
             array (
                 'wdt_ID' => 16,
                 'id' => 37,
@@ -145,7 +145,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Toy Safety Mechanical',
                 'stddesc' => 'Regulations for Mechanical and Physical Tests',
             ),
-            16 => 
+            16 =>
             array (
                 'wdt_ID' => 17,
                 'id' => 38,
@@ -153,7 +153,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Toy Safety Noise Level',
             'stddesc' => 'Hazardous Product Act Schedule I Part I Clause 10(a) for Noise Level Requirement',
             ),
-            17 => 
+            17 =>
             array (
                 'wdt_ID' => 18,
                 'id' => 39,
@@ -161,7 +161,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Toy Safety Hazardous Products',
                 'stddesc' => 'Hazardous Product Act Schedule I Part I Item 7',
             ),
-            18 => 
+            18 =>
             array (
                 'wdt_ID' => 19,
                 'id' => 40,
@@ -169,7 +169,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Toy Safety Flammability',
             'stddesc' => 'Hazardous Products (Toys) Regulations Section (16) (17) for Flammability Test',
             ),
-            19 => 
+            19 =>
             array (
                 'wdt_ID' => 20,
                 'id' => 41,
@@ -177,7 +177,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Toy Safety Toxic Elements',
             'stddesc' => 'Hazardous Products Act (Rev 1997) Schedule I Part I Item 9 with Amendment 4/19/2005 for Toxic Elements Test',
             ),
-            20 => 
+            20 =>
             array (
                 'wdt_ID' => 21,
                 'id' => 50,
@@ -185,7 +185,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '16 CFR 1303 - Lead in Surface Coating',
                 'stddesc' => 'CPSIA 101 - Lead in Paint & Surface Coatings',
             ),
-            21 => 
+            21 =>
             array (
                 'wdt_ID' => 22,
                 'id' => 64,
@@ -193,7 +193,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'HR2024 HVY METAL IN BATTERIES',
                 'stddesc' => 'HVY METAL BATTERIES ACCORDING TO THE LAW 104-142',
             ),
-            22 => 
+            22 =>
             array (
                 'wdt_ID' => 23,
                 'id' => 71,
@@ -201,7 +201,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16 4.3.7 Stuffing Cleanliness',
                 'stddesc' => 'ASTM F963 4.3.7 Stuffing Cleanliness',
             ),
-            23 => 
+            23 =>
             array (
                 'wdt_ID' => 24,
                 'id' => 72,
@@ -209,7 +209,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'PA - Title 34, Chptr 47 Sec 47,317',
                 'stddesc' => 'Comwlth of PA Reg for Stuffed Toys',
             ),
-            24 => 
+            24 =>
             array (
                 'wdt_ID' => 25,
                 'id' => 73,
@@ -217,7 +217,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Cosmetic Regulations',
                 'stddesc' => 'Canadian Cosmetic Regulations',
             ),
-            25 => 
+            25 =>
             array (
                 'wdt_ID' => 26,
                 'id' => 74,
@@ -225,7 +225,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => 'Canadian - Phthalates (SOR/2010-298)',
             'stddesc' => 'CCPSA - (SOR/2010-298)',
             ),
-            26 => 
+            26 =>
             array (
                 'wdt_ID' => 27,
                 'id' => 75,
@@ -233,7 +233,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian SOR/2011-17 Heavy Metals',
                 'stddesc' => 'Canada SOR/2011-17 Heavy Metals',
             ),
-            27 => 
+            27 =>
             array (
                 'wdt_ID' => 28,
                 'id' => 76,
@@ -241,7 +241,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Lead Risk Reduction Strategy',
                 'stddesc' => 'Canada Lead Risk Reduction ',
             ),
-            28 => 
+            28 =>
             array (
                 'wdt_ID' => 29,
                 'id' => 79,
@@ -249,7 +249,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'US FDA 21 CFR 700.13 Mercury content/ASTM',
                 'stddesc' => 'Mercury Content',
             ),
-            29 => 
+            29 =>
             array (
                 'wdt_ID' => 30,
                 'id' => 80,
@@ -257,7 +257,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM D-4236 - LHAMA - Art Materials',
                 'stddesc' => 'LHAMA - Labeling Hazardous Art Materials',
             ),
-            30 => 
+            30 =>
             array (
                 'wdt_ID' => 31,
                 'id' => 86,
@@ -265,7 +265,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16 Elements Migration in Substrate',
             'stddesc' => 'ASTM F963-16 4.3.5.2(2)(b) Elements Migration in Substrate',
             ),
-            31 => 
+            31 =>
             array (
                 'wdt_ID' => 32,
                 'id' => 87,
@@ -273,7 +273,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16 Total Lead in Substrate',
                 'stddesc' => 'ASTM F963-16 Total Lead in Substrate',
             ),
-            32 => 
+            32 =>
             array (
                 'wdt_ID' => 33,
                 'id' => 92,
@@ -281,7 +281,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16 Elements Migration in Surface Coating',
                 'stddesc' => 'ASTM F963-16 Migration in Surface Coating',
             ),
-            33 => 
+            33 =>
             array (
                 'wdt_ID' => 34,
                 'id' => 93,
@@ -289,7 +289,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16 Total Lead in Surface Coating',
                 'stddesc' => 'ASTM F963-16 Total Lead in Surface Coating',
             ),
-            34 => 
+            34 =>
             array (
                 'wdt_ID' => 35,
                 'id' => 95,
@@ -297,7 +297,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM-16 Heavy elements test',
                 'stddesc' => 'ASTM-16 Heavy elements test',
             ),
-            35 => 
+            35 =>
             array (
                 'wdt_ID' => 36,
                 'id' => 96,
@@ -305,7 +305,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16 Cadmium in metallic small part',
             'stddesc' => 'ASTM F963-16 4.3.2(2)(C) Soluable Cadmium in metallic small part',
             ),
-            36 => 
+            36 =>
             array (
                 'wdt_ID' => 37,
                 'id' => 98,
@@ -313,7 +313,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada-Flammability Test: Dolls, Plush & Soft Toys',
             'stddesc' => 'Canada-Flammability Test:Dolls, Plush & Soft Toys(SOR/2011-17 Sec. 32-34)',
             ),
-            37 => 
+            37 =>
             array (
                 'wdt_ID' => 38,
                 'id' => 99,
@@ -321,7 +321,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Illinois Lead Act 410 ILCS 45',
                 'stddesc' => 'Illinois Lead Poisoning Prevention Act 410 ILC 45',
             ),
-            38 => 
+            38 =>
             array (
                 'wdt_ID' => 39,
                 'id' => 101,
@@ -329,7 +329,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-16/ 16 CFR 1500 Physical & Mechanical',
                 'stddesc' => 'ASTM F963-16/ 16 CFR 1500 Physical & Mechanical',
             ),
-            39 => 
+            39 =>
             array (
                 'wdt_ID' => 40,
                 'id' => 107,
@@ -337,7 +337,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => 'ASTM F963-16/ 16 CFR 1500.3(c)(6)(vi) Flammability',
             'stddesc' => 'ASTM F963-16/ 16 CFR 1500.3 (c) (6) (vi) Flammability',
             ),
-            40 => 
+            40 =>
             array (
                 'wdt_ID' => 41,
                 'id' => 108,
@@ -345,7 +345,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian SOR/2011-17 Physical & Mechanical',
                 'stddesc' => 'Canadian SOR/2011-17 Physical & Mechanical',
             ),
-            41 => 
+            41 =>
             array (
                 'wdt_ID' => 42,
                 'id' => 109,
@@ -353,7 +353,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian SOR/2011-17 Flammability',
                 'stddesc' => 'Canadian SOR/2011-17 Flammability',
             ),
-            42 => 
+            42 =>
             array (
                 'wdt_ID' => 43,
                 'id' => 111,
@@ -361,7 +361,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Consumer Packaging Labeling Act',
                 'stddesc' => 'Canadian Consumer Packaging Labeling Act',
             ),
-            43 => 
+            43 =>
             array (
                 'wdt_ID' => 44,
                 'id' => 112,
@@ -369,7 +369,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'CPSIA 103 - Tracking label for Children',
                 'stddesc' => 'CPSIA tracking labels for children\'s products',
             ),
-            44 => 
+            44 =>
             array (
                 'wdt_ID' => 45,
                 'id' => 115,
@@ -377,7 +377,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada Lead & Cadmium',
                 'stddesc' => 'Canada Lead & Cadmium',
             ),
-            45 => 
+            45 =>
             array (
                 'wdt_ID' => 46,
                 'id' => 116,
@@ -385,7 +385,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM 11 Clause 8.5.1 Wash Test',
                 'stddesc' => 'Wash Test',
             ),
-            46 => 
+            46 =>
             array (
                 'wdt_ID' => 47,
                 'id' => 117,
@@ -393,7 +393,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canadian Total Lead SOR/2010-273',
                 'stddesc' => 'Total Lead in Substrate',
             ),
-            47 => 
+            47 =>
             array (
                 'wdt_ID' => 48,
                 'id' => 118,
@@ -401,7 +401,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => 'Canada Consumer Product Safety Act  (SOR/2011-17)',
                 'stddesc' => 'Canada Consumer Product Safety Act',
             ),
-            48 => 
+            48 =>
             array (
                 'wdt_ID' => 49,
                 'id' => 119,
@@ -409,7 +409,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => 'California Health and Safety - Phthalates (AB1108)',
             'stddesc' => 'California Health and Safety - Phthalates (AB1108)',
             ),
-            49 => 
+            49 =>
             array (
                 'wdt_ID' => 50,
                 'id' => 124,
@@ -417,7 +417,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada Sec. 21 Celluloid or Cellulose Nitrate',
                 'stddesc' => '',
             ),
-            50 => 
+            50 =>
             array (
                 'wdt_ID' => 51,
                 'id' => 125,
@@ -425,7 +425,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada, Sec. 23 Toxic Elements Test',
                 'stddesc' => '',
             ),
-            51 => 
+            51 =>
             array (
                 'wdt_ID' => 52,
                 'id' => 126,
@@ -433,7 +433,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada Hazardous Chemicals',
                 'stddesc' => '',
             ),
-            52 => 
+            52 =>
             array (
                 'wdt_ID' => 53,
                 'id' => 129,
@@ -441,7 +441,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada Lead & Mercury',
                 'stddesc' => '',
             ),
-            53 => 
+            53 =>
             array (
                 'wdt_ID' => 54,
                 'id' => 133,
@@ -449,7 +449,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'European Phthalates 1907/2006',
             'stddesc' => 'European Regulation (EC) No. 1907/2006 (REACH) Annex XVII and its amendments - Phthalate content',
             ),
-            54 => 
+            54 =>
             array (
                 'wdt_ID' => 55,
                 'id' => 134,
@@ -457,7 +457,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Canada Standard ICES-003',
                 'stddesc' => 'Canada Standard ICES-003, Issue 5',
             ),
-            55 => 
+            55 =>
             array (
                 'wdt_ID' => 56,
                 'id' => 137,
@@ -465,7 +465,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'TPCH - Total, Lead, Cad., Merc., Hex. Chrom',
             'stddesc' => 'TPCH: (Toxics in Packaging Clearing House) Total Lead, Cadmium, Mercury and Hexavalent Chromium',
             ),
-            56 => 
+            56 =>
             array (
                 'wdt_ID' => 57,
                 'id' => 138,
@@ -473,7 +473,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F2923-11 - Specs. for Children\'s Jewelry',
                 'stddesc' => 'ASTM F2923-11 - Specs. for Children\'s Jewelry',
             ),
-            57 => 
+            57 =>
             array (
                 'wdt_ID' => 58,
                 'id' => 139,
@@ -481,7 +481,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F2923-11 - Clause 5, Lead',
                 'stddesc' => 'Specifications for Children\'s Jewelry, Clause 5 - Lead',
             ),
-            58 => 
+            58 =>
             array (
                 'wdt_ID' => 59,
                 'id' => 143,
@@ -489,7 +489,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F2923-11 - Clause 8, Soluble Elements',
                 'stddesc' => 'ASTM F2923-11 - Clause 8, Soluble Elements in Paint and Surface Coating',
             ),
-            59 => 
+            59 =>
             array (
                 'wdt_ID' => 60,
                 'id' => 148,
@@ -497,7 +497,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => '16 CFR 1500.83(a)(23) Chemisty Set Labeling',
             'stddesc' => '16 CFR 1500.83(a)(23) Chemisty Set Labeling',
             ),
-            60 => 
+            60 =>
             array (
                 'wdt_ID' => 61,
                 'id' => 149,
@@ -505,7 +505,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Microbial Limit USP 61 & USP 62',
                 'stddesc' => 'Microbial Limit USP 61 & USP 62',
             ),
-            61 => 
+            61 =>
             array (
                 'wdt_ID' => 62,
                 'id' => 150,
@@ -513,7 +513,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '21 CFR 701/740 - Cosmetic Labeling Requirements',
                 'stddesc' => '21 CFR 701/740 - Cosmetic Labeling Requirements',
             ),
-            62 => 
+            62 =>
             array (
                 'wdt_ID' => 63,
                 'id' => 156,
@@ -521,7 +521,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'US Law 104-142 - Mercury Battery Mngmt',
             'stddesc' => 'US Public Law 104-142 (1996) Title II - Mercury Containing Battery Management Act',
             ),
-            63 => 
+            63 =>
             array (
                 'wdt_ID' => 64,
                 'id' => 157,
@@ -529,7 +529,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'USP 38-NF33, 2015, CHAPTER 51',
                 'stddesc' => 'ANTIMICROBIAL EFFECTIVENESS TESTING',
             ),
-            64 => 
+            64 =>
             array (
                 'wdt_ID' => 65,
                 'id' => 158,
@@ -537,7 +537,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'Antimicrobial USP 38-NF33, 2015, CH',
                 'stddesc' => '',
             ),
-            65 => 
+            65 =>
             array (
                 'wdt_ID' => 66,
                 'id' => 159,
@@ -545,7 +545,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'TDCP Content',
                 'stddesc' => 'TDCP Content',
             ),
-            66 => 
+            66 =>
             array (
                 'wdt_ID' => 67,
                 'id' => 160,
@@ -553,7 +553,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'US 16 CFR Part 1307 Phthalates',
                 'stddesc' => '2017 New Phthalate Standards',
             ),
-            67 => 
+            67 =>
             array (
                 'wdt_ID' => 68,
                 'id' => 161,
@@ -561,7 +561,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM-17 - Gap Testing',
                 'stddesc' => 'Gap Testing between ASTM-16 and new ASTM-17 Standards',
             ),
-            68 => 
+            68 =>
             array (
                 'wdt_ID' => 69,
                 'id' => 162,
@@ -569,7 +569,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-11 Total Lead in Substrate',
                 'stddesc' => 'ASTM F963-11 Total Lead in Substrate',
             ),
-            69 => 
+            69 =>
             array (
                 'wdt_ID' => 70,
                 'id' => 163,
@@ -577,7 +577,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-11 Total Lead in Surface Coating',
                 'stddesc' => 'ASTM F963-11 Total Lead in Surface Coating',
             ),
-            70 => 
+            70 =>
             array (
                 'wdt_ID' => 71,
                 'id' => 164,
@@ -585,7 +585,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '	ASTM F963-11/ 16 CFR 1500 Physical & Mechanical',
                 'stddesc' => 'ASTM F963-11/ 16 CFR 1500 Physical & Mechanical',
             ),
-            71 => 
+            71 =>
             array (
                 'wdt_ID' => 72,
                 'id' => 165,
@@ -593,7 +593,7 @@ class VwstandardsTableSeeder extends Seeder
             'stdname' => 'ASTM F963-11/ 16 CFR 1500.3(c)(6)(vi) Flammability',
             'stddesc' => 'ASTM F963-11/ 16 CFR 1500.3 (c) (6) (vi) Flammability',
             ),
-            72 => 
+            72 =>
             array (
                 'wdt_ID' => 73,
                 'id' => 167,
@@ -601,7 +601,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM-11 Heavy elements test',
                 'stddesc' => 'ASTM-11 Heavy elements test',
             ),
-            73 => 
+            73 =>
             array (
                 'wdt_ID' => 74,
                 'id' => 168,
@@ -609,7 +609,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-17 Total Lead in Substrate',
                 'stddesc' => 'ASTM F963-16 Total Lead in Substrate',
             ),
-            74 => 
+            74 =>
             array (
                 'wdt_ID' => 75,
                 'id' => 169,
@@ -617,7 +617,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '	ASTM F963-17 Total Lead in Surface Coating',
                 'stddesc' => 'ASTM F963-17 Total Lead in Surface Coating',
             ),
-            75 => 
+            75 =>
             array (
                 'wdt_ID' => 76,
                 'id' => 170,
@@ -625,7 +625,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => '	ASTM-17 Heavy elements test',
                 'stddesc' => 'ASTM-17 Heavy elements test',
             ),
-            76 => 
+            76 =>
             array (
                 'wdt_ID' => 77,
                 'id' => 171,
@@ -633,7 +633,7 @@ class VwstandardsTableSeeder extends Seeder
                 'stdname' => 'ASTM F963-17/ 16 CFR 1500 Physical & Mechanical',
                 'stddesc' => 'ASTM F963-17/ 16 CFR 1500 Physical & Mechanical',
             ),
-            77 => 
+            77 =>
             array (
                 'wdt_ID' => 78,
                 'id' => 180,
@@ -642,7 +642,7 @@ class VwstandardsTableSeeder extends Seeder
             'stddesc' => '	ASTM F963-17/ 16 CFR 1500.3 (c) (6) (vi) Flammability',
             ),
         ));
-        
-        
+
+
     }
 }

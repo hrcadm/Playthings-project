@@ -6,18 +6,18 @@ class VwlabsTableSeeder extends Seeder
 {
 
     /**
-     * Auto generated seed file
+     * Auto generated seed file/
      *
      * @return void
      */
     public function run()
     {
-        
+
 
         \DB::table('vwlabs')->delete();
-        
+
         \DB::table('vwlabs')->insert(array (
-            0 => 
+            0 =>
             array (
                 'wdt_ID' => 1,
                 'id' => 1,
@@ -34,7 +34,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.bureauveritas.com/cps',
             ),
-            1 => 
+            1 =>
             array (
                 'wdt_ID' => 2,
                 'id' => 2,
@@ -51,7 +51,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.eps.bureauveritas.com',
             ),
-            2 => 
+            2 =>
             array (
                 'wdt_ID' => 3,
                 'id' => 3,
@@ -68,7 +68,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.bureauveritas.com/cps',
             ),
-            3 => 
+            3 =>
             array (
                 'wdt_ID' => 4,
                 'id' => 4,
@@ -85,7 +85,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.intertek.com',
             ),
-            4 => 
+            4 =>
             array (
                 'wdt_ID' => 5,
                 'id' => 5,
@@ -102,7 +102,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'karen.ng@intertek.com',
                 'labwebsite' => 'www.intertek.com',
             ),
-            5 => 
+            5 =>
             array (
                 'wdt_ID' => 6,
                 'id' => 6,
@@ -119,7 +119,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.intertek.com',
             ),
-            6 => 
+            6 =>
             array (
                 'wdt_ID' => 7,
                 'id' => 7,
@@ -136,7 +136,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            7 => 
+            7 =>
             array (
                 'wdt_ID' => 8,
                 'id' => 8,
@@ -153,7 +153,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.intertek.com',
             ),
-            8 => 
+            8 =>
             array (
                 'wdt_ID' => 9,
                 'id' => 9,
@@ -170,7 +170,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'info@icqglobal.com',
                 'labwebsite' => 'www.giocattolisicuri.it',
             ),
-            9 => 
+            9 =>
             array (
                 'wdt_ID' => 10,
                 'id' => 10,
@@ -187,7 +187,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.hkstc.org',
             ),
-            10 => 
+            10 =>
             array (
                 'wdt_ID' => 11,
                 'id' => 11,
@@ -204,7 +204,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.th.sgs.com',
             ),
-            11 => 
+            11 =>
             array (
                 'wdt_ID' => 12,
                 'id' => 12,
@@ -221,7 +221,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'tammy.cheng@sgs.com',
                 'labwebsite' => 'www.hk.sgs.com',
             ),
-            12 => 
+            12 =>
             array (
                 'wdt_ID' => 13,
                 'id' => 13,
@@ -238,7 +238,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'russell_nichols@sgs.com',
                 'labwebsite' => 'http://www.us.sgs.com/consumer_testing_us',
             ),
-            13 => 
+            13 =>
             array (
                 'wdt_ID' => 14,
                 'id' => 14,
@@ -255,7 +255,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            14 => 
+            14 =>
             array (
                 'wdt_ID' => 15,
                 'id' => 15,
@@ -272,7 +272,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'edward.kozloski@strquality.com',
                 'labwebsite' => 'www.strlabs.com',
             ),
-            15 => 
+            15 =>
             array (
                 'wdt_ID' => 16,
                 'id' => 16,
@@ -289,7 +289,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'samkam@strcn.com',
                 'labwebsite' => 'www.strcn.com',
             ),
-            16 => 
+            16 =>
             array (
                 'wdt_ID' => 17,
                 'id' => 18,
@@ -306,7 +306,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'sgs.china@sgs.com',
                 'labwebsite' => 'www.cn.sgs.com',
             ),
-            17 => 
+            17 =>
             array (
                 'wdt_ID' => 18,
                 'id' => 21,
@@ -323,7 +323,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            18 => 
+            18 =>
             array (
                 'wdt_ID' => 19,
                 'id' => 22,
@@ -340,7 +340,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'safety@intplay.com',
                 'labwebsite' => 'www.intplay.com',
             ),
-            19 => 
+            19 =>
             array (
                 'wdt_ID' => 20,
                 'id' => 23,
@@ -357,7 +357,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.intertek.com/consumergoods',
             ),
-            20 => 
+            20 =>
             array (
                 'wdt_ID' => 21,
                 'id' => 24,
@@ -374,7 +374,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            21 => 
+            21 =>
             array (
                 'wdt_ID' => 22,
                 'id' => 25,
@@ -391,7 +391,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            22 => 
+            22 =>
             array (
                 'wdt_ID' => 23,
                 'id' => 26,
@@ -408,7 +408,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            23 => 
+            23 =>
             array (
                 'wdt_ID' => 24,
                 'id' => 27,
@@ -425,7 +425,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.sgs.com.tw',
             ),
-            24 => 
+            24 =>
             array (
                 'wdt_ID' => 25,
                 'id' => 28,
@@ -442,7 +442,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'info@hk.chn.tuv.com',
                 'labwebsite' => 'www.chn.tuv.com',
             ),
-            25 => 
+            25 =>
             array (
                 'wdt_ID' => 26,
                 'id' => 29,
@@ -459,7 +459,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.intertek-labtest.com.cn',
             ),
-            26 => 
+            26 =>
             array (
                 'wdt_ID' => 27,
                 'id' => 30,
@@ -476,7 +476,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'mdg@iqtc.cn',
                 'labwebsite' => 'www.iqtc.cn',
             ),
-            27 => 
+            27 =>
             array (
                 'wdt_ID' => 28,
                 'id' => 31,
@@ -493,7 +493,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'www.sgsgroupe.fr',
                 'labwebsite' => '',
             ),
-            28 => 
+            28 =>
             array (
                 'wdt_ID' => 29,
                 'id' => 57,
@@ -510,7 +510,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.cps.bureauveritas.com',
             ),
-            29 => 
+            29 =>
             array (
                 'wdt_ID' => 30,
                 'id' => 58,
@@ -527,7 +527,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'taipow@ms5.hinet.net',
                 'labwebsite' => '',
             ),
-            30 => 
+            30 =>
             array (
                 'wdt_ID' => 31,
                 'id' => 59,
@@ -544,7 +544,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.intplay.com',
             ),
-            31 => 
+            31 =>
             array (
                 'wdt_ID' => 32,
                 'id' => 60,
@@ -561,7 +561,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'info@playgochina.cn',
                 'labwebsite' => '',
             ),
-            32 => 
+            32 =>
             array (
                 'wdt_ID' => 33,
                 'id' => 61,
@@ -578,7 +578,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'info@cmatcl.com',
                 'labwebsite' => 'www.cmatcl.com',
             ),
-            33 => 
+            33 =>
             array (
                 'wdt_ID' => 34,
                 'id' => 63,
@@ -595,7 +595,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.tw.sgs.com',
             ),
-            34 => 
+            34 =>
             array (
                 'wdt_ID' => 35,
                 'id' => 64,
@@ -612,7 +612,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            35 => 
+            35 =>
             array (
                 'wdt_ID' => 36,
                 'id' => 65,
@@ -629,7 +629,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'info@strquality.com',
                 'labwebsite' => 'www.strquality.com',
             ),
-            36 => 
+            36 =>
             array (
                 'wdt_ID' => 37,
                 'id' => 66,
@@ -646,7 +646,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            37 => 
+            37 =>
             array (
                 'wdt_ID' => 38,
                 'id' => 67,
@@ -663,7 +663,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            38 => 
+            38 =>
             array (
                 'wdt_ID' => 39,
                 'id' => 68,
@@ -680,7 +680,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'dgstc@dgstc.org',
                 'labwebsite' => 'www.dgstc.org',
             ),
-            39 => 
+            39 =>
             array (
                 'wdt_ID' => 40,
                 'id' => 69,
@@ -697,7 +697,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'WWW.GRGTEST.COM',
             ),
-            40 => 
+            40 =>
             array (
                 'wdt_ID' => 41,
                 'id' => 70,
@@ -714,7 +714,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            41 => 
+            41 =>
             array (
                 'wdt_ID' => 42,
                 'id' => 77,
@@ -731,7 +731,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'RAYMOND.YU@DEKRA.COM',
                 'labwebsite' => '',
             ),
-            42 => 
+            42 =>
             array (
                 'wdt_ID' => 43,
                 'id' => 78,
@@ -748,7 +748,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            43 => 
+            43 =>
             array (
                 'wdt_ID' => 44,
                 'id' => 79,
@@ -765,7 +765,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => 'consumergoods.vietnam@intertek.com',
                 'labwebsite' => 'www.intertek.com',
             ),
-            44 => 
+            44 =>
             array (
                 'wdt_ID' => 45,
                 'id' => 80,
@@ -782,7 +782,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => '',
             ),
-            45 => 
+            45 =>
             array (
                 'wdt_ID' => 46,
                 'id' => 81,
@@ -799,7 +799,7 @@ class VwlabsTableSeeder extends Seeder
                 'labemail' => '',
                 'labwebsite' => 'www.bureauveritas.com/cps',
             ),
-            46 => 
+            46 =>
             array (
                 'wdt_ID' => 47,
                 'id' => 82,
@@ -817,7 +817,7 @@ class VwlabsTableSeeder extends Seeder
                 'labwebsite' => '.com.cn',
             ),
         ));
-        
-        
+
+
     }
 }

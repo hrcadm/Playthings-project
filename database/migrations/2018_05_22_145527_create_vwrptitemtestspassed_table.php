@@ -6,7 +6,7 @@ use Illuminate\Database\Schema\Blueprint;
 class CreateVwrptitemtestspassedTable extends Migration {
 
 	/**
-	 * Run the migrations.
+	 * Run the migrations./
 	 *
 	 * @return void
 	 */
