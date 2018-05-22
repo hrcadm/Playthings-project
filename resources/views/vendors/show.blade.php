@@ -121,7 +121,7 @@
                         data-toggle="tooltip"
                         data-original-title="Go back"><i class="glyphicon glyphicon-arrow-left"></i></a>
                 <span class="pull-right">
-                        <a href="{{ route('vendors.edit', $vendor->id) }}" class="btn btn-sm btn-warning" type="button"
+                        <a href="{{ route('vendors.edit', $vendor->wdt_ID) }}" class="btn btn-sm btn-warning" type="button"
                                 data-toggle="tooltip"
                                 data-original-title="Edit this Vendor"><i class="glyphicon glyphicon-edit"></i></a>
                     </span>

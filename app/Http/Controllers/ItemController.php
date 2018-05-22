@@ -48,9 +48,9 @@ class ItemController extends Controller
      * @param  \App\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($wdt_ID)
     {
-        $item = Item::findOrFail($id);
+        $item = item::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('items.show', compact('item'));
     }
@@ -61,9 +61,9 @@ class ItemController extends Controller
      * @param  \App\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($wdt_ID)
     {
-        $item = Item::findOrFail($id);
+        $item = Item::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('items.manage', compact('item'));
     }
@@ -75,9 +75,11 @@ class ItemController extends Controller
      * @param  \App\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Item $item)
+    public function update(Request $request, $wdt_ID)
     {
-        $item = Item::findOrFail($item->id)->update($request->all());
+        $item = Item::where('wdt_ID', '=', $wdt_ID)
+                    ->firstOrFail()
+                    ->update($request->all());
 
         return redirect()->route('items.show', compact('item'));
     }
@@ -88,9 +90,9 @@ class ItemController extends Controller
      * @param  \App\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Item $item)
+    public function destroy($wdt_ID)
     {
-        $item = Item::findOrFail($item->id);
+        $item = Item::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
         $item->delete();
 
         return redirect()->route('items.index');

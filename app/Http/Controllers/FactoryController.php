@@ -48,9 +48,9 @@ class FactoryController extends Controller
      * @param  \App\Factory  $factory
      * @return \Illuminate\Http\Response
      */
-    public function show(Factory $factory)
+    public function show($wdt_ID)
     {
-        $factory = Factory::findOrFail($factory->id);
+        $factory = Factory::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('factories.show', compact('factory'));
     }
@@ -61,9 +61,9 @@ class FactoryController extends Controller
      * @param  \App\Factory  $factory
      * @return \Illuminate\Http\Response
      */
-    public function edit(Factory $factory)
+    public function edit($wdt_ID)
     {
-        $factory = Factory::findOrFail($factory->id);
+        $factory = Factory::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('factories.manage', compact('factory'));
     }
@@ -75,9 +75,11 @@ class FactoryController extends Controller
      * @param  \App\Factory  $factory
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Factory $factory)
+    public function update(Request $request, $wdt_ID)
     {
-        $factory = Factory::findOrFail($factory->id)->update($request->all());
+        $factory = Factory::where('wdt_ID', '=', $wdt_ID)
+                            ->firstOrFail()
+                            ->update($request->all());
 
         return redirect()->route('factories.show', compact('factory'));
     }
@@ -88,7 +90,7 @@ class FactoryController extends Controller
      * @param  \App\Factory  $factory
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Factory $factory)
+    public function destroy($wdt_ID)
     {
         //
     }

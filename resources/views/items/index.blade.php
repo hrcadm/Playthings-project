@@ -31,8 +31,8 @@
                     <td>{{ $item->catalogyear }}</td>
                     <td>{{ $item->factoryno }}</td>
                     <td>
-                        <a href="{{ route('items.show', $item->id) }}" class="btn btn-success btn-xs">Details</a>
-                        <a href="{{ route('items.edit', $item->id) }}" class="btn btn-warning btn-xs">Edit</a>
+                        <a href="{{ route('items.show', $item->wdt_ID) }}" class="btn btn-success btn-xs">Details</a>
+                        <a href="{{ route('items.edit', $item->wdt_ID) }}" class="btn btn-warning btn-xs">Edit</a>
                     </td>
                 </tr>
             @endforeach

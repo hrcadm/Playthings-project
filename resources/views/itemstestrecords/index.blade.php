@@ -8,7 +8,7 @@
         <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Test</a>
         {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record']) !!}
         {{ Form::label('Select year Filter') }}
-        {{ Form::select('year', $years, $years, ['id' => 'updateIndex']) }}
+        {{ Form::select('year', $years, $years[2018], ['id' => 'updateIndex']) }}
         {!! Form::close() !!}
     </div>
 
@@ -29,7 +29,7 @@
             <tbody>
             @foreach($itemsTest as $test)
                 <tr>
-                    <td>{{ $test->ID }}</td>
+                    <td>{{ $test->id }}</td>
                     <td>{{ $test->ItemID }}</td>
                     <td>{{ $test->Desc1 }}</td>
                     <td>{{ $test->LabName }}</td>
@@ -37,7 +37,7 @@
                     <td>{{ $test->StdDesc }}</td>
                     <td>{{ $test->TestDate }}</td>
                     <td>
-                        <a href="{{ route('items-test-records.edit', $test->ID) }}" class="btn btn-warning btn-xs">Edit</a>
+                        <a href="{{ route('items-test-records.edit', $test->id) }}" class="btn btn-warning btn-xs">Edit</a>
                     </td>
                 </tr>
             @endforeach

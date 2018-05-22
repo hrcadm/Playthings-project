@@ -25,8 +25,7 @@
                     <td>{{ $standard->stddesc }}</td>
                     <td>{{ $standard->sortsequence }}</td>
                     <td>
-                        <a href="{{ route('standards.show', $standard->id) }}" class="btn btn-success btn-xs">Details</a>
-                        <a href="{{ route('standards.edit', $standard->id) }}" class="btn btn-warning btn-xs">Edit</a>
+                        <a href="{{ route('standards.edit', $standard->wdt_ID) }}" class="btn btn-warning btn-xs">Edit</a>
                     </td>
                 </tr>
             @endforeach

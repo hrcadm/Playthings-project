@@ -31,8 +31,8 @@
                     <td>{{ $vendor->state }}</td>
                     <td>{{ $vendor->phoneno }}</td>
                     <td>
-                        <a href="{{ route('vendors.show', $vendor->id) }}" class="btn btn-success btn-xs">Details</a>
-                        <a href="{{ route('vendors.edit', $vendor->id) }}" class="btn btn-warning btn-xs">Edit</a>
+                        <a href="{{ route('vendors.show', $vendor->wdt_ID) }}" class="btn btn-success btn-xs">Details</a>
+                        <a href="{{ route('vendors.edit', $vendor->wdt_ID) }}" class="btn btn-warning btn-xs">Edit</a>
                     </td>
                 </tr>
             @endforeach

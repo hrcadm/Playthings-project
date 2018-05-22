@@ -12,14 +12,14 @@ class VwitemsTableSeeder extends Seeder
      */
     public function run()
     {
-
+        
 
         \DB::table('vwitems')->delete();
-
+        
         \DB::table('vwitems')->insert(array (
-            0 =>
+            0 => 
             array (
-                'id' => 1,
+                'wdt_ID' => 1,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02187',
@@ -30,9 +30,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000222e1>',
             ),
-            1 =>
+            1 => 
             array (
-                'id' => 2,
+                'wdt_ID' => 2,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1668',
@@ -43,9 +43,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c062>',
             ),
-            2 =>
+            2 => 
             array (
-                'id' => 3,
+                'wdt_ID' => 3,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1028',
@@ -56,9 +56,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00039230>',
             ),
-            3 =>
+            3 => 
             array (
-                'id' => 4,
+                'wdt_ID' => 4,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'ET50026',
@@ -69,9 +69,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0003d862>',
             ),
-            4 =>
+            4 => 
             array (
-                'id' => 5,
+                'wdt_ID' => 5,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1001',
@@ -82,9 +82,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00110f4a>',
             ),
-            5 =>
+            5 => 
             array (
-                'id' => 6,
+                'wdt_ID' => 6,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2283',
@@ -95,9 +95,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0004f971>',
             ),
-            6 =>
+            6 => 
             array (
-                'id' => 7,
+                'wdt_ID' => 7,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC1570',
@@ -108,9 +108,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00178771>',
             ),
-            7 =>
+            7 => 
             array (
-                'id' => 8,
+                'wdt_ID' => 8,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25078',
@@ -121,9 +121,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00053fc1>',
             ),
-            8 =>
+            8 => 
             array (
-                'id' => 9,
+                'wdt_ID' => 9,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02374',
@@ -134,9 +134,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00054f61>',
             ),
-            9 =>
+            9 => 
             array (
-                'id' => 10,
+                'wdt_ID' => 10,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02370',
@@ -147,9 +147,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00055731>',
             ),
-            10 =>
+            10 => 
             array (
-                'id' => 11,
+                'wdt_ID' => 11,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02369',
@@ -160,9 +160,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00055f01>',
             ),
-            11 =>
+            11 => 
             array (
-                'id' => 12,
+                'wdt_ID' => 12,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00268',
@@ -173,9 +173,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14696',
                 'ssmatimestamp' => '<00000000 0010eff3>',
             ),
-            12 =>
+            12 => 
             array (
-                'id' => 13,
+                'wdt_ID' => 13,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02367',
@@ -186,9 +186,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00057e41>',
             ),
-            13 =>
+            13 => 
             array (
-                'id' => 14,
+                'wdt_ID' => 14,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00279',
@@ -199,9 +199,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005862f>',
             ),
-            14 =>
+            14 => 
             array (
-                'id' => 15,
+                'wdt_ID' => 15,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00267',
@@ -212,9 +212,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14693',
                 'ssmatimestamp' => '<00000000 0010eff2>',
             ),
-            15 =>
+            15 => 
             array (
-                'id' => 16,
+                'wdt_ID' => 16,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50009',
@@ -225,9 +225,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14687',
                 'ssmatimestamp' => '<00000000 0010efff>',
             ),
-            16 =>
+            16 => 
             array (
-                'id' => 17,
+                'wdt_ID' => 17,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20563',
@@ -238,9 +238,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad21>',
             ),
-            17 =>
+            17 => 
             array (
-                'id' => 18,
+                'wdt_ID' => 18,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00269',
@@ -251,9 +251,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005c491>',
             ),
-            18 =>
+            18 => 
             array (
-                'id' => 19,
+                'wdt_ID' => 19,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P20096',
@@ -264,9 +264,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0005e402>',
             ),
-            19 =>
+            19 => 
             array (
-                'id' => 20,
+                'wdt_ID' => 20,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00276',
@@ -277,9 +277,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010eff4>',
             ),
-            20 =>
+            20 => 
             array (
-                'id' => 21,
+                'wdt_ID' => 21,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'MW90237 ',
@@ -290,9 +290,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006031c>',
             ),
-            21 =>
+            21 => 
             array (
-                'id' => 22,
+                'wdt_ID' => 22,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02169',
@@ -303,9 +303,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00060ae7>',
             ),
-            22 =>
+            22 => 
             array (
-                'id' => 23,
+                'wdt_ID' => 23,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02378',
@@ -316,9 +316,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 0010ff96>',
             ),
-            23 =>
+            23 => 
             array (
-                'id' => 24,
+                'wdt_ID' => 24,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02376',
@@ -329,9 +329,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00062251>',
             ),
-            24 =>
+            24 => 
             array (
-                'id' => 25,
+                'wdt_ID' => 25,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02377',
@@ -342,9 +342,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00064191>',
             ),
-            25 =>
+            25 => 
             array (
-                'id' => 26,
+                'wdt_ID' => 26,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00279',
@@ -355,9 +355,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00064961>',
             ),
-            26 =>
+            26 => 
             array (
-                'id' => 27,
+                'wdt_ID' => 27,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'TY2037',
@@ -368,9 +368,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00067071>',
             ),
-            27 =>
+            27 => 
             array (
-                'id' => 28,
+                'wdt_ID' => 28,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'D40117',
@@ -381,9 +381,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0006e5a8>',
             ),
-            28 =>
+            28 => 
             array (
-                'id' => 29,
+                'wdt_ID' => 29,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL07510',
@@ -394,9 +394,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d6>',
             ),
-            29 =>
+            29 => 
             array (
-                'id' => 30,
+                'wdt_ID' => 30,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL08591',
@@ -407,9 +407,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d7>',
             ),
-            30 =>
+            30 => 
             array (
-                'id' => 31,
+                'wdt_ID' => 31,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL08854',
@@ -420,9 +420,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d8>',
             ),
-            31 =>
+            31 => 
             array (
-                'id' => 32,
+                'wdt_ID' => 32,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL09411',
@@ -433,9 +433,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d9>',
             ),
-            32 =>
+            32 => 
             array (
-                'id' => 33,
+                'wdt_ID' => 33,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10064',
@@ -446,9 +446,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656da>',
             ),
-            33 =>
+            33 => 
             array (
-                'id' => 34,
+                'wdt_ID' => 34,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10219',
@@ -459,9 +459,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656db>',
             ),
-            34 =>
+            34 => 
             array (
-                'id' => 35,
+                'wdt_ID' => 35,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10220',
@@ -472,9 +472,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656dc>',
             ),
-            35 =>
+            35 => 
             array (
-                'id' => 36,
+                'wdt_ID' => 36,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10222',
@@ -485,9 +485,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656dd>',
             ),
-            36 =>
+            36 => 
             array (
-                'id' => 37,
+                'wdt_ID' => 37,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10251',
@@ -498,9 +498,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656de>',
             ),
-            37 =>
+            37 => 
             array (
-                'id' => 38,
+                'wdt_ID' => 38,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10258',
@@ -511,9 +511,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656df>',
             ),
-            38 =>
+            38 => 
             array (
-                'id' => 39,
+                'wdt_ID' => 39,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10259',
@@ -524,9 +524,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656e0>',
             ),
-            39 =>
+            39 => 
             array (
-                'id' => 40,
+                'wdt_ID' => 40,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12379',
@@ -537,9 +537,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656e1>',
             ),
-            40 =>
+            40 => 
             array (
-                'id' => 41,
+                'wdt_ID' => 41,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13052',
@@ -550,9 +550,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656e2>',
             ),
-            41 =>
+            41 => 
             array (
-                'id' => 42,
+                'wdt_ID' => 42,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137047',
@@ -563,9 +563,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00169d19>',
             ),
-            42 =>
+            42 => 
             array (
-                'id' => 43,
+                'wdt_ID' => 43,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81062',
@@ -576,9 +576,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0016acb1>',
             ),
-            43 =>
+            43 => 
             array (
-                'id' => 44,
+                'wdt_ID' => 44,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81063',
@@ -589,9 +589,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0016acb2>',
             ),
-            44 =>
+            44 => 
             array (
-                'id' => 45,
+                'wdt_ID' => 45,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC140498',
@@ -602,9 +602,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 0016dbfa>',
             ),
-            45 =>
+            45 => 
             array (
-                'id' => 46,
+                'wdt_ID' => 46,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25114',
@@ -615,9 +615,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00173951>',
             ),
-            46 =>
+            46 => 
             array (
-                'id' => 47,
+                'wdt_ID' => 47,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25113',
@@ -628,9 +628,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 00174133>',
             ),
-            47 =>
+            47 => 
             array (
-                'id' => 48,
+                'wdt_ID' => 48,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25115',
@@ -641,9 +641,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00174903>',
             ),
-            48 =>
+            48 => 
             array (
-                'id' => 49,
+                'wdt_ID' => 49,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1480',
@@ -654,9 +654,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3eda>',
             ),
-            49 =>
+            49 => 
             array (
-                'id' => 50,
+                'wdt_ID' => 50,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1454',
@@ -667,9 +667,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001a3ed8>',
             ),
-            50 =>
+            50 => 
             array (
-                'id' => 51,
+                'wdt_ID' => 51,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1407',
@@ -680,9 +680,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001750d8>',
             ),
-            51 =>
+            51 => 
             array (
-                'id' => 52,
+                'wdt_ID' => 52,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1407',
@@ -693,9 +693,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001a3ec3>',
             ),
-            52 =>
+            52 => 
             array (
-                'id' => 53,
+                'wdt_ID' => 53,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1408',
@@ -706,9 +706,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001750ff>',
             ),
-            53 =>
+            53 => 
             array (
-                'id' => 54,
+                'wdt_ID' => 54,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1406',
@@ -719,9 +719,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175139>',
             ),
-            54 =>
+            54 => 
             array (
-                'id' => 55,
+                'wdt_ID' => 55,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1483',
@@ -732,9 +732,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175154>',
             ),
-            55 =>
+            55 => 
             array (
-                'id' => 56,
+                'wdt_ID' => 56,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1481',
@@ -745,9 +745,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3edb>',
             ),
-            56 =>
+            56 => 
             array (
-                'id' => 57,
+                'wdt_ID' => 57,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1482',
@@ -758,9 +758,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3edc>',
             ),
-            57 =>
+            57 => 
             array (
-                'id' => 58,
+                'wdt_ID' => 58,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF2068',
@@ -771,9 +771,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001a3efc>',
             ),
-            58 =>
+            58 => 
             array (
-                'id' => 59,
+                'wdt_ID' => 59,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1403',
@@ -784,9 +784,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001760a9>',
             ),
-            59 =>
+            59 => 
             array (
-                'id' => 60,
+                'wdt_ID' => 60,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1511',
@@ -797,9 +797,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00177001>',
             ),
-            60 =>
+            60 => 
             array (
-                'id' => 61,
+                'wdt_ID' => 61,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1405',
@@ -810,9 +810,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00177002>',
             ),
-            61 =>
+            61 => 
             array (
-                'id' => 62,
+                'wdt_ID' => 62,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2924',
@@ -823,9 +823,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001777f3>',
             ),
-            62 =>
+            62 => 
             array (
-                'id' => 63,
+                'wdt_ID' => 63,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1404',
@@ -836,9 +836,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 0017972b>',
             ),
-            63 =>
+            63 => 
             array (
-                'id' => 64,
+                'wdt_ID' => 64,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1408',
@@ -849,9 +849,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ec5>',
             ),
-            64 =>
+            64 => 
             array (
-                'id' => 65,
+                'wdt_ID' => 65,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1409',
@@ -862,9 +862,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ec6>',
             ),
-            65 =>
+            65 => 
             array (
-                'id' => 66,
+                'wdt_ID' => 66,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC97718',
@@ -875,9 +875,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 0017aee0>',
             ),
-            66 =>
+            66 => 
             array (
-                'id' => 67,
+                'wdt_ID' => 67,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6431',
@@ -888,9 +888,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00180471>',
             ),
-            67 =>
+            67 => 
             array (
-                'id' => 68,
+                'wdt_ID' => 68,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6434',
@@ -901,9 +901,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00180472>',
             ),
-            68 =>
+            68 => 
             array (
-                'id' => 69,
+                'wdt_ID' => 69,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1564',
@@ -914,9 +914,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00180c41>',
             ),
-            69 =>
+            69 => 
             array (
-                'id' => 70,
+                'wdt_ID' => 70,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1568',
@@ -927,9 +927,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00180c42>',
             ),
-            70 =>
+            70 => 
             array (
-                'id' => 71,
+                'wdt_ID' => 71,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ab97119',
@@ -940,9 +940,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001823b1>',
             ),
-            71 =>
+            71 => 
             array (
-                'id' => 72,
+                'wdt_ID' => 72,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1567',
@@ -953,9 +953,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00185291>',
             ),
-            72 =>
+            72 => 
             array (
-                'id' => 73,
+                'wdt_ID' => 73,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1565',
@@ -966,9 +966,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00185292>',
             ),
-            73 =>
+            73 => 
             array (
-                'id' => 74,
+                'wdt_ID' => 74,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1566',
@@ -979,9 +979,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00185a61>',
             ),
-            74 =>
+            74 => 
             array (
-                'id' => 75,
+                'wdt_ID' => 75,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1485',
@@ -992,9 +992,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00186a01>',
             ),
-            75 =>
+            75 => 
             array (
-                'id' => 76,
+                'wdt_ID' => 76,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1490',
@@ -1005,9 +1005,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001871d1>',
             ),
-            76 =>
+            76 => 
             array (
-                'id' => 77,
+                'wdt_ID' => 77,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1484',
@@ -1018,9 +1018,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001871d2>',
             ),
-            77 =>
+            77 => 
             array (
-                'id' => 78,
+                'wdt_ID' => 78,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81066',
@@ -1031,9 +1031,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0018b051>',
             ),
-            78 =>
+            78 => 
             array (
-                'id' => 79,
+                'wdt_ID' => 79,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81067',
@@ -1044,9 +1044,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0018b052>',
             ),
-            79 =>
+            79 => 
             array (
-                'id' => 80,
+                'wdt_ID' => 80,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M90493',
@@ -1057,9 +1057,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0018b821>',
             ),
-            80 =>
+            80 => 
             array (
-                'id' => 81,
+                'wdt_ID' => 81,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1406',
@@ -1070,9 +1070,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001a3ec4>',
             ),
-            81 =>
+            81 => 
             array (
-                'id' => 82,
+                'wdt_ID' => 82,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1509',
@@ -1083,9 +1083,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001760d1>',
             ),
-            82 =>
+            82 => 
             array (
-                'id' => 83,
+                'wdt_ID' => 83,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1510',
@@ -1096,9 +1096,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001760d2>',
             ),
-            83 =>
+            83 => 
             array (
-                'id' => 84,
+                'wdt_ID' => 84,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1454',
@@ -1109,9 +1109,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001760d3>',
             ),
-            84 =>
+            84 => 
             array (
-                'id' => 85,
+                'wdt_ID' => 85,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65125',
@@ -1122,9 +1122,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0018cf93>',
             ),
-            85 =>
+            85 => 
             array (
-                'id' => 86,
+                'wdt_ID' => 86,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65127',
@@ -1135,9 +1135,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf94>',
             ),
-            86 =>
+            86 => 
             array (
-                'id' => 87,
+                'wdt_ID' => 87,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65126',
@@ -1148,9 +1148,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf95>',
             ),
-            87 =>
+            87 => 
             array (
-                'id' => 88,
+                'wdt_ID' => 88,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65128',
@@ -1161,9 +1161,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf96>',
             ),
-            88 =>
+            88 => 
             array (
-                'id' => 89,
+                'wdt_ID' => 89,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65108',
@@ -1174,9 +1174,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf97>',
             ),
-            89 =>
+            89 => 
             array (
-                'id' => 90,
+                'wdt_ID' => 90,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65170',
@@ -1187,9 +1187,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf98>',
             ),
-            90 =>
+            90 => 
             array (
-                'id' => 91,
+                'wdt_ID' => 91,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65171',
@@ -1200,9 +1200,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf99>',
             ),
-            91 =>
+            91 => 
             array (
-                'id' => 92,
+                'wdt_ID' => 92,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB97120',
@@ -1213,9 +1213,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfbd>',
             ),
-            92 =>
+            92 => 
             array (
-                'id' => 93,
+                'wdt_ID' => 93,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1064',
@@ -1226,9 +1226,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d761>',
             ),
-            93 =>
+            93 => 
             array (
-                'id' => 94,
+                'wdt_ID' => 94,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1087',
@@ -1239,9 +1239,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d762>',
             ),
-            94 =>
+            94 => 
             array (
-                'id' => 95,
+                'wdt_ID' => 95,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1136',
@@ -1252,9 +1252,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d763>',
             ),
-            95 =>
+            95 => 
             array (
-                'id' => 96,
+                'wdt_ID' => 96,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1360',
@@ -1265,9 +1265,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d764>',
             ),
-            96 =>
+            96 => 
             array (
-                'id' => 97,
+                'wdt_ID' => 97,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW31143',
@@ -1278,9 +1278,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bd6>',
             ),
-            97 =>
+            97 => 
             array (
-                'id' => 98,
+                'wdt_ID' => 98,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81252',
@@ -1291,9 +1291,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196beb>',
             ),
-            98 =>
+            98 => 
             array (
-                'id' => 99,
+                'wdt_ID' => 99,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81253',
@@ -1304,9 +1304,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bec>',
             ),
-            99 =>
+            99 => 
             array (
-                'id' => 100,
+                'wdt_ID' => 100,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81258',
@@ -1317,9 +1317,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bef>',
             ),
-            100 =>
+            100 => 
             array (
-                'id' => 101,
+                'wdt_ID' => 101,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81268',
@@ -1330,9 +1330,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d769>',
             ),
-            101 =>
+            101 => 
             array (
-                'id' => 102,
+                'wdt_ID' => 102,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81310',
@@ -1343,9 +1343,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d76a>',
             ),
-            102 =>
+            102 => 
             array (
-                'id' => 103,
+                'wdt_ID' => 103,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81330',
@@ -1356,9 +1356,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018d76b>',
             ),
-            103 =>
+            103 => 
             array (
-                'id' => 104,
+                'wdt_ID' => 104,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00382',
@@ -1369,9 +1369,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 00195c31>',
             ),
-            104 =>
+            104 => 
             array (
-                'id' => 105,
+                'wdt_ID' => 105,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65172',
@@ -1382,9 +1382,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf9a>',
             ),
-            105 =>
+            105 => 
             array (
-                'id' => 106,
+                'wdt_ID' => 106,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB90496',
@@ -1395,9 +1395,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf9b>',
             ),
-            106 =>
+            106 => 
             array (
-                'id' => 107,
+                'wdt_ID' => 107,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65192',
@@ -1408,9 +1408,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf9c>',
             ),
-            107 =>
+            107 => 
             array (
-                'id' => 108,
+                'wdt_ID' => 108,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65190',
@@ -1421,9 +1421,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf9d>',
             ),
-            108 =>
+            108 => 
             array (
-                'id' => 109,
+                'wdt_ID' => 109,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65191',
@@ -1434,9 +1434,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf9e>',
             ),
-            109 =>
+            109 => 
             array (
-                'id' => 110,
+                'wdt_ID' => 110,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65182',
@@ -1447,9 +1447,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cf9f>',
             ),
-            110 =>
+            110 => 
             array (
-                'id' => 111,
+                'wdt_ID' => 111,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65183',
@@ -1460,9 +1460,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa0>',
             ),
-            111 =>
+            111 => 
             array (
-                'id' => 112,
+                'wdt_ID' => 112,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB97129',
@@ -1473,9 +1473,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa1>',
             ),
-            112 =>
+            112 => 
             array (
-                'id' => 113,
+                'wdt_ID' => 113,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65130',
@@ -1486,9 +1486,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa2>',
             ),
-            113 =>
+            113 => 
             array (
-                'id' => 114,
+                'wdt_ID' => 114,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65131',
@@ -1499,9 +1499,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa3>',
             ),
-            114 =>
+            114 => 
             array (
-                'id' => 115,
+                'wdt_ID' => 115,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65132',
@@ -1512,9 +1512,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa4>',
             ),
-            115 =>
+            115 => 
             array (
-                'id' => 116,
+                'wdt_ID' => 116,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65133',
@@ -1525,9 +1525,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa5>',
             ),
-            116 =>
+            116 => 
             array (
-                'id' => 117,
+                'wdt_ID' => 117,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65134',
@@ -1538,9 +1538,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa6>',
             ),
-            117 =>
+            117 => 
             array (
-                'id' => 118,
+                'wdt_ID' => 118,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65135',
@@ -1551,9 +1551,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa7>',
             ),
-            118 =>
+            118 => 
             array (
-                'id' => 119,
+                'wdt_ID' => 119,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65136',
@@ -1564,9 +1564,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa8>',
             ),
-            119 =>
+            119 => 
             array (
-                'id' => 120,
+                'wdt_ID' => 120,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65137',
@@ -1577,9 +1577,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfa9>',
             ),
-            120 =>
+            120 => 
             array (
-                'id' => 121,
+                'wdt_ID' => 121,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65138',
@@ -1590,9 +1590,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfaa>',
             ),
-            121 =>
+            121 => 
             array (
-                'id' => 122,
+                'wdt_ID' => 122,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65139',
@@ -1603,9 +1603,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfab>',
             ),
-            122 =>
+            122 => 
             array (
-                'id' => 123,
+                'wdt_ID' => 123,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65142',
@@ -1616,9 +1616,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfac>',
             ),
-            123 =>
+            123 => 
             array (
-                'id' => 124,
+                'wdt_ID' => 124,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65145',
@@ -1629,9 +1629,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfad>',
             ),
-            124 =>
+            124 => 
             array (
-                'id' => 125,
+                'wdt_ID' => 125,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65146',
@@ -1642,9 +1642,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfae>',
             ),
-            125 =>
+            125 => 
             array (
-                'id' => 126,
+                'wdt_ID' => 126,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65147',
@@ -1655,9 +1655,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfaf>',
             ),
-            126 =>
+            126 => 
             array (
-                'id' => 127,
+                'wdt_ID' => 127,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65149',
@@ -1668,9 +1668,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb0>',
             ),
-            127 =>
+            127 => 
             array (
-                'id' => 128,
+                'wdt_ID' => 128,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65193',
@@ -1681,9 +1681,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb1>',
             ),
-            128 =>
+            128 => 
             array (
-                'id' => 129,
+                'wdt_ID' => 129,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65194',
@@ -1694,9 +1694,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb2>',
             ),
-            129 =>
+            129 => 
             array (
-                'id' => 130,
+                'wdt_ID' => 130,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65195',
@@ -1707,9 +1707,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00196409>',
             ),
-            130 =>
+            130 => 
             array (
-                'id' => 131,
+                'wdt_ID' => 131,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65501',
@@ -1720,9 +1720,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb4>',
             ),
-            131 =>
+            131 => 
             array (
-                'id' => 132,
+                'wdt_ID' => 132,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65502',
@@ -1733,9 +1733,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb5>',
             ),
-            132 =>
+            132 => 
             array (
-                'id' => 133,
+                'wdt_ID' => 133,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65540',
@@ -1746,9 +1746,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb6>',
             ),
-            133 =>
+            133 => 
             array (
-                'id' => 134,
+                'wdt_ID' => 134,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65541',
@@ -1759,9 +1759,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb7>',
             ),
-            134 =>
+            134 => 
             array (
-                'id' => 135,
+                'wdt_ID' => 135,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65542',
@@ -1772,9 +1772,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb8>',
             ),
-            135 =>
+            135 => 
             array (
-                'id' => 136,
+                'wdt_ID' => 136,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65543',
@@ -1785,9 +1785,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfb9>',
             ),
-            136 =>
+            136 => 
             array (
-                'id' => 137,
+                'wdt_ID' => 137,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65544',
@@ -1798,9 +1798,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfba>',
             ),
-            137 =>
+            137 => 
             array (
-                'id' => 138,
+                'wdt_ID' => 138,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65545',
@@ -1811,9 +1811,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfbb>',
             ),
-            138 =>
+            138 => 
             array (
-                'id' => 139,
+                'wdt_ID' => 139,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65546',
@@ -1824,9 +1824,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0018cfbc>',
             ),
-            139 =>
+            139 => 
             array (
-                'id' => 140,
+                'wdt_ID' => 140,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00383',
@@ -1837,9 +1837,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 00195c32>',
             ),
-            140 =>
+            140 => 
             array (
-                'id' => 141,
+                'wdt_ID' => 141,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00384',
@@ -1850,9 +1850,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0018d76e>',
             ),
-            141 =>
+            141 => 
             array (
-                'id' => 142,
+                'wdt_ID' => 142,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00385',
@@ -1863,9 +1863,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 00196401>',
             ),
-            142 =>
+            142 => 
             array (
-                'id' => 143,
+                'wdt_ID' => 143,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00386',
@@ -1876,9 +1876,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0018d770>',
             ),
-            143 =>
+            143 => 
             array (
-                'id' => 144,
+                'wdt_ID' => 144,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00387',
@@ -1889,9 +1889,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 0018d771>',
             ),
-            144 =>
+            144 => 
             array (
-                'id' => 145,
+                'wdt_ID' => 145,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00388',
@@ -1902,9 +1902,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0018d772>',
             ),
-            145 =>
+            145 => 
             array (
-                'id' => 146,
+                'wdt_ID' => 146,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00389',
@@ -1915,9 +1915,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 00196402>',
             ),
-            146 =>
+            146 => 
             array (
-                'id' => 147,
+                'wdt_ID' => 147,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00390',
@@ -1928,9 +1928,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 00196403>',
             ),
-            147 =>
+            147 => 
             array (
-                'id' => 148,
+                'wdt_ID' => 148,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02476',
@@ -1941,9 +1941,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 0018d775>',
             ),
-            148 =>
+            148 => 
             array (
-                'id' => 149,
+                'wdt_ID' => 149,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02486',
@@ -1954,9 +1954,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 00196404>',
             ),
-            149 =>
+            149 => 
             array (
-                'id' => 150,
+                'wdt_ID' => 150,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02487',
@@ -1967,9 +1967,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0018d777>',
             ),
-            150 =>
+            150 => 
             array (
-                'id' => 151,
+                'wdt_ID' => 151,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02488',
@@ -1980,9 +1980,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 0018d778>',
             ),
-            151 =>
+            151 => 
             array (
-                'id' => 152,
+                'wdt_ID' => 152,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02490',
@@ -1993,9 +1993,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 0018d779>',
             ),
-            152 =>
+            152 => 
             array (
-                'id' => 153,
+                'wdt_ID' => 153,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02492',
@@ -2006,9 +2006,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0018d77a>',
             ),
-            153 =>
+            153 => 
             array (
-                'id' => 154,
+                'wdt_ID' => 154,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02494',
@@ -2019,9 +2019,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 00196405>',
             ),
-            154 =>
+            154 => 
             array (
-                'id' => 155,
+                'wdt_ID' => 155,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02495',
@@ -2032,9 +2032,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 00196406>',
             ),
-            155 =>
+            155 => 
             array (
-                'id' => 156,
+                'wdt_ID' => 156,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02499',
@@ -2045,9 +2045,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 00196407>',
             ),
-            156 =>
+            156 => 
             array (
-                'id' => 157,
+                'wdt_ID' => 157,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02504',
@@ -2058,9 +2058,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 00196408>',
             ),
-            157 =>
+            157 => 
             array (
-                'id' => 158,
+                'wdt_ID' => 158,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02505',
@@ -2071,9 +2071,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 0018d77f>',
             ),
-            158 =>
+            158 => 
             array (
-                'id' => 159,
+                'wdt_ID' => 159,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02508',
@@ -2084,9 +2084,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13120',
                 'ssmatimestamp' => '<00000000 0018d780>',
             ),
-            159 =>
+            159 => 
             array (
-                'id' => 160,
+                'wdt_ID' => 160,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81068',
@@ -2097,9 +2097,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bf9>',
             ),
-            160 =>
+            160 => 
             array (
-                'id' => 161,
+                'wdt_ID' => 161,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81069',
@@ -2110,9 +2110,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bfa>',
             ),
-            161 =>
+            161 => 
             array (
-                'id' => 162,
+                'wdt_ID' => 162,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81070',
@@ -2123,9 +2123,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bfb>',
             ),
-            162 =>
+            162 => 
             array (
-                'id' => 163,
+                'wdt_ID' => 163,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81071',
@@ -2136,9 +2136,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bfc>',
             ),
-            163 =>
+            163 => 
             array (
-                'id' => 164,
+                'wdt_ID' => 164,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81072',
@@ -2149,9 +2149,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0018d785>',
             ),
-            164 =>
+            164 => 
             array (
-                'id' => 165,
+                'wdt_ID' => 165,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81073',
@@ -2162,9 +2162,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bfd>',
             ),
-            165 =>
+            165 => 
             array (
-                'id' => 166,
+                'wdt_ID' => 166,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81074',
@@ -2175,9 +2175,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bfe>',
             ),
-            166 =>
+            166 => 
             array (
-                'id' => 167,
+                'wdt_ID' => 167,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86070',
@@ -2188,9 +2188,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196bff>',
             ),
-            167 =>
+            167 => 
             array (
-                'id' => 168,
+                'wdt_ID' => 168,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86071',
@@ -2201,9 +2201,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196c01>',
             ),
-            168 =>
+            168 => 
             array (
-                'id' => 169,
+                'wdt_ID' => 169,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86072',
@@ -2214,9 +2214,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196c02>',
             ),
-            169 =>
+            169 => 
             array (
-                'id' => 170,
+                'wdt_ID' => 170,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86073',
@@ -2227,9 +2227,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196c03>',
             ),
-            170 =>
+            170 => 
             array (
-                'id' => 171,
+                'wdt_ID' => 171,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86074',
@@ -2240,9 +2240,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196c04>',
             ),
-            171 =>
+            171 => 
             array (
-                'id' => 172,
+                'wdt_ID' => 172,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86075',
@@ -2253,9 +2253,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00196c05>',
             ),
-            172 =>
+            172 => 
             array (
-                'id' => 173,
+                'wdt_ID' => 173,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86076',
@@ -2266,9 +2266,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0018d78e>',
             ),
-            173 =>
+            173 => 
             array (
-                'id' => 174,
+                'wdt_ID' => 174,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86077',
@@ -2279,9 +2279,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0018d78f>',
             ),
-            174 =>
+            174 => 
             array (
-                'id' => 175,
+                'wdt_ID' => 175,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0313',
@@ -2292,9 +2292,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d790>',
             ),
-            175 =>
+            175 => 
             array (
-                'id' => 176,
+                'wdt_ID' => 176,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0801',
@@ -2305,9 +2305,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d791>',
             ),
-            176 =>
+            176 => 
             array (
-                'id' => 177,
+                'wdt_ID' => 177,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0802',
@@ -2318,9 +2318,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d792>',
             ),
-            177 =>
+            177 => 
             array (
-                'id' => 178,
+                'wdt_ID' => 178,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0803',
@@ -2331,9 +2331,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d793>',
             ),
-            178 =>
+            178 => 
             array (
-                'id' => 179,
+                'wdt_ID' => 179,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0815',
@@ -2344,9 +2344,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d794>',
             ),
-            179 =>
+            179 => 
             array (
-                'id' => 180,
+                'wdt_ID' => 180,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0816',
@@ -2357,9 +2357,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d795>',
             ),
-            180 =>
+            180 => 
             array (
-                'id' => 181,
+                'wdt_ID' => 181,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0821',
@@ -2370,9 +2370,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d796>',
             ),
-            181 =>
+            181 => 
             array (
-                'id' => 182,
+                'wdt_ID' => 182,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0822',
@@ -2383,9 +2383,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d797>',
             ),
-            182 =>
+            182 => 
             array (
-                'id' => 183,
+                'wdt_ID' => 183,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6140',
@@ -2396,9 +2396,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d798>',
             ),
-            183 =>
+            183 => 
             array (
-                'id' => 184,
+                'wdt_ID' => 184,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6502',
@@ -2409,9 +2409,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d799>',
             ),
-            184 =>
+            184 => 
             array (
-                'id' => 185,
+                'wdt_ID' => 185,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6512',
@@ -2422,9 +2422,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d79a>',
             ),
-            185 =>
+            185 => 
             array (
-                'id' => 186,
+                'wdt_ID' => 186,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6576',
@@ -2435,9 +2435,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d79b>',
             ),
-            186 =>
+            186 => 
             array (
-                'id' => 187,
+                'wdt_ID' => 187,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6630',
@@ -2448,9 +2448,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d79c>',
             ),
-            187 =>
+            187 => 
             array (
-                'id' => 188,
+                'wdt_ID' => 188,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6661',
@@ -2461,9 +2461,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0018d79d>',
             ),
-            188 =>
+            188 => 
             array (
-                'id' => 189,
+                'wdt_ID' => 189,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14528',
@@ -2474,9 +2474,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 0018d79e>',
             ),
-            189 =>
+            189 => 
             array (
-                'id' => 190,
+                'wdt_ID' => 190,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14529',
@@ -2487,9 +2487,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 0018d79f>',
             ),
-            190 =>
+            190 => 
             array (
-                'id' => 191,
+                'wdt_ID' => 191,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14737',
@@ -2500,9 +2500,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 0018d7a0>',
             ),
-            191 =>
+            191 => 
             array (
-                'id' => 192,
+                'wdt_ID' => 192,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14738',
@@ -2513,9 +2513,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00196c06>',
             ),
-            192 =>
+            192 => 
             array (
-                'id' => 193,
+                'wdt_ID' => 193,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14739',
@@ -2526,9 +2526,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00196c07>',
             ),
-            193 =>
+            193 => 
             array (
-                'id' => 194,
+                'wdt_ID' => 194,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14785',
@@ -2539,9 +2539,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00196c08>',
             ),
-            194 =>
+            194 => 
             array (
-                'id' => 195,
+                'wdt_ID' => 195,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14786',
@@ -2552,9 +2552,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 0018d7a4>',
             ),
-            195 =>
+            195 => 
             array (
-                'id' => 196,
+                'wdt_ID' => 196,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL15275',
@@ -2565,9 +2565,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 0018d7a5>',
             ),
-            196 =>
+            196 => 
             array (
-                'id' => 197,
+                'wdt_ID' => 197,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL15370',
@@ -2578,9 +2578,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 0018d7a6>',
             ),
-            197 =>
+            197 => 
             array (
-                'id' => 198,
+                'wdt_ID' => 198,
                 'cono' => 1,
                 'whse' => 'VEND',
                 'itemid' => 'AW41052',
@@ -2591,9 +2591,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0018e761>',
             ),
-            198 =>
+            198 => 
             array (
-                'id' => 199,
+                'wdt_ID' => 199,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1137',
@@ -2604,9 +2604,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bd3>',
             ),
-            199 =>
+            199 => 
             array (
-                'id' => 200,
+                'wdt_ID' => 200,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1149-30',
@@ -2617,9 +2617,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bd4>',
             ),
-            200 =>
+            200 => 
             array (
-                'id' => 201,
+                'wdt_ID' => 201,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW781210',
@@ -2630,9 +2630,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bdc>',
             ),
-            201 =>
+            201 => 
             array (
-                'id' => 202,
+                'wdt_ID' => 202,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW781215',
@@ -2643,9 +2643,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bdd>',
             ),
-            202 =>
+            202 => 
             array (
-                'id' => 203,
+                'wdt_ID' => 203,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P20097',
@@ -2656,9 +2656,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 0005e41e>',
             ),
-            203 =>
+            203 => 
             array (
-                'id' => 204,
+                'wdt_ID' => 204,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02372',
@@ -2669,9 +2669,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00068011>',
             ),
-            204 =>
+            204 => 
             array (
-                'id' => 205,
+                'wdt_ID' => 205,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1043',
@@ -2682,9 +2682,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 00110f4c>',
             ),
-            205 =>
+            205 => 
             array (
-                'id' => 206,
+                'wdt_ID' => 206,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'D40118',
@@ -2695,9 +2695,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0006e5a7>',
             ),
-            206 =>
+            206 => 
             array (
-                'id' => 207,
+                'wdt_ID' => 207,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ53015A',
@@ -2708,9 +2708,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006be92>',
             ),
-            207 =>
+            207 => 
             array (
-                'id' => 208,
+                'wdt_ID' => 208,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25075',
@@ -2721,9 +2721,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469501',
                 'ssmatimestamp' => '<00000000 0006c668>',
             ),
-            208 =>
+            208 => 
             array (
-                'id' => 209,
+                'wdt_ID' => 209,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'Z11903',
@@ -2734,9 +2734,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1470601',
                 'ssmatimestamp' => '<00000000 00072422>',
             ),
-            209 =>
+            209 => 
             array (
-                'id' => 210,
+                'wdt_ID' => 210,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'D40120',
@@ -2747,9 +2747,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0006e5ac>',
             ),
-            210 =>
+            210 => 
             array (
-                'id' => 211,
+                'wdt_ID' => 211,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ16345',
@@ -2760,9 +2760,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e11>',
             ),
-            211 =>
+            211 => 
             array (
-                'id' => 212,
+                'wdt_ID' => 212,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P20099',
@@ -2773,9 +2773,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00098581>',
             ),
-            212 =>
+            212 => 
             array (
-                'id' => 213,
+                'wdt_ID' => 213,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25088',
@@ -2786,9 +2786,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 00098d51>',
             ),
-            213 =>
+            213 => 
             array (
-                'id' => 214,
+                'wdt_ID' => 214,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AW81272',
@@ -2799,9 +2799,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000a50a1>',
             ),
-            214 =>
+            214 => 
             array (
-                'id' => 215,
+                'wdt_ID' => 215,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81250',
@@ -2812,9 +2812,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be9>',
             ),
-            215 =>
+            215 => 
             array (
-                'id' => 216,
+                'wdt_ID' => 216,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81270',
@@ -2825,9 +2825,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bf0>',
             ),
-            216 =>
+            216 => 
             array (
-                'id' => 217,
+                'wdt_ID' => 217,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81255',
@@ -2838,9 +2838,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bed>',
             ),
-            217 =>
+            217 => 
             array (
-                'id' => 218,
+                'wdt_ID' => 218,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81257',
@@ -2851,9 +2851,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bee>',
             ),
-            218 =>
+            218 => 
             array (
-                'id' => 219,
+                'wdt_ID' => 219,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03013',
@@ -2864,9 +2864,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d886>',
             ),
-            219 =>
+            219 => 
             array (
-                'id' => 220,
+                'wdt_ID' => 220,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1065',
@@ -2877,9 +2877,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00110f4d>',
             ),
-            220 =>
+            220 => 
             array (
-                'id' => 221,
+                'wdt_ID' => 221,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1058',
@@ -2890,9 +2890,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 000a8752>',
             ),
-            221 =>
+            221 => 
             array (
-                'id' => 222,
+                'wdt_ID' => 222,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1054',
@@ -2903,9 +2903,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00110f49>',
             ),
-            222 =>
+            222 => 
             array (
-                'id' => 223,
+                'wdt_ID' => 223,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1055',
@@ -2916,9 +2916,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 000a8754>',
             ),
-            223 =>
+            223 => 
             array (
-                'id' => 224,
+                'wdt_ID' => 224,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC113847',
@@ -2929,9 +2929,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8321>',
             ),
-            224 =>
+            224 => 
             array (
-                'id' => 225,
+                'wdt_ID' => 225,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02414',
@@ -2942,9 +2942,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 000d273c>',
             ),
-            225 =>
+            225 => 
             array (
-                'id' => 226,
+                'wdt_ID' => 226,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60023',
@@ -2955,9 +2955,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000d2f01>',
             ),
-            226 =>
+            226 => 
             array (
-                'id' => 227,
+                'wdt_ID' => 227,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC115621',
@@ -2968,9 +2968,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 000c7b56>',
             ),
-            227 =>
+            227 => 
             array (
-                'id' => 228,
+                'wdt_ID' => 228,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02398',
@@ -2981,9 +2981,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1400001',
                 'ssmatimestamp' => '<00000000 000d5de1>',
             ),
-            228 =>
+            228 => 
             array (
-                'id' => 229,
+                'wdt_ID' => 229,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02181',
@@ -2994,9 +2994,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14607',
                 'ssmatimestamp' => '<00000000 000d9491>',
             ),
-            229 =>
+            229 => 
             array (
-                'id' => 230,
+                'wdt_ID' => 230,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC131397 ',
@@ -3007,9 +3007,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 0010f002>',
             ),
-            230 =>
+            230 => 
             array (
-                'id' => 231,
+                'wdt_ID' => 231,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'Z11171',
@@ -3020,9 +3020,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14706',
                 'ssmatimestamp' => '<00000000 000dcb41>',
             ),
-            231 =>
+            231 => 
             array (
-                'id' => 232,
+                'wdt_ID' => 232,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03017',
@@ -3033,9 +3033,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000dea86>',
             ),
-            232 =>
+            232 => 
             array (
-                'id' => 233,
+                'wdt_ID' => 233,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC127418',
@@ -3046,9 +3046,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 000c7b58>',
             ),
-            233 =>
+            233 => 
             array (
-                'id' => 234,
+                'wdt_ID' => 234,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90311',
@@ -3059,9 +3059,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d888>',
             ),
-            234 =>
+            234 => 
             array (
-                'id' => 235,
+                'wdt_ID' => 235,
                 'cono' => NULL,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60002FR',
@@ -3072,9 +3072,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b0451>',
             ),
-            235 =>
+            235 => 
             array (
-                'id' => 236,
+                'wdt_ID' => 236,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2761',
@@ -3085,9 +3085,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000b141c>',
             ),
-            236 =>
+            236 => 
             array (
-                'id' => 237,
+                'wdt_ID' => 237,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2389',
@@ -3098,9 +3098,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 000b1bc1>',
             ),
-            237 =>
+            237 => 
             array (
-                'id' => 238,
+                'wdt_ID' => 238,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M86049',
@@ -3111,9 +3111,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b3331>',
             ),
-            238 =>
+            238 => 
             array (
-                'id' => 239,
+                'wdt_ID' => 239,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02399',
@@ -3124,9 +3124,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 0010ff9f>',
             ),
-            239 =>
+            239 => 
             array (
-                'id' => 240,
+                'wdt_ID' => 240,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2618',
@@ -3137,9 +3137,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000b1c64>',
             ),
-            240 =>
+            240 => 
             array (
-                'id' => 241,
+                'wdt_ID' => 241,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2771',
@@ -3150,9 +3150,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000b1c65>',
             ),
-            241 =>
+            241 => 
             array (
-                'id' => 242,
+                'wdt_ID' => 242,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2365',
@@ -3163,9 +3163,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000b1c66>',
             ),
-            242 =>
+            242 => 
             array (
-                'id' => 243,
+                'wdt_ID' => 243,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => '',
@@ -3176,9 +3176,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 000b8921>',
             ),
-            243 =>
+            243 => 
             array (
-                'id' => 244,
+                'wdt_ID' => 244,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB60003FR',
@@ -3189,9 +3189,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b4aa1>',
             ),
-            244 =>
+            244 => 
             array (
-                'id' => 245,
+                'wdt_ID' => 245,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => '',
@@ -3202,9 +3202,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 000b8922>',
             ),
-            245 =>
+            245 => 
             array (
-                'id' => 246,
+                'wdt_ID' => 246,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00295',
@@ -3215,9 +3215,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 000b8923>',
             ),
-            246 =>
+            246 => 
             array (
-                'id' => 247,
+                'wdt_ID' => 247,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00294',
@@ -3228,9 +3228,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 0010effa>',
             ),
-            247 =>
+            247 => 
             array (
-                'id' => 248,
+                'wdt_ID' => 248,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00288',
@@ -3241,9 +3241,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 000b90f2>',
             ),
-            248 =>
+            248 => 
             array (
-                'id' => 249,
+                'wdt_ID' => 249,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00300',
@@ -3254,9 +3254,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 000b90f3>',
             ),
-            249 =>
+            249 => 
             array (
-                'id' => 250,
+                'wdt_ID' => 250,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05007',
@@ -3267,9 +3267,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000bb801>',
             ),
-            250 =>
+            250 => 
             array (
-                'id' => 251,
+                'wdt_ID' => 251,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05010',
@@ -3280,9 +3280,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000bb802>',
             ),
-            251 =>
+            251 => 
             array (
-                'id' => 252,
+                'wdt_ID' => 252,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AW9093',
@@ -3293,9 +3293,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000bb803>',
             ),
-            252 =>
+            252 => 
             array (
-                'id' => 253,
+                'wdt_ID' => 253,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00289',
@@ -3306,9 +3306,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010eff6>',
             ),
-            253 =>
+            253 => 
             array (
-                'id' => 254,
+                'wdt_ID' => 254,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00290',
@@ -3319,9 +3319,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010eff7>',
             ),
-            254 =>
+            254 => 
             array (
-                'id' => 255,
+                'wdt_ID' => 255,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00291',
@@ -3332,9 +3332,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010eff8>',
             ),
-            255 =>
+            255 => 
             array (
-                'id' => 256,
+                'wdt_ID' => 256,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00292',
@@ -3345,9 +3345,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010eff9>',
             ),
-            256 =>
+            256 => 
             array (
-                'id' => 257,
+                'wdt_ID' => 257,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00298',
@@ -3358,9 +3358,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '146901',
                 'ssmatimestamp' => '<00000000 000bf681>',
             ),
-            257 =>
+            257 => 
             array (
-                'id' => 258,
+                'wdt_ID' => 258,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00293',
@@ -3371,9 +3371,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14711',
                 'ssmatimestamp' => '<00000000 000c0621>',
             ),
-            258 =>
+            258 => 
             array (
-                'id' => 259,
+                'wdt_ID' => 259,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25094',
@@ -3384,9 +3384,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 000c167b>',
             ),
-            259 =>
+            259 => 
             array (
-                'id' => 260,
+                'wdt_ID' => 260,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65007',
@@ -3397,9 +3397,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00110f42>',
             ),
-            260 =>
+            260 => 
             array (
-                'id' => 261,
+                'wdt_ID' => 261,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1080',
@@ -3410,9 +3410,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00110f50>',
             ),
-            261 =>
+            261 => 
             array (
-                'id' => 262,
+                'wdt_ID' => 262,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1081',
@@ -3423,9 +3423,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00110f51>',
             ),
-            262 =>
+            262 => 
             array (
-                'id' => 263,
+                'wdt_ID' => 263,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65011',
@@ -3436,9 +3436,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000c4c71>',
             ),
-            263 =>
+            263 => 
             array (
-                'id' => 264,
+                'wdt_ID' => 264,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65008',
@@ -3449,9 +3449,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00110f43>',
             ),
-            264 =>
+            264 => 
             array (
-                'id' => 265,
+                'wdt_ID' => 265,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2189',
@@ -3462,9 +3462,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 000b1434>',
             ),
-            265 =>
+            265 => 
             array (
-                'id' => 266,
+                'wdt_ID' => 266,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC113398',
@@ -3475,9 +3475,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 000c7b54>',
             ),
-            266 =>
+            266 => 
             array (
-                'id' => 267,
+                'wdt_ID' => 267,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00330',
@@ -3488,9 +3488,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000e7ef1>',
             ),
-            267 =>
+            267 => 
             array (
-                'id' => 268,
+                'wdt_ID' => 268,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34725',
@@ -3501,9 +3501,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a71>',
             ),
-            268 =>
+            268 => 
             array (
-                'id' => 269,
+                'wdt_ID' => 269,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00328',
@@ -3514,9 +3514,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010effd>',
             ),
-            269 =>
+            269 => 
             array (
-                'id' => 270,
+                'wdt_ID' => 270,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00332',
@@ -3527,9 +3527,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f6952>',
             ),
-            270 =>
+            270 => 
             array (
-                'id' => 271,
+                'wdt_ID' => 271,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00336',
@@ -3540,9 +3540,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f6953>',
             ),
-            271 =>
+            271 => 
             array (
-                'id' => 272,
+                'wdt_ID' => 272,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00339',
@@ -3553,9 +3553,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f6954>',
             ),
-            272 =>
+            272 => 
             array (
-                'id' => 273,
+                'wdt_ID' => 273,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00340',
@@ -3566,9 +3566,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f6955>',
             ),
-            273 =>
+            273 => 
             array (
-                'id' => 274,
+                'wdt_ID' => 274,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC122708',
@@ -3579,9 +3579,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 000c7b57>',
             ),
-            274 =>
+            274 => 
             array (
-                'id' => 275,
+                'wdt_ID' => 275,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00341',
@@ -3592,9 +3592,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14530',
                 'ssmatimestamp' => '<00000000 000f6956>',
             ),
-            275 =>
+            275 => 
             array (
-                'id' => 276,
+                'wdt_ID' => 276,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00347',
@@ -3605,9 +3605,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14582',
                 'ssmatimestamp' => '<00000000 000f6957>',
             ),
-            276 =>
+            276 => 
             array (
-                'id' => 277,
+                'wdt_ID' => 277,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00349',
@@ -3618,9 +3618,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 000f6958>',
             ),
-            277 =>
+            277 => 
             array (
-                'id' => 278,
+                'wdt_ID' => 278,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00350',
@@ -3631,9 +3631,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14582',
                 'ssmatimestamp' => '<00000000 000f6959>',
             ),
-            278 =>
+            278 => 
             array (
-                'id' => 279,
+                'wdt_ID' => 279,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38001',
@@ -3644,9 +3644,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 000f695a>',
             ),
-            279 =>
+            279 => 
             array (
-                'id' => 280,
+                'wdt_ID' => 280,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38002',
@@ -3657,9 +3657,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 000f695b>',
             ),
-            280 =>
+            280 => 
             array (
-                'id' => 281,
+                'wdt_ID' => 281,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38003',
@@ -3670,9 +3670,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ffa8>',
             ),
-            281 =>
+            281 => 
             array (
-                'id' => 282,
+                'wdt_ID' => 282,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38005',
@@ -3683,9 +3683,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 000f695d>',
             ),
-            282 =>
+            282 => 
             array (
-                'id' => 283,
+                'wdt_ID' => 283,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38006',
@@ -3696,9 +3696,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f695e>',
             ),
-            283 =>
+            283 => 
             array (
-                'id' => 284,
+                'wdt_ID' => 284,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38007',
@@ -3709,9 +3709,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 000f695f>',
             ),
-            284 =>
+            284 => 
             array (
-                'id' => 285,
+                'wdt_ID' => 285,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38008',
@@ -3722,9 +3722,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 000f6960>',
             ),
-            285 =>
+            285 => 
             array (
-                'id' => 286,
+                'wdt_ID' => 286,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38009',
@@ -3735,9 +3735,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 000f6961>',
             ),
-            286 =>
+            286 => 
             array (
-                'id' => 287,
+                'wdt_ID' => 287,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38012',
@@ -3748,9 +3748,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f6962>',
             ),
-            287 =>
+            287 => 
             array (
-                'id' => 288,
+                'wdt_ID' => 288,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1693',
@@ -3761,9 +3761,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 0017598b>',
             ),
-            288 =>
+            288 => 
             array (
-                'id' => 289,
+                'wdt_ID' => 289,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1694',
@@ -3774,9 +3774,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c087>',
             ),
-            289 =>
+            289 => 
             array (
-                'id' => 290,
+                'wdt_ID' => 290,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1457',
@@ -3787,9 +3787,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00159b4a>',
             ),
-            290 =>
+            290 => 
             array (
-                'id' => 291,
+                'wdt_ID' => 291,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1573',
@@ -3800,9 +3800,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 000b1bcb>',
             ),
-            291 =>
+            291 => 
             array (
-                'id' => 292,
+                'wdt_ID' => 292,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1685',
@@ -3813,9 +3813,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 000b1bcc>',
             ),
-            292 =>
+            292 => 
             array (
-                'id' => 293,
+                'wdt_ID' => 293,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1697',
@@ -3826,9 +3826,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 000b1bcd>',
             ),
-            293 =>
+            293 => 
             array (
-                'id' => 294,
+                'wdt_ID' => 294,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2681',
@@ -3839,9 +3839,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 000b1c1e>',
             ),
-            294 =>
+            294 => 
             array (
-                'id' => 295,
+                'wdt_ID' => 295,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02421',
@@ -3852,9 +3852,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13405',
                 'ssmatimestamp' => '<00000000 000f7121>',
             ),
-            295 =>
+            295 => 
             array (
-                'id' => 296,
+                'wdt_ID' => 296,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02422',
@@ -3865,9 +3865,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14711',
                 'ssmatimestamp' => '<00000000 000f7122>',
             ),
-            296 =>
+            296 => 
             array (
-                'id' => 297,
+                'wdt_ID' => 297,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02423',
@@ -3878,9 +3878,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 000f7123>',
             ),
-            297 =>
+            297 => 
             array (
-                'id' => 298,
+                'wdt_ID' => 298,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02428',
@@ -3891,9 +3891,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14545',
                 'ssmatimestamp' => '<00000000 000f7124>',
             ),
-            298 =>
+            298 => 
             array (
-                'id' => 299,
+                'wdt_ID' => 299,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CV3500',
@@ -3904,9 +3904,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14594',
                 'ssmatimestamp' => '<00000000 000f78f1>',
             ),
-            299 =>
+            299 => 
             array (
-                'id' => 300,
+                'wdt_ID' => 300,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CV3501',
@@ -3917,9 +3917,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14594',
                 'ssmatimestamp' => '<00000000 000f78f2>',
             ),
-            300 =>
+            300 => 
             array (
-                'id' => 301,
+                'wdt_ID' => 301,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CV3502',
@@ -3930,9 +3930,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14594',
                 'ssmatimestamp' => '<00000000 000f78f3>',
             ),
-            301 =>
+            301 => 
             array (
-                'id' => 302,
+                'wdt_ID' => 302,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81054',
@@ -3943,9 +3943,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 000f78f4>',
             ),
-            302 =>
+            302 => 
             array (
-                'id' => 303,
+                'wdt_ID' => 303,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86055',
@@ -3956,9 +3956,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 000f78f5>',
             ),
-            303 =>
+            303 => 
             array (
-                'id' => 304,
+                'wdt_ID' => 304,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86056',
@@ -3969,9 +3969,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 000f78f6>',
             ),
-            304 =>
+            304 => 
             array (
-                'id' => 305,
+                'wdt_ID' => 305,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86057',
@@ -3982,9 +3982,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 000f78f7>',
             ),
-            305 =>
+            305 => 
             array (
-                'id' => 306,
+                'wdt_ID' => 306,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89002',
@@ -3995,9 +3995,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78f8>',
             ),
-            306 =>
+            306 => 
             array (
-                'id' => 307,
+                'wdt_ID' => 307,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89006',
@@ -4008,9 +4008,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78f9>',
             ),
-            307 =>
+            307 => 
             array (
-                'id' => 308,
+                'wdt_ID' => 308,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89011',
@@ -4021,9 +4021,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78fa>',
             ),
-            308 =>
+            308 => 
             array (
-                'id' => 309,
+                'wdt_ID' => 309,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89013',
@@ -4034,9 +4034,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78fb>',
             ),
-            309 =>
+            309 => 
             array (
-                'id' => 310,
+                'wdt_ID' => 310,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89016',
@@ -4047,9 +4047,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78fc>',
             ),
-            310 =>
+            310 => 
             array (
-                'id' => 311,
+                'wdt_ID' => 311,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89023',
@@ -4060,9 +4060,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78fd>',
             ),
-            311 =>
+            311 => 
             array (
-                'id' => 312,
+                'wdt_ID' => 312,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89028',
@@ -4073,9 +4073,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78fe>',
             ),
-            312 =>
+            312 => 
             array (
-                'id' => 313,
+                'wdt_ID' => 313,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89029',
@@ -4086,9 +4086,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f78ff>',
             ),
-            313 =>
+            313 => 
             array (
-                'id' => 314,
+                'wdt_ID' => 314,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'MW90244 ',
@@ -4099,9 +4099,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006032b>',
             ),
-            314 =>
+            314 => 
             array (
-                'id' => 315,
+                'wdt_ID' => 315,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P00599',
@@ -4112,9 +4112,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0015d9d2>',
             ),
-            315 =>
+            315 => 
             array (
-                'id' => 316,
+                'wdt_ID' => 316,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34757',
@@ -4125,9 +4125,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a87>',
             ),
-            316 =>
+            316 => 
             array (
-                'id' => 317,
+                'wdt_ID' => 317,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34759',
@@ -4138,9 +4138,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a8d>',
             ),
-            317 =>
+            317 => 
             array (
-                'id' => 318,
+                'wdt_ID' => 318,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34762',
@@ -4151,9 +4151,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a8e>',
             ),
-            318 =>
+            318 => 
             array (
-                'id' => 319,
+                'wdt_ID' => 319,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34763',
@@ -4164,9 +4164,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a8f>',
             ),
-            319 =>
+            319 => 
             array (
-                'id' => 320,
+                'wdt_ID' => 320,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34764',
@@ -4177,9 +4177,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a90>',
             ),
-            320 =>
+            320 => 
             array (
-                'id' => 321,
+                'wdt_ID' => 321,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34765',
@@ -4190,9 +4190,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a91>',
             ),
-            321 =>
+            321 => 
             array (
-                'id' => 322,
+                'wdt_ID' => 322,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34774',
@@ -4203,9 +4203,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473205',
                 'ssmatimestamp' => '<00000000 000f3a92>',
             ),
-            322 =>
+            322 => 
             array (
-                'id' => 323,
+                'wdt_ID' => 323,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34775',
@@ -4216,9 +4216,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473205',
                 'ssmatimestamp' => '<00000000 000f3a93>',
             ),
-            323 =>
+            323 => 
             array (
-                'id' => 324,
+                'wdt_ID' => 324,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34767',
@@ -4229,9 +4229,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473208',
                 'ssmatimestamp' => '<00000000 000f3a94>',
             ),
-            324 =>
+            324 => 
             array (
-                'id' => 325,
+                'wdt_ID' => 325,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34768',
@@ -4242,9 +4242,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473208',
                 'ssmatimestamp' => '<00000000 000f3a95>',
             ),
-            325 =>
+            325 => 
             array (
-                'id' => 326,
+                'wdt_ID' => 326,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34738',
@@ -4255,9 +4255,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a96>',
             ),
-            326 =>
+            326 => 
             array (
-                'id' => 327,
+                'wdt_ID' => 327,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34779',
@@ -4268,9 +4268,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a97>',
             ),
-            327 =>
+            327 => 
             array (
-                'id' => 328,
+                'wdt_ID' => 328,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38018',
@@ -4281,9 +4281,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ffa9>',
             ),
-            328 =>
+            328 => 
             array (
-                'id' => 329,
+                'wdt_ID' => 329,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38019',
@@ -4294,9 +4294,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ffaa>',
             ),
-            329 =>
+            329 => 
             array (
-                'id' => 330,
+                'wdt_ID' => 330,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38020',
@@ -4307,9 +4307,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ffab>',
             ),
-            330 =>
+            330 => 
             array (
-                'id' => 331,
+                'wdt_ID' => 331,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38023',
@@ -4320,9 +4320,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ffac>',
             ),
-            331 =>
+            331 => 
             array (
-                'id' => 332,
+                'wdt_ID' => 332,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38029',
@@ -4333,9 +4333,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ffad>',
             ),
-            332 =>
+            332 => 
             array (
-                'id' => 333,
+                'wdt_ID' => 333,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC130656',
@@ -4346,9 +4346,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00105b81>',
             ),
-            333 =>
+            333 => 
             array (
-                'id' => 334,
+                'wdt_ID' => 334,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5460',
@@ -4359,9 +4359,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0010d0b1>',
             ),
-            334 =>
+            334 => 
             array (
-                'id' => 335,
+                'wdt_ID' => 335,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03004',
@@ -4372,9 +4372,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d885>',
             ),
-            335 =>
+            335 => 
             array (
-                'id' => 336,
+                'wdt_ID' => 336,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4405',
@@ -4385,9 +4385,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f35>',
             ),
-            336 =>
+            336 => 
             array (
-                'id' => 337,
+                'wdt_ID' => 337,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P55061',
@@ -4398,9 +4398,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00113e22>',
             ),
-            337 =>
+            337 => 
             array (
-                'id' => 338,
+                'wdt_ID' => 338,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25098',
@@ -4411,9 +4411,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 00113e30>',
             ),
-            338 =>
+            338 => 
             array (
-                'id' => 339,
+                'wdt_ID' => 339,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1420',
@@ -4424,9 +4424,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001145f2>',
             ),
-            339 =>
+            339 => 
             array (
-                'id' => 340,
+                'wdt_ID' => 340,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1426',
@@ -4437,9 +4437,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001145f3>',
             ),
-            340 =>
+            340 => 
             array (
-                'id' => 341,
+                'wdt_ID' => 341,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1427',
@@ -4450,9 +4450,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001145f4>',
             ),
-            341 =>
+            341 => 
             array (
-                'id' => 342,
+                'wdt_ID' => 342,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1428',
@@ -4463,9 +4463,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ece>',
             ),
-            342 =>
+            342 => 
             array (
-                'id' => 343,
+                'wdt_ID' => 343,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1429',
@@ -4476,9 +4476,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ecf>',
             ),
-            343 =>
+            343 => 
             array (
-                'id' => 344,
+                'wdt_ID' => 344,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1430',
@@ -4489,9 +4489,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ed0>',
             ),
-            344 =>
+            344 => 
             array (
-                'id' => 345,
+                'wdt_ID' => 345,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1434',
@@ -4502,9 +4502,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ed3>',
             ),
-            345 =>
+            345 => 
             array (
-                'id' => 346,
+                'wdt_ID' => 346,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1435',
@@ -4515,9 +4515,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001145f9>',
             ),
-            346 =>
+            346 => 
             array (
-                'id' => 347,
+                'wdt_ID' => 347,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1436',
@@ -4528,9 +4528,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ed4>',
             ),
-            347 =>
+            347 => 
             array (
-                'id' => 348,
+                'wdt_ID' => 348,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1439',
@@ -4541,9 +4541,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001145fb>',
             ),
-            348 =>
+            348 => 
             array (
-                'id' => 349,
+                'wdt_ID' => 349,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1441',
@@ -4554,9 +4554,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3ec2>',
             ),
-            349 =>
+            349 => 
             array (
-                'id' => 350,
+                'wdt_ID' => 350,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3029',
@@ -4567,9 +4567,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c1>',
             ),
-            350 =>
+            350 => 
             array (
-                'id' => 351,
+                'wdt_ID' => 351,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3028',
@@ -4580,9 +4580,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c2>',
             ),
-            351 =>
+            351 => 
             array (
-                'id' => 352,
+                'wdt_ID' => 352,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3029',
@@ -4593,9 +4593,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c3>',
             ),
-            352 =>
+            352 => 
             array (
-                'id' => 353,
+                'wdt_ID' => 353,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3030',
@@ -4606,9 +4606,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c4>',
             ),
-            353 =>
+            353 => 
             array (
-                'id' => 354,
+                'wdt_ID' => 354,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3030',
@@ -4619,9 +4619,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c5>',
             ),
-            354 =>
+            354 => 
             array (
-                'id' => 355,
+                'wdt_ID' => 355,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3031',
@@ -4632,9 +4632,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c6>',
             ),
-            355 =>
+            355 => 
             array (
-                'id' => 356,
+                'wdt_ID' => 356,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3031',
@@ -4645,9 +4645,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c7>',
             ),
-            356 =>
+            356 => 
             array (
-                'id' => 357,
+                'wdt_ID' => 357,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1794',
@@ -4658,9 +4658,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c8>',
             ),
-            357 =>
+            357 => 
             array (
-                'id' => 358,
+                'wdt_ID' => 358,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1794',
@@ -4671,9 +4671,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20c9>',
             ),
-            358 =>
+            358 => 
             array (
-                'id' => 359,
+                'wdt_ID' => 359,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1795',
@@ -4684,9 +4684,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20ca>',
             ),
-            359 =>
+            359 => 
             array (
-                'id' => 360,
+                'wdt_ID' => 360,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1795',
@@ -4697,9 +4697,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20cb>',
             ),
-            360 =>
+            360 => 
             array (
-                'id' => 361,
+                'wdt_ID' => 361,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1585',
@@ -4710,9 +4710,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20cc>',
             ),
-            361 =>
+            361 => 
             array (
-                'id' => 362,
+                'wdt_ID' => 362,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1586',
@@ -4723,9 +4723,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20cd>',
             ),
-            362 =>
+            362 => 
             array (
-                'id' => 363,
+                'wdt_ID' => 363,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1791',
@@ -4736,9 +4736,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20ce>',
             ),
-            363 =>
+            363 => 
             array (
-                'id' => 364,
+                'wdt_ID' => 364,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1791',
@@ -4749,9 +4749,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20cf>',
             ),
-            364 =>
+            364 => 
             array (
-                'id' => 365,
+                'wdt_ID' => 365,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1792',
@@ -4762,9 +4762,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20d0>',
             ),
-            365 =>
+            365 => 
             array (
-                'id' => 366,
+                'wdt_ID' => 366,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1792',
@@ -4775,9 +4775,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20d1>',
             ),
-            366 =>
+            366 => 
             array (
-                'id' => 367,
+                'wdt_ID' => 367,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1793',
@@ -4788,9 +4788,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20d2>',
             ),
-            367 =>
+            367 => 
             array (
-                'id' => 368,
+                'wdt_ID' => 368,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1793',
@@ -4801,9 +4801,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20d3>',
             ),
-            368 =>
+            368 => 
             array (
-                'id' => 369,
+                'wdt_ID' => 369,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1805',
@@ -4814,9 +4814,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20d4>',
             ),
-            369 =>
+            369 => 
             array (
-                'id' => 370,
+                'wdt_ID' => 370,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1805',
@@ -4827,9 +4827,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f20d5>',
             ),
-            370 =>
+            370 => 
             array (
-                'id' => 371,
+                'wdt_ID' => 371,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH97001',
@@ -4840,9 +4840,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001fc55f>',
             ),
-            371 =>
+            371 => 
             array (
-                'id' => 372,
+                'wdt_ID' => 372,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB97929',
@@ -4853,9 +4853,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001fccb7>',
             ),
-            372 =>
+            372 => 
             array (
-                'id' => 373,
+                'wdt_ID' => 373,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1761',
@@ -4866,9 +4866,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001fdc59>',
             ),
-            373 =>
+            373 => 
             array (
-                'id' => 374,
+                'wdt_ID' => 374,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25117',
@@ -4879,9 +4879,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ffbef>',
             ),
-            374 =>
+            374 => 
             array (
-                'id' => 375,
+                'wdt_ID' => 375,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31298',
@@ -4892,9 +4892,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002004b2>',
             ),
-            375 =>
+            375 => 
             array (
-                'id' => 376,
+                'wdt_ID' => 376,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31308',
@@ -4905,9 +4905,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002004b3>',
             ),
-            376 =>
+            376 => 
             array (
-                'id' => 377,
+                'wdt_ID' => 377,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31098',
@@ -4918,9 +4918,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002004b4>',
             ),
-            377 =>
+            377 => 
             array (
-                'id' => 378,
+                'wdt_ID' => 378,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31048',
@@ -4931,9 +4931,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00200b21>',
             ),
-            378 =>
+            378 => 
             array (
-                'id' => 379,
+                'wdt_ID' => 379,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31078',
@@ -4944,9 +4944,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00200b22>',
             ),
-            379 =>
+            379 => 
             array (
-                'id' => 380,
+                'wdt_ID' => 380,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31038',
@@ -4957,9 +4957,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00200b23>',
             ),
-            380 =>
+            380 => 
             array (
-                'id' => 381,
+                'wdt_ID' => 381,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31318',
@@ -4970,9 +4970,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00200b24>',
             ),
-            381 =>
+            381 => 
             array (
-                'id' => 382,
+                'wdt_ID' => 382,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31028',
@@ -4983,9 +4983,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00200b25>',
             ),
-            382 =>
+            382 => 
             array (
-                'id' => 383,
+                'wdt_ID' => 383,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31058',
@@ -4996,9 +4996,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00203231>',
             ),
-            383 =>
+            383 => 
             array (
-                'id' => 384,
+                'wdt_ID' => 384,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31088',
@@ -5009,9 +5009,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00203232>',
             ),
-            384 =>
+            384 => 
             array (
-                'id' => 385,
+                'wdt_ID' => 385,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25118',
@@ -5022,9 +5022,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0020b75b>',
             ),
-            385 =>
+            385 => 
             array (
-                'id' => 386,
+                'wdt_ID' => 386,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1798',
@@ -5035,9 +5035,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0020d641>',
             ),
-            386 =>
+            386 => 
             array (
-                'id' => 387,
+                'wdt_ID' => 387,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1798',
@@ -5048,9 +5048,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0020d642>',
             ),
-            387 =>
+            387 => 
             array (
-                'id' => 388,
+                'wdt_ID' => 388,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1802',
@@ -5061,9 +5061,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0020de11>',
             ),
-            388 =>
+            388 => 
             array (
-                'id' => 389,
+                'wdt_ID' => 389,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1747',
@@ -5074,9 +5074,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0020de2b>',
             ),
-            389 =>
+            389 => 
             array (
-                'id' => 390,
+                'wdt_ID' => 390,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1806',
@@ -5087,9 +5087,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002114c2>',
             ),
-            390 =>
+            390 => 
             array (
-                'id' => 391,
+                'wdt_ID' => 391,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1806',
@@ -5100,9 +5100,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002114c3>',
             ),
-            391 =>
+            391 => 
             array (
-                'id' => 392,
+                'wdt_ID' => 392,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1797',
@@ -5113,9 +5113,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212464>',
             ),
-            392 =>
+            392 => 
             array (
-                'id' => 393,
+                'wdt_ID' => 393,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1797',
@@ -5126,9 +5126,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212463>',
             ),
-            393 =>
+            393 => 
             array (
-                'id' => 394,
+                'wdt_ID' => 394,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1807',
@@ -5139,9 +5139,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212465>',
             ),
-            394 =>
+            394 => 
             array (
-                'id' => 395,
+                'wdt_ID' => 395,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1807',
@@ -5152,9 +5152,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212466>',
             ),
-            395 =>
+            395 => 
             array (
-                'id' => 396,
+                'wdt_ID' => 396,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1808',
@@ -5165,9 +5165,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212467>',
             ),
-            396 =>
+            396 => 
             array (
-                'id' => 397,
+                'wdt_ID' => 397,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1808',
@@ -5178,9 +5178,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212468>',
             ),
-            397 =>
+            397 => 
             array (
-                'id' => 398,
+                'wdt_ID' => 398,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1809',
@@ -5191,9 +5191,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212469>',
             ),
-            398 =>
+            398 => 
             array (
-                'id' => 399,
+                'wdt_ID' => 399,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1809',
@@ -5204,9 +5204,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021246a>',
             ),
-            399 =>
+            399 => 
             array (
-                'id' => 400,
+                'wdt_ID' => 400,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1810',
@@ -5217,9 +5217,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021246b>',
             ),
-            400 =>
+            400 => 
             array (
-                'id' => 401,
+                'wdt_ID' => 401,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1810',
@@ -5230,9 +5230,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021246c>',
             ),
-            401 =>
+            401 => 
             array (
-                'id' => 402,
+                'wdt_ID' => 402,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1788',
@@ -5243,9 +5243,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021246d>',
             ),
-            402 =>
+            402 => 
             array (
-                'id' => 403,
+                'wdt_ID' => 403,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1788',
@@ -5256,9 +5256,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021246e>',
             ),
-            403 =>
+            403 => 
             array (
-                'id' => 404,
+                'wdt_ID' => 404,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1789',
@@ -5269,9 +5269,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021246f>',
             ),
-            404 =>
+            404 => 
             array (
-                'id' => 405,
+                'wdt_ID' => 405,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1789',
@@ -5282,9 +5282,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212470>',
             ),
-            405 =>
+            405 => 
             array (
-                'id' => 406,
+                'wdt_ID' => 406,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1790',
@@ -5295,9 +5295,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212472>',
             ),
-            406 =>
+            406 => 
             array (
-                'id' => 407,
+                'wdt_ID' => 407,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1790',
@@ -5308,9 +5308,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212473>',
             ),
-            407 =>
+            407 => 
             array (
-                'id' => 408,
+                'wdt_ID' => 408,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1784',
@@ -5321,9 +5321,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212c31>',
             ),
-            408 =>
+            408 => 
             array (
-                'id' => 409,
+                'wdt_ID' => 409,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1784',
@@ -5334,9 +5334,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213401>',
             ),
-            409 =>
+            409 => 
             array (
-                'id' => 410,
+                'wdt_ID' => 410,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1785',
@@ -5347,9 +5347,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213402>',
             ),
-            410 =>
+            410 => 
             array (
-                'id' => 411,
+                'wdt_ID' => 411,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1785',
@@ -5360,9 +5360,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213403>',
             ),
-            411 =>
+            411 => 
             array (
-                'id' => 412,
+                'wdt_ID' => 412,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1786',
@@ -5373,9 +5373,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213404>',
             ),
-            412 =>
+            412 => 
             array (
-                'id' => 413,
+                'wdt_ID' => 413,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1786',
@@ -5386,9 +5386,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213405>',
             ),
-            413 =>
+            413 => 
             array (
-                'id' => 414,
+                'wdt_ID' => 414,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1787',
@@ -5399,9 +5399,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213406>',
             ),
-            414 =>
+            414 => 
             array (
-                'id' => 415,
+                'wdt_ID' => 415,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1787',
@@ -5412,9 +5412,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213407>',
             ),
-            415 =>
+            415 => 
             array (
-                'id' => 416,
+                'wdt_ID' => 416,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1820',
@@ -5425,9 +5425,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213408>',
             ),
-            416 =>
+            416 => 
             array (
-                'id' => 417,
+                'wdt_ID' => 417,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1820',
@@ -5438,9 +5438,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213409>',
             ),
-            417 =>
+            417 => 
             array (
-                'id' => 418,
+                'wdt_ID' => 418,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1821',
@@ -5451,9 +5451,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021340a>',
             ),
-            418 =>
+            418 => 
             array (
-                'id' => 419,
+                'wdt_ID' => 419,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1821',
@@ -5464,9 +5464,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021340b>',
             ),
-            419 =>
+            419 => 
             array (
-                'id' => 420,
+                'wdt_ID' => 420,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1822',
@@ -5477,9 +5477,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0021340c>',
             ),
-            420 =>
+            420 => 
             array (
-                'id' => 421,
+                'wdt_ID' => 421,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1822',
@@ -5490,9 +5490,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00213bd1>',
             ),
-            421 =>
+            421 => 
             array (
-                'id' => 422,
+                'wdt_ID' => 422,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32778',
@@ -5503,9 +5503,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002143a1>',
             ),
-            422 =>
+            422 => 
             array (
-                'id' => 423,
+                'wdt_ID' => 423,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32818',
@@ -5516,9 +5516,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002143a2>',
             ),
-            423 =>
+            423 => 
             array (
-                'id' => 424,
+                'wdt_ID' => 424,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32788',
@@ -5529,9 +5529,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00214b71>',
             ),
-            424 =>
+            424 => 
             array (
-                'id' => 425,
+                'wdt_ID' => 425,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32828',
@@ -5542,9 +5542,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00214b72>',
             ),
-            425 =>
+            425 => 
             array (
-                'id' => 426,
+                'wdt_ID' => 426,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32798',
@@ -5555,9 +5555,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00214b73>',
             ),
-            426 =>
+            426 => 
             array (
-                'id' => 427,
+                'wdt_ID' => 427,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32838',
@@ -5568,9 +5568,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00214b74>',
             ),
-            427 =>
+            427 => 
             array (
-                'id' => 428,
+                'wdt_ID' => 428,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32808',
@@ -5581,9 +5581,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00214b75>',
             ),
-            428 =>
+            428 => 
             array (
-                'id' => 429,
+                'wdt_ID' => 429,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32848',
@@ -5594,9 +5594,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00214b76>',
             ),
-            429 =>
+            429 => 
             array (
-                'id' => 430,
+                'wdt_ID' => 430,
                 'cono' => NULL,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60002',
@@ -5607,9 +5607,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b5271>',
             ),
-            430 =>
+            430 => 
             array (
-                'id' => 431,
+                'wdt_ID' => 431,
                 'cono' => NULL,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60003',
@@ -5620,9 +5620,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b527a>',
             ),
-            431 =>
+            431 => 
             array (
-                'id' => 432,
+                'wdt_ID' => 432,
                 'cono' => NULL,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60008',
@@ -5633,9 +5633,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b5273>',
             ),
-            432 =>
+            432 => 
             array (
-                'id' => 433,
+                'wdt_ID' => 433,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC1425',
@@ -5646,9 +5646,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00148201>',
             ),
-            433 =>
+            433 => 
             array (
-                'id' => 434,
+                'wdt_ID' => 434,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1650',
@@ -5659,9 +5659,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007d00f>',
             ),
-            434 =>
+            434 => 
             array (
-                'id' => 435,
+                'wdt_ID' => 435,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1651',
@@ -5672,9 +5672,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007d010>',
             ),
-            435 =>
+            435 => 
             array (
-                'id' => 436,
+                'wdt_ID' => 436,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25089',
@@ -5685,9 +5685,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 0007ef41>',
             ),
-            436 =>
+            436 => 
             array (
-                'id' => 437,
+                'wdt_ID' => 437,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02397',
@@ -5698,9 +5698,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 0010ff9e>',
             ),
-            437 =>
+            437 => 
             array (
-                'id' => 438,
+                'wdt_ID' => 438,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'TY71161',
@@ -5711,9 +5711,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0007fee1>',
             ),
-            438 =>
+            438 => 
             array (
-                'id' => 439,
+                'wdt_ID' => 439,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02388',
@@ -5724,9 +5724,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14400',
                 'ssmatimestamp' => '<00000000 0010ff9a>',
             ),
-            439 =>
+            439 => 
             array (
-                'id' => 440,
+                'wdt_ID' => 440,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC30004',
@@ -5737,9 +5737,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0009d3a4>',
             ),
-            440 =>
+            440 => 
             array (
-                'id' => 441,
+                'wdt_ID' => 441,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02386',
@@ -5750,9 +5750,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14696',
                 'ssmatimestamp' => '<00000000 0010ff99>',
             ),
-            441 =>
+            441 => 
             array (
-                'id' => 442,
+                'wdt_ID' => 442,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03002',
@@ -5763,9 +5763,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0010d884>',
             ),
-            442 =>
+            442 => 
             array (
-                'id' => 443,
+                'wdt_ID' => 443,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03000',
@@ -5776,9 +5776,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0010d883>',
             ),
-            443 =>
+            443 => 
             array (
-                'id' => 444,
+                'wdt_ID' => 444,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00286',
@@ -5789,9 +5789,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 0010eff5>',
             ),
-            444 =>
+            444 => 
             array (
-                'id' => 445,
+                'wdt_ID' => 445,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02383',
@@ -5802,9 +5802,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000854d1>',
             ),
-            445 =>
+            445 => 
             array (
-                'id' => 446,
+                'wdt_ID' => 446,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00285',
@@ -5815,9 +5815,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '125501',
                 'ssmatimestamp' => '<00000000 00085ca1>',
             ),
-            446 =>
+            446 => 
             array (
-                'id' => 447,
+                'wdt_ID' => 447,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00287',
@@ -5828,9 +5828,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 00086c41>',
             ),
-            447 =>
+            447 => 
             array (
-                'id' => 448,
+                'wdt_ID' => 448,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'Z11055',
@@ -5841,9 +5841,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00087be1>',
             ),
-            448 =>
+            448 => 
             array (
-                'id' => 449,
+                'wdt_ID' => 449,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60003FR',
@@ -5854,9 +5854,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b527b>',
             ),
-            449 =>
+            449 => 
             array (
-                'id' => 450,
+                'wdt_ID' => 450,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'E00283',
@@ -5867,9 +5867,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 000883b1>',
             ),
-            450 =>
+            450 => 
             array (
-                'id' => 451,
+                'wdt_ID' => 451,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02379',
@@ -5880,9 +5880,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14711',
                 'ssmatimestamp' => '<00000000 0010ff97>',
             ),
-            451 =>
+            451 => 
             array (
-                'id' => 452,
+                'wdt_ID' => 452,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81043',
@@ -5893,9 +5893,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffaf>',
             ),
-            452 =>
+            452 => 
             array (
-                'id' => 453,
+                'wdt_ID' => 453,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00284',
@@ -5906,9 +5906,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0008a2f1>',
             ),
-            453 =>
+            453 => 
             array (
-                'id' => 454,
+                'wdt_ID' => 454,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00281',
@@ -5919,9 +5919,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0008b291>',
             ),
-            454 =>
+            454 => 
             array (
-                'id' => 455,
+                'wdt_ID' => 455,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02396',
@@ -5932,9 +5932,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ff9d>',
             ),
-            455 =>
+            455 => 
             array (
-                'id' => 456,
+                'wdt_ID' => 456,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02391',
@@ -5945,9 +5945,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008c232>',
             ),
-            456 =>
+            456 => 
             array (
-                'id' => 457,
+                'wdt_ID' => 457,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02395',
@@ -5958,9 +5958,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010ff9c>',
             ),
-            457 =>
+            457 => 
             array (
-                'id' => 458,
+                'wdt_ID' => 458,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60005',
@@ -5971,9 +5971,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0008d1d1>',
             ),
-            458 =>
+            458 => 
             array (
-                'id' => 459,
+                'wdt_ID' => 459,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60020',
@@ -5984,9 +5984,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0008d1d2>',
             ),
-            459 =>
+            459 => 
             array (
-                'id' => 460,
+                'wdt_ID' => 460,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60418',
@@ -5997,9 +5997,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0008d1d3>',
             ),
-            460 =>
+            460 => 
             array (
-                'id' => 461,
+                'wdt_ID' => 461,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02387',
@@ -6010,9 +6010,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008d9a1>',
             ),
-            461 =>
+            461 => 
             array (
-                'id' => 462,
+                'wdt_ID' => 462,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02394',
@@ -6023,9 +6023,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008e171>',
             ),
-            462 =>
+            462 => 
             array (
-                'id' => 463,
+                'wdt_ID' => 463,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02385',
@@ -6036,9 +6036,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14545',
                 'ssmatimestamp' => '<00000000 0010ff98>',
             ),
-            463 =>
+            463 => 
             array (
-                'id' => 464,
+                'wdt_ID' => 464,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02389',
@@ -6049,9 +6049,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0010ff9b>',
             ),
-            464 =>
+            464 => 
             array (
-                'id' => 465,
+                'wdt_ID' => 465,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02390',
@@ -6062,9 +6062,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008e174>',
             ),
-            465 =>
+            465 => 
             array (
-                'id' => 466,
+                'wdt_ID' => 466,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AW81590',
@@ -6075,9 +6075,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008e941>',
             ),
-            466 =>
+            466 => 
             array (
-                'id' => 467,
+                'wdt_ID' => 467,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1501',
@@ -6088,9 +6088,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0008f111>',
             ),
-            467 =>
+            467 => 
             array (
-                'id' => 468,
+                'wdt_ID' => 468,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1503',
@@ -6101,9 +6101,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0008f8e1>',
             ),
-            468 =>
+            468 => 
             array (
-                'id' => 469,
+                'wdt_ID' => 469,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC130663',
@@ -6114,9 +6114,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c7b59>',
             ),
-            469 =>
+            469 => 
             array (
-                'id' => 470,
+                'wdt_ID' => 470,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05005',
@@ -6127,9 +6127,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000927c1>',
             ),
-            470 =>
+            470 => 
             array (
-                'id' => 471,
+                'wdt_ID' => 471,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05001',
@@ -6140,9 +6140,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00092f91>',
             ),
-            471 =>
+            471 => 
             array (
-                'id' => 472,
+                'wdt_ID' => 472,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65000',
@@ -6153,9 +6153,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00110f3d>',
             ),
-            472 =>
+            472 => 
             array (
-                'id' => 473,
+                'wdt_ID' => 473,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02393',
@@ -6166,9 +6166,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00094701>',
             ),
-            473 =>
+            473 => 
             array (
-                'id' => 474,
+                'wdt_ID' => 474,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65002',
@@ -6179,9 +6179,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00110f3f>',
             ),
-            474 =>
+            474 => 
             array (
-                'id' => 475,
+                'wdt_ID' => 475,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1438',
@@ -6192,9 +6192,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ed6>',
             ),
-            475 =>
+            475 => 
             array (
-                'id' => 476,
+                'wdt_ID' => 476,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1440',
@@ -6205,9 +6205,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ed7>',
             ),
-            476 =>
+            476 => 
             array (
-                'id' => 477,
+                'wdt_ID' => 477,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1715',
@@ -6218,9 +6218,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ef8>',
             ),
-            477 =>
+            477 => 
             array (
-                'id' => 478,
+                'wdt_ID' => 478,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1716',
@@ -6231,9 +6231,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00114dca>',
             ),
-            478 =>
+            478 => 
             array (
-                'id' => 479,
+                'wdt_ID' => 479,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1423',
@@ -6244,9 +6244,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ecd>',
             ),
-            479 =>
+            479 => 
             array (
-                'id' => 480,
+                'wdt_ID' => 480,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1424',
@@ -6257,9 +6257,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00114dd2>',
             ),
-            480 =>
+            480 => 
             array (
-                'id' => 481,
+                'wdt_ID' => 481,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1432',
@@ -6270,9 +6270,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 001a3ed2>',
             ),
-            481 =>
+            481 => 
             array (
-                'id' => 482,
+                'wdt_ID' => 482,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1433',
@@ -6283,9 +6283,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00114dd4>',
             ),
-            482 =>
+            482 => 
             array (
-                'id' => 483,
+                'wdt_ID' => 483,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1442',
@@ -6296,9 +6296,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00115581>',
             ),
-            483 =>
+            483 => 
             array (
-                'id' => 484,
+                'wdt_ID' => 484,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1444',
@@ -6309,9 +6309,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00115d51>',
             ),
-            484 =>
+            484 => 
             array (
-                'id' => 485,
+                'wdt_ID' => 485,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1421',
@@ -6322,9 +6322,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116521>',
             ),
-            485 =>
+            485 => 
             array (
-                'id' => 486,
+                'wdt_ID' => 486,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2066',
@@ -6335,9 +6335,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116cff>',
             ),
-            486 =>
+            486 => 
             array (
-                'id' => 487,
+                'wdt_ID' => 487,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25090',
@@ -6348,9 +6348,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 001174cb>',
             ),
-            487 =>
+            487 => 
             array (
-                'id' => 488,
+                'wdt_ID' => 488,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1458',
@@ -6361,9 +6361,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c08b>',
             ),
-            488 =>
+            488 => 
             array (
-                'id' => 489,
+                'wdt_ID' => 489,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25076',
@@ -6374,9 +6374,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 0005e43b>',
             ),
-            489 =>
+            489 => 
             array (
-                'id' => 490,
+                'wdt_ID' => 490,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25077',
@@ -6387,9 +6387,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 0005e43c>',
             ),
-            490 =>
+            490 => 
             array (
-                'id' => 491,
+                'wdt_ID' => 491,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25101',
@@ -6400,9 +6400,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 00118c5e>',
             ),
-            491 =>
+            491 => 
             array (
-                'id' => 492,
+                'wdt_ID' => 492,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1460',
@@ -6413,9 +6413,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0017c5f3>',
             ),
-            492 =>
+            492 => 
             array (
-                'id' => 493,
+                'wdt_ID' => 493,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1518',
@@ -6426,9 +6426,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 001a3ee4>',
             ),
-            493 =>
+            493 => 
             array (
-                'id' => 494,
+                'wdt_ID' => 494,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1445',
@@ -6439,9 +6439,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001758ab>',
             ),
-            494 =>
+            494 => 
             array (
-                'id' => 495,
+                'wdt_ID' => 495,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1462',
@@ -6452,9 +6452,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0011ab72>',
             ),
-            495 =>
+            495 => 
             array (
-                'id' => 496,
+                'wdt_ID' => 496,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25099',
@@ -6465,9 +6465,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 0011b341>',
             ),
-            496 =>
+            496 => 
             array (
-                'id' => 497,
+                'wdt_ID' => 497,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1519',
@@ -6478,9 +6478,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ee5>',
             ),
-            497 =>
+            497 => 
             array (
-                'id' => 498,
+                'wdt_ID' => 498,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1520',
@@ -6491,9 +6491,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ee6>',
             ),
-            498 =>
+            498 => 
             array (
-                'id' => 499,
+                'wdt_ID' => 499,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1517',
@@ -6504,9 +6504,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0011bb13>',
             ),
-            499 =>
+            499 => 
             array (
-                'id' => 500,
+                'wdt_ID' => 500,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1521',
@@ -6519,9 +6519,9 @@ class VwitemsTableSeeder extends Seeder
             ),
         ));
         \DB::table('vwitems')->insert(array (
-            0 =>
+            0 => 
             array (
-                'id' => 501,
+                'wdt_ID' => 501,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1522',
@@ -6532,9 +6532,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ee9>',
             ),
-            1 =>
+            1 => 
             array (
-                'id' => 502,
+                'wdt_ID' => 502,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1523',
@@ -6545,9 +6545,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3eea>',
             ),
-            2 =>
+            2 => 
             array (
-                'id' => 503,
+                'wdt_ID' => 503,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25105',
@@ -6558,9 +6558,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1474001',
                 'ssmatimestamp' => '<00000000 0011d281>',
             ),
-            3 =>
+            3 => 
             array (
-                'id' => 504,
+                'wdt_ID' => 504,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC90433',
@@ -6571,9 +6571,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0011da70>',
             ),
-            4 =>
+            4 => 
             array (
-                'id' => 505,
+                'wdt_ID' => 505,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => '',
@@ -6584,9 +6584,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 00120931>',
             ),
-            5 =>
+            5 => 
             array (
-                'id' => 506,
+                'wdt_ID' => 506,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35021',
@@ -6597,9 +6597,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 00121101>',
             ),
-            6 =>
+            6 => 
             array (
-                'id' => 507,
+                'wdt_ID' => 507,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35077',
@@ -6610,9 +6610,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 001218d1>',
             ),
-            7 =>
+            7 => 
             array (
-                'id' => 508,
+                'wdt_ID' => 508,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC33411',
@@ -6623,9 +6623,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 001220d7>',
             ),
-            8 =>
+            8 => 
             array (
-                'id' => 509,
+                'wdt_ID' => 509,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35233',
@@ -6636,9 +6636,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123041>',
             ),
-            9 =>
+            9 => 
             array (
-                'id' => 510,
+                'wdt_ID' => 510,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35234',
@@ -6649,9 +6649,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123042>',
             ),
-            10 =>
+            10 => 
             array (
-                'id' => 511,
+                'wdt_ID' => 511,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35235',
@@ -6662,9 +6662,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 00123043>',
             ),
-            11 =>
+            11 => 
             array (
-                'id' => 512,
+                'wdt_ID' => 512,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35236',
@@ -6675,9 +6675,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123044>',
             ),
-            12 =>
+            12 => 
             array (
-                'id' => 513,
+                'wdt_ID' => 513,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35247',
@@ -6688,9 +6688,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123811>',
             ),
-            13 =>
+            13 => 
             array (
-                'id' => 514,
+                'wdt_ID' => 514,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1527',
@@ -6701,9 +6701,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00126704>',
             ),
-            14 =>
+            14 => 
             array (
-                'id' => 515,
+                'wdt_ID' => 515,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00333',
@@ -6714,9 +6714,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 00127e64>',
             ),
-            15 =>
+            15 => 
             array (
-                'id' => 516,
+                'wdt_ID' => 516,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G90364',
@@ -6727,9 +6727,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 0012bce1>',
             ),
-            16 =>
+            16 => 
             array (
-                'id' => 517,
+                'wdt_ID' => 517,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25078',
@@ -6740,9 +6740,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2664501',
                 'ssmatimestamp' => '<00000000 0005e42a>',
             ),
-            17 =>
+            17 => 
             array (
-                'id' => 518,
+                'wdt_ID' => 518,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P20098',
@@ -6753,9 +6753,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0005e433>',
             ),
-            18 =>
+            18 => 
             array (
-                'id' => 519,
+                'wdt_ID' => 519,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25095',
@@ -6766,9 +6766,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464103',
                 'ssmatimestamp' => '<00000000 001174d6>',
             ),
-            19 =>
+            19 => 
             array (
-                'id' => 520,
+                'wdt_ID' => 520,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02430',
@@ -6779,9 +6779,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 0012cc81>',
             ),
-            20 =>
+            20 => 
             array (
-                'id' => 521,
+                'wdt_ID' => 521,
                 'cono' => 1,
                 'whse' => '',
                 'itemid' => 'MAIN',
@@ -6792,9 +6792,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 0012cc82>',
             ),
-            21 =>
+            21 => 
             array (
-                'id' => 522,
+                'wdt_ID' => 522,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02433',
@@ -6805,9 +6805,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0012cc83>',
             ),
-            22 =>
+            22 => 
             array (
-                'id' => 523,
+                'wdt_ID' => 523,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02434',
@@ -6818,9 +6818,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 0012cc84>',
             ),
-            23 =>
+            23 => 
             array (
-                'id' => 524,
+                'wdt_ID' => 524,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02435',
@@ -6831,9 +6831,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 0012cc85>',
             ),
-            24 =>
+            24 => 
             array (
-                'id' => 525,
+                'wdt_ID' => 525,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02436',
@@ -6844,9 +6844,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14743',
                 'ssmatimestamp' => '<00000000 0012cc86>',
             ),
-            25 =>
+            25 => 
             array (
-                'id' => 526,
+                'wdt_ID' => 526,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02437',
@@ -6857,9 +6857,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 0012cc87>',
             ),
-            26 =>
+            26 => 
             array (
-                'id' => 527,
+                'wdt_ID' => 527,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02438',
@@ -6870,9 +6870,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 0012cc88>',
             ),
-            27 =>
+            27 => 
             array (
-                'id' => 528,
+                'wdt_ID' => 528,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02442',
@@ -6883,9 +6883,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13405',
                 'ssmatimestamp' => '<00000000 0012cc89>',
             ),
-            28 =>
+            28 => 
             array (
-                'id' => 529,
+                'wdt_ID' => 529,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02443',
@@ -6896,9 +6896,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13405',
                 'ssmatimestamp' => '<00000000 0012cc8a>',
             ),
-            29 =>
+            29 => 
             array (
-                'id' => 530,
+                'wdt_ID' => 530,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02444',
@@ -6909,9 +6909,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14750',
                 'ssmatimestamp' => '<00000000 0012cc8b>',
             ),
-            30 =>
+            30 => 
             array (
-                'id' => 531,
+                'wdt_ID' => 531,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02447',
@@ -6922,9 +6922,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14603',
                 'ssmatimestamp' => '<00000000 0012cc8c>',
             ),
-            31 =>
+            31 => 
             array (
-                'id' => 532,
+                'wdt_ID' => 532,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02452',
@@ -6935,9 +6935,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 0012cc8d>',
             ),
-            32 =>
+            32 => 
             array (
-                'id' => 533,
+                'wdt_ID' => 533,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02453',
@@ -6948,9 +6948,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 0012cc8e>',
             ),
-            33 =>
+            33 => 
             array (
-                'id' => 534,
+                'wdt_ID' => 534,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02461',
@@ -6961,9 +6961,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 0012cc8f>',
             ),
-            34 =>
+            34 => 
             array (
-                'id' => 535,
+                'wdt_ID' => 535,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02462',
@@ -6974,9 +6974,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14400',
                 'ssmatimestamp' => '<00000000 0012cc90>',
             ),
-            35 =>
+            35 => 
             array (
-                'id' => 536,
+                'wdt_ID' => 536,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC134229',
@@ -6987,9 +6987,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 0012cc91>',
             ),
-            36 =>
+            36 => 
             array (
-                'id' => 537,
+                'wdt_ID' => 537,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC134361',
@@ -7000,9 +7000,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 0012cc92>',
             ),
-            37 =>
+            37 => 
             array (
-                'id' => 538,
+                'wdt_ID' => 538,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137039',
@@ -7013,9 +7013,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 0012cc93>',
             ),
-            38 =>
+            38 => 
             array (
-                'id' => 539,
+                'wdt_ID' => 539,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00351',
@@ -7026,9 +7026,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0012cc94>',
             ),
-            39 =>
+            39 => 
             array (
-                'id' => 540,
+                'wdt_ID' => 540,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00352',
@@ -7039,9 +7039,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13405',
                 'ssmatimestamp' => '<00000000 0012cc95>',
             ),
-            40 =>
+            40 => 
             array (
-                'id' => 541,
+                'wdt_ID' => 541,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00353',
@@ -7052,9 +7052,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0012cc96>',
             ),
-            41 =>
+            41 => 
             array (
-                'id' => 542,
+                'wdt_ID' => 542,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW781240',
@@ -7065,9 +7065,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bde>',
             ),
-            42 =>
+            42 => 
             array (
-                'id' => 543,
+                'wdt_ID' => 543,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW781242',
@@ -7078,9 +7078,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bdf>',
             ),
-            43 =>
+            43 => 
             array (
-                'id' => 544,
+                'wdt_ID' => 544,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW781253',
@@ -7091,9 +7091,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be0>',
             ),
-            44 =>
+            44 => 
             array (
-                'id' => 545,
+                'wdt_ID' => 545,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW781270',
@@ -7104,9 +7104,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be1>',
             ),
-            45 =>
+            45 => 
             array (
-                'id' => 546,
+                'wdt_ID' => 546,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81251',
@@ -7117,9 +7117,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bea>',
             ),
-            46 =>
+            46 => 
             array (
-                'id' => 547,
+                'wdt_ID' => 547,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC141705',
@@ -7130,9 +7130,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00196bf6>',
             ),
-            47 =>
+            47 => 
             array (
-                'id' => 548,
+                'wdt_ID' => 548,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC140080',
@@ -7143,9 +7143,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00196bf7>',
             ),
-            48 =>
+            48 => 
             array (
-                'id' => 549,
+                'wdt_ID' => 549,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC142435',
@@ -7156,9 +7156,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00196bf8>',
             ),
-            49 =>
+            49 => 
             array (
-                'id' => 550,
+                'wdt_ID' => 550,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30078',
@@ -7169,9 +7169,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00199ab1>',
             ),
-            50 =>
+            50 => 
             array (
-                'id' => 551,
+                'wdt_ID' => 551,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30088',
@@ -7182,9 +7182,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00199ab2>',
             ),
-            51 =>
+            51 => 
             array (
-                'id' => 552,
+                'wdt_ID' => 552,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30098',
@@ -7195,9 +7195,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00199ab3>',
             ),
-            52 =>
+            52 => 
             array (
-                'id' => 553,
+                'wdt_ID' => 553,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30108',
@@ -7208,9 +7208,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00199ab4>',
             ),
-            53 =>
+            53 => 
             array (
-                'id' => 554,
+                'wdt_ID' => 554,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58001',
@@ -7221,9 +7221,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0019a281>',
             ),
-            54 =>
+            54 => 
             array (
-                'id' => 555,
+                'wdt_ID' => 555,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58002',
@@ -7234,9 +7234,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0019a282>',
             ),
-            55 =>
+            55 => 
             array (
-                'id' => 556,
+                'wdt_ID' => 556,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58003',
@@ -7247,9 +7247,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0019aa51>',
             ),
-            56 =>
+            56 => 
             array (
-                'id' => 557,
+                'wdt_ID' => 557,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58004',
@@ -7260,9 +7260,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0019aa52>',
             ),
-            57 =>
+            57 => 
             array (
-                'id' => 558,
+                'wdt_ID' => 558,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58005',
@@ -7273,9 +7273,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0019aa53>',
             ),
-            58 =>
+            58 => 
             array (
-                'id' => 559,
+                'wdt_ID' => 559,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58006',
@@ -7286,9 +7286,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 0019b221>',
             ),
-            59 =>
+            59 => 
             array (
-                'id' => 560,
+                'wdt_ID' => 560,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1505',
@@ -7299,9 +7299,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c991>',
             ),
-            60 =>
+            60 => 
             array (
-                'id' => 561,
+                'wdt_ID' => 561,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1556',
@@ -7312,9 +7312,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c992>',
             ),
-            61 =>
+            61 => 
             array (
-                'id' => 562,
+                'wdt_ID' => 562,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1586',
@@ -7325,9 +7325,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c993>',
             ),
-            62 =>
+            62 => 
             array (
-                'id' => 563,
+                'wdt_ID' => 563,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1545',
@@ -7338,9 +7338,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c994>',
             ),
-            63 =>
+            63 => 
             array (
-                'id' => 564,
+                'wdt_ID' => 564,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1585',
@@ -7351,9 +7351,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c995>',
             ),
-            64 =>
+            64 => 
             array (
-                'id' => 565,
+                'wdt_ID' => 565,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1489',
@@ -7364,9 +7364,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c996>',
             ),
-            65 =>
+            65 => 
             array (
-                'id' => 566,
+                'wdt_ID' => 566,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1491',
@@ -7377,9 +7377,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c998>',
             ),
-            66 =>
+            66 => 
             array (
-                'id' => 567,
+                'wdt_ID' => 567,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1492',
@@ -7390,9 +7390,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c999>',
             ),
-            67 =>
+            67 => 
             array (
-                'id' => 568,
+                'wdt_ID' => 568,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1553',
@@ -7403,9 +7403,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c99a>',
             ),
-            68 =>
+            68 => 
             array (
-                'id' => 569,
+                'wdt_ID' => 569,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1557',
@@ -7416,9 +7416,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c99b>',
             ),
-            69 =>
+            69 => 
             array (
-                'id' => 570,
+                'wdt_ID' => 570,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02498',
@@ -7429,9 +7429,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14760',
                 'ssmatimestamp' => '<00000000 0019f0a2>',
             ),
-            70 =>
+            70 => 
             array (
-                'id' => 571,
+                'wdt_ID' => 571,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02497',
@@ -7442,9 +7442,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 001a0041>',
             ),
-            71 =>
+            71 => 
             array (
-                'id' => 572,
+                'wdt_ID' => 572,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1463',
@@ -7455,9 +7455,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3ed9>',
             ),
-            72 =>
+            72 => 
             array (
-                'id' => 573,
+                'wdt_ID' => 573,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1483',
@@ -7468,9 +7468,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3edd>',
             ),
-            73 =>
+            73 => 
             array (
-                'id' => 574,
+                'wdt_ID' => 574,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1489',
@@ -7481,9 +7481,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3efd>',
             ),
-            74 =>
+            74 => 
             array (
-                'id' => 575,
+                'wdt_ID' => 575,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1490',
@@ -7494,9 +7494,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3efe>',
             ),
-            75 =>
+            75 => 
             array (
-                'id' => 576,
+                'wdt_ID' => 576,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1491',
@@ -7507,9 +7507,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3eff>',
             ),
-            76 =>
+            76 => 
             array (
-                'id' => 577,
+                'wdt_ID' => 577,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1492',
@@ -7520,9 +7520,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f01>',
             ),
-            77 =>
+            77 => 
             array (
-                'id' => 578,
+                'wdt_ID' => 578,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1509',
@@ -7533,9 +7533,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f02>',
             ),
-            78 =>
+            78 => 
             array (
-                'id' => 579,
+                'wdt_ID' => 579,
                 'cono' => 1,
                 'whse' => ' MAIN',
                 'itemid' => 'CF1510',
@@ -7546,9 +7546,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f03>',
             ),
-            79 =>
+            79 => 
             array (
-                'id' => 580,
+                'wdt_ID' => 580,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1545',
@@ -7559,9 +7559,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f04>',
             ),
-            80 =>
+            80 => 
             array (
-                'id' => 581,
+                'wdt_ID' => 581,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1553',
@@ -7572,9 +7572,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f05>',
             ),
-            81 =>
+            81 => 
             array (
-                'id' => 582,
+                'wdt_ID' => 582,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1556',
@@ -7585,9 +7585,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f06>',
             ),
-            82 =>
+            82 => 
             array (
-                'id' => 583,
+                'wdt_ID' => 583,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1557',
@@ -7598,9 +7598,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f07>',
             ),
-            83 =>
+            83 => 
             array (
-                'id' => 584,
+                'wdt_ID' => 584,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1564',
@@ -7611,9 +7611,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f08>',
             ),
-            84 =>
+            84 => 
             array (
-                'id' => 585,
+                'wdt_ID' => 585,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1565',
@@ -7624,9 +7624,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f09>',
             ),
-            85 =>
+            85 => 
             array (
-                'id' => 586,
+                'wdt_ID' => 586,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1566',
@@ -7637,9 +7637,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f0a>',
             ),
-            86 =>
+            86 => 
             array (
-                'id' => 587,
+                'wdt_ID' => 587,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1567',
@@ -7650,9 +7650,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f0b>',
             ),
-            87 =>
+            87 => 
             array (
-                'id' => 588,
+                'wdt_ID' => 588,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1568',
@@ -7663,9 +7663,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f0c>',
             ),
-            88 =>
+            88 => 
             array (
-                'id' => 589,
+                'wdt_ID' => 589,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF2537',
@@ -7676,9 +7676,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f0d>',
             ),
-            89 =>
+            89 => 
             array (
-                'id' => 590,
+                'wdt_ID' => 590,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF2924',
@@ -7689,9 +7689,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001a3f0e>',
             ),
-            90 =>
+            90 => 
             array (
-                'id' => 591,
+                'wdt_ID' => 591,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30468',
@@ -7702,9 +7702,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b40a8>',
             ),
-            91 =>
+            91 => 
             array (
-                'id' => 592,
+                'wdt_ID' => 592,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1720',
@@ -7715,9 +7715,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b6f71>',
             ),
-            92 =>
+            92 => 
             array (
-                'id' => 593,
+                'wdt_ID' => 593,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1720',
@@ -7728,9 +7728,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b6f72>',
             ),
-            93 =>
+            93 => 
             array (
-                'id' => 594,
+                'wdt_ID' => 594,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1721',
@@ -7741,9 +7741,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7741>',
             ),
-            94 =>
+            94 => 
             array (
-                'id' => 595,
+                'wdt_ID' => 595,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1721',
@@ -7754,9 +7754,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7742>',
             ),
-            95 =>
+            95 => 
             array (
-                'id' => 596,
+                'wdt_ID' => 596,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1722',
@@ -7767,9 +7767,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7743>',
             ),
-            96 =>
+            96 => 
             array (
-                'id' => 597,
+                'wdt_ID' => 597,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1722',
@@ -7780,9 +7780,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7744>',
             ),
-            97 =>
+            97 => 
             array (
-                'id' => 598,
+                'wdt_ID' => 598,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1723',
@@ -7793,9 +7793,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7745>',
             ),
-            98 =>
+            98 => 
             array (
-                'id' => 599,
+                'wdt_ID' => 599,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1723',
@@ -7806,9 +7806,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7746>',
             ),
-            99 =>
+            99 => 
             array (
-                'id' => 600,
+                'wdt_ID' => 600,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1724',
@@ -7819,9 +7819,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7747>',
             ),
-            100 =>
+            100 => 
             array (
-                'id' => 601,
+                'wdt_ID' => 601,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1724',
@@ -7832,9 +7832,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7748>',
             ),
-            101 =>
+            101 => 
             array (
-                'id' => 602,
+                'wdt_ID' => 602,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1725',
@@ -7845,9 +7845,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7749>',
             ),
-            102 =>
+            102 => 
             array (
-                'id' => 603,
+                'wdt_ID' => 603,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1725',
@@ -7858,9 +7858,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b774a>',
             ),
-            103 =>
+            103 => 
             array (
-                'id' => 604,
+                'wdt_ID' => 604,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1726',
@@ -7871,9 +7871,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b774b>',
             ),
-            104 =>
+            104 => 
             array (
-                'id' => 605,
+                'wdt_ID' => 605,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1726',
@@ -7884,9 +7884,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b774c>',
             ),
-            105 =>
+            105 => 
             array (
-                'id' => 606,
+                'wdt_ID' => 606,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1727',
@@ -7897,9 +7897,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b774d>',
             ),
-            106 =>
+            106 => 
             array (
-                'id' => 607,
+                'wdt_ID' => 607,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1727',
@@ -7910,9 +7910,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b774e>',
             ),
-            107 =>
+            107 => 
             array (
-                'id' => 608,
+                'wdt_ID' => 608,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1728',
@@ -7923,9 +7923,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b774f>',
             ),
-            108 =>
+            108 => 
             array (
-                'id' => 609,
+                'wdt_ID' => 609,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1728',
@@ -7936,9 +7936,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7750>',
             ),
-            109 =>
+            109 => 
             array (
-                'id' => 610,
+                'wdt_ID' => 610,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1729',
@@ -7949,9 +7949,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7751>',
             ),
-            110 =>
+            110 => 
             array (
-                'id' => 611,
+                'wdt_ID' => 611,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1729',
@@ -7962,9 +7962,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7752>',
             ),
-            111 =>
+            111 => 
             array (
-                'id' => 612,
+                'wdt_ID' => 612,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1730',
@@ -7975,9 +7975,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7753>',
             ),
-            112 =>
+            112 => 
             array (
-                'id' => 613,
+                'wdt_ID' => 613,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1730',
@@ -7988,9 +7988,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7754>',
             ),
-            113 =>
+            113 => 
             array (
-                'id' => 614,
+                'wdt_ID' => 614,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1731',
@@ -8001,9 +8001,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7755>',
             ),
-            114 =>
+            114 => 
             array (
-                'id' => 615,
+                'wdt_ID' => 615,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1731',
@@ -8014,9 +8014,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7756>',
             ),
-            115 =>
+            115 => 
             array (
-                'id' => 616,
+                'wdt_ID' => 616,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1732',
@@ -8027,9 +8027,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7757>',
             ),
-            116 =>
+            116 => 
             array (
-                'id' => 617,
+                'wdt_ID' => 617,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1732',
@@ -8040,9 +8040,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7758>',
             ),
-            117 =>
+            117 => 
             array (
-                'id' => 618,
+                'wdt_ID' => 618,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1733',
@@ -8053,9 +8053,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b7759>',
             ),
-            118 =>
+            118 => 
             array (
-                'id' => 619,
+                'wdt_ID' => 619,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1733',
@@ -8066,9 +8066,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001b775a>',
             ),
-            119 =>
+            119 => 
             array (
-                'id' => 620,
+                'wdt_ID' => 620,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81075',
@@ -8079,9 +8079,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001c2af1>',
             ),
-            120 =>
+            120 => 
             array (
-                'id' => 621,
+                'wdt_ID' => 621,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86078',
@@ -8092,9 +8092,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001c2af2>',
             ),
-            121 =>
+            121 => 
             array (
-                'id' => 622,
+                'wdt_ID' => 622,
                 'cono' => 1,
                 'whse' => 'VEND',
                 'itemid' => 'AW40211',
@@ -8105,9 +8105,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001c7157>',
             ),
-            122 =>
+            122 => 
             array (
-                'id' => 623,
+                'wdt_ID' => 623,
                 'cono' => 1,
                 'whse' => 'VEND',
                 'itemid' => 'AW41141',
@@ -8118,9 +8118,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001c716e>',
             ),
-            123 =>
+            123 => 
             array (
-                'id' => 624,
+                'wdt_ID' => 624,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00393',
@@ -8131,9 +8131,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 001cdea1>',
             ),
-            124 =>
+            124 => 
             array (
-                'id' => 625,
+                'wdt_ID' => 625,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00394',
@@ -8144,9 +8144,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 001cdea2>',
             ),
-            125 =>
+            125 => 
             array (
-                'id' => 626,
+                'wdt_ID' => 626,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00395',
@@ -8157,9 +8157,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 001cdea3>',
             ),
-            126 =>
+            126 => 
             array (
-                'id' => 627,
+                'wdt_ID' => 627,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02525',
@@ -8170,9 +8170,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14761',
                 'ssmatimestamp' => '<00000000 001ce671>',
             ),
-            127 =>
+            127 => 
             array (
-                'id' => 628,
+                'wdt_ID' => 628,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02517',
@@ -8183,9 +8183,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14763',
                 'ssmatimestamp' => '<00000000 001ce672>',
             ),
-            128 =>
+            128 => 
             array (
-                'id' => 629,
+                'wdt_ID' => 629,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02519',
@@ -8196,9 +8196,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14760',
                 'ssmatimestamp' => '<00000000 001ce673>',
             ),
-            129 =>
+            129 => 
             array (
-                'id' => 630,
+                'wdt_ID' => 630,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02520',
@@ -8209,9 +8209,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 001ce674>',
             ),
-            130 =>
+            130 => 
             array (
-                'id' => 631,
+                'wdt_ID' => 631,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02521',
@@ -8222,9 +8222,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14755',
                 'ssmatimestamp' => '<00000000 001ce675>',
             ),
-            131 =>
+            131 => 
             array (
-                'id' => 632,
+                'wdt_ID' => 632,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02523',
@@ -8235,9 +8235,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14762',
                 'ssmatimestamp' => '<00000000 001ce676>',
             ),
-            132 =>
+            132 => 
             array (
-                'id' => 633,
+                'wdt_ID' => 633,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02524',
@@ -8248,9 +8248,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14763',
                 'ssmatimestamp' => '<00000000 001ce677>',
             ),
-            133 =>
+            133 => 
             array (
-                'id' => 634,
+                'wdt_ID' => 634,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02526',
@@ -8261,9 +8261,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14763',
                 'ssmatimestamp' => '<00000000 001ce678>',
             ),
-            134 =>
+            134 => 
             array (
-                'id' => 635,
+                'wdt_ID' => 635,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02527',
@@ -8274,9 +8274,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13405',
                 'ssmatimestamp' => '<00000000 001ce679>',
             ),
-            135 =>
+            135 => 
             array (
-                'id' => 636,
+                'wdt_ID' => 636,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02528',
@@ -8287,9 +8287,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13405',
                 'ssmatimestamp' => '<00000000 001ce67a>',
             ),
-            136 =>
+            136 => 
             array (
-                'id' => 637,
+                'wdt_ID' => 637,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02529',
@@ -8300,9 +8300,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 001ce67b>',
             ),
-            137 =>
+            137 => 
             array (
-                'id' => 638,
+                'wdt_ID' => 638,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02530',
@@ -8313,9 +8313,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 001ce67c>',
             ),
-            138 =>
+            138 => 
             array (
-                'id' => 639,
+                'wdt_ID' => 639,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02531',
@@ -8326,9 +8326,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 001ce67d>',
             ),
-            139 =>
+            139 => 
             array (
-                'id' => 640,
+                'wdt_ID' => 640,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25123',
@@ -8339,9 +8339,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce67e>',
             ),
-            140 =>
+            140 => 
             array (
-                'id' => 641,
+                'wdt_ID' => 641,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25119',
@@ -8352,9 +8352,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce67f>',
             ),
-            141 =>
+            141 => 
             array (
-                'id' => 642,
+                'wdt_ID' => 642,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25120',
@@ -8365,9 +8365,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce680>',
             ),
-            142 =>
+            142 => 
             array (
-                'id' => 643,
+                'wdt_ID' => 643,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25121',
@@ -8378,9 +8378,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce681>',
             ),
-            143 =>
+            143 => 
             array (
-                'id' => 644,
+                'wdt_ID' => 644,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25122',
@@ -8391,9 +8391,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce682>',
             ),
-            144 =>
+            144 => 
             array (
-                'id' => 645,
+                'wdt_ID' => 645,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58007',
@@ -8404,9 +8404,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce683>',
             ),
-            145 =>
+            145 => 
             array (
-                'id' => 646,
+                'wdt_ID' => 646,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P58008',
@@ -8417,9 +8417,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce684>',
             ),
-            146 =>
+            146 => 
             array (
-                'id' => 647,
+                'wdt_ID' => 647,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CT51000',
@@ -8430,9 +8430,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14754',
                 'ssmatimestamp' => '<00000000 001ce685>',
             ),
-            147 =>
+            147 => 
             array (
-                'id' => 648,
+                'wdt_ID' => 648,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CT51001',
@@ -8443,9 +8443,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce686>',
             ),
-            148 =>
+            148 => 
             array (
-                'id' => 649,
+                'wdt_ID' => 649,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CT51002',
@@ -8456,9 +8456,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '130',
                 'ssmatimestamp' => '<00000000 001ce687>',
             ),
-            149 =>
+            149 => 
             array (
-                'id' => 650,
+                'wdt_ID' => 650,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CT51003',
@@ -8469,9 +8469,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce688>',
             ),
-            150 =>
+            150 => 
             array (
-                'id' => 651,
+                'wdt_ID' => 651,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CT51004',
@@ -8482,9 +8482,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14754',
                 'ssmatimestamp' => '<00000000 001ce689>',
             ),
-            151 =>
+            151 => 
             array (
-                'id' => 652,
+                'wdt_ID' => 652,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CT51005',
@@ -8495,9 +8495,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001ce68a>',
             ),
-            152 =>
+            152 => 
             array (
-                'id' => 653,
+                'wdt_ID' => 653,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81076',
@@ -8508,9 +8508,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce68b>',
             ),
-            153 =>
+            153 => 
             array (
-                'id' => 654,
+                'wdt_ID' => 654,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81077',
@@ -8521,9 +8521,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce68c>',
             ),
-            154 =>
+            154 => 
             array (
-                'id' => 655,
+                'wdt_ID' => 655,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86079',
@@ -8534,9 +8534,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce68d>',
             ),
-            155 =>
+            155 => 
             array (
-                'id' => 656,
+                'wdt_ID' => 656,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86080',
@@ -8547,9 +8547,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce68e>',
             ),
-            156 =>
+            156 => 
             array (
-                'id' => 657,
+                'wdt_ID' => 657,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86081',
@@ -8560,9 +8560,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce68f>',
             ),
-            157 =>
+            157 => 
             array (
-                'id' => 658,
+                'wdt_ID' => 658,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86082',
@@ -8573,9 +8573,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce690>',
             ),
-            158 =>
+            158 => 
             array (
-                'id' => 659,
+                'wdt_ID' => 659,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86083',
@@ -8586,9 +8586,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 001ce691>',
             ),
-            159 =>
+            159 => 
             array (
-                'id' => 660,
+                'wdt_ID' => 660,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0823',
@@ -8599,9 +8599,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 001ce692>',
             ),
-            160 =>
+            160 => 
             array (
-                'id' => 661,
+                'wdt_ID' => 661,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0824',
@@ -8612,9 +8612,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 001ce693>',
             ),
-            161 =>
+            161 => 
             array (
-                'id' => 662,
+                'wdt_ID' => 662,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6670',
@@ -8625,9 +8625,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001ce694>',
             ),
-            162 =>
+            162 => 
             array (
-                'id' => 663,
+                'wdt_ID' => 663,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL15790',
@@ -8638,9 +8638,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001ce695>',
             ),
-            163 =>
+            163 => 
             array (
-                'id' => 664,
+                'wdt_ID' => 664,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL16168',
@@ -8651,9 +8651,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001ce696>',
             ),
-            164 =>
+            164 => 
             array (
-                'id' => 665,
+                'wdt_ID' => 665,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1069',
@@ -8664,9 +8664,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001ce697>',
             ),
-            165 =>
+            165 => 
             array (
-                'id' => 666,
+                'wdt_ID' => 666,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1380',
@@ -8677,9 +8677,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001ce698>',
             ),
-            166 =>
+            166 => 
             array (
-                'id' => 667,
+                'wdt_ID' => 667,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81051',
@@ -8690,9 +8690,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001ce699>',
             ),
-            167 =>
+            167 => 
             array (
-                'id' => 668,
+                'wdt_ID' => 668,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81161',
@@ -8703,9 +8703,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001ce69a>',
             ),
-            168 =>
+            168 => 
             array (
-                'id' => 669,
+                'wdt_ID' => 669,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW831230',
@@ -8716,9 +8716,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 001ce69b>',
             ),
-            169 =>
+            169 => 
             array (
-                'id' => 670,
+                'wdt_ID' => 670,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW831242',
@@ -8729,9 +8729,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001ce69c>',
             ),
-            170 =>
+            170 => 
             array (
-                'id' => 671,
+                'wdt_ID' => 671,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79138',
@@ -8742,9 +8742,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cee41>',
             ),
-            171 =>
+            171 => 
             array (
-                'id' => 672,
+                'wdt_ID' => 672,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79168',
@@ -8755,9 +8755,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cee42>',
             ),
-            172 =>
+            172 => 
             array (
-                'id' => 673,
+                'wdt_ID' => 673,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79178',
@@ -8768,9 +8768,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cee43>',
             ),
-            173 =>
+            173 => 
             array (
-                'id' => 674,
+                'wdt_ID' => 674,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30478',
@@ -8781,9 +8781,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cee44>',
             ),
-            174 =>
+            174 => 
             array (
-                'id' => 675,
+                'wdt_ID' => 675,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79648',
@@ -8794,9 +8794,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cee45>',
             ),
-            175 =>
+            175 => 
             array (
-                'id' => 676,
+                'wdt_ID' => 676,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79188',
@@ -8807,9 +8807,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cee46>',
             ),
-            176 =>
+            176 => 
             array (
-                'id' => 677,
+                'wdt_ID' => 677,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79658',
@@ -8820,9 +8820,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf611>',
             ),
-            177 =>
+            177 => 
             array (
-                'id' => 678,
+                'wdt_ID' => 678,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30508',
@@ -8833,9 +8833,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001d3491>',
             ),
-            178 =>
+            178 => 
             array (
-                'id' => 679,
+                'wdt_ID' => 679,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79208',
@@ -8846,9 +8846,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf613>',
             ),
-            179 =>
+            179 => 
             array (
-                'id' => 680,
+                'wdt_ID' => 680,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79218',
@@ -8859,9 +8859,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf614>',
             ),
-            180 =>
+            180 => 
             array (
-                'id' => 681,
+                'wdt_ID' => 681,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79288',
@@ -8872,9 +8872,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf615>',
             ),
-            181 =>
+            181 => 
             array (
-                'id' => 682,
+                'wdt_ID' => 682,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79278',
@@ -8885,9 +8885,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf616>',
             ),
-            182 =>
+            182 => 
             array (
-                'id' => 683,
+                'wdt_ID' => 683,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB79258',
@@ -8898,9 +8898,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf617>',
             ),
-            183 =>
+            183 => 
             array (
-                'id' => 684,
+                'wdt_ID' => 684,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30248',
@@ -8911,9 +8911,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf618>',
             ),
-            184 =>
+            184 => 
             array (
-                'id' => 685,
+                'wdt_ID' => 685,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30498',
@@ -8924,9 +8924,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf619>',
             ),
-            185 =>
+            185 => 
             array (
-                'id' => 686,
+                'wdt_ID' => 686,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30268',
@@ -8937,9 +8937,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf61a>',
             ),
-            186 =>
+            186 => 
             array (
-                'id' => 687,
+                'wdt_ID' => 687,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1958',
@@ -8950,9 +8950,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0004f97b>',
             ),
-            187 =>
+            187 => 
             array (
-                'id' => 688,
+                'wdt_ID' => 688,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1963',
@@ -8963,9 +8963,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0004f97c>',
             ),
-            188 =>
+            188 => 
             array (
-                'id' => 689,
+                'wdt_ID' => 689,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25096',
@@ -8976,9 +8976,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 000c169b>',
             ),
-            189 =>
+            189 => 
             array (
-                'id' => 690,
+                'wdt_ID' => 690,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1437',
@@ -8989,9 +8989,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ed5>',
             ),
-            190 =>
+            190 => 
             array (
-                'id' => 691,
+                'wdt_ID' => 691,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00354',
@@ -9002,9 +9002,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14590',
                 'ssmatimestamp' => '<00000000 0012cc97>',
             ),
-            191 =>
+            191 => 
             array (
-                'id' => 692,
+                'wdt_ID' => 692,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00357',
@@ -9015,9 +9015,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cc9a>',
             ),
-            192 =>
+            192 => 
             array (
-                'id' => 693,
+                'wdt_ID' => 693,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00360',
@@ -9028,9 +9028,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cc9d>',
             ),
-            193 =>
+            193 => 
             array (
-                'id' => 694,
+                'wdt_ID' => 694,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00362',
@@ -9041,9 +9041,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 0012cc9f>',
             ),
-            194 =>
+            194 => 
             array (
-                'id' => 695,
+                'wdt_ID' => 695,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0242',
@@ -9054,9 +9054,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca1>',
             ),
-            195 =>
+            195 => 
             array (
-                'id' => 696,
+                'wdt_ID' => 696,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2645',
@@ -9067,9 +9067,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca5>',
             ),
-            196 =>
+            196 => 
             array (
-                'id' => 697,
+                'wdt_ID' => 697,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4015',
@@ -9080,9 +9080,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca6>',
             ),
-            197 =>
+            197 => 
             array (
-                'id' => 698,
+                'wdt_ID' => 698,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4045',
@@ -9093,9 +9093,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca7>',
             ),
-            198 =>
+            198 => 
             array (
-                'id' => 699,
+                'wdt_ID' => 699,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4177',
@@ -9106,9 +9106,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca8>',
             ),
-            199 =>
+            199 => 
             array (
-                'id' => 700,
+                'wdt_ID' => 700,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4199',
@@ -9119,9 +9119,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca9>',
             ),
-            200 =>
+            200 => 
             array (
-                'id' => 701,
+                'wdt_ID' => 701,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5343',
@@ -9132,9 +9132,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012ccaa>',
             ),
-            201 =>
+            201 => 
             array (
-                'id' => 702,
+                'wdt_ID' => 702,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89288',
@@ -9145,9 +9145,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0012d451>',
             ),
-            202 =>
+            202 => 
             array (
-                'id' => 703,
+                'wdt_ID' => 703,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89291',
@@ -9158,9 +9158,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0012d452>',
             ),
-            203 =>
+            203 => 
             array (
-                'id' => 704,
+                'wdt_ID' => 704,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81057',
@@ -9171,9 +9171,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0012d453>',
             ),
-            204 =>
+            204 => 
             array (
-                'id' => 705,
+                'wdt_ID' => 705,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81058',
@@ -9184,9 +9184,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0012d454>',
             ),
-            205 =>
+            205 => 
             array (
-                'id' => 706,
+                'wdt_ID' => 706,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86058',
@@ -9197,9 +9197,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0012d455>',
             ),
-            206 =>
+            206 => 
             array (
-                'id' => 707,
+                'wdt_ID' => 707,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86059',
@@ -9210,9 +9210,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0012d456>',
             ),
-            207 =>
+            207 => 
             array (
-                'id' => 708,
+                'wdt_ID' => 708,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65100',
@@ -9223,9 +9223,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d457>',
             ),
-            208 =>
+            208 => 
             array (
-                'id' => 709,
+                'wdt_ID' => 709,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65101',
@@ -9236,9 +9236,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d458>',
             ),
-            209 =>
+            209 => 
             array (
-                'id' => 710,
+                'wdt_ID' => 710,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65102',
@@ -9249,9 +9249,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d459>',
             ),
-            210 =>
+            210 => 
             array (
-                'id' => 711,
+                'wdt_ID' => 711,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65103',
@@ -9262,9 +9262,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d45a>',
             ),
-            211 =>
+            211 => 
             array (
-                'id' => 712,
+                'wdt_ID' => 712,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2015',
@@ -9275,9 +9275,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0006c68d>',
             ),
-            212 =>
+            212 => 
             array (
-                'id' => 713,
+                'wdt_ID' => 713,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2016',
@@ -9288,9 +9288,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0006c68e>',
             ),
-            213 =>
+            213 => 
             array (
-                'id' => 714,
+                'wdt_ID' => 714,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1461',
@@ -9301,9 +9301,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00153db7>',
             ),
-            214 =>
+            214 => 
             array (
-                'id' => 715,
+                'wdt_ID' => 715,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2065',
@@ -9314,9 +9314,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035005',
                 'ssmatimestamp' => '<00000000 0011b354>',
             ),
-            215 =>
+            215 => 
             array (
-                'id' => 716,
+                'wdt_ID' => 716,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65104',
@@ -9327,9 +9327,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d45b>',
             ),
-            216 =>
+            216 => 
             array (
-                'id' => 717,
+                'wdt_ID' => 717,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65140',
@@ -9340,9 +9340,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d45c>',
             ),
-            217 =>
+            217 => 
             array (
-                'id' => 718,
+                'wdt_ID' => 718,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65141',
@@ -9353,9 +9353,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d45d>',
             ),
-            218 =>
+            218 => 
             array (
-                'id' => 719,
+                'wdt_ID' => 719,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65180',
@@ -9366,9 +9366,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d45e>',
             ),
-            219 =>
+            219 => 
             array (
-                'id' => 720,
+                'wdt_ID' => 720,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65181',
@@ -9379,9 +9379,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d45f>',
             ),
-            220 =>
+            220 => 
             array (
-                'id' => 721,
+                'wdt_ID' => 721,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65120',
@@ -9392,9 +9392,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d460>',
             ),
-            221 =>
+            221 => 
             array (
-                'id' => 722,
+                'wdt_ID' => 722,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65121',
@@ -9405,9 +9405,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d461>',
             ),
-            222 =>
+            222 => 
             array (
-                'id' => 723,
+                'wdt_ID' => 723,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65122',
@@ -9418,9 +9418,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d462>',
             ),
-            223 =>
+            223 => 
             array (
-                'id' => 724,
+                'wdt_ID' => 724,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65160',
@@ -9431,9 +9431,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d463>',
             ),
-            224 =>
+            224 => 
             array (
-                'id' => 725,
+                'wdt_ID' => 725,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65161',
@@ -9444,9 +9444,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0012d464>',
             ),
-            225 =>
+            225 => 
             array (
-                'id' => 726,
+                'wdt_ID' => 726,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CS43008',
@@ -9457,9 +9457,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14747',
                 'ssmatimestamp' => '<00000000 0012d465>',
             ),
-            226 =>
+            226 => 
             array (
-                'id' => 727,
+                'wdt_ID' => 727,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CS43009',
@@ -9470,9 +9470,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14747',
                 'ssmatimestamp' => '<00000000 0012d466>',
             ),
-            227 =>
+            227 => 
             array (
-                'id' => 728,
+                'wdt_ID' => 728,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CS43010',
@@ -9483,9 +9483,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14747',
                 'ssmatimestamp' => '<00000000 0012d467>',
             ),
-            228 =>
+            228 => 
             array (
-                'id' => 729,
+                'wdt_ID' => 729,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CS43013',
@@ -9496,9 +9496,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14747',
                 'ssmatimestamp' => '<00000000 0012d468>',
             ),
-            229 =>
+            229 => 
             array (
-                'id' => 730,
+                'wdt_ID' => 730,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CS43014',
@@ -9509,9 +9509,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14747',
                 'ssmatimestamp' => '<00000000 0012d469>',
             ),
-            230 =>
+            230 => 
             array (
-                'id' => 731,
+                'wdt_ID' => 731,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CS43094',
@@ -9522,9 +9522,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14747',
                 'ssmatimestamp' => '<00000000 0012d46a>',
             ),
-            231 =>
+            231 => 
             array (
-                'id' => 732,
+                'wdt_ID' => 732,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48000',
@@ -9535,9 +9535,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d46b>',
             ),
-            232 =>
+            232 => 
             array (
-                'id' => 733,
+                'wdt_ID' => 733,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48001',
@@ -9548,9 +9548,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d46c>',
             ),
-            233 =>
+            233 => 
             array (
-                'id' => 734,
+                'wdt_ID' => 734,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48002',
@@ -9561,9 +9561,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d46d>',
             ),
-            234 =>
+            234 => 
             array (
-                'id' => 735,
+                'wdt_ID' => 735,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48003',
@@ -9574,9 +9574,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d46e>',
             ),
-            235 =>
+            235 => 
             array (
-                'id' => 736,
+                'wdt_ID' => 736,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1411',
@@ -9587,9 +9587,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ec7>',
             ),
-            236 =>
+            236 => 
             array (
-                'id' => 737,
+                'wdt_ID' => 737,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1412',
@@ -9600,9 +9600,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ec8>',
             ),
-            237 =>
+            237 => 
             array (
-                'id' => 738,
+                'wdt_ID' => 738,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48004',
@@ -9613,9 +9613,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d46f>',
             ),
-            238 =>
+            238 => 
             array (
-                'id' => 739,
+                'wdt_ID' => 739,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48005',
@@ -9626,9 +9626,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d470>',
             ),
-            239 =>
+            239 => 
             array (
-                'id' => 740,
+                'wdt_ID' => 740,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48006',
@@ -9639,9 +9639,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d471>',
             ),
-            240 =>
+            240 => 
             array (
-                'id' => 741,
+                'wdt_ID' => 741,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'BZ48007',
@@ -9652,9 +9652,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14748',
                 'ssmatimestamp' => '<00000000 0012d472>',
             ),
-            241 =>
+            241 => 
             array (
-                'id' => 742,
+                'wdt_ID' => 742,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02431',
@@ -9665,9 +9665,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 0012dc4d>',
             ),
-            242 =>
+            242 => 
             array (
-                'id' => 743,
+                'wdt_ID' => 743,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2804',
@@ -9678,9 +9678,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 001341b1>',
             ),
-            243 =>
+            243 => 
             array (
-                'id' => 744,
+                'wdt_ID' => 744,
                 'cono' => 1,
                 'whse' => 'VENDOR',
                 'itemid' => 'AW01130-5F',
@@ -9691,9 +9691,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00135921>',
             ),
-            244 =>
+            244 => 
             array (
-                'id' => 745,
+                'wdt_ID' => 745,
                 'cono' => 1,
                 'whse' => 'VENDOR',
                 'itemid' => 'AW05531',
@@ -9704,9 +9704,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00135922>',
             ),
-            245 =>
+            245 => 
             array (
-                'id' => 746,
+                'wdt_ID' => 746,
                 'cono' => 1,
                 'whse' => 'VENDOR',
                 'itemid' => 'AW01130',
@@ -9717,9 +9717,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00135923>',
             ),
-            246 =>
+            246 => 
             array (
-                'id' => 747,
+                'wdt_ID' => 747,
                 'cono' => 1,
                 'whse' => 'VENDOR',
                 'itemid' => 'AW01130-5R',
@@ -9730,9 +9730,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00137091>',
             ),
-            247 =>
+            247 => 
             array (
-                'id' => 748,
+                'wdt_ID' => 748,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00345',
@@ -9743,9 +9743,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0013beb1>',
             ),
-            248 =>
+            248 => 
             array (
-                'id' => 749,
+                'wdt_ID' => 749,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00346',
@@ -9756,9 +9756,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0013beb2>',
             ),
-            249 =>
+            249 => 
             array (
-                'id' => 750,
+                'wdt_ID' => 750,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1468',
@@ -9769,9 +9769,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001491b6>',
             ),
-            250 =>
+            250 => 
             array (
-                'id' => 751,
+                'wdt_ID' => 751,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1473',
@@ -9782,9 +9782,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001491b7>',
             ),
-            251 =>
+            251 => 
             array (
-                'id' => 752,
+                'wdt_ID' => 752,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1476',
@@ -9795,9 +9795,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001491b8>',
             ),
-            252 =>
+            252 => 
             array (
-                'id' => 753,
+                'wdt_ID' => 753,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2923',
@@ -9808,9 +9808,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001491b9>',
             ),
-            253 =>
+            253 => 
             array (
-                'id' => 754,
+                'wdt_ID' => 754,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1479',
@@ -9821,9 +9821,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0014a141>',
             ),
-            254 =>
+            254 => 
             array (
-                'id' => 755,
+                'wdt_ID' => 755,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1472',
@@ -9834,9 +9834,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014a142>',
             ),
-            255 =>
+            255 => 
             array (
-                'id' => 756,
+                'wdt_ID' => 756,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1466',
@@ -9847,9 +9847,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0014a91b>',
             ),
-            256 =>
+            256 => 
             array (
-                'id' => 757,
+                'wdt_ID' => 757,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1468',
@@ -9860,9 +9860,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014a91c>',
             ),
-            257 =>
+            257 => 
             array (
-                'id' => 758,
+                'wdt_ID' => 758,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2067',
@@ -9873,9 +9873,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014a91d>',
             ),
-            258 =>
+            258 => 
             array (
-                'id' => 759,
+                'wdt_ID' => 759,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1470',
@@ -9886,9 +9886,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014d7f1>',
             ),
-            259 =>
+            259 => 
             array (
-                'id' => 760,
+                'wdt_ID' => 760,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1477',
@@ -9899,9 +9899,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014d7f2>',
             ),
-            260 =>
+            260 => 
             array (
-                'id' => 761,
+                'wdt_ID' => 761,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1482',
@@ -9912,9 +9912,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014d7f3>',
             ),
-            261 =>
+            261 => 
             array (
-                'id' => 762,
+                'wdt_ID' => 762,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1473',
@@ -9925,9 +9925,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014d7f4>',
             ),
-            262 =>
+            262 => 
             array (
-                'id' => 763,
+                'wdt_ID' => 763,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25079',
@@ -9938,9 +9938,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 0005e44b>',
             ),
-            263 =>
+            263 => 
             array (
-                'id' => 764,
+                'wdt_ID' => 764,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25080',
@@ -9951,9 +9951,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0006c671>',
             ),
-            264 =>
+            264 => 
             array (
-                'id' => 765,
+                'wdt_ID' => 765,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P80000',
@@ -9964,9 +9964,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0006c67a>',
             ),
-            265 =>
+            265 => 
             array (
-                'id' => 766,
+                'wdt_ID' => 766,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2093',
@@ -9977,9 +9977,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 000b1c02>',
             ),
-            266 =>
+            266 => 
             array (
-                'id' => 767,
+                'wdt_ID' => 767,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1512',
@@ -9990,9 +9990,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ee0>',
             ),
-            267 =>
+            267 => 
             array (
-                'id' => 768,
+                'wdt_ID' => 768,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1480',
@@ -10003,9 +10003,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014e006>',
             ),
-            268 =>
+            268 => 
             array (
-                'id' => 769,
+                'wdt_ID' => 769,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1481',
@@ -10016,9 +10016,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014e007>',
             ),
-            269 =>
+            269 => 
             array (
-                'id' => 770,
+                'wdt_ID' => 770,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1474',
@@ -10029,9 +10029,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014e791>',
             ),
-            270 =>
+            270 => 
             array (
-                'id' => 771,
+                'wdt_ID' => 771,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1717',
@@ -10042,9 +10042,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ef9>',
             ),
-            271 =>
+            271 => 
             array (
-                'id' => 772,
+                'wdt_ID' => 772,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1465',
@@ -10055,9 +10055,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00151676>',
             ),
-            272 =>
+            272 => 
             array (
-                'id' => 773,
+                'wdt_ID' => 773,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1540',
@@ -10068,9 +10068,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00152619>',
             ),
-            273 =>
+            273 => 
             array (
-                'id' => 774,
+                'wdt_ID' => 774,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1475',
@@ -10081,9 +10081,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00152de1>',
             ),
-            274 =>
+            274 => 
             array (
-                'id' => 775,
+                'wdt_ID' => 775,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1538',
@@ -10094,9 +10094,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00154d21>',
             ),
-            275 =>
+            275 => 
             array (
-                'id' => 776,
+                'wdt_ID' => 776,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1537',
@@ -10107,9 +10107,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3eee>',
             ),
-            276 =>
+            276 => 
             array (
-                'id' => 777,
+                'wdt_ID' => 777,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1539',
@@ -10120,9 +10120,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3eef>',
             ),
-            277 =>
+            277 => 
             array (
-                'id' => 778,
+                'wdt_ID' => 778,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1542',
@@ -10133,9 +10133,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001554f5>',
             ),
-            278 =>
+            278 => 
             array (
-                'id' => 779,
+                'wdt_ID' => 779,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1541',
@@ -10146,9 +10146,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ef0>',
             ),
-            279 =>
+            279 => 
             array (
-                'id' => 780,
+                'wdt_ID' => 780,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25110',
@@ -10159,9 +10159,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 0015a353>',
             ),
-            280 =>
+            280 => 
             array (
-                'id' => 781,
+                'wdt_ID' => 781,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25112',
@@ -10172,9 +10172,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 0015c252>',
             ),
-            281 =>
+            281 => 
             array (
-                'id' => 782,
+                'wdt_ID' => 782,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81059',
@@ -10185,9 +10185,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e191>',
             ),
-            282 =>
+            282 => 
             array (
-                'id' => 783,
+                'wdt_ID' => 783,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86060',
@@ -10198,9 +10198,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e192>',
             ),
-            283 =>
+            283 => 
             array (
-                'id' => 784,
+                'wdt_ID' => 784,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81060',
@@ -10211,9 +10211,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e193>',
             ),
-            284 =>
+            284 => 
             array (
-                'id' => 785,
+                'wdt_ID' => 785,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86062',
@@ -10224,9 +10224,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e194>',
             ),
-            285 =>
+            285 => 
             array (
-                'id' => 786,
+                'wdt_ID' => 786,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81061',
@@ -10237,9 +10237,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e195>',
             ),
-            286 =>
+            286 => 
             array (
-                'id' => 787,
+                'wdt_ID' => 787,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86061',
@@ -10250,9 +10250,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e196>',
             ),
-            287 =>
+            287 => 
             array (
-                'id' => 788,
+                'wdt_ID' => 788,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86063',
@@ -10263,9 +10263,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0015e197>',
             ),
-            288 =>
+            288 => 
             array (
-                'id' => 789,
+                'wdt_ID' => 789,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2068',
@@ -10276,9 +10276,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001608a1>',
             ),
-            289 =>
+            289 => 
             array (
-                'id' => 790,
+                'wdt_ID' => 790,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25092',
@@ -10289,9 +10289,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464103',
                 'ssmatimestamp' => '<00000000 001174d5>',
             ),
-            290 =>
+            290 => 
             array (
-                'id' => 791,
+                'wdt_ID' => 791,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1463',
@@ -10302,9 +10302,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001267c6>',
             ),
-            291 =>
+            291 => 
             array (
-                'id' => 792,
+                'wdt_ID' => 792,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1464',
@@ -10315,9 +10315,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00148202>',
             ),
-            292 =>
+            292 => 
             array (
-                'id' => 793,
+                'wdt_ID' => 793,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1554',
@@ -10328,9 +10328,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ef2>',
             ),
-            293 =>
+            293 => 
             array (
-                'id' => 794,
+                'wdt_ID' => 794,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1555',
@@ -10341,9 +10341,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00161842>',
             ),
-            294 =>
+            294 => 
             array (
-                'id' => 795,
+                'wdt_ID' => 795,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1544',
@@ -10354,9 +10354,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00161843>',
             ),
-            295 =>
+            295 => 
             array (
-                'id' => 796,
+                'wdt_ID' => 796,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02452',
@@ -10367,9 +10367,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 00162fb1>',
             ),
-            296 =>
+            296 => 
             array (
-                'id' => 797,
+                'wdt_ID' => 797,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02453',
@@ -10380,9 +10380,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14739',
                 'ssmatimestamp' => '<00000000 00162fb2>',
             ),
-            297 =>
+            297 => 
             array (
-                'id' => 798,
+                'wdt_ID' => 798,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02457',
@@ -10393,9 +10393,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14678',
                 'ssmatimestamp' => '<00000000 00162fb3>',
             ),
-            298 =>
+            298 => 
             array (
-                'id' => 799,
+                'wdt_ID' => 799,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02459',
@@ -10406,9 +10406,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00162fb4>',
             ),
-            299 =>
+            299 => 
             array (
-                'id' => 800,
+                'wdt_ID' => 800,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02466',
@@ -10419,9 +10419,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14755',
                 'ssmatimestamp' => '<00000000 00163781>',
             ),
-            300 =>
+            300 => 
             array (
-                'id' => 801,
+                'wdt_ID' => 801,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02467',
@@ -10432,9 +10432,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13120',
                 'ssmatimestamp' => '<00000000 00163782>',
             ),
-            301 =>
+            301 => 
             array (
-                'id' => 802,
+                'wdt_ID' => 802,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02469',
@@ -10445,9 +10445,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 00163783>',
             ),
-            302 =>
+            302 => 
             array (
-                'id' => 803,
+                'wdt_ID' => 803,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02470',
@@ -10458,9 +10458,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14755',
                 'ssmatimestamp' => '<00000000 00163784>',
             ),
-            303 =>
+            303 => 
             array (
-                'id' => 804,
+                'wdt_ID' => 804,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02471',
@@ -10471,9 +10471,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 00163785>',
             ),
-            304 =>
+            304 => 
             array (
-                'id' => 805,
+                'wdt_ID' => 805,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02472',
@@ -10484,9 +10484,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 00163786>',
             ),
-            305 =>
+            305 => 
             array (
-                'id' => 806,
+                'wdt_ID' => 806,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02475',
@@ -10497,9 +10497,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 00163787>',
             ),
-            306 =>
+            306 => 
             array (
-                'id' => 807,
+                'wdt_ID' => 807,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02477',
@@ -10510,9 +10510,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 00163788>',
             ),
-            307 =>
+            307 => 
             array (
-                'id' => 808,
+                'wdt_ID' => 808,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02479',
@@ -10523,9 +10523,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 00163789>',
             ),
-            308 =>
+            308 => 
             array (
-                'id' => 809,
+                'wdt_ID' => 809,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02480',
@@ -10536,9 +10536,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 0016378a>',
             ),
-            309 =>
+            309 => 
             array (
-                'id' => 810,
+                'wdt_ID' => 810,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02481',
@@ -10549,9 +10549,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0016378b>',
             ),
-            310 =>
+            310 => 
             array (
-                'id' => 811,
+                'wdt_ID' => 811,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02482',
@@ -10562,9 +10562,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0016378c>',
             ),
-            311 =>
+            311 => 
             array (
-                'id' => 812,
+                'wdt_ID' => 812,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02483',
@@ -10575,9 +10575,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0016378d>',
             ),
-            312 =>
+            312 => 
             array (
-                'id' => 813,
+                'wdt_ID' => 813,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02484',
@@ -10588,9 +10588,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0016378e>',
             ),
-            313 =>
+            313 => 
             array (
-                'id' => 814,
+                'wdt_ID' => 814,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00364',
@@ -10601,9 +10601,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 00163790>',
             ),
-            314 =>
+            314 => 
             array (
-                'id' => 815,
+                'wdt_ID' => 815,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1005',
@@ -10614,9 +10614,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 00110f46>',
             ),
-            315 =>
+            315 => 
             array (
-                'id' => 816,
+                'wdt_ID' => 816,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1008',
@@ -10627,9 +10627,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 00110f47>',
             ),
-            316 =>
+            316 => 
             array (
-                'id' => 817,
+                'wdt_ID' => 817,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1022',
@@ -10640,9 +10640,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0003e034>',
             ),
-            317 =>
+            317 => 
             array (
-                'id' => 818,
+                'wdt_ID' => 818,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1026',
@@ -10653,9 +10653,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0003e035>',
             ),
-            318 =>
+            318 => 
             array (
-                'id' => 819,
+                'wdt_ID' => 819,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1030',
@@ -10666,9 +10666,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0003e036>',
             ),
-            319 =>
+            319 => 
             array (
-                'id' => 820,
+                'wdt_ID' => 820,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1033',
@@ -10679,9 +10679,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0003e037>',
             ),
-            320 =>
+            320 => 
             array (
-                'id' => 821,
+                'wdt_ID' => 821,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00277',
@@ -10692,9 +10692,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005fb42>',
             ),
-            321 =>
+            321 => 
             array (
-                'id' => 822,
+                'wdt_ID' => 822,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'MW90238 ',
@@ -10705,9 +10705,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006031d>',
             ),
-            322 =>
+            322 => 
             array (
-                'id' => 823,
+                'wdt_ID' => 823,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'MW90239 ',
@@ -10718,9 +10718,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006031e>',
             ),
-            323 =>
+            323 => 
             array (
-                'id' => 824,
+                'wdt_ID' => 824,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'MW90243 ',
@@ -10731,9 +10731,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006031f>',
             ),
-            324 =>
+            324 => 
             array (
-                'id' => 825,
+                'wdt_ID' => 825,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02376',
@@ -10744,9 +10744,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000612b2>',
             ),
-            325 =>
+            325 => 
             array (
-                'id' => 826,
+                'wdt_ID' => 826,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1515',
@@ -10757,9 +10757,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ee2>',
             ),
-            326 =>
+            326 => 
             array (
-                'id' => 827,
+                'wdt_ID' => 827,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1516',
@@ -10770,9 +10770,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ee3>',
             ),
-            327 =>
+            327 => 
             array (
-                'id' => 828,
+                'wdt_ID' => 828,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1524',
@@ -10783,9 +10783,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3eeb>',
             ),
-            328 =>
+            328 => 
             array (
-                'id' => 829,
+                'wdt_ID' => 829,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1525',
@@ -10796,9 +10796,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3eec>',
             ),
-            329 =>
+            329 => 
             array (
-                'id' => 830,
+                'wdt_ID' => 830,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1526',
@@ -10809,9 +10809,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3eed>',
             ),
-            330 =>
+            330 => 
             array (
-                'id' => 831,
+                'wdt_ID' => 831,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00365',
@@ -10822,9 +10822,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 00163791>',
             ),
-            331 =>
+            331 => 
             array (
-                'id' => 832,
+                'wdt_ID' => 832,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00367',
@@ -10835,9 +10835,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 00163793>',
             ),
-            332 =>
+            332 => 
             array (
-                'id' => 833,
+                'wdt_ID' => 833,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00368',
@@ -10848,9 +10848,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 00163794>',
             ),
-            333 =>
+            333 => 
             array (
-                'id' => 834,
+                'wdt_ID' => 834,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00369',
@@ -10861,9 +10861,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 00163795>',
             ),
-            334 =>
+            334 => 
             array (
-                'id' => 835,
+                'wdt_ID' => 835,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00371',
@@ -10874,9 +10874,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 00163796>',
             ),
-            335 =>
+            335 => 
             array (
-                'id' => 836,
+                'wdt_ID' => 836,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00372',
@@ -10887,9 +10887,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 00163797>',
             ),
-            336 =>
+            336 => 
             array (
-                'id' => 837,
+                'wdt_ID' => 837,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00373',
@@ -10900,9 +10900,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 00163f51>',
             ),
-            337 =>
+            337 => 
             array (
-                'id' => 838,
+                'wdt_ID' => 838,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00375',
@@ -10913,9 +10913,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 00163f52>',
             ),
-            338 =>
+            338 => 
             array (
-                'id' => 839,
+                'wdt_ID' => 839,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00378',
@@ -10926,9 +10926,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0016379a>',
             ),
-            339 =>
+            339 => 
             array (
-                'id' => 840,
+                'wdt_ID' => 840,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00381',
@@ -10939,9 +10939,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 0016379b>',
             ),
-            340 =>
+            340 => 
             array (
-                'id' => 841,
+                'wdt_ID' => 841,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC2587',
@@ -10952,9 +10952,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0004da32>',
             ),
-            341 =>
+            341 => 
             array (
-                'id' => 842,
+                'wdt_ID' => 842,
                 'cono' => NULL,
                 'whse' => 'D40119',
                 'itemid' => 'GIDDY UP GAL PLAYSET',
@@ -10965,9 +10965,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0006aef3>',
             ),
-            342 =>
+            342 => 
             array (
-                'id' => 843,
+                'wdt_ID' => 843,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'WS1031',
@@ -10978,9 +10978,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000687e3>',
             ),
-            343 =>
+            343 => 
             array (
-                'id' => 844,
+                'wdt_ID' => 844,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'WS1044',
@@ -10991,9 +10991,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000687e4>',
             ),
-            344 =>
+            344 => 
             array (
-                'id' => 845,
+                'wdt_ID' => 845,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'D40119',
@@ -11004,9 +11004,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0006e5a9>',
             ),
-            345 =>
+            345 => 
             array (
-                'id' => 846,
+                'wdt_ID' => 846,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'Z11905',
@@ -11017,9 +11017,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1470601',
                 'ssmatimestamp' => '<00000000 00072421>',
             ),
-            346 =>
+            346 => 
             array (
-                'id' => 847,
+                'wdt_ID' => 847,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'D40121',
@@ -11030,9 +11030,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1469201',
                 'ssmatimestamp' => '<00000000 0006e5ab>',
             ),
-            347 =>
+            347 => 
             array (
-                'id' => 848,
+                'wdt_ID' => 848,
                 'cono' => NULL,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60024',
@@ -11043,9 +11043,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 00079959>',
             ),
-            348 =>
+            348 => 
             array (
-                'id' => 849,
+                'wdt_ID' => 849,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2018',
@@ -11056,9 +11056,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00178772>',
             ),
-            349 =>
+            349 => 
             array (
-                'id' => 850,
+                'wdt_ID' => 850,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2019',
@@ -11069,9 +11069,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175918>',
             ),
-            350 =>
+            350 => 
             array (
-                'id' => 851,
+                'wdt_ID' => 851,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2022',
@@ -11082,9 +11082,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c834>',
             ),
-            351 =>
+            351 => 
             array (
-                'id' => 852,
+                'wdt_ID' => 852,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2023',
@@ -11095,9 +11095,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c835>',
             ),
-            352 =>
+            352 => 
             array (
-                'id' => 853,
+                'wdt_ID' => 853,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2625',
@@ -11108,9 +11108,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175189>',
             ),
-            353 =>
+            353 => 
             array (
-                'id' => 854,
+                'wdt_ID' => 854,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2639',
@@ -11121,9 +11121,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0007c837>',
             ),
-            354 =>
+            354 => 
             array (
-                'id' => 855,
+                'wdt_ID' => 855,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1687',
@@ -11134,9 +11134,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c838>',
             ),
-            355 =>
+            355 => 
             array (
-                'id' => 856,
+                'wdt_ID' => 856,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2638',
@@ -11147,9 +11147,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c839>',
             ),
-            356 =>
+            356 => 
             array (
-                'id' => 857,
+                'wdt_ID' => 857,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2623',
@@ -11160,9 +11160,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c83a>',
             ),
-            357 =>
+            357 => 
             array (
-                'id' => 858,
+                'wdt_ID' => 858,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2624',
@@ -11173,9 +11173,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0017c5f2>',
             ),
-            358 =>
+            358 => 
             array (
-                'id' => 859,
+                'wdt_ID' => 859,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2133',
@@ -11186,9 +11186,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c83c>',
             ),
-            359 =>
+            359 => 
             array (
-                'id' => 860,
+                'wdt_ID' => 860,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2064',
@@ -11199,9 +11199,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035005',
                 'ssmatimestamp' => '<00000000 0007c83d>',
             ),
-            360 =>
+            360 => 
             array (
-                'id' => 861,
+                'wdt_ID' => 861,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW45540',
@@ -11212,9 +11212,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00163f53>',
             ),
-            361 =>
+            361 => 
             array (
-                'id' => 862,
+                'wdt_ID' => 862,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81064',
@@ -11225,9 +11225,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00163f54>',
             ),
-            362 =>
+            362 => 
             array (
-                'id' => 863,
+                'wdt_ID' => 863,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81065',
@@ -11238,9 +11238,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00163f55>',
             ),
-            363 =>
+            363 => 
             array (
-                'id' => 864,
+                'wdt_ID' => 864,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86066',
@@ -11251,9 +11251,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00163f56>',
             ),
-            364 =>
+            364 => 
             array (
-                'id' => 865,
+                'wdt_ID' => 865,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86067',
@@ -11264,9 +11264,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00163f57>',
             ),
-            365 =>
+            365 => 
             array (
-                'id' => 866,
+                'wdt_ID' => 866,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86068',
@@ -11277,9 +11277,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00163f58>',
             ),
-            366 =>
+            366 => 
             array (
-                'id' => 867,
+                'wdt_ID' => 867,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86069',
@@ -11290,9 +11290,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00163f59>',
             ),
-            367 =>
+            367 => 
             array (
-                'id' => 868,
+                'wdt_ID' => 868,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC1571',
@@ -11303,9 +11303,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c085>',
             ),
-            368 =>
+            368 => 
             array (
-                'id' => 869,
+                'wdt_ID' => 869,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC1923',
@@ -11316,9 +11316,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 0017598c>',
             ),
-            369 =>
+            369 => 
             array (
-                'id' => 870,
+                'wdt_ID' => 870,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC1924',
@@ -11329,9 +11329,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c088>',
             ),
-            370 =>
+            370 => 
             array (
-                'id' => 871,
+                'wdt_ID' => 871,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03001',
@@ -11342,9 +11342,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 0010d882>',
             ),
-            371 =>
+            371 => 
             array (
-                'id' => 872,
+                'wdt_ID' => 872,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'TY3951',
@@ -11355,9 +11355,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000825f3>',
             ),
-            372 =>
+            372 => 
             array (
-                'id' => 873,
+                'wdt_ID' => 873,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00919',
@@ -11368,9 +11368,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00083592>',
             ),
-            373 =>
+            373 => 
             array (
-                'id' => 874,
+                'wdt_ID' => 874,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00918',
@@ -11381,9 +11381,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00083594>',
             ),
-            374 =>
+            374 => 
             array (
-                'id' => 875,
+                'wdt_ID' => 875,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00920',
@@ -11394,9 +11394,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00083595>',
             ),
-            375 =>
+            375 => 
             array (
-                'id' => 876,
+                'wdt_ID' => 876,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00282',
@@ -11407,9 +11407,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00083596>',
             ),
-            376 =>
+            376 => 
             array (
-                'id' => 877,
+                'wdt_ID' => 877,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02380',
@@ -11420,9 +11420,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00087be2>',
             ),
-            377 =>
+            377 => 
             array (
-                'id' => 878,
+                'wdt_ID' => 878,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1251',
@@ -11433,9 +11433,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010d890>',
             ),
-            378 =>
+            378 => 
             array (
-                'id' => 879,
+                'wdt_ID' => 879,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1252',
@@ -11446,9 +11446,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010d891>',
             ),
-            379 =>
+            379 => 
             array (
-                'id' => 880,
+                'wdt_ID' => 880,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AW1273',
@@ -11459,9 +11459,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008e944>',
             ),
-            380 =>
+            380 => 
             array (
-                'id' => 881,
+                'wdt_ID' => 881,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW5556',
@@ -11472,9 +11472,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bdb>',
             ),
-            381 =>
+            381 => 
             array (
-                'id' => 882,
+                'wdt_ID' => 882,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW45514',
@@ -11485,9 +11485,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bd9>',
             ),
-            382 =>
+            382 => 
             array (
-                'id' => 883,
+                'wdt_ID' => 883,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81265',
@@ -11498,9 +11498,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e067>',
             ),
-            383 =>
+            383 => 
             array (
-                'id' => 884,
+                'wdt_ID' => 884,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AW81595',
@@ -11511,9 +11511,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0008e948>',
             ),
-            384 =>
+            384 => 
             array (
-                'id' => 885,
+                'wdt_ID' => 885,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0526',
@@ -11524,9 +11524,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00163f5a>',
             ),
-            385 =>
+            385 => 
             array (
-                'id' => 886,
+                'wdt_ID' => 886,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA3540',
@@ -11537,9 +11537,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00163f5c>',
             ),
-            386 =>
+            386 => 
             array (
-                'id' => 887,
+                'wdt_ID' => 887,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA3565',
@@ -11550,9 +11550,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00163f5d>',
             ),
-            387 =>
+            387 => 
             array (
-                'id' => 888,
+                'wdt_ID' => 888,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA8515',
@@ -11563,9 +11563,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00163f5e>',
             ),
-            388 =>
+            388 => 
             array (
-                'id' => 889,
+                'wdt_ID' => 889,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65105',
@@ -11576,9 +11576,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00163f5f>',
             ),
-            389 =>
+            389 => 
             array (
-                'id' => 890,
+                'wdt_ID' => 890,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65106',
@@ -11589,9 +11589,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00163f60>',
             ),
-            390 =>
+            390 => 
             array (
-                'id' => 891,
+                'wdt_ID' => 891,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB65107',
@@ -11602,9 +11602,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00163f61>',
             ),
-            391 =>
+            391 => 
             array (
-                'id' => 892,
+                'wdt_ID' => 892,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC136785',
@@ -11615,9 +11615,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00196bf4>',
             ),
-            392 =>
+            392 => 
             array (
-                'id' => 893,
+                'wdt_ID' => 893,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137030',
@@ -11628,9 +11628,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f63>',
             ),
-            393 =>
+            393 => 
             array (
-                'id' => 894,
+                'wdt_ID' => 894,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00264',
@@ -11641,9 +11641,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00056eab>',
             ),
-            394 =>
+            394 => 
             array (
-                'id' => 895,
+                'wdt_ID' => 895,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81044',
@@ -11654,9 +11654,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb0>',
             ),
-            395 =>
+            395 => 
             array (
-                'id' => 896,
+                'wdt_ID' => 896,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81045',
@@ -11667,9 +11667,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb1>',
             ),
-            396 =>
+            396 => 
             array (
-                'id' => 897,
+                'wdt_ID' => 897,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M81046',
@@ -11680,9 +11680,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00089b24>',
             ),
-            397 =>
+            397 => 
             array (
-                'id' => 898,
+                'wdt_ID' => 898,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M81047',
@@ -11693,9 +11693,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00089b25>',
             ),
-            398 =>
+            398 => 
             array (
-                'id' => 899,
+                'wdt_ID' => 899,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81048',
@@ -11706,9 +11706,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb2>',
             ),
-            399 =>
+            399 => 
             array (
-                'id' => 900,
+                'wdt_ID' => 900,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81049',
@@ -11719,9 +11719,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb3>',
             ),
-            400 =>
+            400 => 
             array (
-                'id' => 901,
+                'wdt_ID' => 901,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81050',
@@ -11732,9 +11732,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb4>',
             ),
-            401 =>
+            401 => 
             array (
-                'id' => 902,
+                'wdt_ID' => 902,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81051',
@@ -11745,9 +11745,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb5>',
             ),
-            402 =>
+            402 => 
             array (
-                'id' => 903,
+                'wdt_ID' => 903,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81052',
@@ -11758,9 +11758,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffb6>',
             ),
-            403 =>
+            403 => 
             array (
-                'id' => 904,
+                'wdt_ID' => 904,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M86044',
@@ -11771,9 +11771,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00089b2b>',
             ),
-            404 =>
+            404 => 
             array (
-                'id' => 905,
+                'wdt_ID' => 905,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86045',
@@ -11784,9 +11784,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110763>',
             ),
-            405 =>
+            405 => 
             array (
-                'id' => 906,
+                'wdt_ID' => 906,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86046',
@@ -11797,9 +11797,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110764>',
             ),
-            406 =>
+            406 => 
             array (
-                'id' => 907,
+                'wdt_ID' => 907,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86047',
@@ -11810,9 +11810,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110765>',
             ),
-            407 =>
+            407 => 
             array (
-                'id' => 908,
+                'wdt_ID' => 908,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M86048',
@@ -11823,9 +11823,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00089b2f>',
             ),
-            408 =>
+            408 => 
             array (
-                'id' => 909,
+                'wdt_ID' => 909,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M86050',
@@ -11836,9 +11836,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00089b30>',
             ),
-            409 =>
+            409 => 
             array (
-                'id' => 910,
+                'wdt_ID' => 910,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86051',
@@ -11849,9 +11849,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110766>',
             ),
-            410 =>
+            410 => 
             array (
-                'id' => 911,
+                'wdt_ID' => 911,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M86052',
@@ -11862,9 +11862,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00089b32>',
             ),
-            411 =>
+            411 => 
             array (
-                'id' => 912,
+                'wdt_ID' => 912,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86053',
@@ -11875,9 +11875,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110767>',
             ),
-            412 =>
+            412 => 
             array (
-                'id' => 913,
+                'wdt_ID' => 913,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1431',
@@ -11888,9 +11888,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ed1>',
             ),
-            413 =>
+            413 => 
             array (
-                'id' => 914,
+                'wdt_ID' => 914,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137041',
@@ -11901,9 +11901,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f64>',
             ),
-            414 =>
+            414 => 
             array (
-                'id' => 915,
+                'wdt_ID' => 915,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137042',
@@ -11914,9 +11914,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f65>',
             ),
-            415 =>
+            415 => 
             array (
-                'id' => 916,
+                'wdt_ID' => 916,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137043',
@@ -11927,9 +11927,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f66>',
             ),
-            416 =>
+            416 => 
             array (
-                'id' => 917,
+                'wdt_ID' => 917,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137044',
@@ -11940,9 +11940,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f67>',
             ),
-            417 =>
+            417 => 
             array (
-                'id' => 918,
+                'wdt_ID' => 918,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1409',
@@ -11953,9 +11953,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00175101>',
             ),
-            418 =>
+            418 => 
             array (
-                'id' => 919,
+                'wdt_ID' => 919,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137318',
@@ -11966,9 +11966,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f69>',
             ),
-            419 =>
+            419 => 
             array (
-                'id' => 920,
+                'wdt_ID' => 920,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137319',
@@ -11979,9 +11979,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f6a>',
             ),
-            420 =>
+            420 => 
             array (
-                'id' => 921,
+                'wdt_ID' => 921,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02375',
@@ -11992,9 +11992,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14690',
                 'ssmatimestamp' => '<00000000 0010ff95>',
             ),
-            421 =>
+            421 => 
             array (
-                'id' => 922,
+                'wdt_ID' => 922,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00270',
@@ -12005,9 +12005,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005c492>',
             ),
-            422 =>
+            422 => 
             array (
-                'id' => 923,
+                'wdt_ID' => 923,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00271',
@@ -12018,9 +12018,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005c493>',
             ),
-            423 =>
+            423 => 
             array (
-                'id' => 924,
+                'wdt_ID' => 924,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00272',
@@ -12031,9 +12031,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005c494>',
             ),
-            424 =>
+            424 => 
             array (
-                'id' => 925,
+                'wdt_ID' => 925,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'E00273',
@@ -12044,9 +12044,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005c495>',
             ),
-            425 =>
+            425 => 
             array (
-                'id' => 926,
+                'wdt_ID' => 926,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P55059',
@@ -12057,9 +12057,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0005e416>',
             ),
-            426 =>
+            426 => 
             array (
-                'id' => 927,
+                'wdt_ID' => 927,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1502',
@@ -12070,9 +12070,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0008f112>',
             ),
-            427 =>
+            427 => 
             array (
-                'id' => 928,
+                'wdt_ID' => 928,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1504',
@@ -12083,9 +12083,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0008f8e2>',
             ),
-            428 =>
+            428 => 
             array (
-                'id' => 929,
+                'wdt_ID' => 929,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1060',
@@ -12096,9 +12096,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00091052>',
             ),
-            429 =>
+            429 => 
             array (
-                'id' => 930,
+                'wdt_ID' => 930,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1040',
@@ -12109,9 +12109,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00091053>',
             ),
-            430 =>
+            430 => 
             array (
-                'id' => 931,
+                'wdt_ID' => 931,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05004',
@@ -12122,9 +12122,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000927c2>',
             ),
-            431 =>
+            431 => 
             array (
-                'id' => 932,
+                'wdt_ID' => 932,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05002',
@@ -12135,9 +12135,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000927c3>',
             ),
-            432 =>
+            432 => 
             array (
-                'id' => 933,
+                'wdt_ID' => 933,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05003',
@@ -12148,9 +12148,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000927c4>',
             ),
-            433 =>
+            433 => 
             array (
-                'id' => 934,
+                'wdt_ID' => 934,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05006',
@@ -12161,9 +12161,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000927c5>',
             ),
-            434 =>
+            434 => 
             array (
-                'id' => 935,
+                'wdt_ID' => 935,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05000',
@@ -12174,9 +12174,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000927c6>',
             ),
-            435 =>
+            435 => 
             array (
-                'id' => 936,
+                'wdt_ID' => 936,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137320',
@@ -12187,9 +12187,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f6b>',
             ),
-            436 =>
+            436 => 
             array (
-                'id' => 937,
+                'wdt_ID' => 937,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137321',
@@ -12200,9 +12200,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f6c>',
             ),
-            437 =>
+            437 => 
             array (
-                'id' => 938,
+                'wdt_ID' => 938,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137322',
@@ -12213,9 +12213,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f6d>',
             ),
-            438 =>
+            438 => 
             array (
-                'id' => 939,
+                'wdt_ID' => 939,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC137323',
@@ -12226,9 +12226,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f6e>',
             ),
-            439 =>
+            439 => 
             array (
-                'id' => 940,
+                'wdt_ID' => 940,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC138371',
@@ -12239,9 +12239,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f6f>',
             ),
-            440 =>
+            440 => 
             array (
-                'id' => 941,
+                'wdt_ID' => 941,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC138859',
@@ -12252,9 +12252,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00196bf5>',
             ),
-            441 =>
+            441 => 
             array (
-                'id' => 942,
+                'wdt_ID' => 942,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC138965',
@@ -12265,9 +12265,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f71>',
             ),
-            442 =>
+            442 => 
             array (
-                'id' => 943,
+                'wdt_ID' => 943,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC138973',
@@ -12278,9 +12278,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f72>',
             ),
-            443 =>
+            443 => 
             array (
-                'id' => 944,
+                'wdt_ID' => 944,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC140333',
@@ -12291,9 +12291,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00163f73>',
             ),
-            444 =>
+            444 => 
             array (
-                'id' => 945,
+                'wdt_ID' => 945,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL06426',
@@ -12304,9 +12304,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00163f74>',
             ),
-            445 =>
+            445 => 
             array (
-                'id' => 946,
+                'wdt_ID' => 946,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL06428',
@@ -12317,9 +12317,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164721>',
             ),
-            446 =>
+            446 => 
             array (
-                'id' => 947,
+                'wdt_ID' => 947,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02373',
@@ -12330,9 +12330,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00055f02>',
             ),
-            447 =>
+            447 => 
             array (
-                'id' => 948,
+                'wdt_ID' => 948,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1714',
@@ -12343,9 +12343,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ef7>',
             ),
-            448 =>
+            448 => 
             array (
-                'id' => 949,
+                'wdt_ID' => 949,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P55060',
@@ -12356,9 +12356,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 000c1683>',
             ),
-            449 =>
+            449 => 
             array (
-                'id' => 950,
+                'wdt_ID' => 950,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25091',
@@ -12369,9 +12369,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1471101',
                 'ssmatimestamp' => '<00000000 000c16a3>',
             ),
-            450 =>
+            450 => 
             array (
-                'id' => 951,
+                'wdt_ID' => 951,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57001',
@@ -12382,9 +12382,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c264>',
             ),
-            451 =>
+            451 => 
             array (
-                'id' => 952,
+                'wdt_ID' => 952,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57002',
@@ -12395,9 +12395,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c265>',
             ),
-            452 =>
+            452 => 
             array (
-                'id' => 953,
+                'wdt_ID' => 953,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57003',
@@ -12408,9 +12408,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c266>',
             ),
-            453 =>
+            453 => 
             array (
-                'id' => 954,
+                'wdt_ID' => 954,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57004',
@@ -12421,9 +12421,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c267>',
             ),
-            454 =>
+            454 => 
             array (
-                'id' => 955,
+                'wdt_ID' => 955,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57005',
@@ -12434,9 +12434,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c268>',
             ),
-            455 =>
+            455 => 
             array (
-                'id' => 956,
+                'wdt_ID' => 956,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57006',
@@ -12447,9 +12447,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c269>',
             ),
-            456 =>
+            456 => 
             array (
-                'id' => 957,
+                'wdt_ID' => 957,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P57007',
@@ -12460,9 +12460,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015c26a>',
             ),
-            457 =>
+            457 => 
             array (
-                'id' => 958,
+                'wdt_ID' => 958,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00366',
@@ -12473,9 +12473,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 00163792>',
             ),
-            458 =>
+            458 => 
             array (
-                'id' => 959,
+                'wdt_ID' => 959,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2100',
@@ -12486,9 +12486,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00163f5b>',
             ),
-            459 =>
+            459 => 
             array (
-                'id' => 960,
+                'wdt_ID' => 960,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL07065',
@@ -12499,9 +12499,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164722>',
             ),
-            460 =>
+            460 => 
             array (
-                'id' => 961,
+                'wdt_ID' => 961,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL08592',
@@ -12512,9 +12512,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164723>',
             ),
-            461 =>
+            461 => 
             array (
-                'id' => 962,
+                'wdt_ID' => 962,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL08837',
@@ -12525,9 +12525,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164724>',
             ),
-            462 =>
+            462 => 
             array (
-                'id' => 963,
+                'wdt_ID' => 963,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL09288',
@@ -12538,9 +12538,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164725>',
             ),
-            463 =>
+            463 => 
             array (
-                'id' => 964,
+                'wdt_ID' => 964,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL09403',
@@ -12551,9 +12551,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164726>',
             ),
-            464 =>
+            464 => 
             array (
-                'id' => 965,
+                'wdt_ID' => 965,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL09407',
@@ -12564,9 +12564,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164727>',
             ),
-            465 =>
+            465 => 
             array (
-                'id' => 966,
+                'wdt_ID' => 966,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL09473',
@@ -12577,9 +12577,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164ef1>',
             ),
-            466 =>
+            466 => 
             array (
-                'id' => 967,
+                'wdt_ID' => 967,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL09679',
@@ -12590,9 +12590,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 00164ef2>',
             ),
-            467 =>
+            467 => 
             array (
-                'id' => 968,
+                'wdt_ID' => 968,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10304',
@@ -12603,9 +12603,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c1>',
             ),
-            468 =>
+            468 => 
             array (
-                'id' => 969,
+                'wdt_ID' => 969,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL10817',
@@ -12616,9 +12616,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c2>',
             ),
-            469 =>
+            469 => 
             array (
-                'id' => 970,
+                'wdt_ID' => 970,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL11769',
@@ -12629,9 +12629,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c3>',
             ),
-            470 =>
+            470 => 
             array (
-                'id' => 971,
+                'wdt_ID' => 971,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12012',
@@ -12642,9 +12642,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c4>',
             ),
-            471 =>
+            471 => 
             array (
-                'id' => 972,
+                'wdt_ID' => 972,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87005',
@@ -12655,9 +12655,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad24>',
             ),
-            472 =>
+            472 => 
             array (
-                'id' => 973,
+                'wdt_ID' => 973,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87006',
@@ -12668,9 +12668,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad23>',
             ),
-            473 =>
+            473 => 
             array (
-                'id' => 974,
+                'wdt_ID' => 974,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87207',
@@ -12681,9 +12681,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad25>',
             ),
-            474 =>
+            474 => 
             array (
-                'id' => 975,
+                'wdt_ID' => 975,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87207',
@@ -12694,9 +12694,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad26>',
             ),
-            475 =>
+            475 => 
             array (
-                'id' => 976,
+                'wdt_ID' => 976,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87208',
@@ -12707,9 +12707,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad27>',
             ),
-            476 =>
+            476 => 
             array (
-                'id' => 977,
+                'wdt_ID' => 977,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20558',
@@ -12720,9 +12720,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad28>',
             ),
-            477 =>
+            477 => 
             array (
-                'id' => 978,
+                'wdt_ID' => 978,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20854',
@@ -12733,9 +12733,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad29>',
             ),
-            478 =>
+            478 => 
             array (
-                'id' => 979,
+                'wdt_ID' => 979,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20953',
@@ -12746,9 +12746,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad2a>',
             ),
-            479 =>
+            479 => 
             array (
-                'id' => 980,
+                'wdt_ID' => 980,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20956',
@@ -12759,9 +12759,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad2b>',
             ),
-            480 =>
+            480 => 
             array (
-                'id' => 981,
+                'wdt_ID' => 981,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ27144',
@@ -12772,9 +12772,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad2c>',
             ),
-            481 =>
+            481 => 
             array (
-                'id' => 982,
+                'wdt_ID' => 982,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ27147',
@@ -12785,9 +12785,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad2d>',
             ),
-            482 =>
+            482 => 
             array (
-                'id' => 983,
+                'wdt_ID' => 983,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ90328',
@@ -12798,9 +12798,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad2e>',
             ),
-            483 =>
+            483 => 
             array (
-                'id' => 984,
+                'wdt_ID' => 984,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ1735',
@@ -12811,9 +12811,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad2f>',
             ),
-            484 =>
+            484 => 
             array (
-                'id' => 985,
+                'wdt_ID' => 985,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ1741',
@@ -12824,9 +12824,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad30>',
             ),
-            485 =>
+            485 => 
             array (
-                'id' => 986,
+                'wdt_ID' => 986,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02371',
@@ -12837,9 +12837,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad31>',
             ),
-            486 =>
+            486 => 
             array (
-                'id' => 987,
+                'wdt_ID' => 987,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M81041',
@@ -12850,9 +12850,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad32>',
             ),
-            487 =>
+            487 => 
             array (
-                'id' => 988,
+                'wdt_ID' => 988,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81042',
@@ -12863,9 +12863,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0010ffae>',
             ),
-            488 =>
+            488 => 
             array (
-                'id' => 989,
+                'wdt_ID' => 989,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'M86042',
@@ -12876,9 +12876,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0005ad34>',
             ),
-            489 =>
+            489 => 
             array (
-                'id' => 990,
+                'wdt_ID' => 990,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86043',
@@ -12889,9 +12889,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110762>',
             ),
-            490 =>
+            490 => 
             array (
-                'id' => 991,
+                'wdt_ID' => 991,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12344',
@@ -12902,9 +12902,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c5>',
             ),
-            491 =>
+            491 => 
             array (
-                'id' => 992,
+                'wdt_ID' => 992,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12357',
@@ -12915,9 +12915,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c6>',
             ),
-            492 =>
+            492 => 
             array (
-                'id' => 993,
+                'wdt_ID' => 993,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12359',
@@ -12928,9 +12928,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c7>',
             ),
-            493 =>
+            493 => 
             array (
-                'id' => 994,
+                'wdt_ID' => 994,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12363',
@@ -12941,9 +12941,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c8>',
             ),
-            494 =>
+            494 => 
             array (
-                'id' => 995,
+                'wdt_ID' => 995,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12630',
@@ -12954,9 +12954,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656c9>',
             ),
-            495 =>
+            495 => 
             array (
-                'id' => 996,
+                'wdt_ID' => 996,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL12631',
@@ -12967,9 +12967,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656ca>',
             ),
-            496 =>
+            496 => 
             array (
-                'id' => 997,
+                'wdt_ID' => 997,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13136',
@@ -12980,9 +12980,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656cb>',
             ),
-            497 =>
+            497 => 
             array (
-                'id' => 998,
+                'wdt_ID' => 998,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13235',
@@ -12993,9 +12993,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656cc>',
             ),
-            498 =>
+            498 => 
             array (
-                'id' => 999,
+                'wdt_ID' => 999,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1015',
@@ -13006,9 +13006,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 00110f4b>',
             ),
-            499 =>
+            499 => 
             array (
-                'id' => 1000,
+                'wdt_ID' => 1000,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1016',
@@ -13021,9 +13021,9 @@ class VwitemsTableSeeder extends Seeder
             ),
         ));
         \DB::table('vwitems')->insert(array (
-            0 =>
+            0 => 
             array (
-                'id' => 1001,
+                'wdt_ID' => 1001,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'WS1032',
@@ -13034,9 +13034,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00058644>',
             ),
-            1 =>
+            1 => 
             array (
-                'id' => 1002,
+                'wdt_ID' => 1002,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'POWER PEN',
@@ -13047,9 +13047,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00093f32>',
             ),
-            2 =>
+            2 => 
             array (
-                'id' => 1003,
+                'wdt_ID' => 1003,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65001',
@@ -13060,9 +13060,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00110f3e>',
             ),
-            3 =>
+            3 => 
             array (
-                'id' => 1004,
+                'wdt_ID' => 1004,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65003',
@@ -13073,9 +13073,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00110f40>',
             ),
-            4 =>
+            4 => 
             array (
-                'id' => 1005,
+                'wdt_ID' => 1005,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65004',
@@ -13086,9 +13086,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0009664a>',
             ),
-            5 =>
+            5 => 
             array (
-                'id' => 1006,
+                'wdt_ID' => 1006,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P20102',
@@ -13099,9 +13099,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00098582>',
             ),
-            6 =>
+            6 => 
             array (
-                'id' => 1007,
+                'wdt_ID' => 1007,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P20100',
@@ -13112,9 +13112,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00098583>',
             ),
-            7 =>
+            7 => 
             array (
-                'id' => 1008,
+                'wdt_ID' => 1008,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25081',
@@ -13125,9 +13125,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2664501',
                 'ssmatimestamp' => '<00000000 00098584>',
             ),
-            8 =>
+            8 => 
             array (
-                'id' => 1009,
+                'wdt_ID' => 1009,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25084',
@@ -13138,9 +13138,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 00098585>',
             ),
-            9 =>
+            9 => 
             array (
-                'id' => 1010,
+                'wdt_ID' => 1010,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25086',
@@ -13151,9 +13151,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1470801',
                 'ssmatimestamp' => '<00000000 00098586>',
             ),
-            10 =>
+            10 => 
             array (
-                'id' => 1011,
+                'wdt_ID' => 1011,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25087',
@@ -13164,9 +13164,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00098587>',
             ),
-            11 =>
+            11 => 
             array (
-                'id' => 1012,
+                'wdt_ID' => 1012,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25089',
@@ -13177,9 +13177,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 00098d52>',
             ),
-            12 =>
+            12 => 
             array (
-                'id' => 1013,
+                'wdt_ID' => 1013,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC90280',
@@ -13190,9 +13190,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00098d53>',
             ),
-            13 =>
+            13 => 
             array (
-                'id' => 1014,
+                'wdt_ID' => 1014,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC131057',
@@ -13203,9 +13203,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00105b82>',
             ),
-            14 =>
+            14 => 
             array (
-                'id' => 1015,
+                'wdt_ID' => 1015,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC134231',
@@ -13216,9 +13216,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 00105b83>',
             ),
-            15 =>
+            15 => 
             array (
-                'id' => 1016,
+                'wdt_ID' => 1016,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5461',
@@ -13229,9 +13229,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0010d0b2>',
             ),
-            16 =>
+            16 => 
             array (
-                'id' => 1017,
+                'wdt_ID' => 1017,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5463',
@@ -13242,9 +13242,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0010d0b3>',
             ),
-            17 =>
+            17 => 
             array (
-                'id' => 1018,
+                'wdt_ID' => 1018,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90331',
@@ -13255,9 +13255,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d889>',
             ),
-            18 =>
+            18 => 
             array (
-                'id' => 1019,
+                'wdt_ID' => 1019,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90333',
@@ -13268,9 +13268,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d88b>',
             ),
-            19 =>
+            19 => 
             array (
-                'id' => 1020,
+                'wdt_ID' => 1020,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90332',
@@ -13281,9 +13281,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d88d>',
             ),
-            20 =>
+            20 => 
             array (
-                'id' => 1021,
+                'wdt_ID' => 1021,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90334',
@@ -13294,9 +13294,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d88f>',
             ),
-            21 =>
+            21 => 
             array (
-                'id' => 1022,
+                'wdt_ID' => 1022,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0653',
@@ -13307,9 +13307,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca2>',
             ),
-            22 =>
+            22 => 
             array (
-                'id' => 1023,
+                'wdt_ID' => 1023,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA1014',
@@ -13320,9 +13320,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca3>',
             ),
-            23 =>
+            23 => 
             array (
-                'id' => 1024,
+                'wdt_ID' => 1024,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA1020',
@@ -13333,9 +13333,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 0012cca4>',
             ),
-            24 =>
+            24 => 
             array (
-                'id' => 1025,
+                'wdt_ID' => 1025,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60005FR',
@@ -13346,9 +13346,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b0452>',
             ),
-            25 =>
+            25 => 
             array (
-                'id' => 1026,
+                'wdt_ID' => 1026,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60020FR',
@@ -13359,9 +13359,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b0453>',
             ),
-            26 =>
+            26 => 
             array (
-                'id' => 1027,
+                'wdt_ID' => 1027,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60024FR',
@@ -13372,9 +13372,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b0454>',
             ),
-            27 =>
+            27 => 
             array (
-                'id' => 1028,
+                'wdt_ID' => 1028,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH60418FR',
@@ -13385,9 +13385,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000b0455>',
             ),
-            28 =>
+            28 => 
             array (
-                'id' => 1029,
+                'wdt_ID' => 1029,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2922',
@@ -13398,9 +13398,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001489d3>',
             ),
-            29 =>
+            29 => 
             array (
-                'id' => 1030,
+                'wdt_ID' => 1030,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1513',
@@ -13411,9 +13411,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000b1c2f>',
             ),
-            30 =>
+            30 => 
             array (
-                'id' => 1031,
+                'wdt_ID' => 1031,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1514',
@@ -13424,9 +13424,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ee1>',
             ),
-            31 =>
+            31 => 
             array (
-                'id' => 1032,
+                'wdt_ID' => 1032,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02409',
@@ -13437,9 +13437,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b3b02>',
             ),
-            32 =>
+            32 => 
             array (
-                'id' => 1033,
+                'wdt_ID' => 1033,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02403',
@@ -13450,9 +13450,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 0010ffa0>',
             ),
-            33 =>
+            33 => 
             array (
-                'id' => 1034,
+                'wdt_ID' => 1034,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00296',
@@ -13463,9 +13463,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '146901',
                 'ssmatimestamp' => '<00000000 000beeb2>',
             ),
-            34 =>
+            34 => 
             array (
-                'id' => 1035,
+                'wdt_ID' => 1035,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00297',
@@ -13476,9 +13476,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '146901',
                 'ssmatimestamp' => '<00000000 000beeb3>',
             ),
-            35 =>
+            35 => 
             array (
-                'id' => 1036,
+                'wdt_ID' => 1036,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00299',
@@ -13489,9 +13489,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0010effb>',
             ),
-            36 =>
+            36 => 
             array (
-                'id' => 1037,
+                'wdt_ID' => 1037,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65009',
@@ -13502,9 +13502,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000c1d92>',
             ),
-            37 =>
+            37 => 
             array (
-                'id' => 1038,
+                'wdt_ID' => 1038,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WB65010',
@@ -13515,9 +13515,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 000c5c12>',
             ),
-            38 =>
+            38 => 
             array (
-                'id' => 1039,
+                'wdt_ID' => 1039,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC113969',
@@ -13528,9 +13528,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8322>',
             ),
-            39 =>
+            39 => 
             array (
-                'id' => 1040,
+                'wdt_ID' => 1040,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC115064',
@@ -13541,9 +13541,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8323>',
             ),
-            40 =>
+            40 => 
             array (
-                'id' => 1041,
+                'wdt_ID' => 1041,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC116188',
@@ -13554,9 +13554,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8324>',
             ),
-            41 =>
+            41 => 
             array (
-                'id' => 1042,
+                'wdt_ID' => 1042,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC116601',
@@ -13567,9 +13567,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2390101',
                 'ssmatimestamp' => '<00000000 000c8325>',
             ),
-            42 =>
+            42 => 
             array (
-                'id' => 1043,
+                'wdt_ID' => 1043,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC117030',
@@ -13580,9 +13580,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8326>',
             ),
-            43 =>
+            43 => 
             array (
-                'id' => 1044,
+                'wdt_ID' => 1044,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC117453',
@@ -13593,9 +13593,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8327>',
             ),
-            44 =>
+            44 => 
             array (
-                'id' => 1045,
+                'wdt_ID' => 1045,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC125030',
@@ -13606,9 +13606,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8329>',
             ),
-            45 =>
+            45 => 
             array (
-                'id' => 1046,
+                'wdt_ID' => 1046,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC125080',
@@ -13619,9 +13619,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 0010f001>',
             ),
-            46 =>
+            46 => 
             array (
-                'id' => 1047,
+                'wdt_ID' => 1047,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC125654',
@@ -13632,9 +13632,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c832b>',
             ),
-            47 =>
+            47 => 
             array (
-                'id' => 1048,
+                'wdt_ID' => 1048,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC127886',
@@ -13645,9 +13645,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c832c>',
             ),
-            48 =>
+            48 => 
             array (
-                'id' => 1049,
+                'wdt_ID' => 1049,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC129639',
@@ -13658,9 +13658,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c832d>',
             ),
-            49 =>
+            49 => 
             array (
-                'id' => 1050,
+                'wdt_ID' => 1050,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ18233',
@@ -13671,9 +13671,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e17>',
             ),
-            50 =>
+            50 => 
             array (
-                'id' => 1051,
+                'wdt_ID' => 1051,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ18234',
@@ -13684,9 +13684,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e18>',
             ),
-            51 =>
+            51 => 
             array (
-                'id' => 1052,
+                'wdt_ID' => 1052,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20867',
@@ -13697,9 +13697,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e19>',
             ),
-            52 =>
+            52 => 
             array (
-                'id' => 1053,
+                'wdt_ID' => 1053,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ20965',
@@ -13710,9 +13710,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e1a>',
             ),
-            53 =>
+            53 => 
             array (
-                'id' => 1054,
+                'wdt_ID' => 1054,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ27152',
@@ -13723,9 +13723,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e1b>',
             ),
-            54 =>
+            54 => 
             array (
-                'id' => 1055,
+                'wdt_ID' => 1055,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ27154 ',
@@ -13736,9 +13736,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e1c>',
             ),
-            55 =>
+            55 => 
             array (
-                'id' => 1056,
+                'wdt_ID' => 1056,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ27955',
@@ -13749,9 +13749,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e1d>',
             ),
-            56 =>
+            56 => 
             array (
-                'id' => 1057,
+                'wdt_ID' => 1057,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ53021',
@@ -13762,9 +13762,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e1e>',
             ),
-            57 =>
+            57 => 
             array (
-                'id' => 1058,
+                'wdt_ID' => 1058,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ54014',
@@ -13775,9 +13775,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e1f>',
             ),
-            58 =>
+            58 => 
             array (
-                'id' => 1059,
+                'wdt_ID' => 1059,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87012',
@@ -13788,9 +13788,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e20>',
             ),
-            59 =>
+            59 => 
             array (
-                'id' => 1060,
+                'wdt_ID' => 1060,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87011',
@@ -13801,9 +13801,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e21>',
             ),
-            60 =>
+            60 => 
             array (
-                'id' => 1061,
+                'wdt_ID' => 1061,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87209',
@@ -13814,9 +13814,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e22>',
             ),
-            61 =>
+            61 => 
             array (
-                'id' => 1062,
+                'wdt_ID' => 1062,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ87210',
@@ -13827,9 +13827,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e23>',
             ),
-            62 =>
+            62 => 
             array (
-                'id' => 1063,
+                'wdt_ID' => 1063,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ90335',
@@ -13840,9 +13840,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e24>',
             ),
-            63 =>
+            63 => 
             array (
-                'id' => 1064,
+                'wdt_ID' => 1064,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ90334',
@@ -13853,9 +13853,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e25>',
             ),
-            64 =>
+            64 => 
             array (
-                'id' => 1065,
+                'wdt_ID' => 1065,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ16048',
@@ -13866,9 +13866,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e26>',
             ),
-            65 =>
+            65 => 
             array (
-                'id' => 1066,
+                'wdt_ID' => 1066,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'GZ16846',
@@ -13879,9 +13879,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00096e27>',
             ),
-            66 =>
+            66 => 
             array (
-                'id' => 1067,
+                'wdt_ID' => 1067,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P00618',
@@ -13892,9 +13892,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000c16ac>',
             ),
-            67 =>
+            67 => 
             array (
-                'id' => 1068,
+                'wdt_ID' => 1068,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P00619',
@@ -13905,9 +13905,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000c16ad>',
             ),
-            68 =>
+            68 => 
             array (
-                'id' => 1069,
+                'wdt_ID' => 1069,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2134',
@@ -13918,9 +13918,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 000c16c5>',
             ),
-            69 =>
+            69 => 
             array (
-                'id' => 1070,
+                'wdt_ID' => 1070,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1020',
@@ -13931,9 +13931,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e056>',
             ),
-            70 =>
+            70 => 
             array (
-                'id' => 1071,
+                'wdt_ID' => 1071,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1147',
@@ -13944,9 +13944,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0010e057>',
             ),
-            71 =>
+            71 => 
             array (
-                'id' => 1072,
+                'wdt_ID' => 1072,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1170',
@@ -13957,9 +13957,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bd5>',
             ),
-            72 =>
+            72 => 
             array (
-                'id' => 1073,
+                'wdt_ID' => 1073,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW42110',
@@ -13970,9 +13970,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e059>',
             ),
-            73 =>
+            73 => 
             array (
-                'id' => 1074,
+                'wdt_ID' => 1074,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW45573',
@@ -13983,9 +13983,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e05a>',
             ),
-            74 =>
+            74 => 
             array (
-                'id' => 1075,
+                'wdt_ID' => 1075,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW5560',
@@ -13996,9 +13996,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e05b>',
             ),
-            75 =>
+            75 => 
             array (
-                'id' => 1076,
+                'wdt_ID' => 1076,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW5565',
@@ -14009,9 +14009,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e05c>',
             ),
-            76 =>
+            76 => 
             array (
-                'id' => 1077,
+                'wdt_ID' => 1077,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW5575',
@@ -14022,9 +14022,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e05d>',
             ),
-            77 =>
+            77 => 
             array (
-                'id' => 1078,
+                'wdt_ID' => 1078,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2055',
@@ -14035,9 +14035,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0017c5f1>',
             ),
-            78 =>
+            78 => 
             array (
-                'id' => 1079,
+                'wdt_ID' => 1079,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1712',
@@ -14048,9 +14048,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001a3ef6>',
             ),
-            79 =>
+            79 => 
             array (
-                'id' => 1080,
+                'wdt_ID' => 1080,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02411',
@@ -14061,9 +14061,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 0010ffa5>',
             ),
-            80 =>
+            80 => 
             array (
-                'id' => 1081,
+                'wdt_ID' => 1081,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89289',
@@ -14074,9 +14074,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0011076b>',
             ),
-            81 =>
+            81 => 
             array (
-                'id' => 1082,
+                'wdt_ID' => 1082,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89294',
@@ -14087,9 +14087,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0011076c>',
             ),
-            82 =>
+            82 => 
             array (
-                'id' => 1083,
+                'wdt_ID' => 1083,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89298',
@@ -14100,9 +14100,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0011076d>',
             ),
-            83 =>
+            83 => 
             array (
-                'id' => 1084,
+                'wdt_ID' => 1084,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89300',
@@ -14113,9 +14113,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0011076e>',
             ),
-            84 =>
+            84 => 
             array (
-                'id' => 1085,
+                'wdt_ID' => 1085,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89284',
@@ -14126,9 +14126,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 0011076f>',
             ),
-            85 =>
+            85 => 
             array (
-                'id' => 1086,
+                'wdt_ID' => 1086,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89290',
@@ -14139,9 +14139,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 00110770>',
             ),
-            86 =>
+            86 => 
             array (
-                'id' => 1087,
+                'wdt_ID' => 1087,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89295',
@@ -14152,9 +14152,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 00110771>',
             ),
-            87 =>
+            87 => 
             array (
-                'id' => 1088,
+                'wdt_ID' => 1088,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89297',
@@ -14165,9 +14165,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 00110772>',
             ),
-            88 =>
+            88 => 
             array (
-                'id' => 1089,
+                'wdt_ID' => 1089,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89286',
@@ -14178,9 +14178,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 00110773>',
             ),
-            89 =>
+            89 => 
             array (
-                'id' => 1090,
+                'wdt_ID' => 1090,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89299',
@@ -14191,9 +14191,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 00110774>',
             ),
-            90 =>
+            90 => 
             array (
-                'id' => 1091,
+                'wdt_ID' => 1091,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1025',
@@ -14204,9 +14204,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 00110f45>',
             ),
-            91 =>
+            91 => 
             array (
-                'id' => 1092,
+                'wdt_ID' => 1092,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1443',
@@ -14217,9 +14217,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00115da5>',
             ),
-            92 =>
+            92 => 
             array (
-                'id' => 1093,
+                'wdt_ID' => 1093,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1449',
@@ -14230,9 +14230,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00159b45>',
             ),
-            93 =>
+            93 => 
             array (
-                'id' => 1094,
+                'wdt_ID' => 1094,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1452',
@@ -14243,9 +14243,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0011cab1>',
             ),
-            94 =>
+            94 => 
             array (
-                'id' => 1095,
+                'wdt_ID' => 1095,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1422',
@@ -14256,9 +14256,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116522>',
             ),
-            95 =>
+            95 => 
             array (
-                'id' => 1096,
+                'wdt_ID' => 1096,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1511',
@@ -14269,9 +14269,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ede>',
             ),
-            96 =>
+            96 => 
             array (
-                'id' => 1097,
+                'wdt_ID' => 1097,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1511',
@@ -14282,9 +14282,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3edf>',
             ),
-            97 =>
+            97 => 
             array (
-                'id' => 1098,
+                'wdt_ID' => 1098,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1611',
@@ -14295,9 +14295,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001a3ef3>',
             ),
-            98 =>
+            98 => 
             array (
-                'id' => 1099,
+                'wdt_ID' => 1099,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1612',
@@ -14308,9 +14308,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116526>',
             ),
-            99 =>
+            99 => 
             array (
-                'id' => 1100,
+                'wdt_ID' => 1100,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1613',
@@ -14321,9 +14321,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116527>',
             ),
-            100 =>
+            100 => 
             array (
-                'id' => 1101,
+                'wdt_ID' => 1101,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1614',
@@ -14334,9 +14334,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ef4>',
             ),
-            101 =>
+            101 => 
             array (
-                'id' => 1102,
+                'wdt_ID' => 1102,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1711',
@@ -14347,9 +14347,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001a3ef5>',
             ),
-            102 =>
+            102 => 
             array (
-                'id' => 1103,
+                'wdt_ID' => 1103,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1811',
@@ -14360,9 +14360,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3efa>',
             ),
-            103 =>
+            103 => 
             array (
-                'id' => 1104,
+                'wdt_ID' => 1104,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90310',
@@ -14373,9 +14373,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d887>',
             ),
-            104 =>
+            104 => 
             array (
-                'id' => 1105,
+                'wdt_ID' => 1105,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02410',
@@ -14386,9 +14386,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14607',
                 'ssmatimestamp' => '<00000000 0010ffa4>',
             ),
-            105 =>
+            105 => 
             array (
-                'id' => 1106,
+                'wdt_ID' => 1106,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02405',
@@ -14399,9 +14399,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0010ffa2>',
             ),
-            106 =>
+            106 => 
             array (
-                'id' => 1107,
+                'wdt_ID' => 1107,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02406',
@@ -14412,9 +14412,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14400',
                 'ssmatimestamp' => '<00000000 0010ffa3>',
             ),
-            107 =>
+            107 => 
             array (
-                'id' => 1108,
+                'wdt_ID' => 1108,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'G02407',
@@ -14425,9 +14425,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42d5>',
             ),
-            108 =>
+            108 => 
             array (
-                'id' => 1109,
+                'wdt_ID' => 1109,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02412',
@@ -14438,9 +14438,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 0010ffa6>',
             ),
-            109 =>
+            109 => 
             array (
-                'id' => 1110,
+                'wdt_ID' => 1110,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC130566',
@@ -14451,9 +14451,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c832e>',
             ),
-            110 =>
+            110 => 
             array (
-                'id' => 1111,
+                'wdt_ID' => 1111,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02404',
@@ -14464,9 +14464,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14603',
                 'ssmatimestamp' => '<00000000 0010ffa1>',
             ),
-            111 =>
+            111 => 
             array (
-                'id' => 1112,
+                'wdt_ID' => 1112,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05007',
@@ -14477,9 +14477,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42d9>',
             ),
-            112 =>
+            112 => 
             array (
-                'id' => 1113,
+                'wdt_ID' => 1113,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'T05010',
@@ -14490,9 +14490,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42da>',
             ),
-            113 =>
+            113 => 
             array (
-                'id' => 1114,
+                'wdt_ID' => 1114,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AW5573',
@@ -14503,9 +14503,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42db>',
             ),
-            114 =>
+            114 => 
             array (
-                'id' => 1115,
+                'wdt_ID' => 1115,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81074',
@@ -14516,9 +14516,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e054>',
             ),
-            115 =>
+            115 => 
             array (
-                'id' => 1116,
+                'wdt_ID' => 1116,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1253',
@@ -14529,9 +14529,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010d892>',
             ),
-            116 =>
+            116 => 
             array (
-                'id' => 1117,
+                'wdt_ID' => 1117,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW5202',
@@ -14542,9 +14542,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bda>',
             ),
-            117 =>
+            117 => 
             array (
-                'id' => 1118,
+                'wdt_ID' => 1118,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2332',
@@ -14555,9 +14555,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f33>',
             ),
-            118 =>
+            118 => 
             array (
-                'id' => 1119,
+                'wdt_ID' => 1119,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0954',
@@ -14568,9 +14568,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110777>',
             ),
-            119 =>
+            119 => 
             array (
-                'id' => 1120,
+                'wdt_ID' => 1120,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M87003',
@@ -14581,9 +14581,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110769>',
             ),
-            120 =>
+            120 => 
             array (
-                'id' => 1121,
+                'wdt_ID' => 1121,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86054',
@@ -14594,9 +14594,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110768>',
             ),
-            121 =>
+            121 => 
             array (
-                'id' => 1122,
+                'wdt_ID' => 1122,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81053',
@@ -14607,9 +14607,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 00110761>',
             ),
-            122 =>
+            122 => 
             array (
-                'id' => 1123,
+                'wdt_ID' => 1123,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M87004',
@@ -14620,9 +14620,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10200',
                 'ssmatimestamp' => '<00000000 0011076a>',
             ),
-            123 =>
+            123 => 
             array (
-                'id' => 1124,
+                'wdt_ID' => 1124,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03200',
@@ -14633,9 +14633,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d88c>',
             ),
-            124 =>
+            124 => 
             array (
-                'id' => 1125,
+                'wdt_ID' => 1125,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03201',
@@ -14646,9 +14646,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42e6>',
             ),
-            125 =>
+            125 => 
             array (
-                'id' => 1126,
+                'wdt_ID' => 1126,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03202',
@@ -14659,9 +14659,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42e7>',
             ),
-            126 =>
+            126 => 
             array (
-                'id' => 1127,
+                'wdt_ID' => 1127,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03400',
@@ -14672,9 +14672,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d88a>',
             ),
-            127 =>
+            127 => 
             array (
-                'id' => 1128,
+                'wdt_ID' => 1128,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03401',
@@ -14685,9 +14685,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42e9>',
             ),
-            128 =>
+            128 => 
             array (
-                'id' => 1129,
+                'wdt_ID' => 1129,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03402',
@@ -14698,9 +14698,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42ea>',
             ),
-            129 =>
+            129 => 
             array (
-                'id' => 1130,
+                'wdt_ID' => 1130,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03403',
@@ -14711,9 +14711,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42eb>',
             ),
-            130 =>
+            130 => 
             array (
-                'id' => 1131,
+                'wdt_ID' => 1131,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC03600',
@@ -14724,9 +14724,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0010d88e>',
             ),
-            131 =>
+            131 => 
             array (
-                'id' => 1132,
+                'wdt_ID' => 1132,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03601',
@@ -14737,9 +14737,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42ed>',
             ),
-            132 =>
+            132 => 
             array (
-                'id' => 1133,
+                'wdt_ID' => 1133,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1985',
@@ -14750,9 +14750,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 000b143b>',
             ),
-            133 =>
+            133 => 
             array (
-                'id' => 1134,
+                'wdt_ID' => 1134,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC9542',
@@ -14763,9 +14763,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175919>',
             ),
-            134 =>
+            134 => 
             array (
-                'id' => 1135,
+                'wdt_ID' => 1135,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1414',
@@ -14776,9 +14776,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 000b1c0a>',
             ),
-            135 =>
+            135 => 
             array (
-                'id' => 1136,
+                'wdt_ID' => 1136,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1416',
@@ -14789,9 +14789,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 001a3eca>',
             ),
-            136 =>
+            136 => 
             array (
-                'id' => 1137,
+                'wdt_ID' => 1137,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => '',
@@ -14802,9 +14802,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b7986>',
             ),
-            137 =>
+            137 => 
             array (
-                'id' => 1138,
+                'wdt_ID' => 1138,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02413',
@@ -14815,9 +14815,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 0010ffa7>',
             ),
-            138 =>
+            138 => 
             array (
-                'id' => 1139,
+                'wdt_ID' => 1139,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1447',
@@ -14828,9 +14828,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00115d52>',
             ),
-            139 =>
+            139 => 
             array (
-                'id' => 1140,
+                'wdt_ID' => 1140,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => '',
@@ -14841,9 +14841,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b7985>',
             ),
-            140 =>
+            140 => 
             array (
-                'id' => 1141,
+                'wdt_ID' => 1141,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC131395',
@@ -14854,9 +14854,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c832f>',
             ),
-            141 =>
+            141 => 
             array (
-                'id' => 1142,
+                'wdt_ID' => 1142,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC131404',
@@ -14867,9 +14867,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8330>',
             ),
-            142 =>
+            142 => 
             array (
-                'id' => 1143,
+                'wdt_ID' => 1143,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC132606',
@@ -14880,9 +14880,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 000c8331>',
             ),
-            143 =>
+            143 => 
             array (
-                'id' => 1144,
+                'wdt_ID' => 1144,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC2680',
@@ -14893,9 +14893,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00115d53>',
             ),
-            144 =>
+            144 => 
             array (
-                'id' => 1145,
+                'wdt_ID' => 1145,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1446',
@@ -14906,9 +14906,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00115d54>',
             ),
-            145 =>
+            145 => 
             array (
-                'id' => 1146,
+                'wdt_ID' => 1146,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1413',
@@ -14919,9 +14919,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00115dd4>',
             ),
-            146 =>
+            146 => 
             array (
-                'id' => 1147,
+                'wdt_ID' => 1147,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1415',
@@ -14932,9 +14932,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ec9>',
             ),
-            147 =>
+            147 => 
             array (
-                'id' => 1148,
+                'wdt_ID' => 1148,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1417',
@@ -14945,9 +14945,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ecb>',
             ),
-            148 =>
+            148 => 
             array (
-                'id' => 1149,
+                'wdt_ID' => 1149,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1418',
@@ -14958,9 +14958,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3ecc>',
             ),
-            149 =>
+            149 => 
             array (
-                'id' => 1150,
+                'wdt_ID' => 1150,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1419',
@@ -14971,9 +14971,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00115dd8>',
             ),
-            150 =>
+            150 => 
             array (
-                'id' => 1151,
+                'wdt_ID' => 1151,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1455',
@@ -14984,9 +14984,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00159b48>',
             ),
-            151 =>
+            151 => 
             array (
-                'id' => 1152,
+                'wdt_ID' => 1152,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1450',
@@ -14997,9 +14997,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c089>',
             ),
-            152 =>
+            152 => 
             array (
-                'id' => 1153,
+                'wdt_ID' => 1153,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1448',
@@ -15010,9 +15010,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116d03>',
             ),
-            153 =>
+            153 => 
             array (
-                'id' => 1154,
+                'wdt_ID' => 1154,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1453',
@@ -15023,9 +15023,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175914>',
             ),
-            154 =>
+            154 => 
             array (
-                'id' => 1155,
+                'wdt_ID' => 1155,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1456',
@@ -15036,9 +15036,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00116d05>',
             ),
-            155 =>
+            155 => 
             array (
-                'id' => 1156,
+                'wdt_ID' => 1156,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13255',
@@ -15049,9 +15049,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656cd>',
             ),
-            156 =>
+            156 => 
             array (
-                'id' => 1157,
+                'wdt_ID' => 1157,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13256',
@@ -15062,9 +15062,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656ce>',
             ),
-            157 =>
+            157 => 
             array (
-                'id' => 1158,
+                'wdt_ID' => 1158,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13260',
@@ -15075,9 +15075,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656cf>',
             ),
-            158 =>
+            158 => 
             array (
-                'id' => 1159,
+                'wdt_ID' => 1159,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AC90386',
@@ -15088,9 +15088,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035008',
                 'ssmatimestamp' => '<00000000 000dea87>',
             ),
-            159 =>
+            159 => 
             array (
-                'id' => 1160,
+                'wdt_ID' => 1160,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35248',
@@ -15101,9 +15101,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123812>',
             ),
-            160 =>
+            160 => 
             array (
-                'id' => 1161,
+                'wdt_ID' => 1161,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35249',
@@ -15114,9 +15114,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 00123813>',
             ),
-            161 =>
+            161 => 
             array (
-                'id' => 1162,
+                'wdt_ID' => 1162,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35250',
@@ -15127,9 +15127,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123814>',
             ),
-            162 =>
+            162 => 
             array (
-                'id' => 1163,
+                'wdt_ID' => 1163,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35251',
@@ -15140,9 +15140,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123815>',
             ),
-            163 =>
+            163 => 
             array (
-                'id' => 1164,
+                'wdt_ID' => 1164,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35252',
@@ -15153,9 +15153,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123816>',
             ),
-            164 =>
+            164 => 
             array (
-                'id' => 1165,
+                'wdt_ID' => 1165,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35253',
@@ -15166,9 +15166,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 00123817>',
             ),
-            165 =>
+            165 => 
             array (
-                'id' => 1166,
+                'wdt_ID' => 1166,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35254',
@@ -15179,9 +15179,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123818>',
             ),
-            166 =>
+            166 => 
             array (
-                'id' => 1167,
+                'wdt_ID' => 1167,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35255',
@@ -15192,9 +15192,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123819>',
             ),
-            167 =>
+            167 => 
             array (
-                'id' => 1168,
+                'wdt_ID' => 1168,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35256',
@@ -15205,9 +15205,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 0012381a>',
             ),
-            168 =>
+            168 => 
             array (
-                'id' => 1169,
+                'wdt_ID' => 1169,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35257',
@@ -15218,9 +15218,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 0012381b>',
             ),
-            169 =>
+            169 => 
             array (
-                'id' => 1170,
+                'wdt_ID' => 1170,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35258',
@@ -15231,9 +15231,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 0012381c>',
             ),
-            170 =>
+            170 => 
             array (
-                'id' => 1171,
+                'wdt_ID' => 1171,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35263',
@@ -15244,9 +15244,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 0012381d>',
             ),
-            171 =>
+            171 => 
             array (
-                'id' => 1172,
+                'wdt_ID' => 1172,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35267',
@@ -15257,9 +15257,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 0012381e>',
             ),
-            172 =>
+            172 => 
             array (
-                'id' => 1173,
+                'wdt_ID' => 1173,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35268',
@@ -15270,9 +15270,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 0012381f>',
             ),
-            173 =>
+            173 => 
             array (
-                'id' => 1174,
+                'wdt_ID' => 1174,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35269',
@@ -15283,9 +15283,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 00123820>',
             ),
-            174 =>
+            174 => 
             array (
-                'id' => 1175,
+                'wdt_ID' => 1175,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35271',
@@ -15296,9 +15296,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123821>',
             ),
-            175 =>
+            175 => 
             array (
-                'id' => 1176,
+                'wdt_ID' => 1176,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35272',
@@ -15309,9 +15309,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123822>',
             ),
-            176 =>
+            176 => 
             array (
-                'id' => 1177,
+                'wdt_ID' => 1177,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35273',
@@ -15322,9 +15322,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123823>',
             ),
-            177 =>
+            177 => 
             array (
-                'id' => 1178,
+                'wdt_ID' => 1178,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35276',
@@ -15335,9 +15335,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123824>',
             ),
-            178 =>
+            178 => 
             array (
-                'id' => 1179,
+                'wdt_ID' => 1179,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35277',
@@ -15348,9 +15348,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123825>',
             ),
-            179 =>
+            179 => 
             array (
-                'id' => 1180,
+                'wdt_ID' => 1180,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35279',
@@ -15361,9 +15361,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123826>',
             ),
-            180 =>
+            180 => 
             array (
-                'id' => 1181,
+                'wdt_ID' => 1181,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35281',
@@ -15374,9 +15374,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 00123827>',
             ),
-            181 =>
+            181 => 
             array (
-                'id' => 1182,
+                'wdt_ID' => 1182,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35294',
@@ -15387,9 +15387,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473205',
                 'ssmatimestamp' => '<00000000 00123828>',
             ),
-            182 =>
+            182 => 
             array (
-                'id' => 1183,
+                'wdt_ID' => 1183,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35297',
@@ -15400,9 +15400,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473205',
                 'ssmatimestamp' => '<00000000 00124172>',
             ),
-            183 =>
+            183 => 
             array (
-                'id' => 1184,
+                'wdt_ID' => 1184,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35304',
@@ -15413,9 +15413,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 0012382a>',
             ),
-            184 =>
+            184 => 
             array (
-                'id' => 1185,
+                'wdt_ID' => 1185,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35262',
@@ -15426,9 +15426,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 0012382b>',
             ),
-            185 =>
+            185 => 
             array (
-                'id' => 1186,
+                'wdt_ID' => 1186,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13261',
@@ -15439,9 +15439,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d0>',
             ),
-            186 =>
+            186 => 
             array (
-                'id' => 1187,
+                'wdt_ID' => 1187,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2320',
@@ -15452,9 +15452,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 000b1c26>',
             ),
-            187 =>
+            187 => 
             array (
-                'id' => 1188,
+                'wdt_ID' => 1188,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00331',
@@ -15465,9 +15465,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 001053b9>',
             ),
-            188 =>
+            188 => 
             array (
-                'id' => 1189,
+                'wdt_ID' => 1189,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E0333',
@@ -15478,9 +15478,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000e7ef3>',
             ),
-            189 =>
+            189 => 
             array (
-                'id' => 1190,
+                'wdt_ID' => 1190,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34726',
@@ -15491,9 +15491,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a72>',
             ),
-            190 =>
+            190 => 
             array (
-                'id' => 1191,
+                'wdt_ID' => 1191,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34730',
@@ -15504,9 +15504,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a73>',
             ),
-            191 =>
+            191 => 
             array (
-                'id' => 1192,
+                'wdt_ID' => 1192,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34733',
@@ -15517,9 +15517,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a74>',
             ),
-            192 =>
+            192 => 
             array (
-                'id' => 1193,
+                'wdt_ID' => 1193,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34735',
@@ -15530,9 +15530,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a75>',
             ),
-            193 =>
+            193 => 
             array (
-                'id' => 1194,
+                'wdt_ID' => 1194,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34727',
@@ -15543,9 +15543,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a76>',
             ),
-            194 =>
+            194 => 
             array (
-                'id' => 1195,
+                'wdt_ID' => 1195,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34731',
@@ -15556,9 +15556,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a77>',
             ),
-            195 =>
+            195 => 
             array (
-                'id' => 1196,
+                'wdt_ID' => 1196,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34734',
@@ -15569,9 +15569,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a78>',
             ),
-            196 =>
+            196 => 
             array (
-                'id' => 1197,
+                'wdt_ID' => 1197,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34721',
@@ -15582,9 +15582,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a79>',
             ),
-            197 =>
+            197 => 
             array (
-                'id' => 1198,
+                'wdt_ID' => 1198,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34722',
@@ -15595,9 +15595,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a7a>',
             ),
-            198 =>
+            198 => 
             array (
-                'id' => 1199,
+                'wdt_ID' => 1199,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34728',
@@ -15608,9 +15608,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a7b>',
             ),
-            199 =>
+            199 => 
             array (
-                'id' => 1200,
+                'wdt_ID' => 1200,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34729',
@@ -15621,9 +15621,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a7c>',
             ),
-            200 =>
+            200 => 
             array (
-                'id' => 1201,
+                'wdt_ID' => 1201,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34732',
@@ -15634,9 +15634,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a7d>',
             ),
-            201 =>
+            201 => 
             array (
-                'id' => 1202,
+                'wdt_ID' => 1202,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34739',
@@ -15647,9 +15647,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a7e>',
             ),
-            202 =>
+            202 => 
             array (
-                'id' => 1203,
+                'wdt_ID' => 1203,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34740',
@@ -15660,9 +15660,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a7f>',
             ),
-            203 =>
+            203 => 
             array (
-                'id' => 1204,
+                'wdt_ID' => 1204,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34744',
@@ -15673,9 +15673,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a80>',
             ),
-            204 =>
+            204 => 
             array (
-                'id' => 1205,
+                'wdt_ID' => 1205,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34745',
@@ -15686,9 +15686,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a81>',
             ),
-            205 =>
+            205 => 
             array (
-                'id' => 1206,
+                'wdt_ID' => 1206,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34755',
@@ -15699,9 +15699,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 000f3a82>',
             ),
-            206 =>
+            206 => 
             array (
-                'id' => 1207,
+                'wdt_ID' => 1207,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34756',
@@ -15712,9 +15712,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473202',
                 'ssmatimestamp' => '<00000000 000f3a83>',
             ),
-            207 =>
+            207 => 
             array (
-                'id' => 1208,
+                'wdt_ID' => 1208,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'NC34758',
@@ -15725,9 +15725,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 000f3a88>',
             ),
-            208 =>
+            208 => 
             array (
-                'id' => 1209,
+                'wdt_ID' => 1209,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'HK38013',
@@ -15738,9 +15738,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 000f6963>',
             ),
-            209 =>
+            209 => 
             array (
-                'id' => 1210,
+                'wdt_ID' => 1210,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89070',
@@ -15751,9 +15751,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f7901>',
             ),
-            210 =>
+            210 => 
             array (
-                'id' => 1211,
+                'wdt_ID' => 1211,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81078',
@@ -15764,9 +15764,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be2>',
             ),
-            211 =>
+            211 => 
             array (
-                'id' => 1212,
+                'wdt_ID' => 1212,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CF1812',
@@ -15777,9 +15777,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 001a3efb>',
             ),
-            212 =>
+            212 => 
             array (
-                'id' => 1213,
+                'wdt_ID' => 1213,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02415',
@@ -15790,9 +15790,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14582',
                 'ssmatimestamp' => '<00000000 000f6964>',
             ),
-            213 =>
+            213 => 
             array (
-                'id' => 1214,
+                'wdt_ID' => 1214,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02416',
@@ -15803,9 +15803,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14604',
                 'ssmatimestamp' => '<00000000 000f6965>',
             ),
-            214 =>
+            214 => 
             array (
-                'id' => 1215,
+                'wdt_ID' => 1215,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02417',
@@ -15816,9 +15816,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 000f6966>',
             ),
-            215 =>
+            215 => 
             array (
-                'id' => 1216,
+                'wdt_ID' => 1216,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02418',
@@ -15829,9 +15829,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 000f6967>',
             ),
-            216 =>
+            216 => 
             array (
-                'id' => 1217,
+                'wdt_ID' => 1217,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02419',
@@ -15842,9 +15842,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 000f6968>',
             ),
-            217 =>
+            217 => 
             array (
-                'id' => 1218,
+                'wdt_ID' => 1218,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02420',
@@ -15855,9 +15855,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14728',
                 'ssmatimestamp' => '<00000000 000f6969>',
             ),
-            218 =>
+            218 => 
             array (
-                'id' => 1219,
+                'wdt_ID' => 1219,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89016',
@@ -15868,9 +15868,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f7902>',
             ),
-            219 =>
+            219 => 
             array (
-                'id' => 1220,
+                'wdt_ID' => 1220,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89177',
@@ -15881,9 +15881,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f7903>',
             ),
-            220 =>
+            220 => 
             array (
-                'id' => 1221,
+                'wdt_ID' => 1221,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MC89320',
@@ -15894,9 +15894,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14738',
                 'ssmatimestamp' => '<00000000 000f7904>',
             ),
-            221 =>
+            221 => 
             array (
-                'id' => 1222,
+                'wdt_ID' => 1222,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0272',
@@ -15907,9 +15907,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110775>',
             ),
-            222 =>
+            222 => 
             array (
-                'id' => 1223,
+                'wdt_ID' => 1223,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0970',
@@ -15920,9 +15920,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 000f7906>',
             ),
-            223 =>
+            223 => 
             array (
-                'id' => 1224,
+                'wdt_ID' => 1224,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0971',
@@ -15933,9 +15933,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 000f7907>',
             ),
-            224 =>
+            224 => 
             array (
-                'id' => 1225,
+                'wdt_ID' => 1225,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2171',
@@ -15946,9 +15946,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f32>',
             ),
-            225 =>
+            225 => 
             array (
-                'id' => 1226,
+                'wdt_ID' => 1226,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5351',
@@ -15959,9 +15959,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 000f7909>',
             ),
-            226 =>
+            226 => 
             array (
-                'id' => 1227,
+                'wdt_ID' => 1227,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6565',
@@ -15972,9 +15972,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f37>',
             ),
-            227 =>
+            227 => 
             array (
-                'id' => 1228,
+                'wdt_ID' => 1228,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6568',
@@ -15985,9 +15985,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f38>',
             ),
-            228 =>
+            228 => 
             array (
-                'id' => 1229,
+                'wdt_ID' => 1229,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6660',
@@ -15998,9 +15998,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f3b>',
             ),
-            229 =>
+            229 => 
             array (
-                'id' => 1230,
+                'wdt_ID' => 1230,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6665',
@@ -16011,9 +16011,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10400',
                 'ssmatimestamp' => '<00000000 00110f3c>',
             ),
-            230 =>
+            230 => 
             array (
-                'id' => 1231,
+                'wdt_ID' => 1231,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW41111',
@@ -16024,9 +16024,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bd7>',
             ),
-            231 =>
+            231 => 
             array (
-                'id' => 1232,
+                'wdt_ID' => 1232,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1057',
@@ -16037,9 +16037,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 000f790f>',
             ),
-            232 =>
+            232 => 
             array (
-                'id' => 1233,
+                'wdt_ID' => 1233,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1061',
@@ -16050,9 +16050,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 000f7910>',
             ),
-            233 =>
+            233 => 
             array (
-                'id' => 1234,
+                'wdt_ID' => 1234,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1082',
@@ -16063,9 +16063,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14615',
                 'ssmatimestamp' => '<00000000 000f7911>',
             ),
-            234 =>
+            234 => 
             array (
-                'id' => 1235,
+                'wdt_ID' => 1235,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00358',
@@ -16076,9 +16076,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 0012cc9b>',
             ),
-            235 =>
+            235 => 
             array (
-                'id' => 1236,
+                'wdt_ID' => 1236,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00359',
@@ -16089,9 +16089,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cc9c>',
             ),
-            236 =>
+            236 => 
             array (
-                'id' => 1237,
+                'wdt_ID' => 1237,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1669',
@@ -16102,9 +16102,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c063>',
             ),
-            237 =>
+            237 => 
             array (
-                'id' => 1238,
+                'wdt_ID' => 1238,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1851',
@@ -16115,9 +16115,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c064>',
             ),
-            238 =>
+            238 => 
             array (
-                'id' => 1239,
+                'wdt_ID' => 1239,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1852',
@@ -16128,9 +16128,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c065>',
             ),
-            239 =>
+            239 => 
             array (
-                'id' => 1240,
+                'wdt_ID' => 1240,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2011',
@@ -16141,9 +16141,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c066>',
             ),
-            240 =>
+            240 => 
             array (
-                'id' => 1241,
+                'wdt_ID' => 1241,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2012',
@@ -16154,9 +16154,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 0007c067>',
             ),
-            241 =>
+            241 => 
             array (
-                'id' => 1242,
+                'wdt_ID' => 1242,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2085',
@@ -16167,9 +16167,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175127>',
             ),
-            242 =>
+            242 => 
             array (
-                'id' => 1243,
+                'wdt_ID' => 1243,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2125',
@@ -16180,9 +16180,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c06b>',
             ),
-            243 =>
+            243 => 
             array (
-                'id' => 1244,
+                'wdt_ID' => 1244,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2126',
@@ -16193,9 +16193,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c06c>',
             ),
-            244 =>
+            244 => 
             array (
-                'id' => 1245,
+                'wdt_ID' => 1245,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2127',
@@ -16206,9 +16206,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c06d>',
             ),
-            245 =>
+            245 => 
             array (
-                'id' => 1246,
+                'wdt_ID' => 1246,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2128',
@@ -16219,9 +16219,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c06e>',
             ),
-            246 =>
+            246 => 
             array (
-                'id' => 1247,
+                'wdt_ID' => 1247,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2223',
@@ -16232,9 +16232,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c06f>',
             ),
-            247 =>
+            247 => 
             array (
-                'id' => 1248,
+                'wdt_ID' => 1248,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2263',
@@ -16245,9 +16245,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c070>',
             ),
-            248 =>
+            248 => 
             array (
-                'id' => 1249,
+                'wdt_ID' => 1249,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2267',
@@ -16258,9 +16258,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 0017598a>',
             ),
-            249 =>
+            249 => 
             array (
-                'id' => 1250,
+                'wdt_ID' => 1250,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2268',
@@ -16271,9 +16271,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 0007c072>',
             ),
-            250 =>
+            250 => 
             array (
-                'id' => 1251,
+                'wdt_ID' => 1251,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2480',
@@ -16284,9 +16284,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00153dba>',
             ),
-            251 =>
+            251 => 
             array (
-                'id' => 1252,
+                'wdt_ID' => 1252,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03602',
@@ -16297,9 +16297,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42ee>',
             ),
-            252 =>
+            252 => 
             array (
-                'id' => 1253,
+                'wdt_ID' => 1253,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2597',
@@ -16310,9 +16310,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001545b8>',
             ),
-            253 =>
+            253 => 
             array (
-                'id' => 1254,
+                'wdt_ID' => 1254,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2780',
@@ -16323,9 +16323,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c077>',
             ),
-            254 =>
+            254 => 
             array (
-                'id' => 1255,
+                'wdt_ID' => 1255,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50002',
@@ -16336,9 +16336,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468701',
                 'ssmatimestamp' => '<00000000 0003d863>',
             ),
-            255 =>
+            255 => 
             array (
-                'id' => 1256,
+                'wdt_ID' => 1256,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50004',
@@ -16349,9 +16349,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468701',
                 'ssmatimestamp' => '<00000000 0003d864>',
             ),
-            256 =>
+            256 => 
             array (
-                'id' => 1257,
+                'wdt_ID' => 1257,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50008',
@@ -16362,9 +16362,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468701',
                 'ssmatimestamp' => '<00000000 0003d866>',
             ),
-            257 =>
+            257 => 
             array (
-                'id' => 1258,
+                'wdt_ID' => 1258,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50020',
@@ -16375,9 +16375,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468701',
                 'ssmatimestamp' => '<00000000 0003d865>',
             ),
-            258 =>
+            258 => 
             array (
-                'id' => 1259,
+                'wdt_ID' => 1259,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00361',
@@ -16388,9 +16388,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cc9e>',
             ),
-            259 =>
+            259 => 
             array (
-                'id' => 1260,
+                'wdt_ID' => 1260,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03014',
@@ -16401,9 +16401,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42ef>',
             ),
-            260 =>
+            260 => 
             array (
-                'id' => 1261,
+                'wdt_ID' => 1261,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03015',
@@ -16414,9 +16414,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42f0>',
             ),
-            261 =>
+            261 => 
             array (
-                'id' => 1262,
+                'wdt_ID' => 1262,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => 'AC03016',
@@ -16427,9 +16427,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 000b42f1>',
             ),
-            262 =>
+            262 => 
             array (
-                'id' => 1263,
+                'wdt_ID' => 1263,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81129',
@@ -16440,9 +16440,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00196be4>',
             ),
-            263 =>
+            263 => 
             array (
-                'id' => 1264,
+                'wdt_ID' => 1264,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81201',
@@ -16453,9 +16453,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e060>',
             ),
-            264 =>
+            264 => 
             array (
-                'id' => 1265,
+                'wdt_ID' => 1265,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81225',
@@ -16466,9 +16466,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e061>',
             ),
-            265 =>
+            265 => 
             array (
-                'id' => 1266,
+                'wdt_ID' => 1266,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81234',
@@ -16479,9 +16479,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be7>',
             ),
-            266 =>
+            266 => 
             array (
-                'id' => 1267,
+                'wdt_ID' => 1267,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81240',
@@ -16492,9 +16492,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be5>',
             ),
-            267 =>
+            267 => 
             array (
-                'id' => 1268,
+                'wdt_ID' => 1268,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81241',
@@ -16505,9 +16505,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be8>',
             ),
-            268 =>
+            268 => 
             array (
-                'id' => 1269,
+                'wdt_ID' => 1269,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81242',
@@ -16518,9 +16518,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196be6>',
             ),
-            269 =>
+            269 => 
             array (
-                'id' => 1270,
+                'wdt_ID' => 1270,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81259',
@@ -16531,9 +16531,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e06b>',
             ),
-            270 =>
+            270 => 
             array (
-                'id' => 1271,
+                'wdt_ID' => 1271,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81509',
@@ -16544,9 +16544,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 00196bf1>',
             ),
-            271 =>
+            271 => 
             array (
-                'id' => 1272,
+                'wdt_ID' => 1272,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81511',
@@ -16557,9 +16557,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bf2>',
             ),
-            272 =>
+            272 => 
             array (
-                'id' => 1273,
+                'wdt_ID' => 1273,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81513',
@@ -16570,9 +16570,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 00196bf3>',
             ),
-            273 =>
+            273 => 
             array (
-                'id' => 1274,
+                'wdt_ID' => 1274,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW85511',
@@ -16583,9 +16583,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e06f>',
             ),
-            274 =>
+            274 => 
             array (
-                'id' => 1275,
+                'wdt_ID' => 1275,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW85531',
@@ -16596,9 +16596,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '13760',
                 'ssmatimestamp' => '<00000000 0010e070>',
             ),
-            275 =>
+            275 => 
             array (
-                'id' => 1276,
+                'wdt_ID' => 1276,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'CC1459',
@@ -16609,9 +16609,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0011cab2>',
             ),
-            276 =>
+            276 => 
             array (
-                'id' => 1277,
+                'wdt_ID' => 1277,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00334',
@@ -16622,9 +16622,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 00127e65>',
             ),
-            277 =>
+            277 => 
             array (
-                'id' => 1278,
+                'wdt_ID' => 1278,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00335',
@@ -16635,9 +16635,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 00127e66>',
             ),
-            278 =>
+            278 => 
             array (
-                'id' => 1279,
+                'wdt_ID' => 1279,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14527',
@@ -16648,9 +16648,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d1>',
             ),
-            279 =>
+            279 => 
             array (
-                'id' => 1280,
+                'wdt_ID' => 1280,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL11901',
@@ -16661,9 +16661,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d2>',
             ),
-            280 =>
+            280 => 
             array (
-                'id' => 1281,
+                'wdt_ID' => 1281,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL13259',
@@ -16674,9 +16674,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d3>',
             ),
-            281 =>
+            281 => 
             array (
-                'id' => 1282,
+                'wdt_ID' => 1282,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14378',
@@ -16687,9 +16687,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d4>',
             ),
-            282 =>
+            282 => 
             array (
-                'id' => 1283,
+                'wdt_ID' => 1283,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SL14363',
@@ -16700,9 +16700,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29949',
                 'ssmatimestamp' => '<00000000 001656d5>',
             ),
-            283 =>
+            283 => 
             array (
-                'id' => 1284,
+                'wdt_ID' => 1284,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1486',
@@ -16713,9 +16713,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0019c997>',
             ),
-            284 =>
+            284 => 
             array (
-                'id' => 1285,
+                'wdt_ID' => 1285,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1038',
@@ -16726,9 +16726,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00039231>',
             ),
-            285 =>
+            285 => 
             array (
-                'id' => 1286,
+                'wdt_ID' => 1286,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1039',
@@ -16739,9 +16739,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00039232>',
             ),
-            286 =>
+            286 => 
             array (
-                'id' => 1287,
+                'wdt_ID' => 1287,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1041',
@@ -16752,9 +16752,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 00039233>',
             ),
-            287 =>
+            287 => 
             array (
-                'id' => 1288,
+                'wdt_ID' => 1288,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'P25100',
@@ -16765,9 +16765,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468705',
                 'ssmatimestamp' => '<00000000 0011b35c>',
             ),
-            288 =>
+            288 => 
             array (
-                'id' => 1289,
+                'wdt_ID' => 1289,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC29220',
@@ -16778,9 +16778,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 00120932>',
             ),
-            289 =>
+            289 => 
             array (
-                'id' => 1290,
+                'wdt_ID' => 1290,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35104',
@@ -16791,9 +16791,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 00120933>',
             ),
-            290 =>
+            290 => 
             array (
-                'id' => 1291,
+                'wdt_ID' => 1291,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35075',
@@ -16804,9 +16804,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 00120934>',
             ),
-            291 =>
+            291 => 
             array (
-                'id' => 1292,
+                'wdt_ID' => 1292,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35067',
@@ -16817,9 +16817,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 00120935>',
             ),
-            292 =>
+            292 => 
             array (
-                'id' => 1293,
+                'wdt_ID' => 1293,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35015',
@@ -16830,9 +16830,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 00120936>',
             ),
-            293 =>
+            293 => 
             array (
-                'id' => 1294,
+                'wdt_ID' => 1294,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35480',
@@ -16843,9 +16843,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 00120937>',
             ),
-            294 =>
+            294 => 
             array (
-                'id' => 1295,
+                'wdt_ID' => 1295,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35076',
@@ -16856,9 +16856,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 00120938>',
             ),
-            295 =>
+            295 => 
             array (
-                'id' => 1296,
+                'wdt_ID' => 1296,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35068',
@@ -16869,9 +16869,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473203',
                 'ssmatimestamp' => '<00000000 00120939>',
             ),
-            296 =>
+            296 => 
             array (
-                'id' => 1297,
+                'wdt_ID' => 1297,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC30358',
@@ -16882,9 +16882,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 0012093a>',
             ),
-            297 =>
+            297 => 
             array (
-                'id' => 1298,
+                'wdt_ID' => 1298,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35007',
@@ -16895,9 +16895,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 001218d2>',
             ),
-            298 =>
+            298 => 
             array (
-                'id' => 1299,
+                'wdt_ID' => 1299,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC24663',
@@ -16908,9 +16908,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 001218d3>',
             ),
-            299 =>
+            299 => 
             array (
-                'id' => 1300,
+                'wdt_ID' => 1300,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35110',
@@ -16921,9 +16921,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473201',
                 'ssmatimestamp' => '<00000000 001218d4>',
             ),
-            300 =>
+            300 => 
             array (
-                'id' => 1301,
+                'wdt_ID' => 1301,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC26603',
@@ -16934,9 +16934,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 001218d5>',
             ),
-            301 =>
+            301 => 
             array (
-                'id' => 1302,
+                'wdt_ID' => 1302,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35113',
@@ -16947,9 +16947,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 001218d6>',
             ),
-            302 =>
+            302 => 
             array (
-                'id' => 1303,
+                'wdt_ID' => 1303,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC31427',
@@ -16960,9 +16960,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 001218d7>',
             ),
-            303 =>
+            303 => 
             array (
-                'id' => 1304,
+                'wdt_ID' => 1304,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC28506',
@@ -16973,9 +16973,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 001218d8>',
             ),
-            304 =>
+            304 => 
             array (
-                'id' => 1305,
+                'wdt_ID' => 1305,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC28605',
@@ -16986,9 +16986,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 001218d9>',
             ),
-            305 =>
+            305 => 
             array (
-                'id' => 1306,
+                'wdt_ID' => 1306,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC28606',
@@ -16999,9 +16999,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473207',
                 'ssmatimestamp' => '<00000000 001218da>',
             ),
-            306 =>
+            306 => 
             array (
-                'id' => 1307,
+                'wdt_ID' => 1307,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35143',
@@ -17012,9 +17012,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473206',
                 'ssmatimestamp' => '<00000000 001218db>',
             ),
-            307 =>
+            307 => 
             array (
-                'id' => 1308,
+                'wdt_ID' => 1308,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC35144',
@@ -17025,9 +17025,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473205',
                 'ssmatimestamp' => '<00000000 001218dc>',
             ),
-            308 =>
+            308 => 
             array (
-                'id' => 1309,
+                'wdt_ID' => 1309,
                 'cono' => 1,
                 'whse' => 'Main',
                 'itemid' => 'NC24664',
@@ -17038,9 +17038,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1473204',
                 'ssmatimestamp' => '<00000000 001218dd>',
             ),
-            309 =>
+            309 => 
             array (
-                'id' => 1310,
+                'wdt_ID' => 1310,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00363',
@@ -17051,9 +17051,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cca0>',
             ),
-            310 =>
+            310 => 
             array (
-                'id' => 1311,
+                'wdt_ID' => 1311,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW01060',
@@ -17064,9 +17064,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 000203a2>',
             ),
-            311 =>
+            311 => 
             array (
-                'id' => 1312,
+                'wdt_ID' => 1312,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW01085',
@@ -17077,9 +17077,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e82>',
             ),
-            312 =>
+            312 => 
             array (
-                'id' => 1313,
+                'wdt_ID' => 1313,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW01120',
@@ -17090,9 +17090,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e83>',
             ),
-            313 =>
+            313 => 
             array (
-                'id' => 1314,
+                'wdt_ID' => 1314,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW01149',
@@ -17103,9 +17103,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e84>',
             ),
-            314 =>
+            314 => 
             array (
-                'id' => 1315,
+                'wdt_ID' => 1315,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1060',
@@ -17116,9 +17116,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00196bd1>',
             ),
-            315 =>
+            315 => 
             array (
-                'id' => 1316,
+                'wdt_ID' => 1316,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1092',
@@ -17129,9 +17129,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00196bd2>',
             ),
-            316 =>
+            316 => 
             array (
-                'id' => 1317,
+                'wdt_ID' => 1317,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'AW1101',
@@ -17142,9 +17142,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e87>',
             ),
-            317 =>
+            317 => 
             array (
-                'id' => 1318,
+                'wdt_ID' => 1318,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'AW1135',
@@ -17155,9 +17155,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e88>',
             ),
-            318 =>
+            318 => 
             array (
-                'id' => 1319,
+                'wdt_ID' => 1319,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1148',
@@ -17168,9 +17168,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e89>',
             ),
-            319 =>
+            319 => 
             array (
-                'id' => 1320,
+                'wdt_ID' => 1320,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1190',
@@ -17181,9 +17181,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e8a>',
             ),
-            320 =>
+            320 => 
             array (
-                'id' => 1321,
+                'wdt_ID' => 1321,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1192',
@@ -17194,9 +17194,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e8b>',
             ),
-            321 =>
+            321 => 
             array (
-                'id' => 1322,
+                'wdt_ID' => 1322,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1250',
@@ -17207,9 +17207,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e8c>',
             ),
-            322 =>
+            322 => 
             array (
-                'id' => 1323,
+                'wdt_ID' => 1323,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'AW1255',
@@ -17220,9 +17220,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e8d>',
             ),
-            323 =>
+            323 => 
             array (
-                'id' => 1324,
+                'wdt_ID' => 1324,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1257',
@@ -17233,9 +17233,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e8e>',
             ),
-            324 =>
+            324 => 
             array (
-                'id' => 1325,
+                'wdt_ID' => 1325,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1263',
@@ -17246,9 +17246,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e8f>',
             ),
-            325 =>
+            325 => 
             array (
-                'id' => 1326,
+                'wdt_ID' => 1326,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1270',
@@ -17259,9 +17259,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e90>',
             ),
-            326 =>
+            326 => 
             array (
-                'id' => 1327,
+                'wdt_ID' => 1327,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW1271',
@@ -17272,9 +17272,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e91>',
             ),
-            327 =>
+            327 => 
             array (
-                'id' => 1328,
+                'wdt_ID' => 1328,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW41140',
@@ -17285,9 +17285,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00196bd8>',
             ),
-            328 =>
+            328 => 
             array (
-                'id' => 1329,
+                'wdt_ID' => 1329,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'AW41490',
@@ -17298,9 +17298,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e93>',
             ),
-            329 =>
+            329 => 
             array (
-                'id' => 1330,
+                'wdt_ID' => 1330,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'AW61214',
@@ -17311,9 +17311,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e94>',
             ),
-            330 =>
+            330 => 
             array (
-                'id' => 1331,
+                'wdt_ID' => 1331,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81050',
@@ -17324,9 +17324,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e95>',
             ),
-            331 =>
+            331 => 
             array (
-                'id' => 1332,
+                'wdt_ID' => 1332,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81098',
@@ -17337,9 +17337,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 0010e055>',
             ),
-            332 =>
+            332 => 
             array (
-                'id' => 1333,
+                'wdt_ID' => 1333,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81119',
@@ -17350,9 +17350,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00196be3>',
             ),
-            333 =>
+            333 => 
             array (
-                'id' => 1334,
+                'wdt_ID' => 1334,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW81174',
@@ -17363,9 +17363,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e98>',
             ),
-            334 =>
+            334 => 
             array (
-                'id' => 1335,
+                'wdt_ID' => 1335,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AW90200',
@@ -17376,9 +17376,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1376001',
                 'ssmatimestamp' => '<00000000 00003e99>',
             ),
-            335 =>
+            335 => 
             array (
-                'id' => 1336,
+                'wdt_ID' => 1336,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'B23000',
@@ -17389,9 +17389,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29180',
                 'ssmatimestamp' => '<00000000 00003e9a>',
             ),
-            336 =>
+            336 => 
             array (
-                'id' => 1337,
+                'wdt_ID' => 1337,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'B23001',
@@ -17402,9 +17402,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465101',
                 'ssmatimestamp' => '<00000000 00003e9b>',
             ),
-            337 =>
+            337 => 
             array (
-                'id' => 1338,
+                'wdt_ID' => 1338,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'B23002',
@@ -17415,9 +17415,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003e9c>',
             ),
-            338 =>
+            338 => 
             array (
-                'id' => 1339,
+                'wdt_ID' => 1339,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'B23004',
@@ -17428,9 +17428,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467801',
                 'ssmatimestamp' => '<00000000 00003e9d>',
             ),
-            339 =>
+            339 => 
             array (
-                'id' => 1340,
+                'wdt_ID' => 1340,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'B23005',
@@ -17441,9 +17441,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1455001',
                 'ssmatimestamp' => '<00000000 00003e9e>',
             ),
-            340 =>
+            340 => 
             array (
-                'id' => 1341,
+                'wdt_ID' => 1341,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1000',
@@ -17454,9 +17454,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00003e9f>',
             ),
-            341 =>
+            341 => 
             array (
-                'id' => 1342,
+                'wdt_ID' => 1342,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1467',
@@ -17467,9 +17467,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ea0>',
             ),
-            342 =>
+            342 => 
             array (
-                'id' => 1343,
+                'wdt_ID' => 1343,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1469',
@@ -17480,9 +17480,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ea1>',
             ),
-            343 =>
+            343 => 
             array (
-                'id' => 1344,
+                'wdt_ID' => 1344,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1496',
@@ -17493,9 +17493,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ea2>',
             ),
-            344 =>
+            344 => 
             array (
-                'id' => 1345,
+                'wdt_ID' => 1345,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1497',
@@ -17506,9 +17506,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ea3>',
             ),
-            345 =>
+            345 => 
             array (
-                'id' => 1346,
+                'wdt_ID' => 1346,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1498',
@@ -17519,9 +17519,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ea4>',
             ),
-            346 =>
+            346 => 
             array (
-                'id' => 1347,
+                'wdt_ID' => 1347,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1503',
@@ -17532,9 +17532,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ea5>',
             ),
-            347 =>
+            347 => 
             array (
-                'id' => 1348,
+                'wdt_ID' => 1348,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1504',
@@ -17545,9 +17545,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ea6>',
             ),
-            348 =>
+            348 => 
             array (
-                'id' => 1349,
+                'wdt_ID' => 1349,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1507',
@@ -17558,9 +17558,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175897>',
             ),
-            349 =>
+            349 => 
             array (
-                'id' => 1350,
+                'wdt_ID' => 1350,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1508',
@@ -17571,9 +17571,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00153db9>',
             ),
-            350 =>
+            350 => 
             array (
-                'id' => 1351,
+                'wdt_ID' => 1351,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1530',
@@ -17584,9 +17584,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ea9>',
             ),
-            351 =>
+            351 => 
             array (
-                'id' => 1352,
+                'wdt_ID' => 1352,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1531',
@@ -17597,9 +17597,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eaa>',
             ),
-            352 =>
+            352 => 
             array (
-                'id' => 1353,
+                'wdt_ID' => 1353,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1550',
@@ -17610,9 +17610,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eab>',
             ),
-            353 =>
+            353 => 
             array (
-                'id' => 1354,
+                'wdt_ID' => 1354,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1591',
@@ -17623,9 +17623,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eac>',
             ),
-            354 =>
+            354 => 
             array (
-                'id' => 1355,
+                'wdt_ID' => 1355,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1592',
@@ -17636,9 +17636,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c082>',
             ),
-            355 =>
+            355 => 
             array (
-                'id' => 1356,
+                'wdt_ID' => 1356,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1593',
@@ -17649,9 +17649,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eae>',
             ),
-            356 =>
+            356 => 
             array (
-                'id' => 1357,
+                'wdt_ID' => 1357,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1606',
@@ -17662,9 +17662,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003eaf>',
             ),
-            357 =>
+            357 => 
             array (
-                'id' => 1358,
+                'wdt_ID' => 1358,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1628',
@@ -17675,9 +17675,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00159b49>',
             ),
-            358 =>
+            358 => 
             array (
-                'id' => 1359,
+                'wdt_ID' => 1359,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1629',
@@ -17688,9 +17688,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00159b46>',
             ),
-            359 =>
+            359 => 
             array (
-                'id' => 1360,
+                'wdt_ID' => 1360,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1635',
@@ -17701,9 +17701,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eb2>',
             ),
-            360 =>
+            360 => 
             array (
-                'id' => 1361,
+                'wdt_ID' => 1361,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1636',
@@ -17714,9 +17714,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eb3>',
             ),
-            361 =>
+            361 => 
             array (
-                'id' => 1362,
+                'wdt_ID' => 1362,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1637',
@@ -17727,9 +17727,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eb4>',
             ),
-            362 =>
+            362 => 
             array (
-                'id' => 1363,
+                'wdt_ID' => 1363,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1638',
@@ -17740,9 +17740,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eb5>',
             ),
-            363 =>
+            363 => 
             array (
-                'id' => 1364,
+                'wdt_ID' => 1364,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1640',
@@ -17753,9 +17753,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c083>',
             ),
-            364 =>
+            364 => 
             array (
-                'id' => 1365,
+                'wdt_ID' => 1365,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1641',
@@ -17766,9 +17766,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 0014c086>',
             ),
-            365 =>
+            365 => 
             array (
-                'id' => 1366,
+                'wdt_ID' => 1366,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1642',
@@ -17779,9 +17779,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 0017598d>',
             ),
-            366 =>
+            366 => 
             array (
-                'id' => 1367,
+                'wdt_ID' => 1367,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1643',
@@ -17792,9 +17792,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175917>',
             ),
-            367 =>
+            367 => 
             array (
-                'id' => 1368,
+                'wdt_ID' => 1368,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1675',
@@ -17805,9 +17805,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eba>',
             ),
-            368 =>
+            368 => 
             array (
-                'id' => 1369,
+                'wdt_ID' => 1369,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1676',
@@ -17818,9 +17818,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ebb>',
             ),
-            369 =>
+            369 => 
             array (
-                'id' => 1370,
+                'wdt_ID' => 1370,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1688',
@@ -17831,9 +17831,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ebc>',
             ),
-            370 =>
+            370 => 
             array (
-                'id' => 1371,
+                'wdt_ID' => 1371,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1689',
@@ -17844,9 +17844,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ebd>',
             ),
-            371 =>
+            371 => 
             array (
-                'id' => 1372,
+                'wdt_ID' => 1372,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1701',
@@ -17857,9 +17857,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ebe>',
             ),
-            372 =>
+            372 => 
             array (
-                'id' => 1373,
+                'wdt_ID' => 1373,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1707',
@@ -17870,9 +17870,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ebf>',
             ),
-            373 =>
+            373 => 
             array (
-                'id' => 1374,
+                'wdt_ID' => 1374,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1899',
@@ -17883,9 +17883,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ec0>',
             ),
-            374 =>
+            374 => 
             array (
-                'id' => 1375,
+                'wdt_ID' => 1375,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1927',
@@ -17896,9 +17896,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ec1>',
             ),
-            375 =>
+            375 => 
             array (
-                'id' => 1376,
+                'wdt_ID' => 1376,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1928',
@@ -17909,9 +17909,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ec2>',
             ),
-            376 =>
+            376 => 
             array (
-                'id' => 1377,
+                'wdt_ID' => 1377,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1952',
@@ -17922,9 +17922,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ec3>',
             ),
-            377 =>
+            377 => 
             array (
-                'id' => 1378,
+                'wdt_ID' => 1378,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1965',
@@ -17935,9 +17935,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ec4>',
             ),
-            378 =>
+            378 => 
             array (
-                'id' => 1379,
+                'wdt_ID' => 1379,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1966',
@@ -17948,9 +17948,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ec5>',
             ),
-            379 =>
+            379 => 
             array (
-                'id' => 1380,
+                'wdt_ID' => 1380,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1997',
@@ -17961,9 +17961,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00147a54>',
             ),
-            380 =>
+            380 => 
             array (
-                'id' => 1381,
+                'wdt_ID' => 1381,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2005',
@@ -17974,9 +17974,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ec7>',
             ),
-            381 =>
+            381 => 
             array (
-                'id' => 1382,
+                'wdt_ID' => 1382,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2006',
@@ -17987,9 +17987,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ec8>',
             ),
-            382 =>
+            382 => 
             array (
-                'id' => 1383,
+                'wdt_ID' => 1383,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2043',
@@ -18000,9 +18000,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035005',
                 'ssmatimestamp' => '<00000000 00003ec9>',
             ),
-            383 =>
+            383 => 
             array (
-                'id' => 1384,
+                'wdt_ID' => 1384,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC2044',
@@ -18013,9 +18013,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 001758df>',
             ),
-            384 =>
+            384 => 
             array (
-                'id' => 1385,
+                'wdt_ID' => 1385,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2045',
@@ -18026,9 +18026,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ecb>',
             ),
-            385 =>
+            385 => 
             array (
-                'id' => 1386,
+                'wdt_ID' => 1386,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2059',
@@ -18039,9 +18039,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035005',
                 'ssmatimestamp' => '<00000000 00003ecc>',
             ),
-            386 =>
+            386 => 
             array (
-                'id' => 1387,
+                'wdt_ID' => 1387,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2109',
@@ -18052,9 +18052,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c068>',
             ),
-            387 =>
+            387 => 
             array (
-                'id' => 1388,
+                'wdt_ID' => 1388,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2115',
@@ -18065,9 +18065,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ece>',
             ),
-            388 =>
+            388 => 
             array (
-                'id' => 1389,
+                'wdt_ID' => 1389,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2116',
@@ -18078,9 +18078,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ecf>',
             ),
-            389 =>
+            389 => 
             array (
-                'id' => 1390,
+                'wdt_ID' => 1390,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2119',
@@ -18091,9 +18091,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c069>',
             ),
-            390 =>
+            390 => 
             array (
-                'id' => 1391,
+                'wdt_ID' => 1391,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2120',
@@ -18104,9 +18104,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 0007c06a>',
             ),
-            391 =>
+            391 => 
             array (
-                'id' => 1392,
+                'wdt_ID' => 1392,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2123',
@@ -18117,9 +18117,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ed2>',
             ),
-            392 =>
+            392 => 
             array (
-                'id' => 1393,
+                'wdt_ID' => 1393,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2124',
@@ -18130,9 +18130,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ed3>',
             ),
-            393 =>
+            393 => 
             array (
-                'id' => 1394,
+                'wdt_ID' => 1394,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2142',
@@ -18143,9 +18143,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ed4>',
             ),
-            394 =>
+            394 => 
             array (
-                'id' => 1395,
+                'wdt_ID' => 1395,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2147',
@@ -18156,9 +18156,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ed5>',
             ),
-            395 =>
+            395 => 
             array (
-                'id' => 1396,
+                'wdt_ID' => 1396,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2255',
@@ -18169,9 +18169,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ed6>',
             ),
-            396 =>
+            396 => 
             array (
-                'id' => 1397,
+                'wdt_ID' => 1397,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2256',
@@ -18182,9 +18182,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ed7>',
             ),
-            397 =>
+            397 => 
             array (
-                'id' => 1398,
+                'wdt_ID' => 1398,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2257',
@@ -18195,9 +18195,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00159375>',
             ),
-            398 =>
+            398 => 
             array (
-                'id' => 1399,
+                'wdt_ID' => 1399,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2261',
@@ -18208,9 +18208,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175915>',
             ),
-            399 =>
+            399 => 
             array (
-                'id' => 1400,
+                'wdt_ID' => 1400,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2269',
@@ -18221,9 +18221,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 00153db6>',
             ),
-            400 =>
+            400 => 
             array (
-                'id' => 1401,
+                'wdt_ID' => 1401,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2271',
@@ -18234,9 +18234,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001777f5>',
             ),
-            401 =>
+            401 => 
             array (
-                'id' => 1402,
+                'wdt_ID' => 1402,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2286',
@@ -18247,9 +18247,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003edc>',
             ),
-            402 =>
+            402 => 
             array (
-                'id' => 1403,
+                'wdt_ID' => 1403,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2380',
@@ -18260,9 +18260,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003edd>',
             ),
-            403 =>
+            403 => 
             array (
-                'id' => 1404,
+                'wdt_ID' => 1404,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2441',
@@ -18273,9 +18273,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 00175916>',
             ),
-            404 =>
+            404 => 
             array (
-                'id' => 1405,
+                'wdt_ID' => 1405,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2459',
@@ -18286,9 +18286,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001489d2>',
             ),
-            405 =>
+            405 => 
             array (
-                'id' => 1406,
+                'wdt_ID' => 1406,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2488',
@@ -18299,9 +18299,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035010',
                 'ssmatimestamp' => '<00000000 001777f4>',
             ),
-            406 =>
+            406 => 
             array (
-                'id' => 1407,
+                'wdt_ID' => 1407,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2500',
@@ -18312,9 +18312,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903108',
                 'ssmatimestamp' => '<00000000 000222f8>',
             ),
-            407 =>
+            407 => 
             array (
-                'id' => 1408,
+                'wdt_ID' => 1408,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2537',
@@ -18325,9 +18325,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035009',
                 'ssmatimestamp' => '<00000000 001489d4>',
             ),
-            408 =>
+            408 => 
             array (
-                'id' => 1409,
+                'wdt_ID' => 1409,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2564',
@@ -18338,9 +18338,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035001',
                 'ssmatimestamp' => '<00000000 00003ee3>',
             ),
-            409 =>
+            409 => 
             array (
-                'id' => 1410,
+                'wdt_ID' => 1410,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2569',
@@ -18351,9 +18351,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ee4>',
             ),
-            410 =>
+            410 => 
             array (
-                'id' => 1411,
+                'wdt_ID' => 1411,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2575',
@@ -18364,9 +18364,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ee5>',
             ),
-            411 =>
+            411 => 
             array (
-                'id' => 1412,
+                'wdt_ID' => 1412,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2585',
@@ -18377,9 +18377,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035005',
                 'ssmatimestamp' => '<00000000 00003ee6>',
             ),
-            412 =>
+            412 => 
             array (
-                'id' => 1413,
+                'wdt_ID' => 1413,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2599',
@@ -18390,9 +18390,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ee7>',
             ),
-            413 =>
+            413 => 
             array (
-                'id' => 1414,
+                'wdt_ID' => 1414,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC2602',
@@ -18403,9 +18403,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035003',
                 'ssmatimestamp' => '<00000000 00003ee8>',
             ),
-            414 =>
+            414 => 
             array (
-                'id' => 1415,
+                'wdt_ID' => 1415,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC4833',
@@ -18416,9 +18416,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 00003ee9>',
             ),
-            415 =>
+            415 => 
             array (
-                'id' => 1416,
+                'wdt_ID' => 1416,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC4835',
@@ -18429,9 +18429,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 00003eea>',
             ),
-            416 =>
+            416 => 
             array (
-                'id' => 1417,
+                'wdt_ID' => 1417,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC4836',
@@ -18442,9 +18442,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 00003eeb>',
             ),
-            417 =>
+            417 => 
             array (
-                'id' => 1418,
+                'wdt_ID' => 1418,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC4837',
@@ -18455,9 +18455,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 00003eec>',
             ),
-            418 =>
+            418 => 
             array (
-                'id' => 1419,
+                'wdt_ID' => 1419,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC50000',
@@ -18468,9 +18468,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003eed>',
             ),
-            419 =>
+            419 => 
             array (
-                'id' => 1420,
+                'wdt_ID' => 1420,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC50001',
@@ -18481,9 +18481,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003eee>',
             ),
-            420 =>
+            420 => 
             array (
-                'id' => 1421,
+                'wdt_ID' => 1421,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC9011',
@@ -18494,9 +18494,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003eef>',
             ),
-            421 =>
+            421 => 
             array (
-                'id' => 1422,
+                'wdt_ID' => 1422,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC90206',
@@ -18507,9 +18507,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef0>',
             ),
-            422 =>
+            422 => 
             array (
-                'id' => 1423,
+                'wdt_ID' => 1423,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC90236',
@@ -18520,9 +18520,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef1>',
             ),
-            423 =>
+            423 => 
             array (
-                'id' => 1424,
+                'wdt_ID' => 1424,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC9346',
@@ -18533,9 +18533,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1035002',
                 'ssmatimestamp' => '<00000000 00003ef2>',
             ),
-            424 =>
+            424 => 
             array (
-                'id' => 1425,
+                'wdt_ID' => 1425,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC9900',
@@ -18546,9 +18546,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef3>',
             ),
-            425 =>
+            425 => 
             array (
-                'id' => 1426,
+                'wdt_ID' => 1426,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC9950',
@@ -18559,9 +18559,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1463301',
                 'ssmatimestamp' => '<00000000 00003ef4>',
             ),
-            426 =>
+            426 => 
             array (
-                'id' => 1427,
+                'wdt_ID' => 1427,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'CC9952',
@@ -18572,9 +18572,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef5>',
             ),
-            427 =>
+            427 => 
             array (
-                'id' => 1428,
+                'wdt_ID' => 1428,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CCACCESS',
@@ -18585,9 +18585,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 00003ef6>',
             ),
-            428 =>
+            428 => 
             array (
-                'id' => 1429,
+                'wdt_ID' => 1429,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CCHOLD',
@@ -18598,9 +18598,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef7>',
             ),
-            429 =>
+            429 => 
             array (
-                'id' => 1430,
+                'wdt_ID' => 1430,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CCLIT',
@@ -18611,9 +18611,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef8>',
             ),
-            430 =>
+            430 => 
             array (
-                'id' => 1431,
+                'wdt_ID' => 1431,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CCMOBILE',
@@ -18624,9 +18624,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ef9>',
             ),
-            431 =>
+            431 => 
             array (
-                'id' => 1432,
+                'wdt_ID' => 1432,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CCTABLE',
@@ -18637,9 +18637,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1463301',
                 'ssmatimestamp' => '<00000000 00003efa>',
             ),
-            432 =>
+            432 => 
             array (
-                'id' => 1433,
+                'wdt_ID' => 1433,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'D40111',
@@ -18650,9 +18650,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1466701',
                 'ssmatimestamp' => '<00000000 00003efb>',
             ),
-            433 =>
+            433 => 
             array (
-                'id' => 1434,
+                'wdt_ID' => 1434,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'D40112',
@@ -18663,9 +18663,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012502',
                 'ssmatimestamp' => '<00000000 00003efc>',
             ),
-            434 =>
+            434 => 
             array (
-                'id' => 1435,
+                'wdt_ID' => 1435,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'D40113',
@@ -18676,9 +18676,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012502',
                 'ssmatimestamp' => '<00000000 00003efd>',
             ),
-            435 =>
+            435 => 
             array (
-                'id' => 1436,
+                'wdt_ID' => 1436,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'D40114',
@@ -18689,9 +18689,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012503',
                 'ssmatimestamp' => '<00000000 00003efe>',
             ),
-            436 =>
+            436 => 
             array (
-                'id' => 1437,
+                'wdt_ID' => 1437,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'D40115',
@@ -18702,9 +18702,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00003eff>',
             ),
-            437 =>
+            437 => 
             array (
-                'id' => 1438,
+                'wdt_ID' => 1438,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'D40116',
@@ -18715,9 +18715,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00003f01>',
             ),
-            438 =>
+            438 => 
             array (
-                'id' => 1439,
+                'wdt_ID' => 1439,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00102',
@@ -18728,9 +18728,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00003f02>',
             ),
-            439 =>
+            439 => 
             array (
-                'id' => 1440,
+                'wdt_ID' => 1440,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00111',
@@ -18741,9 +18741,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00003f03>',
             ),
-            440 =>
+            440 => 
             array (
-                'id' => 1441,
+                'wdt_ID' => 1441,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00115',
@@ -18754,9 +18754,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f04>',
             ),
-            441 =>
+            441 => 
             array (
-                'id' => 1442,
+                'wdt_ID' => 1442,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00128',
@@ -18767,9 +18767,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14692',
                 'ssmatimestamp' => '<00000000 0010e821>',
             ),
-            442 =>
+            442 => 
             array (
-                'id' => 1443,
+                'wdt_ID' => 1443,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00132',
@@ -18780,9 +18780,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459001',
                 'ssmatimestamp' => '<00000000 00003f06>',
             ),
-            443 =>
+            443 => 
             array (
-                'id' => 1444,
+                'wdt_ID' => 1444,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00133',
@@ -18793,9 +18793,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00003f07>',
             ),
-            444 =>
+            444 => 
             array (
-                'id' => 1445,
+                'wdt_ID' => 1445,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00174',
@@ -18806,9 +18806,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f08>',
             ),
-            445 =>
+            445 => 
             array (
-                'id' => 1446,
+                'wdt_ID' => 1446,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00184',
@@ -18819,9 +18819,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459001',
                 'ssmatimestamp' => '<00000000 00003f09>',
             ),
-            446 =>
+            446 => 
             array (
-                'id' => 1447,
+                'wdt_ID' => 1447,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00185',
@@ -18832,9 +18832,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1458201',
                 'ssmatimestamp' => '<00000000 00003f0a>',
             ),
-            447 =>
+            447 => 
             array (
-                'id' => 1448,
+                'wdt_ID' => 1448,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00186',
@@ -18845,9 +18845,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460401',
                 'ssmatimestamp' => '<00000000 00003f0b>',
             ),
-            448 =>
+            448 => 
             array (
-                'id' => 1449,
+                'wdt_ID' => 1449,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00187',
@@ -18858,9 +18858,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903103',
                 'ssmatimestamp' => '<00000000 00003f0c>',
             ),
-            449 =>
+            449 => 
             array (
-                'id' => 1450,
+                'wdt_ID' => 1450,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00188',
@@ -18871,9 +18871,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14692',
                 'ssmatimestamp' => '<00000000 0010eff1>',
             ),
-            450 =>
+            450 => 
             array (
-                'id' => 1451,
+                'wdt_ID' => 1451,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00222',
@@ -18884,9 +18884,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460401',
                 'ssmatimestamp' => '<00000000 00003f0e>',
             ),
-            451 =>
+            451 => 
             array (
-                'id' => 1452,
+                'wdt_ID' => 1452,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00231',
@@ -18897,9 +18897,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465101',
                 'ssmatimestamp' => '<00000000 00003f0f>',
             ),
-            452 =>
+            452 => 
             array (
-                'id' => 1453,
+                'wdt_ID' => 1453,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00232',
@@ -18910,9 +18910,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465101',
                 'ssmatimestamp' => '<00000000 00003f10>',
             ),
-            453 =>
+            453 => 
             array (
-                'id' => 1454,
+                'wdt_ID' => 1454,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00234',
@@ -18923,9 +18923,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f11>',
             ),
-            454 =>
+            454 => 
             array (
-                'id' => 1455,
+                'wdt_ID' => 1455,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00237',
@@ -18936,9 +18936,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f12>',
             ),
-            455 =>
+            455 => 
             array (
-                'id' => 1456,
+                'wdt_ID' => 1456,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00238',
@@ -18949,9 +18949,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f13>',
             ),
-            456 =>
+            456 => 
             array (
-                'id' => 1457,
+                'wdt_ID' => 1457,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00240',
@@ -18962,9 +18962,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f14>',
             ),
-            457 =>
+            457 => 
             array (
-                'id' => 1458,
+                'wdt_ID' => 1458,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00241',
@@ -18975,9 +18975,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f15>',
             ),
-            458 =>
+            458 => 
             array (
-                'id' => 1459,
+                'wdt_ID' => 1459,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00242',
@@ -18988,9 +18988,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f16>',
             ),
-            459 =>
+            459 => 
             array (
-                'id' => 1460,
+                'wdt_ID' => 1460,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00244',
@@ -19001,9 +19001,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f17>',
             ),
-            460 =>
+            460 => 
             array (
-                'id' => 1461,
+                'wdt_ID' => 1461,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00245',
@@ -19014,9 +19014,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f18>',
             ),
-            461 =>
+            461 => 
             array (
-                'id' => 1462,
+                'wdt_ID' => 1462,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00246',
@@ -19027,9 +19027,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f19>',
             ),
-            462 =>
+            462 => 
             array (
-                'id' => 1463,
+                'wdt_ID' => 1463,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00247',
@@ -19040,9 +19040,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1458201',
                 'ssmatimestamp' => '<00000000 00003f1a>',
             ),
-            463 =>
+            463 => 
             array (
-                'id' => 1464,
+                'wdt_ID' => 1464,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00248',
@@ -19053,9 +19053,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f1b>',
             ),
-            464 =>
+            464 => 
             array (
-                'id' => 1465,
+                'wdt_ID' => 1465,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00249',
@@ -19066,9 +19066,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f1c>',
             ),
-            465 =>
+            465 => 
             array (
-                'id' => 1466,
+                'wdt_ID' => 1466,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00251',
@@ -19079,9 +19079,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f1d>',
             ),
-            466 =>
+            466 => 
             array (
-                'id' => 1467,
+                'wdt_ID' => 1467,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00252',
@@ -19092,9 +19092,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f1e>',
             ),
-            467 =>
+            467 => 
             array (
-                'id' => 1468,
+                'wdt_ID' => 1468,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00253',
@@ -19105,9 +19105,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f1f>',
             ),
-            468 =>
+            468 => 
             array (
-                'id' => 1469,
+                'wdt_ID' => 1469,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00254',
@@ -19118,9 +19118,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f20>',
             ),
-            469 =>
+            469 => 
             array (
-                'id' => 1470,
+                'wdt_ID' => 1470,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00255',
@@ -19131,9 +19131,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f21>',
             ),
-            470 =>
+            470 => 
             array (
-                'id' => 1471,
+                'wdt_ID' => 1471,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00256',
@@ -19144,9 +19144,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f22>',
             ),
-            471 =>
+            471 => 
             array (
-                'id' => 1472,
+                'wdt_ID' => 1472,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00257',
@@ -19157,9 +19157,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440001',
                 'ssmatimestamp' => '<00000000 00003f23>',
             ),
-            472 =>
+            472 => 
             array (
-                'id' => 1473,
+                'wdt_ID' => 1473,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00259',
@@ -19170,9 +19170,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f24>',
             ),
-            473 =>
+            473 => 
             array (
-                'id' => 1474,
+                'wdt_ID' => 1474,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00260',
@@ -19183,9 +19183,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f25>',
             ),
-            474 =>
+            474 => 
             array (
-                'id' => 1475,
+                'wdt_ID' => 1475,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00261',
@@ -19196,9 +19196,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f26>',
             ),
-            475 =>
+            475 => 
             array (
-                'id' => 1476,
+                'wdt_ID' => 1476,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00263',
@@ -19209,9 +19209,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465101',
                 'ssmatimestamp' => '<00000000 00003f27>',
             ),
-            476 =>
+            476 => 
             array (
-                'id' => 1477,
+                'wdt_ID' => 1477,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00324',
@@ -19222,9 +19222,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14694',
                 'ssmatimestamp' => '<00000000 0010effc>',
             ),
-            477 =>
+            477 => 
             array (
-                'id' => 1478,
+                'wdt_ID' => 1478,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00500',
@@ -19235,9 +19235,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440001',
                 'ssmatimestamp' => '<00000000 0010effe>',
             ),
-            478 =>
+            478 => 
             array (
-                'id' => 1479,
+                'wdt_ID' => 1479,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00555',
@@ -19248,9 +19248,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e073>',
             ),
-            479 =>
+            479 => 
             array (
-                'id' => 1480,
+                'wdt_ID' => 1480,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00556',
@@ -19261,9 +19261,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e074>',
             ),
-            480 =>
+            480 => 
             array (
-                'id' => 1481,
+                'wdt_ID' => 1481,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00557',
@@ -19274,9 +19274,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e075>',
             ),
-            481 =>
+            481 => 
             array (
-                'id' => 1482,
+                'wdt_ID' => 1482,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00558',
@@ -19287,9 +19287,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e076>',
             ),
-            482 =>
+            482 => 
             array (
-                'id' => 1483,
+                'wdt_ID' => 1483,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00559',
@@ -19300,9 +19300,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e077>',
             ),
-            483 =>
+            483 => 
             array (
-                'id' => 1484,
+                'wdt_ID' => 1484,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00560',
@@ -19313,9 +19313,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e078>',
             ),
-            484 =>
+            484 => 
             array (
-                'id' => 1485,
+                'wdt_ID' => 1485,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00561',
@@ -19326,9 +19326,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e079>',
             ),
-            485 =>
+            485 => 
             array (
-                'id' => 1486,
+                'wdt_ID' => 1486,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00562',
@@ -19339,9 +19339,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e07a>',
             ),
-            486 =>
+            486 => 
             array (
-                'id' => 1487,
+                'wdt_ID' => 1487,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00563',
@@ -19352,9 +19352,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467901',
                 'ssmatimestamp' => '<00000000 0003e07b>',
             ),
-            487 =>
+            487 => 
             array (
-                'id' => 1488,
+                'wdt_ID' => 1488,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00564',
@@ -19365,9 +19365,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1467901',
                     'ssmatimestamp' => '<00000000 0003e07c>',
                 ),
-                488 =>
+                488 => 
                 array (
-                    'id' => 1489,
+                    'wdt_ID' => 1489,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00565',
@@ -19378,9 +19378,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1467901',
                     'ssmatimestamp' => '<00000000 0003e07e>',
                 ),
-                489 =>
+                489 => 
                 array (
-                    'id' => 1490,
+                    'wdt_ID' => 1490,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00566',
@@ -19391,9 +19391,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1467901',
                     'ssmatimestamp' => '<00000000 0003e07d>',
                 ),
-                490 =>
+                490 => 
                 array (
-                    'id' => 1491,
+                    'wdt_ID' => 1491,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00567',
@@ -19404,9 +19404,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1467901',
                     'ssmatimestamp' => '<00000000 0003e072>',
                 ),
-                491 =>
+                491 => 
                 array (
-                    'id' => 1492,
+                    'wdt_ID' => 1492,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00568',
@@ -19417,9 +19417,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1467901',
                     'ssmatimestamp' => '<00000000 0003e071>',
                 ),
-                492 =>
+                492 => 
                 array (
-                    'id' => 1493,
+                    'wdt_ID' => 1493,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00569',
@@ -19430,9 +19430,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1467901',
                     'ssmatimestamp' => '<00000000 0003e07f>',
                 ),
-                493 =>
+                493 => 
                 array (
-                    'id' => 1494,
+                    'wdt_ID' => 1494,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00900',
@@ -19443,9 +19443,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1461901',
                     'ssmatimestamp' => '<00000000 00003f39>',
                 ),
-                494 =>
+                494 => 
                 array (
-                    'id' => 1495,
+                    'wdt_ID' => 1495,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00902',
@@ -19456,9 +19456,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1461901',
                     'ssmatimestamp' => '<00000000 00003f3a>',
                 ),
-                495 =>
+                495 => 
                 array (
-                    'id' => 1496,
+                    'wdt_ID' => 1496,
                     'cono' => 1,
                     'whse' => 'main',
                     'itemid' => 'E00905',
@@ -19469,9 +19469,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1461901',
                     'ssmatimestamp' => '<00000000 00003f3b>',
                 ),
-                496 =>
+                496 => 
                 array (
-                    'id' => 1497,
+                    'wdt_ID' => 1497,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00906',
@@ -19482,9 +19482,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1461901',
                     'ssmatimestamp' => '<00000000 00003f3c>',
                 ),
-                497 =>
+                497 => 
                 array (
-                    'id' => 1498,
+                    'wdt_ID' => 1498,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00908',
@@ -19495,9 +19495,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1461901',
                     'ssmatimestamp' => '<00000000 00003f3d>',
                 ),
-                498 =>
+                498 => 
                 array (
-                    'id' => 1499,
+                    'wdt_ID' => 1499,
                     'cono' => 1,
                     'whse' => 'main',
                     'itemid' => 'E00909',
@@ -19508,9 +19508,9 @@ class VwitemsTableSeeder extends Seeder
                     'factoryno' => '1461901',
                     'ssmatimestamp' => '<00000000 00003f3e>',
                 ),
-                499 =>
+                499 => 
                 array (
-                    'id' => 1500,
+                    'wdt_ID' => 1500,
                     'cono' => 1,
                     'whse' => 'MAIN',
                     'itemid' => 'E00910',
@@ -19523,9 +19523,9 @@ class VwitemsTableSeeder extends Seeder
                 ),
             ));
         \DB::table('vwitems')->insert(array (
-            0 =>
+            0 => 
             array (
-                'id' => 1501,
+                'wdt_ID' => 1501,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00911',
@@ -19536,9 +19536,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f40>',
             ),
-            1 =>
+            1 => 
             array (
-                'id' => 1502,
+                'wdt_ID' => 1502,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00912',
@@ -19549,9 +19549,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f41>',
             ),
-            2 =>
+            2 => 
             array (
-                'id' => 1503,
+                'wdt_ID' => 1503,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00914',
@@ -19562,9 +19562,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f42>',
             ),
-            3 =>
+            3 => 
             array (
-                'id' => 1504,
+                'wdt_ID' => 1504,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00915',
@@ -19575,9 +19575,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00061a99>',
             ),
-            4 =>
+            4 => 
             array (
-                'id' => 1505,
+                'wdt_ID' => 1505,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00916',
@@ -19588,9 +19588,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f44>',
             ),
-            5 =>
+            5 => 
             array (
-                'id' => 1506,
+                'wdt_ID' => 1506,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00917',
@@ -19601,9 +19601,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00003f45>',
             ),
-            6 =>
+            6 => 
             array (
-                'id' => 1507,
+                'wdt_ID' => 1507,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02004',
@@ -19614,9 +19614,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f46>',
             ),
-            7 =>
+            7 => 
             array (
-                'id' => 1508,
+                'wdt_ID' => 1508,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02005',
@@ -19627,9 +19627,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461901',
                 'ssmatimestamp' => '<00000000 00003f47>',
             ),
-            8 =>
+            8 => 
             array (
-                'id' => 1509,
+                'wdt_ID' => 1509,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02021',
@@ -19640,9 +19640,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 0010f003>',
             ),
-            9 =>
+            9 => 
             array (
-                'id' => 1510,
+                'wdt_ID' => 1510,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02033',
@@ -19653,9 +19653,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 00003f49>',
             ),
-            10 =>
+            10 => 
             array (
-                'id' => 1511,
+                'wdt_ID' => 1511,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02038',
@@ -19666,9 +19666,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f4a>',
             ),
-            11 =>
+            11 => 
             array (
-                'id' => 1512,
+                'wdt_ID' => 1512,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02050',
@@ -19679,9 +19679,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00003f4b>',
             ),
-            12 =>
+            12 => 
             array (
-                'id' => 1513,
+                'wdt_ID' => 1513,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02057',
@@ -19692,9 +19692,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f4c>',
             ),
-            13 =>
+            13 => 
             array (
-                'id' => 1514,
+                'wdt_ID' => 1514,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02075',
@@ -19705,9 +19705,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 0010f005>',
             ),
-            14 =>
+            14 => 
             array (
-                'id' => 1515,
+                'wdt_ID' => 1515,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02076',
@@ -19718,9 +19718,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 0010f006>',
             ),
-            15 =>
+            15 => 
             array (
-                'id' => 1516,
+                'wdt_ID' => 1516,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02082',
@@ -19731,9 +19731,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14582',
                 'ssmatimestamp' => '<00000000 0010f007>',
             ),
-            16 =>
+            16 => 
             array (
-                'id' => 1517,
+                'wdt_ID' => 1517,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02084',
@@ -19744,9 +19744,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 0010f008>',
             ),
-            17 =>
+            17 => 
             array (
-                'id' => 1518,
+                'wdt_ID' => 1518,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02089',
@@ -19757,9 +19757,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 0010f009>',
             ),
-            18 =>
+            18 => 
             array (
-                'id' => 1519,
+                'wdt_ID' => 1519,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02097',
@@ -19770,9 +19770,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14400',
                 'ssmatimestamp' => '<00000000 0010f00a>',
             ),
-            19 =>
+            19 => 
             array (
-                'id' => 1520,
+                'wdt_ID' => 1520,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02099',
@@ -19783,9 +19783,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1340502',
                 'ssmatimestamp' => '<00000000 00003f53>',
             ),
-            20 =>
+            20 => 
             array (
-                'id' => 1521,
+                'wdt_ID' => 1521,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02113',
@@ -19796,9 +19796,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f54>',
             ),
-            21 =>
+            21 => 
             array (
-                'id' => 1522,
+                'wdt_ID' => 1522,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02117',
@@ -19809,9 +19809,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 0010f00b>',
             ),
-            22 =>
+            22 => 
             array (
-                'id' => 1523,
+                'wdt_ID' => 1523,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02119',
@@ -19822,9 +19822,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 0010f00c>',
             ),
-            23 =>
+            23 => 
             array (
-                'id' => 1524,
+                'wdt_ID' => 1524,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02131',
@@ -19835,9 +19835,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903103',
                 'ssmatimestamp' => '<00000000 00003f57>',
             ),
-            24 =>
+            24 => 
             array (
-                'id' => 1525,
+                'wdt_ID' => 1525,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02137',
@@ -19848,9 +19848,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 00003f58>',
             ),
-            25 =>
+            25 => 
             array (
-                'id' => 1526,
+                'wdt_ID' => 1526,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02140',
@@ -19861,9 +19861,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1454501',
                 'ssmatimestamp' => '<00000000 0010f00d>',
             ),
-            26 =>
+            26 => 
             array (
-                'id' => 1527,
+                'wdt_ID' => 1527,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02146',
@@ -19874,9 +19874,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f5a>',
             ),
-            27 =>
+            27 => 
             array (
-                'id' => 1528,
+                'wdt_ID' => 1528,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02151',
@@ -19887,9 +19887,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 0010f7c1>',
             ),
-            28 =>
+            28 => 
             array (
-                'id' => 1529,
+                'wdt_ID' => 1529,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02165',
@@ -19900,9 +19900,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460301',
                 'ssmatimestamp' => '<00000000 00003f5c>',
             ),
-            29 =>
+            29 => 
             array (
-                'id' => 1530,
+                'wdt_ID' => 1530,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02166',
@@ -19913,9 +19913,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460701',
                 'ssmatimestamp' => '<00000000 00003f5d>',
             ),
-            30 =>
+            30 => 
             array (
-                'id' => 1531,
+                'wdt_ID' => 1531,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02177',
@@ -19926,9 +19926,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 0010f7c2>',
             ),
-            31 =>
+            31 => 
             array (
-                'id' => 1532,
+                'wdt_ID' => 1532,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02178',
@@ -19939,9 +19939,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f5f>',
             ),
-            32 =>
+            32 => 
             array (
-                'id' => 1533,
+                'wdt_ID' => 1533,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02180',
@@ -19952,9 +19952,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903107',
                 'ssmatimestamp' => '<00000000 00003f60>',
             ),
-            33 =>
+            33 => 
             array (
-                'id' => 1534,
+                'wdt_ID' => 1534,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00355',
@@ -19965,9 +19965,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cc98>',
             ),
-            34 =>
+            34 => 
             array (
-                'id' => 1535,
+                'wdt_ID' => 1535,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02190',
@@ -19978,9 +19978,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465501',
                 'ssmatimestamp' => '<00000000 00003f62>',
             ),
-            35 =>
+            35 => 
             array (
-                'id' => 1536,
+                'wdt_ID' => 1536,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02211',
@@ -19991,9 +19991,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f63>',
             ),
-            36 =>
+            36 => 
             array (
-                'id' => 1537,
+                'wdt_ID' => 1537,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02215',
@@ -20004,9 +20004,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903103',
                 'ssmatimestamp' => '<00000000 00003f64>',
             ),
-            37 =>
+            37 => 
             array (
-                'id' => 1538,
+                'wdt_ID' => 1538,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02217',
@@ -20017,9 +20017,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1340502',
                 'ssmatimestamp' => '<00000000 00003f65>',
             ),
-            38 =>
+            38 => 
             array (
-                'id' => 1539,
+                'wdt_ID' => 1539,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02218',
@@ -20030,9 +20030,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903103',
                 'ssmatimestamp' => '<00000000 00003f66>',
             ),
-            39 =>
+            39 => 
             array (
-                'id' => 1540,
+                'wdt_ID' => 1540,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02221',
@@ -20043,9 +20043,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 00003f67>',
             ),
-            40 =>
+            40 => 
             array (
-                'id' => 1541,
+                'wdt_ID' => 1541,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02223',
@@ -20056,9 +20056,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1312001',
                 'ssmatimestamp' => '<00000000 0010f7c3>',
             ),
-            41 =>
+            41 => 
             array (
-                'id' => 1542,
+                'wdt_ID' => 1542,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02225',
@@ -20069,9 +20069,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f69>',
             ),
-            42 =>
+            42 => 
             array (
-                'id' => 1543,
+                'wdt_ID' => 1543,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02232',
@@ -20082,9 +20082,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 00003f6a>',
             ),
-            43 =>
+            43 => 
             array (
-                'id' => 1544,
+                'wdt_ID' => 1544,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00356',
@@ -20095,9 +20095,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14619',
                 'ssmatimestamp' => '<00000000 0012cc99>',
             ),
-            44 =>
+            44 => 
             array (
-                'id' => 1545,
+                'wdt_ID' => 1545,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02238',
@@ -20108,9 +20108,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 00003f6b>',
             ),
-            45 =>
+            45 => 
             array (
-                'id' => 1546,
+                'wdt_ID' => 1546,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02248',
@@ -20121,9 +20121,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460301',
                 'ssmatimestamp' => '<00000000 0010f7c4>',
             ),
-            46 =>
+            46 => 
             array (
-                'id' => 1547,
+                'wdt_ID' => 1547,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02256',
@@ -20134,9 +20134,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1340502',
                 'ssmatimestamp' => '<00000000 00003f6d>',
             ),
-            47 =>
+            47 => 
             array (
-                'id' => 1548,
+                'wdt_ID' => 1548,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02262',
@@ -20147,9 +20147,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f6e>',
             ),
-            48 =>
+            48 => 
             array (
-                'id' => 1549,
+                'wdt_ID' => 1549,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02263',
@@ -20160,9 +20160,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465601',
                 'ssmatimestamp' => '<00000000 00003f6f>',
             ),
-            49 =>
+            49 => 
             array (
-                'id' => 1550,
+                'wdt_ID' => 1550,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02264',
@@ -20173,9 +20173,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 00003f70>',
             ),
-            50 =>
+            50 => 
             array (
-                'id' => 1551,
+                'wdt_ID' => 1551,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02265',
@@ -20186,9 +20186,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461702',
                 'ssmatimestamp' => '<00000000 0003ff71>',
             ),
-            51 =>
+            51 => 
             array (
-                'id' => 1552,
+                'wdt_ID' => 1552,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02272',
@@ -20199,9 +20199,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1340502',
                 'ssmatimestamp' => '<00000000 00003f72>',
             ),
-            52 =>
+            52 => 
             array (
-                'id' => 1553,
+                'wdt_ID' => 1553,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02273',
@@ -20212,9 +20212,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460701',
                 'ssmatimestamp' => '<00000000 00003f73>',
             ),
-            53 =>
+            53 => 
             array (
-                'id' => 1554,
+                'wdt_ID' => 1554,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02275',
@@ -20225,9 +20225,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 00003f74>',
             ),
-            54 =>
+            54 => 
             array (
-                'id' => 1555,
+                'wdt_ID' => 1555,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02276',
@@ -20238,9 +20238,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14607',
                 'ssmatimestamp' => '<00000000 0010f7c5>',
             ),
-            55 =>
+            55 => 
             array (
-                'id' => 1556,
+                'wdt_ID' => 1556,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02278',
@@ -20251,9 +20251,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 00003f76>',
             ),
-            56 =>
+            56 => 
             array (
-                'id' => 1557,
+                'wdt_ID' => 1557,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02292',
@@ -20264,9 +20264,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 00003f77>',
             ),
-            57 =>
+            57 => 
             array (
-                'id' => 1558,
+                'wdt_ID' => 1558,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02294',
@@ -20277,9 +20277,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465601',
                 'ssmatimestamp' => '<00000000 00003f78>',
             ),
-            58 =>
+            58 => 
             array (
-                'id' => 1559,
+                'wdt_ID' => 1559,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02299',
@@ -20290,9 +20290,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1465501',
                 'ssmatimestamp' => '<00000000 00003f79>',
             ),
-            59 =>
+            59 => 
             array (
-                'id' => 1560,
+                'wdt_ID' => 1560,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02301',
@@ -20303,9 +20303,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440001',
                 'ssmatimestamp' => '<00000000 0010ff91>',
             ),
-            60 =>
+            60 => 
             array (
-                'id' => 1561,
+                'wdt_ID' => 1561,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02310',
@@ -20316,9 +20316,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464901',
                 'ssmatimestamp' => '<00000000 00003f7b>',
             ),
-            61 =>
+            61 => 
             array (
-                'id' => 1562,
+                'wdt_ID' => 1562,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02311',
@@ -20329,9 +20329,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 00003f7c>',
             ),
-            62 =>
+            62 => 
             array (
-                'id' => 1563,
+                'wdt_ID' => 1563,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02312',
@@ -20342,9 +20342,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 00003f7d>',
             ),
-            63 =>
+            63 => 
             array (
-                'id' => 1564,
+                'wdt_ID' => 1564,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02313',
@@ -20355,9 +20355,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f7e>',
             ),
-            64 =>
+            64 => 
             array (
-                'id' => 1565,
+                'wdt_ID' => 1565,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02316',
@@ -20368,9 +20368,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903103',
                 'ssmatimestamp' => '<00000000 00003f7f>',
             ),
-            65 =>
+            65 => 
             array (
-                'id' => 1566,
+                'wdt_ID' => 1566,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02317',
@@ -20381,9 +20381,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 00003f80>',
             ),
-            66 =>
+            66 => 
             array (
-                'id' => 1567,
+                'wdt_ID' => 1567,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02318',
@@ -20394,9 +20394,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f81>',
             ),
-            67 =>
+            67 => 
             array (
-                'id' => 1568,
+                'wdt_ID' => 1568,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02319',
@@ -20407,9 +20407,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f82>',
             ),
-            68 =>
+            68 => 
             array (
-                'id' => 1569,
+                'wdt_ID' => 1569,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02320',
@@ -20420,9 +20420,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903107',
                 'ssmatimestamp' => '<00000000 00003f83>',
             ),
-            69 =>
+            69 => 
             array (
-                'id' => 1570,
+                'wdt_ID' => 1570,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02321',
@@ -20433,9 +20433,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467702',
                 'ssmatimestamp' => '<00000000 000222f0>',
             ),
-            70 =>
+            70 => 
             array (
-                'id' => 1571,
+                'wdt_ID' => 1571,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02322',
@@ -20446,9 +20446,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 00003f85>',
             ),
-            71 =>
+            71 => 
             array (
-                'id' => 1572,
+                'wdt_ID' => 1572,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02323',
@@ -20459,9 +20459,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f86>',
             ),
-            72 =>
+            72 => 
             array (
-                'id' => 1573,
+                'wdt_ID' => 1573,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02325',
@@ -20472,9 +20472,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 00003f87>',
             ),
-            73 =>
+            73 => 
             array (
-                'id' => 1574,
+                'wdt_ID' => 1574,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02326',
@@ -20485,9 +20485,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 00003f88>',
             ),
-            74 =>
+            74 => 
             array (
-                'id' => 1575,
+                'wdt_ID' => 1575,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02327',
@@ -20498,9 +20498,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 00003f89>',
             ),
-            75 =>
+            75 => 
             array (
-                'id' => 1576,
+                'wdt_ID' => 1576,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02328',
@@ -20511,9 +20511,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 00003f8a>',
             ),
-            76 =>
+            76 => 
             array (
-                'id' => 1577,
+                'wdt_ID' => 1577,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02330',
@@ -20524,9 +20524,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460701',
                 'ssmatimestamp' => '<00000000 00003f8b>',
             ),
-            77 =>
+            77 => 
             array (
-                'id' => 1578,
+                'wdt_ID' => 1578,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02331',
@@ -20537,9 +20537,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903102',
                 'ssmatimestamp' => '<00000000 00003f8c>',
             ),
-            78 =>
+            78 => 
             array (
-                'id' => 1579,
+                'wdt_ID' => 1579,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02332',
@@ -20550,9 +20550,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903101',
                 'ssmatimestamp' => '<00000000 00003f8d>',
             ),
-            79 =>
+            79 => 
             array (
-                'id' => 1580,
+                'wdt_ID' => 1580,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02333',
@@ -20563,9 +20563,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903104',
                 'ssmatimestamp' => '<00000000 00003f8e>',
             ),
-            80 =>
+            80 => 
             array (
-                'id' => 1581,
+                'wdt_ID' => 1581,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02334',
@@ -20576,9 +20576,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f8f>',
             ),
-            81 =>
+            81 => 
             array (
-                'id' => 1582,
+                'wdt_ID' => 1582,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02335',
@@ -20589,9 +20589,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f90>',
             ),
-            82 =>
+            82 => 
             array (
-                'id' => 1583,
+                'wdt_ID' => 1583,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02336',
@@ -20602,9 +20602,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1340502',
                 'ssmatimestamp' => '<00000000 00003f91>',
             ),
-            83 =>
+            83 => 
             array (
-                'id' => 1584,
+                'wdt_ID' => 1584,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02337',
@@ -20615,9 +20615,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456701',
                 'ssmatimestamp' => '<00000000 00003f92>',
             ),
-            84 =>
+            84 => 
             array (
-                'id' => 1585,
+                'wdt_ID' => 1585,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02338',
@@ -20628,9 +20628,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464901',
                 'ssmatimestamp' => '<00000000 00003f93>',
             ),
-            85 =>
+            85 => 
             array (
-                'id' => 1586,
+                'wdt_ID' => 1586,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02339',
@@ -20641,9 +20641,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 00003f94>',
             ),
-            86 =>
+            86 => 
             array (
-                'id' => 1587,
+                'wdt_ID' => 1587,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02340',
@@ -20654,9 +20654,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1462901',
                 'ssmatimestamp' => '<00000000 0010ff92>',
             ),
-            87 =>
+            87 => 
             array (
-                'id' => 1588,
+                'wdt_ID' => 1588,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02341',
@@ -20667,9 +20667,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456702',
                 'ssmatimestamp' => '<00000000 00003f96>',
             ),
-            88 =>
+            88 => 
             array (
-                'id' => 1589,
+                'wdt_ID' => 1589,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02342',
@@ -20680,9 +20680,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1440002',
                 'ssmatimestamp' => '<00000000 00003f97>',
             ),
-            89 =>
+            89 => 
             array (
-                'id' => 1590,
+                'wdt_ID' => 1590,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02345',
@@ -20693,9 +20693,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467501',
                 'ssmatimestamp' => '<00000000 00003f98>',
             ),
-            90 =>
+            90 => 
             array (
-                'id' => 1591,
+                'wdt_ID' => 1591,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02346',
@@ -20706,9 +20706,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460301',
                 'ssmatimestamp' => '<00000000 00003f99>',
             ),
-            91 =>
+            91 => 
             array (
-                'id' => 1592,
+                'wdt_ID' => 1592,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02347',
@@ -20719,9 +20719,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460301',
                 'ssmatimestamp' => '<00000000 00003f9a>',
             ),
-            92 =>
+            92 => 
             array (
-                'id' => 1593,
+                'wdt_ID' => 1593,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02348',
@@ -20732,9 +20732,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460301',
                 'ssmatimestamp' => '<00000000 0010ff93>',
             ),
-            93 =>
+            93 => 
             array (
-                'id' => 1594,
+                'wdt_ID' => 1594,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02349',
@@ -20745,9 +20745,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f9c>',
             ),
-            94 =>
+            94 => 
             array (
-                'id' => 1595,
+                'wdt_ID' => 1595,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02350',
@@ -20758,9 +20758,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 0010ff94>',
             ),
-            95 =>
+            95 => 
             array (
-                'id' => 1596,
+                'wdt_ID' => 1596,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02353',
@@ -20771,9 +20771,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903106',
                 'ssmatimestamp' => '<00000000 00003f9e>',
             ),
-            96 =>
+            96 => 
             array (
-                'id' => 1597,
+                'wdt_ID' => 1597,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02354',
@@ -20784,9 +20784,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003f9f>',
             ),
-            97 =>
+            97 => 
             array (
-                'id' => 1598,
+                'wdt_ID' => 1598,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02355',
@@ -20797,9 +20797,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 00003fa0>',
             ),
-            98 =>
+            98 => 
             array (
-                'id' => 1599,
+                'wdt_ID' => 1599,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02356',
@@ -20810,9 +20810,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460701',
                 'ssmatimestamp' => '<00000000 00003fa1>',
             ),
-            99 =>
+            99 => 
             array (
-                'id' => 1600,
+                'wdt_ID' => 1600,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02357',
@@ -20823,9 +20823,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460701',
                 'ssmatimestamp' => '<00000000 00003fa2>',
             ),
-            100 =>
+            100 => 
             array (
-                'id' => 1601,
+                'wdt_ID' => 1601,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02358',
@@ -20836,9 +20836,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467701',
                 'ssmatimestamp' => '<00000000 000222f2>',
             ),
-            101 =>
+            101 => 
             array (
-                'id' => 1602,
+                'wdt_ID' => 1602,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02359',
@@ -20849,9 +20849,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468501',
                 'ssmatimestamp' => '<00000000 00003fa4>',
             ),
-            102 =>
+            102 => 
             array (
-                'id' => 1603,
+                'wdt_ID' => 1603,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02360',
@@ -20862,9 +20862,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468501',
                 'ssmatimestamp' => '<00000000 00003fa5>',
             ),
-            103 =>
+            103 => 
             array (
-                'id' => 1604,
+                'wdt_ID' => 1604,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02361',
@@ -20875,9 +20875,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468501',
                 'ssmatimestamp' => '<00000000 00003fa6>',
             ),
-            104 =>
+            104 => 
             array (
-                'id' => 1605,
+                'wdt_ID' => 1605,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02362',
@@ -20888,9 +20888,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468501',
                 'ssmatimestamp' => '<00000000 00003fa7>',
             ),
-            105 =>
+            105 => 
             array (
-                'id' => 1606,
+                'wdt_ID' => 1606,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ01576',
@@ -20901,9 +20901,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459701',
                 'ssmatimestamp' => '<00000000 00003fa8>',
             ),
-            106 =>
+            106 => 
             array (
-                'id' => 1607,
+                'wdt_ID' => 1607,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ01578',
@@ -20914,9 +20914,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459701',
                 'ssmatimestamp' => '<00000000 00003fa9>',
             ),
-            107 =>
+            107 => 
             array (
-                'id' => 1608,
+                'wdt_ID' => 1608,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ01628',
@@ -20927,9 +20927,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459701',
                 'ssmatimestamp' => '<00000000 00003faa>',
             ),
-            108 =>
+            108 => 
             array (
-                'id' => 1609,
+                'wdt_ID' => 1609,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ01629',
@@ -20940,9 +20940,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459701',
                 'ssmatimestamp' => '<00000000 00003fab>',
             ),
-            109 =>
+            109 => 
             array (
-                'id' => 1610,
+                'wdt_ID' => 1610,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ01630',
@@ -20953,9 +20953,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459701',
                 'ssmatimestamp' => '<00000000 00003fac>',
             ),
-            110 =>
+            110 => 
             array (
-                'id' => 1611,
+                'wdt_ID' => 1611,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ01631',
@@ -20966,9 +20966,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459701',
                 'ssmatimestamp' => '<00000000 00003fad>',
             ),
-            111 =>
+            111 => 
             array (
-                'id' => 1612,
+                'wdt_ID' => 1612,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ18229',
@@ -20979,9 +20979,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fae>',
             ),
-            112 =>
+            112 => 
             array (
-                'id' => 1613,
+                'wdt_ID' => 1613,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ18230',
@@ -20992,9 +20992,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003faf>',
             ),
-            113 =>
+            113 => 
             array (
-                'id' => 1614,
+                'wdt_ID' => 1614,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ20518',
@@ -21005,9 +21005,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb0>',
             ),
-            114 =>
+            114 => 
             array (
-                'id' => 1615,
+                'wdt_ID' => 1615,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ20542',
@@ -21018,9 +21018,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb1>',
             ),
-            115 =>
+            115 => 
             array (
-                'id' => 1616,
+                'wdt_ID' => 1616,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ20823',
@@ -21031,9 +21031,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb2>',
             ),
-            116 =>
+            116 => 
             array (
-                'id' => 1617,
+                'wdt_ID' => 1617,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ20916',
@@ -21044,9 +21044,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb3>',
             ),
-            117 =>
+            117 => 
             array (
-                'id' => 1618,
+                'wdt_ID' => 1618,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ20945',
@@ -21057,9 +21057,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb4>',
             ),
-            118 =>
+            118 => 
             array (
-                'id' => 1619,
+                'wdt_ID' => 1619,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ27139',
@@ -21070,9 +21070,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb5>',
             ),
-            119 =>
+            119 => 
             array (
-                'id' => 1620,
+                'wdt_ID' => 1620,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ27143',
@@ -21083,9 +21083,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb6>',
             ),
-            120 =>
+            120 => 
             array (
-                'id' => 1621,
+                'wdt_ID' => 1621,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ53011',
@@ -21096,9 +21096,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb7>',
             ),
-            121 =>
+            121 => 
             array (
-                'id' => 1622,
+                'wdt_ID' => 1622,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ53015',
@@ -21109,9 +21109,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb8>',
             ),
-            122 =>
+            122 => 
             array (
-                'id' => 1623,
+                'wdt_ID' => 1623,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ53112',
@@ -21122,9 +21122,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fb9>',
             ),
-            123 =>
+            123 => 
             array (
-                'id' => 1624,
+                'wdt_ID' => 1624,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ61027',
@@ -21135,9 +21135,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fba>',
             ),
-            124 =>
+            124 => 
             array (
-                'id' => 1625,
+                'wdt_ID' => 1625,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ87093',
@@ -21148,9 +21148,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fbb>',
             ),
-            125 =>
+            125 => 
             array (
-                'id' => 1626,
+                'wdt_ID' => 1626,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ87094',
@@ -21161,9 +21161,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fbc>',
             ),
-            126 =>
+            126 => 
             array (
-                'id' => 1627,
+                'wdt_ID' => 1627,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ87291',
@@ -21174,9 +21174,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fbd>',
             ),
-            127 =>
+            127 => 
             array (
-                'id' => 1628,
+                'wdt_ID' => 1628,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ90154',
@@ -21187,9 +21187,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fbe>',
             ),
-            128 =>
+            128 => 
             array (
-                'id' => 1629,
+                'wdt_ID' => 1629,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ90156',
@@ -21200,9 +21200,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fbf>',
             ),
-            129 =>
+            129 => 
             array (
-                'id' => 1630,
+                'wdt_ID' => 1630,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ90190',
@@ -21213,9 +21213,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fc0>',
             ),
-            130 =>
+            130 => 
             array (
-                'id' => 1631,
+                'wdt_ID' => 1631,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ90191',
@@ -21226,9 +21226,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fc1>',
             ),
-            131 =>
+            131 => 
             array (
-                'id' => 1632,
+                'wdt_ID' => 1632,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ90192',
@@ -21239,9 +21239,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fc2>',
             ),
-            132 =>
+            132 => 
             array (
-                'id' => 1633,
+                'wdt_ID' => 1633,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ90306',
@@ -21252,9 +21252,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fc3>',
             ),
-            133 =>
+            133 => 
             array (
-                'id' => 1634,
+                'wdt_ID' => 1634,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ90311',
@@ -21265,9 +21265,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fc4>',
             ),
-            134 =>
+            134 => 
             array (
-                'id' => 1635,
+                'wdt_ID' => 1635,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'GZ90313',
@@ -21278,9 +21278,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1459702',
                 'ssmatimestamp' => '<00000000 00003fc5>',
             ),
-            135 =>
+            135 => 
             array (
-                'id' => 1636,
+                'wdt_ID' => 1636,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71100',
@@ -21291,9 +21291,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fc6>',
             ),
-            136 =>
+            136 => 
             array (
-                'id' => 1637,
+                'wdt_ID' => 1637,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71101',
@@ -21304,9 +21304,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fc7>',
             ),
-            137 =>
+            137 => 
             array (
-                'id' => 1638,
+                'wdt_ID' => 1638,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71102',
@@ -21317,9 +21317,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fc8>',
             ),
-            138 =>
+            138 => 
             array (
-                'id' => 1639,
+                'wdt_ID' => 1639,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71103',
@@ -21330,9 +21330,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fc9>',
             ),
-            139 =>
+            139 => 
             array (
-                'id' => 1640,
+                'wdt_ID' => 1640,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71104',
@@ -21343,9 +21343,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fca>',
             ),
-            140 =>
+            140 => 
             array (
-                'id' => 1641,
+                'wdt_ID' => 1641,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'K71105',
@@ -21356,9 +21356,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fcb>',
             ),
-            141 =>
+            141 => 
             array (
-                'id' => 1642,
+                'wdt_ID' => 1642,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71106',
@@ -21369,9 +21369,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fcc>',
             ),
-            142 =>
+            142 => 
             array (
-                'id' => 1643,
+                'wdt_ID' => 1643,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71107',
@@ -21382,9 +21382,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fcd>',
             ),
-            143 =>
+            143 => 
             array (
-                'id' => 1644,
+                'wdt_ID' => 1644,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71108',
@@ -21395,9 +21395,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fce>',
             ),
-            144 =>
+            144 => 
             array (
-                'id' => 1645,
+                'wdt_ID' => 1645,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71109',
@@ -21408,9 +21408,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fcf>',
             ),
-            145 =>
+            145 => 
             array (
-                'id' => 1646,
+                'wdt_ID' => 1646,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71110',
@@ -21421,9 +21421,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd0>',
             ),
-            146 =>
+            146 => 
             array (
-                'id' => 1647,
+                'wdt_ID' => 1647,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71111',
@@ -21434,9 +21434,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd1>',
             ),
-            147 =>
+            147 => 
             array (
-                'id' => 1648,
+                'wdt_ID' => 1648,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71112',
@@ -21447,9 +21447,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd2>',
             ),
-            148 =>
+            148 => 
             array (
-                'id' => 1649,
+                'wdt_ID' => 1649,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71113',
@@ -21460,9 +21460,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd3>',
             ),
-            149 =>
+            149 => 
             array (
-                'id' => 1650,
+                'wdt_ID' => 1650,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'K71118',
@@ -21473,9 +21473,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fd4>',
             ),
-            150 =>
+            150 => 
             array (
-                'id' => 1651,
+                'wdt_ID' => 1651,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'K71120',
@@ -21486,9 +21486,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14633',
                 'ssmatimestamp' => '<00000000 00003fd5>',
             ),
-            151 =>
+            151 => 
             array (
-                'id' => 1652,
+                'wdt_ID' => 1652,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'K71124',
@@ -21499,9 +21499,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd6>',
             ),
-            152 =>
+            152 => 
             array (
-                'id' => 1653,
+                'wdt_ID' => 1653,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'K71125',
@@ -21512,9 +21512,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd7>',
             ),
-            153 =>
+            153 => 
             array (
-                'id' => 1654,
+                'wdt_ID' => 1654,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'K71126',
@@ -21525,9 +21525,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012501',
                 'ssmatimestamp' => '<00000000 00003fd8>',
             ),
-            154 =>
+            154 => 
             array (
-                'id' => 1655,
+                'wdt_ID' => 1655,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81001',
@@ -21538,9 +21538,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fd9>',
             ),
-            155 =>
+            155 => 
             array (
-                'id' => 1656,
+                'wdt_ID' => 1656,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81002',
@@ -21551,9 +21551,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fda>',
             ),
-            156 =>
+            156 => 
             array (
-                'id' => 1657,
+                'wdt_ID' => 1657,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81003',
@@ -21564,9 +21564,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fdb>',
             ),
-            157 =>
+            157 => 
             array (
-                'id' => 1658,
+                'wdt_ID' => 1658,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81004',
@@ -21577,9 +21577,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fdc>',
             ),
-            158 =>
+            158 => 
             array (
-                'id' => 1659,
+                'wdt_ID' => 1659,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81007',
@@ -21590,9 +21590,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fdd>',
             ),
-            159 =>
+            159 => 
             array (
-                'id' => 1660,
+                'wdt_ID' => 1660,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81008',
@@ -21603,9 +21603,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fde>',
             ),
-            160 =>
+            160 => 
             array (
-                'id' => 1661,
+                'wdt_ID' => 1661,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81009',
@@ -21616,9 +21616,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fdf>',
             ),
-            161 =>
+            161 => 
             array (
-                'id' => 1662,
+                'wdt_ID' => 1662,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81010',
@@ -21629,9 +21629,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe0>',
             ),
-            162 =>
+            162 => 
             array (
-                'id' => 1663,
+                'wdt_ID' => 1663,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81013',
@@ -21642,9 +21642,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe1>',
             ),
-            163 =>
+            163 => 
             array (
-                'id' => 1664,
+                'wdt_ID' => 1664,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81014',
@@ -21655,9 +21655,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe2>',
             ),
-            164 =>
+            164 => 
             array (
-                'id' => 1665,
+                'wdt_ID' => 1665,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81018',
@@ -21668,9 +21668,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe3>',
             ),
-            165 =>
+            165 => 
             array (
-                'id' => 1666,
+                'wdt_ID' => 1666,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81028',
@@ -21681,9 +21681,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe4>',
             ),
-            166 =>
+            166 => 
             array (
-                'id' => 1667,
+                'wdt_ID' => 1667,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M81030',
@@ -21694,9 +21694,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe5>',
             ),
-            167 =>
+            167 => 
             array (
-                'id' => 1668,
+                'wdt_ID' => 1668,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M81036',
@@ -21707,9 +21707,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe6>',
             ),
-            168 =>
+            168 => 
             array (
-                'id' => 1669,
+                'wdt_ID' => 1669,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M81037',
@@ -21720,9 +21720,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe7>',
             ),
-            169 =>
+            169 => 
             array (
-                'id' => 1670,
+                'wdt_ID' => 1670,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M81038',
@@ -21733,9 +21733,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe8>',
             ),
-            170 =>
+            170 => 
             array (
-                'id' => 1671,
+                'wdt_ID' => 1671,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M81039',
@@ -21746,9 +21746,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fe9>',
             ),
-            171 =>
+            171 => 
             array (
-                'id' => 1672,
+                'wdt_ID' => 1672,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M81040',
@@ -21759,9 +21759,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fea>',
             ),
-            172 =>
+            172 => 
             array (
-                'id' => 1673,
+                'wdt_ID' => 1673,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86001',
@@ -21772,9 +21772,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003feb>',
             ),
-            173 =>
+            173 => 
             array (
-                'id' => 1674,
+                'wdt_ID' => 1674,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86002',
@@ -21785,9 +21785,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fec>',
             ),
-            174 =>
+            174 => 
             array (
-                'id' => 1675,
+                'wdt_ID' => 1675,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86003',
@@ -21798,9 +21798,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fed>',
             ),
-            175 =>
+            175 => 
             array (
-                'id' => 1676,
+                'wdt_ID' => 1676,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86005',
@@ -21811,9 +21811,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fee>',
             ),
-            176 =>
+            176 => 
             array (
-                'id' => 1677,
+                'wdt_ID' => 1677,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86007',
@@ -21824,9 +21824,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003fef>',
             ),
-            177 =>
+            177 => 
             array (
-                'id' => 1678,
+                'wdt_ID' => 1678,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86008',
@@ -21837,9 +21837,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff0>',
             ),
-            178 =>
+            178 => 
             array (
-                'id' => 1679,
+                'wdt_ID' => 1679,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86009',
@@ -21850,9 +21850,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff1>',
             ),
-            179 =>
+            179 => 
             array (
-                'id' => 1680,
+                'wdt_ID' => 1680,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86011',
@@ -21863,9 +21863,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff2>',
             ),
-            180 =>
+            180 => 
             array (
-                'id' => 1681,
+                'wdt_ID' => 1681,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86012',
@@ -21876,9 +21876,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff3>',
             ),
-            181 =>
+            181 => 
             array (
-                'id' => 1682,
+                'wdt_ID' => 1682,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86019',
@@ -21889,9 +21889,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff4>',
             ),
-            182 =>
+            182 => 
             array (
-                'id' => 1683,
+                'wdt_ID' => 1683,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86024',
@@ -21902,9 +21902,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff5>',
             ),
-            183 =>
+            183 => 
             array (
-                'id' => 1684,
+                'wdt_ID' => 1684,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86027',
@@ -21915,9 +21915,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff6>',
             ),
-            184 =>
+            184 => 
             array (
-                'id' => 1685,
+                'wdt_ID' => 1685,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86034',
@@ -21928,9 +21928,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff7>',
             ),
-            185 =>
+            185 => 
             array (
-                'id' => 1686,
+                'wdt_ID' => 1686,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M86039',
@@ -21941,9 +21941,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff8>',
             ),
-            186 =>
+            186 => 
             array (
-                'id' => 1687,
+                'wdt_ID' => 1687,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M86040',
@@ -21954,9 +21954,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ff9>',
             ),
-            187 =>
+            187 => 
             array (
-                'id' => 1688,
+                'wdt_ID' => 1688,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M86041',
@@ -21967,9 +21967,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ffa>',
             ),
-            188 =>
+            188 => 
             array (
-                'id' => 1689,
+                'wdt_ID' => 1689,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M87001',
@@ -21980,9 +21980,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ffb>',
             ),
-            189 =>
+            189 => 
             array (
-                'id' => 1690,
+                'wdt_ID' => 1690,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'M87002',
@@ -21993,9 +21993,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00003ffc>',
             ),
-            190 =>
+            190 => 
             array (
-                'id' => 1691,
+                'wdt_ID' => 1691,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M89960',
@@ -22006,9 +22006,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29180',
                 'ssmatimestamp' => '<00000000 00003ffd>',
             ),
-            191 =>
+            191 => 
             array (
-                'id' => 1692,
+                'wdt_ID' => 1692,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M89961',
@@ -22019,9 +22019,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29180',
                 'ssmatimestamp' => '<00000000 00003ffe>',
             ),
-            192 =>
+            192 => 
             array (
-                'id' => 1693,
+                'wdt_ID' => 1693,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'M89962',
@@ -22032,9 +22032,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29180',
                 'ssmatimestamp' => '<00000000 00003fff>',
             ),
-            193 =>
+            193 => 
             array (
-                'id' => 1694,
+                'wdt_ID' => 1694,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8574',
@@ -22045,9 +22045,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004001>',
             ),
-            194 =>
+            194 => 
             array (
-                'id' => 1695,
+                'wdt_ID' => 1695,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8575',
@@ -22058,9 +22058,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004002>',
             ),
-            195 =>
+            195 => 
             array (
-                'id' => 1696,
+                'wdt_ID' => 1696,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8576',
@@ -22071,9 +22071,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004003>',
             ),
-            196 =>
+            196 => 
             array (
-                'id' => 1697,
+                'wdt_ID' => 1697,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8581',
@@ -22084,9 +22084,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004004>',
             ),
-            197 =>
+            197 => 
             array (
-                'id' => 1698,
+                'wdt_ID' => 1698,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8586',
@@ -22097,9 +22097,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004005>',
             ),
-            198 =>
+            198 => 
             array (
-                'id' => 1699,
+                'wdt_ID' => 1699,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8587',
@@ -22110,9 +22110,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004006>',
             ),
-            199 =>
+            199 => 
             array (
-                'id' => 1700,
+                'wdt_ID' => 1700,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8588',
@@ -22123,9 +22123,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004007>',
             ),
-            200 =>
+            200 => 
             array (
-                'id' => 1701,
+                'wdt_ID' => 1701,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8589',
@@ -22136,9 +22136,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004008>',
             ),
-            201 =>
+            201 => 
             array (
-                'id' => 1702,
+                'wdt_ID' => 1702,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8590',
@@ -22149,9 +22149,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004009>',
             ),
-            202 =>
+            202 => 
             array (
-                'id' => 1703,
+                'wdt_ID' => 1703,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8593',
@@ -22162,9 +22162,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000400a>',
             ),
-            203 =>
+            203 => 
             array (
-                'id' => 1704,
+                'wdt_ID' => 1704,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8595',
@@ -22175,9 +22175,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000400b>',
             ),
-            204 =>
+            204 => 
             array (
-                'id' => 1705,
+                'wdt_ID' => 1705,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8596',
@@ -22188,9 +22188,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000400c>',
             ),
-            205 =>
+            205 => 
             array (
-                'id' => 1706,
+                'wdt_ID' => 1706,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8597',
@@ -22201,9 +22201,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000400d>',
             ),
-            206 =>
+            206 => 
             array (
-                'id' => 1707,
+                'wdt_ID' => 1707,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8598',
@@ -22214,9 +22214,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000400e>',
             ),
-            207 =>
+            207 => 
             array (
-                'id' => 1708,
+                'wdt_ID' => 1708,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8601',
@@ -22227,9 +22227,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000400f>',
             ),
-            208 =>
+            208 => 
             array (
-                'id' => 1709,
+                'wdt_ID' => 1709,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8602',
@@ -22240,9 +22240,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004010>',
             ),
-            209 =>
+            209 => 
             array (
-                'id' => 1710,
+                'wdt_ID' => 1710,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8604',
@@ -22253,9 +22253,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004011>',
             ),
-            210 =>
+            210 => 
             array (
-                'id' => 1711,
+                'wdt_ID' => 1711,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8608',
@@ -22266,9 +22266,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004012>',
             ),
-            211 =>
+            211 => 
             array (
-                'id' => 1712,
+                'wdt_ID' => 1712,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8611',
@@ -22279,9 +22279,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004013>',
             ),
-            212 =>
+            212 => 
             array (
-                'id' => 1713,
+                'wdt_ID' => 1713,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8613',
@@ -22292,9 +22292,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004014>',
             ),
-            213 =>
+            213 => 
             array (
-                'id' => 1714,
+                'wdt_ID' => 1714,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8614',
@@ -22305,9 +22305,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004015>',
             ),
-            214 =>
+            214 => 
             array (
-                'id' => 1715,
+                'wdt_ID' => 1715,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8632',
@@ -22318,9 +22318,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004016>',
             ),
-            215 =>
+            215 => 
             array (
-                'id' => 1716,
+                'wdt_ID' => 1716,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8638',
@@ -22331,9 +22331,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004017>',
             ),
-            216 =>
+            216 => 
             array (
-                'id' => 1717,
+                'wdt_ID' => 1717,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8640',
@@ -22344,9 +22344,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004018>',
             ),
-            217 =>
+            217 => 
             array (
-                'id' => 1718,
+                'wdt_ID' => 1718,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8641',
@@ -22357,9 +22357,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004019>',
             ),
-            218 =>
+            218 => 
             array (
-                'id' => 1719,
+                'wdt_ID' => 1719,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8642',
@@ -22370,9 +22370,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000401a>',
             ),
-            219 =>
+            219 => 
             array (
-                'id' => 1720,
+                'wdt_ID' => 1720,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8643',
@@ -22383,9 +22383,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000401b>',
             ),
-            220 =>
+            220 => 
             array (
-                'id' => 1721,
+                'wdt_ID' => 1721,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8644',
@@ -22396,9 +22396,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000401c>',
             ),
-            221 =>
+            221 => 
             array (
-                'id' => 1722,
+                'wdt_ID' => 1722,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8645',
@@ -22409,9 +22409,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000401d>',
             ),
-            222 =>
+            222 => 
             array (
-                'id' => 1723,
+                'wdt_ID' => 1723,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8650',
@@ -22422,9 +22422,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000401e>',
             ),
-            223 =>
+            223 => 
             array (
-                'id' => 1724,
+                'wdt_ID' => 1724,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8651',
@@ -22435,9 +22435,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000401f>',
             ),
-            224 =>
+            224 => 
             array (
-                'id' => 1725,
+                'wdt_ID' => 1725,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8653',
@@ -22448,9 +22448,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004020>',
             ),
-            225 =>
+            225 => 
             array (
-                'id' => 1726,
+                'wdt_ID' => 1726,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8657',
@@ -22461,9 +22461,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004021>',
             ),
-            226 =>
+            226 => 
             array (
-                'id' => 1727,
+                'wdt_ID' => 1727,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8658',
@@ -22474,9 +22474,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004022>',
             ),
-            227 =>
+            227 => 
             array (
-                'id' => 1728,
+                'wdt_ID' => 1728,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8679',
@@ -22487,9 +22487,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004023>',
             ),
-            228 =>
+            228 => 
             array (
-                'id' => 1729,
+                'wdt_ID' => 1729,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8680',
@@ -22500,9 +22500,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004024>',
             ),
-            229 =>
+            229 => 
             array (
-                'id' => 1730,
+                'wdt_ID' => 1730,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8681',
@@ -22513,9 +22513,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004025>',
             ),
-            230 =>
+            230 => 
             array (
-                'id' => 1731,
+                'wdt_ID' => 1731,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8683',
@@ -22526,9 +22526,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004026>',
             ),
-            231 =>
+            231 => 
             array (
-                'id' => 1732,
+                'wdt_ID' => 1732,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8684',
@@ -22539,9 +22539,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004027>',
             ),
-            232 =>
+            232 => 
             array (
-                'id' => 1733,
+                'wdt_ID' => 1733,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8685',
@@ -22552,9 +22552,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004028>',
             ),
-            233 =>
+            233 => 
             array (
-                'id' => 1734,
+                'wdt_ID' => 1734,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8686',
@@ -22565,9 +22565,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004029>',
             ),
-            234 =>
+            234 => 
             array (
-                'id' => 1735,
+                'wdt_ID' => 1735,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW90183',
@@ -22578,9 +22578,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14633',
                 'ssmatimestamp' => '<00000000 0000402a>',
             ),
-            235 =>
+            235 => 
             array (
-                'id' => 1736,
+                'wdt_ID' => 1736,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW90185',
@@ -22591,9 +22591,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0000402b>',
             ),
-            236 =>
+            236 => 
             array (
-                'id' => 1737,
+                'wdt_ID' => 1737,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW90186',
@@ -22604,9 +22604,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0000402c>',
             ),
-            237 =>
+            237 => 
             array (
-                'id' => 1738,
+                'wdt_ID' => 1738,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW90187',
@@ -22617,9 +22617,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0000402d>',
             ),
-            238 =>
+            238 => 
             array (
-                'id' => 1739,
+                'wdt_ID' => 1739,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW90201',
@@ -22630,9 +22630,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 0000402e>',
             ),
-            239 =>
+            239 => 
             array (
-                'id' => 1740,
+                'wdt_ID' => 1740,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW90212',
@@ -22643,9 +22643,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 0000402f>',
             ),
-            240 =>
+            240 => 
             array (
-                'id' => 1741,
+                'wdt_ID' => 1741,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MWACCESS',
@@ -22656,9 +22656,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461701',
                 'ssmatimestamp' => '<00000000 00004030>',
             ),
-            241 =>
+            241 => 
             array (
-                'id' => 1742,
+                'wdt_ID' => 1742,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MWHOLD',
@@ -22669,9 +22669,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14617',
                 'ssmatimestamp' => '<00000000 00004031>',
             ),
-            242 =>
+            242 => 
             array (
-                'id' => 1743,
+                'wdt_ID' => 1743,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'N33001',
@@ -22682,9 +22682,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1466201',
                 'ssmatimestamp' => '<00000000 00004032>',
             ),
-            243 =>
+            243 => 
             array (
-                'id' => 1744,
+                'wdt_ID' => 1744,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'N33002',
@@ -22695,9 +22695,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1466201',
                 'ssmatimestamp' => '<00000000 00004033>',
             ),
-            244 =>
+            244 => 
             array (
-                'id' => 1745,
+                'wdt_ID' => 1745,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'N33003',
@@ -22708,9 +22708,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1466201',
                 'ssmatimestamp' => '<00000000 00004034>',
             ),
-            245 =>
+            245 => 
             array (
-                'id' => 1746,
+                'wdt_ID' => 1746,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'OD2113',
@@ -22721,9 +22721,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2948101',
                 'ssmatimestamp' => '<00000000 00004035>',
             ),
-            246 =>
+            246 => 
             array (
-                'id' => 1747,
+                'wdt_ID' => 1747,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'OD4112',
@@ -22734,9 +22734,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2948101',
                 'ssmatimestamp' => '<00000000 00004036>',
             ),
-            247 =>
+            247 => 
             array (
-                'id' => 1748,
+                'wdt_ID' => 1748,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'OD5111',
@@ -22747,9 +22747,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2948101',
                 'ssmatimestamp' => '<00000000 00004037>',
             ),
-            248 =>
+            248 => 
             array (
-                'id' => 1749,
+                'wdt_ID' => 1749,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20026',
@@ -22760,9 +22760,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0015ba81>',
             ),
-            249 =>
+            249 => 
             array (
-                'id' => 1750,
+                'wdt_ID' => 1750,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20033',
@@ -22773,9 +22773,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004039>',
             ),
-            250 =>
+            250 => 
             array (
-                'id' => 1751,
+                'wdt_ID' => 1751,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20037',
@@ -22786,9 +22786,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0000403a>',
             ),
-            251 =>
+            251 => 
             array (
-                'id' => 1752,
+                'wdt_ID' => 1752,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20043',
@@ -22799,9 +22799,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1400001',
                 'ssmatimestamp' => '<00000000 0000403b>',
             ),
-            252 =>
+            252 => 
             array (
-                'id' => 1753,
+                'wdt_ID' => 1753,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20051',
@@ -22812,9 +22812,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0000403c>',
             ),
-            253 =>
+            253 => 
             array (
-                'id' => 1754,
+                'wdt_ID' => 1754,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20063',
@@ -22825,9 +22825,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1400001',
                 'ssmatimestamp' => '<00000000 0000403d>',
             ),
-            254 =>
+            254 => 
             array (
-                'id' => 1755,
+                'wdt_ID' => 1755,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20072',
@@ -22838,9 +22838,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 0000403e>',
             ),
-            255 =>
+            255 => 
             array (
-                'id' => 1756,
+                'wdt_ID' => 1756,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20073',
@@ -22851,9 +22851,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 0000403f>',
             ),
-            256 =>
+            256 => 
             array (
-                'id' => 1757,
+                'wdt_ID' => 1757,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20074',
@@ -22864,9 +22864,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004040>',
             ),
-            257 =>
+            257 => 
             array (
-                'id' => 1758,
+                'wdt_ID' => 1758,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20075',
@@ -22877,9 +22877,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004041>',
             ),
-            258 =>
+            258 => 
             array (
-                'id' => 1759,
+                'wdt_ID' => 1759,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20077',
@@ -22890,9 +22890,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004042>',
             ),
-            259 =>
+            259 => 
             array (
-                'id' => 1760,
+                'wdt_ID' => 1760,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20078',
@@ -22903,9 +22903,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004043>',
             ),
-            260 =>
+            260 => 
             array (
-                'id' => 1761,
+                'wdt_ID' => 1761,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20080',
@@ -22916,9 +22916,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004044>',
             ),
-            261 =>
+            261 => 
             array (
-                'id' => 1762,
+                'wdt_ID' => 1762,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20082',
@@ -22929,9 +22929,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464102',
                 'ssmatimestamp' => '<00000000 0003efd3>',
             ),
-            262 =>
+            262 => 
             array (
-                'id' => 1763,
+                'wdt_ID' => 1763,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P20083',
@@ -22942,9 +22942,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464102',
                 'ssmatimestamp' => '<00000000 0003efd4>',
             ),
-            263 =>
+            263 => 
             array (
-                'id' => 1764,
+                'wdt_ID' => 1764,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20089',
@@ -22955,9 +22955,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00004047>',
             ),
-            264 =>
+            264 => 
             array (
-                'id' => 1765,
+                'wdt_ID' => 1765,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20090',
@@ -22968,9 +22968,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464102',
                 'ssmatimestamp' => '<00000000 0003efd2>',
             ),
-            265 =>
+            265 => 
             array (
-                'id' => 1766,
+                'wdt_ID' => 1766,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20094',
@@ -22981,9 +22981,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464102',
                 'ssmatimestamp' => '<00000000 0003efd1>',
             ),
-            266 =>
+            266 => 
             array (
-                'id' => 1767,
+                'wdt_ID' => 1767,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P20095',
@@ -22994,9 +22994,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2664501',
                 'ssmatimestamp' => '<00000000 0000404a>',
             ),
-            267 =>
+            267 => 
             array (
-                'id' => 1768,
+                'wdt_ID' => 1768,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25017',
@@ -23007,9 +23007,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 0000404b>',
             ),
-            268 =>
+            268 => 
             array (
-                'id' => 1769,
+                'wdt_ID' => 1769,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25019',
@@ -23020,9 +23020,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2664501',
                 'ssmatimestamp' => '<00000000 0000404c>',
             ),
-            269 =>
+            269 => 
             array (
-                'id' => 1770,
+                'wdt_ID' => 1770,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25026',
@@ -23033,9 +23033,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1012504',
                 'ssmatimestamp' => '<00000000 0000404d>',
             ),
-            270 =>
+            270 => 
             array (
-                'id' => 1771,
+                'wdt_ID' => 1771,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25027',
@@ -23046,9 +23046,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1460101',
                 'ssmatimestamp' => '<00000000 0000404e>',
             ),
-            271 =>
+            271 => 
             array (
-                'id' => 1772,
+                'wdt_ID' => 1772,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25028',
@@ -23059,9 +23059,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903110',
                 'ssmatimestamp' => '<00000000 00022307>',
             ),
-            272 =>
+            272 => 
             array (
-                'id' => 1773,
+                'wdt_ID' => 1773,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25037',
@@ -23072,9 +23072,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 00004050>',
             ),
-            273 =>
+            273 => 
             array (
-                'id' => 1774,
+                'wdt_ID' => 1774,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25039',
@@ -23085,9 +23085,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903109',
                 'ssmatimestamp' => '<00000000 000222fc>',
             ),
-            274 =>
+            274 => 
             array (
-                'id' => 1775,
+                'wdt_ID' => 1775,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25050',
@@ -23098,9 +23098,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903109',
                 'ssmatimestamp' => '<00000000 000222fa>',
             ),
-            275 =>
+            275 => 
             array (
-                'id' => 1776,
+                'wdt_ID' => 1776,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25051',
@@ -23111,9 +23111,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464901',
                 'ssmatimestamp' => '<00000000 00004053>',
             ),
-            276 =>
+            276 => 
             array (
-                'id' => 1777,
+                'wdt_ID' => 1777,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25052',
@@ -23124,9 +23124,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00004054>',
             ),
-            277 =>
+            277 => 
             array (
-                'id' => 1778,
+                'wdt_ID' => 1778,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25054',
@@ -23137,9 +23137,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00004055>',
             ),
-            278 =>
+            278 => 
             array (
-                'id' => 1779,
+                'wdt_ID' => 1779,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25056',
@@ -23150,9 +23150,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456702',
                 'ssmatimestamp' => '<00000000 00004056>',
             ),
-            279 =>
+            279 => 
             array (
-                'id' => 1780,
+                'wdt_ID' => 1780,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25067',
@@ -23163,9 +23163,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464901',
                 'ssmatimestamp' => '<00000000 00004057>',
             ),
-            280 =>
+            280 => 
             array (
-                'id' => 1781,
+                'wdt_ID' => 1781,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25068',
@@ -23176,9 +23176,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464901',
                 'ssmatimestamp' => '<00000000 00004058>',
             ),
-            281 =>
+            281 => 
             array (
-                'id' => 1782,
+                'wdt_ID' => 1782,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25069',
@@ -23189,9 +23189,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464101',
                 'ssmatimestamp' => '<00000000 00004059>',
             ),
-            282 =>
+            282 => 
             array (
-                'id' => 1783,
+                'wdt_ID' => 1783,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25070',
@@ -23202,9 +23202,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 0000405a>',
             ),
-            283 =>
+            283 => 
             array (
-                'id' => 1784,
+                'wdt_ID' => 1784,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25072',
@@ -23215,9 +23215,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1467001',
                 'ssmatimestamp' => '<00000000 0015d203>',
             ),
-            284 =>
+            284 => 
             array (
-                'id' => 1785,
+                'wdt_ID' => 1785,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25074',
@@ -23228,9 +23228,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2664501',
                 'ssmatimestamp' => '<00000000 0000405c>',
             ),
-            285 =>
+            285 => 
             array (
-                'id' => 1786,
+                'wdt_ID' => 1786,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25082',
@@ -23241,9 +23241,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468101',
                 'ssmatimestamp' => '<00000000 0000405d>',
             ),
-            286 =>
+            286 => 
             array (
-                'id' => 1787,
+                'wdt_ID' => 1787,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P25083',
@@ -23254,9 +23254,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1464901',
                 'ssmatimestamp' => '<00000000 0000405e>',
             ),
-            287 =>
+            287 => 
             array (
-                'id' => 1788,
+                'wdt_ID' => 1788,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P27005',
@@ -23267,9 +23267,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903103',
                 'ssmatimestamp' => '<00000000 000222ff>',
             ),
-            288 =>
+            288 => 
             array (
-                'id' => 1789,
+                'wdt_ID' => 1789,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55042',
@@ -23280,9 +23280,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004060>',
             ),
-            289 =>
+            289 => 
             array (
-                'id' => 1790,
+                'wdt_ID' => 1790,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55044',
@@ -23293,9 +23293,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004061>',
             ),
-            290 =>
+            290 => 
             array (
-                'id' => 1791,
+                'wdt_ID' => 1791,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55045',
@@ -23306,9 +23306,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004062>',
             ),
-            291 =>
+            291 => 
             array (
-                'id' => 1792,
+                'wdt_ID' => 1792,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P55046',
@@ -23319,9 +23319,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004063>',
             ),
-            292 =>
+            292 => 
             array (
-                'id' => 1793,
+                'wdt_ID' => 1793,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55047',
@@ -23332,9 +23332,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004064>',
             ),
-            293 =>
+            293 => 
             array (
-                'id' => 1794,
+                'wdt_ID' => 1794,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55048',
@@ -23345,9 +23345,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004065>',
             ),
-            294 =>
+            294 => 
             array (
-                'id' => 1795,
+                'wdt_ID' => 1795,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55050',
@@ -23358,9 +23358,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004066>',
             ),
-            295 =>
+            295 => 
             array (
-                'id' => 1796,
+                'wdt_ID' => 1796,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55052',
@@ -23371,9 +23371,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004067>',
             ),
-            296 =>
+            296 => 
             array (
-                'id' => 1797,
+                'wdt_ID' => 1797,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55053',
@@ -23384,9 +23384,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004068>',
             ),
-            297 =>
+            297 => 
             array (
-                'id' => 1798,
+                'wdt_ID' => 1798,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'P55058',
@@ -23397,9 +23397,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1020001',
                 'ssmatimestamp' => '<00000000 00004069>',
             ),
-            298 =>
+            298 => 
             array (
-                'id' => 1799,
+                'wdt_ID' => 1799,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P56000',
@@ -23410,9 +23410,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2732001',
                 'ssmatimestamp' => '<00000000 0000406a>',
             ),
-            299 =>
+            299 => 
             array (
-                'id' => 1800,
+                'wdt_ID' => 1800,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P79565',
@@ -23423,9 +23423,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1456702',
                 'ssmatimestamp' => '<00000000 0015c251>',
             ),
-            300 =>
+            300 => 
             array (
-                'id' => 1801,
+                'wdt_ID' => 1801,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P8070',
@@ -23436,9 +23436,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2903105',
                 'ssmatimestamp' => '<00000000 0015b2b1>',
             ),
-            301 =>
+            301 => 
             array (
-                'id' => 1802,
+                'wdt_ID' => 1802,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0262',
@@ -23449,9 +23449,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000406d>',
             ),
-            302 =>
+            302 => 
             array (
-                'id' => 1803,
+                'wdt_ID' => 1803,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0560',
@@ -23462,9 +23462,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000406e>',
             ),
-            303 =>
+            303 => 
             array (
-                'id' => 1804,
+                'wdt_ID' => 1804,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0570',
@@ -23475,9 +23475,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000406f>',
             ),
-            304 =>
+            304 => 
             array (
-                'id' => 1805,
+                'wdt_ID' => 1805,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0571',
@@ -23488,9 +23488,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004070>',
             ),
-            305 =>
+            305 => 
             array (
-                'id' => 1806,
+                'wdt_ID' => 1806,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA0900',
@@ -23501,9 +23501,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00110776>',
             ),
-            306 =>
+            306 => 
             array (
-                'id' => 1807,
+                'wdt_ID' => 1807,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA1680',
@@ -23514,9 +23514,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00110f31>',
             ),
-            307 =>
+            307 => 
             array (
-                'id' => 1808,
+                'wdt_ID' => 1808,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA1800',
@@ -23527,9 +23527,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004073>',
             ),
-            308 =>
+            308 => 
             array (
-                'id' => 1809,
+                'wdt_ID' => 1809,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA1820',
@@ -23540,9 +23540,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004074>',
             ),
-            309 =>
+            309 => 
             array (
-                'id' => 1810,
+                'wdt_ID' => 1810,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2110',
@@ -23553,9 +23553,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004075>',
             ),
-            310 =>
+            310 => 
             array (
-                'id' => 1811,
+                'wdt_ID' => 1811,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2336',
@@ -23566,9 +23566,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004076>',
             ),
-            311 =>
+            311 => 
             array (
-                'id' => 1812,
+                'wdt_ID' => 1812,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2341',
@@ -23579,9 +23579,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004077>',
             ),
-            312 =>
+            312 => 
             array (
-                'id' => 1813,
+                'wdt_ID' => 1813,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4006',
@@ -23592,9 +23592,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004078>',
             ),
-            313 =>
+            313 => 
             array (
-                'id' => 1814,
+                'wdt_ID' => 1814,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4009',
@@ -23605,9 +23605,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004079>',
             ),
-            314 =>
+            314 => 
             array (
-                'id' => 1815,
+                'wdt_ID' => 1815,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4040',
@@ -23618,9 +23618,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000407a>',
             ),
-            315 =>
+            315 => 
             array (
-                'id' => 1816,
+                'wdt_ID' => 1816,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4052',
@@ -23631,9 +23631,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000407b>',
             ),
-            316 =>
+            316 => 
             array (
-                'id' => 1817,
+                'wdt_ID' => 1817,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4160',
@@ -23644,9 +23644,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00110f34>',
             ),
-            317 =>
+            317 => 
             array (
-                'id' => 1818,
+                'wdt_ID' => 1818,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4170',
@@ -23657,9 +23657,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000407d>',
             ),
-            318 =>
+            318 => 
             array (
-                'id' => 1819,
+                'wdt_ID' => 1819,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4172',
@@ -23670,9 +23670,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000407e>',
             ),
-            319 =>
+            319 => 
             array (
-                'id' => 1820,
+                'wdt_ID' => 1820,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4175',
@@ -23683,9 +23683,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000407f>',
             ),
-            320 =>
+            320 => 
             array (
-                'id' => 1821,
+                'wdt_ID' => 1821,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4180',
@@ -23696,9 +23696,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004080>',
             ),
-            321 =>
+            321 => 
             array (
-                'id' => 1822,
+                'wdt_ID' => 1822,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA4190',
@@ -23709,9 +23709,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004081>',
             ),
-            322 =>
+            322 => 
             array (
-                'id' => 1823,
+                'wdt_ID' => 1823,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5128',
@@ -23722,9 +23722,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004082>',
             ),
-            323 =>
+            323 => 
             array (
-                'id' => 1824,
+                'wdt_ID' => 1824,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5430',
@@ -23735,9 +23735,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004083>',
             ),
-            324 =>
+            324 => 
             array (
-                'id' => 1825,
+                'wdt_ID' => 1825,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA5431',
@@ -23748,9 +23748,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004084>',
             ),
-            325 =>
+            325 => 
             array (
-                'id' => 1826,
+                'wdt_ID' => 1826,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6138',
@@ -23761,9 +23761,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004085>',
             ),
-            326 =>
+            326 => 
             array (
-                'id' => 1827,
+                'wdt_ID' => 1827,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6140',
@@ -23774,9 +23774,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004086>',
             ),
-            327 =>
+            327 => 
             array (
-                'id' => 1828,
+                'wdt_ID' => 1828,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6430',
@@ -23787,9 +23787,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00110f36>',
             ),
-            328 =>
+            328 => 
             array (
-                'id' => 1829,
+                'wdt_ID' => 1829,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6538',
@@ -23800,9 +23800,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004088>',
             ),
-            329 =>
+            329 => 
             array (
-                'id' => 1830,
+                'wdt_ID' => 1830,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6546',
@@ -23813,9 +23813,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00004089>',
             ),
-            330 =>
+            330 => 
             array (
-                'id' => 1831,
+                'wdt_ID' => 1831,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6575',
@@ -23826,9 +23826,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00110f39>',
             ),
-            331 =>
+            331 => 
             array (
-                'id' => 1832,
+                'wdt_ID' => 1832,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6588',
@@ -23839,9 +23839,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 0000408b>',
             ),
-            332 =>
+            332 => 
             array (
-                'id' => 1833,
+                'wdt_ID' => 1833,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA6635',
@@ -23852,9 +23852,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 00110f3a>',
             ),
-            333 =>
+            333 => 
             array (
-                'id' => 1834,
+                'wdt_ID' => 1834,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'SM904',
@@ -23865,9 +23865,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 0000408d>',
             ),
-            334 =>
+            334 => 
             array (
-                'id' => 1835,
+                'wdt_ID' => 1835,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK70000',
@@ -23878,9 +23878,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367507',
                 'ssmatimestamp' => '<00000000 0000408e>',
             ),
-            335 =>
+            335 => 
             array (
-                'id' => 1836,
+                'wdt_ID' => 1836,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK70001',
@@ -23891,9 +23891,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367507',
                 'ssmatimestamp' => '<00000000 0000408f>',
             ),
-            336 =>
+            336 => 
             array (
-                'id' => 1837,
+                'wdt_ID' => 1837,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK70002',
@@ -23904,9 +23904,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367507',
                 'ssmatimestamp' => '<00000000 00004090>',
             ),
-            337 =>
+            337 => 
             array (
-                'id' => 1838,
+                'wdt_ID' => 1838,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK70003',
@@ -23917,9 +23917,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367507',
                 'ssmatimestamp' => '<00000000 00004091>',
             ),
-            338 =>
+            338 => 
             array (
-                'id' => 1839,
+                'wdt_ID' => 1839,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK70004',
@@ -23930,9 +23930,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367507',
                 'ssmatimestamp' => '<00000000 00004092>',
             ),
-            339 =>
+            339 => 
             array (
-                'id' => 1840,
+                'wdt_ID' => 1840,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK70023',
@@ -23943,9 +23943,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367505',
                 'ssmatimestamp' => '<00000000 00004093>',
             ),
-            340 =>
+            340 => 
             array (
-                'id' => 1841,
+                'wdt_ID' => 1841,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TK71310',
@@ -23956,9 +23956,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367502',
                 'ssmatimestamp' => '<00000000 00004094>',
             ),
-            341 =>
+            341 => 
             array (
-                'id' => 1842,
+                'wdt_ID' => 1842,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY1012',
@@ -23969,9 +23969,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367501',
                 'ssmatimestamp' => '<00000000 00004095>',
             ),
-            342 =>
+            342 => 
             array (
-                'id' => 1843,
+                'wdt_ID' => 1843,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY1018',
@@ -23982,9 +23982,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367508',
                 'ssmatimestamp' => '<00000000 00004096>',
             ),
-            343 =>
+            343 => 
             array (
-                'id' => 1844,
+                'wdt_ID' => 1844,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'TY1581',
@@ -23995,9 +23995,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367501',
                 'ssmatimestamp' => '<00000000 00004097>',
             ),
-            344 =>
+            344 => 
             array (
-                'id' => 1845,
+                'wdt_ID' => 1845,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY2755',
@@ -24008,9 +24008,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367503',
                 'ssmatimestamp' => '<00000000 00004098>',
             ),
-            345 =>
+            345 => 
             array (
-                'id' => 1846,
+                'wdt_ID' => 1846,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY2756',
@@ -24021,9 +24021,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367509',
                 'ssmatimestamp' => '<00000000 00004099>',
             ),
-            346 =>
+            346 => 
             array (
-                'id' => 1847,
+                'wdt_ID' => 1847,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY3860',
@@ -24034,9 +24034,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367504',
                 'ssmatimestamp' => '<00000000 0000409a>',
             ),
-            347 =>
+            347 => 
             array (
-                'id' => 1848,
+                'wdt_ID' => 1848,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY3862',
@@ -24047,9 +24047,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367511',
                 'ssmatimestamp' => '<00000000 0000409b>',
             ),
-            348 =>
+            348 => 
             array (
-                'id' => 1849,
+                'wdt_ID' => 1849,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY3876',
@@ -24060,9 +24060,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367511',
                 'ssmatimestamp' => '<00000000 0000409c>',
             ),
-            349 =>
+            349 => 
             array (
-                'id' => 1850,
+                'wdt_ID' => 1850,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY3950',
@@ -24073,9 +24073,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367508',
                 'ssmatimestamp' => '<00000000 0000409d>',
             ),
-            350 =>
+            350 => 
             array (
-                'id' => 1851,
+                'wdt_ID' => 1851,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY4402',
@@ -24086,9 +24086,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367511',
                 'ssmatimestamp' => '<00000000 0000409e>',
             ),
-            351 =>
+            351 => 
             array (
-                'id' => 1852,
+                'wdt_ID' => 1852,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY4413',
@@ -24099,9 +24099,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367504',
                 'ssmatimestamp' => '<00000000 0000409f>',
             ),
-            352 =>
+            352 => 
             array (
-                'id' => 1853,
+                'wdt_ID' => 1853,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY4613',
@@ -24112,9 +24112,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367501',
                 'ssmatimestamp' => '<00000000 000040a0>',
             ),
-            353 =>
+            353 => 
             array (
-                'id' => 1854,
+                'wdt_ID' => 1854,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'TY5001',
@@ -24125,9 +24125,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367508',
                 'ssmatimestamp' => '<00000000 000040a1>',
             ),
-            354 =>
+            354 => 
             array (
-                'id' => 1855,
+                'wdt_ID' => 1855,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY6502',
@@ -24138,9 +24138,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367506',
                 'ssmatimestamp' => '<00000000 000040a2>',
             ),
-            355 =>
+            355 => 
             array (
-                'id' => 1856,
+                'wdt_ID' => 1856,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY6524',
@@ -24151,9 +24151,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367512',
                 'ssmatimestamp' => '<00000000 000040a3>',
             ),
-            356 =>
+            356 => 
             array (
-                'id' => 1857,
+                'wdt_ID' => 1857,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY6526',
@@ -24164,9 +24164,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367506',
                 'ssmatimestamp' => '<00000000 000040a4>',
             ),
-            357 =>
+            357 => 
             array (
-                'id' => 1858,
+                'wdt_ID' => 1858,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY6528',
@@ -24177,9 +24177,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367501',
                 'ssmatimestamp' => '<00000000 000040a5>',
             ),
-            358 =>
+            358 => 
             array (
-                'id' => 1859,
+                'wdt_ID' => 1859,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY6633',
@@ -24190,9 +24190,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367501',
                 'ssmatimestamp' => '<00000000 000040a6>',
             ),
-            359 =>
+            359 => 
             array (
-                'id' => 1860,
+                'wdt_ID' => 1860,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY6995',
@@ -24203,9 +24203,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367506',
                 'ssmatimestamp' => '<00000000 000040a7>',
             ),
-            360 =>
+            360 => 
             array (
-                'id' => 1861,
+                'wdt_ID' => 1861,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY7028',
@@ -24216,9 +24216,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367501',
                 'ssmatimestamp' => '<00000000 000040a8>',
             ),
-            361 =>
+            361 => 
             array (
-                'id' => 1862,
+                'wdt_ID' => 1862,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY7067',
@@ -24229,9 +24229,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367504',
                 'ssmatimestamp' => '<00000000 000040a9>',
             ),
-            362 =>
+            362 => 
             array (
-                'id' => 1863,
+                'wdt_ID' => 1863,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'TY7070',
@@ -24242,9 +24242,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367508',
                 'ssmatimestamp' => '<00000000 000040aa>',
             ),
-            363 =>
+            363 => 
             array (
-                'id' => 1864,
+                'wdt_ID' => 1864,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'TY7218',
@@ -24255,9 +24255,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367508',
                 'ssmatimestamp' => '<00000000 000040ab>',
             ),
-            364 =>
+            364 => 
             array (
-                'id' => 1865,
+                'wdt_ID' => 1865,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'TY7219',
@@ -24268,9 +24268,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '2367510',
                 'ssmatimestamp' => '<00000000 000040ac>',
             ),
-            365 =>
+            365 => 
             array (
-                'id' => 1866,
+                'wdt_ID' => 1866,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00126',
@@ -24281,9 +24281,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ad>',
             ),
-            366 =>
+            366 => 
             array (
-                'id' => 1867,
+                'wdt_ID' => 1867,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00135',
@@ -24294,9 +24294,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ae>',
             ),
-            367 =>
+            367 => 
             array (
-                'id' => 1868,
+                'wdt_ID' => 1868,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00139',
@@ -24307,9 +24307,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1255001',
                 'ssmatimestamp' => '<00000000 000040af>',
             ),
-            368 =>
+            368 => 
             array (
-                'id' => 1869,
+                'wdt_ID' => 1869,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00150',
@@ -24320,9 +24320,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b0>',
             ),
-            369 =>
+            369 => 
             array (
-                'id' => 1870,
+                'wdt_ID' => 1870,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8568',
@@ -24333,9 +24333,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b1>',
             ),
-            370 =>
+            370 => 
             array (
-                'id' => 1871,
+                'wdt_ID' => 1871,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8569',
@@ -24346,9 +24346,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b2>',
             ),
-            371 =>
+            371 => 
             array (
-                'id' => 1872,
+                'wdt_ID' => 1872,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8571',
@@ -24359,9 +24359,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b3>',
             ),
-            372 =>
+            372 => 
             array (
-                'id' => 1873,
+                'wdt_ID' => 1873,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8577',
@@ -24372,9 +24372,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b4>',
             ),
-            373 =>
+            373 => 
             array (
-                'id' => 1874,
+                'wdt_ID' => 1874,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8578',
@@ -24385,9 +24385,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b5>',
             ),
-            374 =>
+            374 => 
             array (
-                'id' => 1875,
+                'wdt_ID' => 1875,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8580',
@@ -24398,9 +24398,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b6>',
             ),
-            375 =>
+            375 => 
             array (
-                'id' => 1876,
+                'wdt_ID' => 1876,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00210',
@@ -24411,9 +24411,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b7>',
             ),
-            376 =>
+            376 => 
             array (
-                'id' => 1877,
+                'wdt_ID' => 1877,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00214',
@@ -24424,9 +24424,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b8>',
             ),
-            377 =>
+            377 => 
             array (
-                'id' => 1878,
+                'wdt_ID' => 1878,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00215',
@@ -24437,9 +24437,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040b9>',
             ),
-            378 =>
+            378 => 
             array (
-                'id' => 1879,
+                'wdt_ID' => 1879,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00217',
@@ -24450,9 +24450,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ba>',
             ),
-            379 =>
+            379 => 
             array (
-                'id' => 1880,
+                'wdt_ID' => 1880,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00218',
@@ -24463,9 +24463,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040bb>',
             ),
-            380 =>
+            380 => 
             array (
-                'id' => 1881,
+                'wdt_ID' => 1881,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00220',
@@ -24476,9 +24476,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040bc>',
             ),
-            381 =>
+            381 => 
             array (
-                'id' => 1882,
+                'wdt_ID' => 1882,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00221',
@@ -24489,9 +24489,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040bd>',
             ),
-            382 =>
+            382 => 
             array (
-                'id' => 1883,
+                'wdt_ID' => 1883,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00223',
@@ -24502,9 +24502,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040be>',
             ),
-            383 =>
+            383 => 
             array (
-                'id' => 1884,
+                'wdt_ID' => 1884,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00224',
@@ -24515,9 +24515,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040bf>',
             ),
-            384 =>
+            384 => 
             array (
-                'id' => 1885,
+                'wdt_ID' => 1885,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00225',
@@ -24528,9 +24528,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c0>',
             ),
-            385 =>
+            385 => 
             array (
-                'id' => 1886,
+                'wdt_ID' => 1886,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00229',
@@ -24541,9 +24541,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c1>',
             ),
-            386 =>
+            386 => 
             array (
-                'id' => 1887,
+                'wdt_ID' => 1887,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00233',
@@ -24554,9 +24554,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c2>',
             ),
-            387 =>
+            387 => 
             array (
-                'id' => 1888,
+                'wdt_ID' => 1888,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00235',
@@ -24567,9 +24567,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c3>',
             ),
-            388 =>
+            388 => 
             array (
-                'id' => 1889,
+                'wdt_ID' => 1889,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00236',
@@ -24580,9 +24580,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c4>',
             ),
-            389 =>
+            389 => 
             array (
-                'id' => 1890,
+                'wdt_ID' => 1890,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00239',
@@ -24593,9 +24593,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c5>',
             ),
-            390 =>
+            390 => 
             array (
-                'id' => 1891,
+                'wdt_ID' => 1891,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00243',
@@ -24606,9 +24606,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c6>',
             ),
-            391 =>
+            391 => 
             array (
-                'id' => 1892,
+                'wdt_ID' => 1892,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00250',
@@ -24619,9 +24619,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c7>',
             ),
-            392 =>
+            392 => 
             array (
-                'id' => 1893,
+                'wdt_ID' => 1893,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00322',
@@ -24632,9 +24632,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c8>',
             ),
-            393 =>
+            393 => 
             array (
-                'id' => 1894,
+                'wdt_ID' => 1894,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00325',
@@ -24645,9 +24645,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040c9>',
             ),
-            394 =>
+            394 => 
             array (
-                'id' => 1895,
+                'wdt_ID' => 1895,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00326',
@@ -24658,9 +24658,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ca>',
             ),
-            395 =>
+            395 => 
             array (
-                'id' => 1896,
+                'wdt_ID' => 1896,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00421',
@@ -24671,9 +24671,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040cb>',
             ),
-            396 =>
+            396 => 
             array (
-                'id' => 1897,
+                'wdt_ID' => 1897,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00503',
@@ -24684,9 +24684,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040cc>',
             ),
-            397 =>
+            397 => 
             array (
-                'id' => 1898,
+                'wdt_ID' => 1898,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00511',
@@ -24697,9 +24697,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040cd>',
             ),
-            398 =>
+            398 => 
             array (
-                'id' => 1899,
+                'wdt_ID' => 1899,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00901',
@@ -24710,9 +24710,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ce>',
             ),
-            399 =>
+            399 => 
             array (
-                'id' => 1900,
+                'wdt_ID' => 1900,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00903',
@@ -24723,9 +24723,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040cf>',
             ),
-            400 =>
+            400 => 
             array (
-                'id' => 1901,
+                'wdt_ID' => 1901,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00904',
@@ -24736,9 +24736,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d0>',
             ),
-            401 =>
+            401 => 
             array (
-                'id' => 1902,
+                'wdt_ID' => 1902,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'E00907',
@@ -24749,9 +24749,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d1>',
             ),
-            402 =>
+            402 => 
             array (
-                'id' => 1903,
+                'wdt_ID' => 1903,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02249',
@@ -24762,9 +24762,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d2>',
             ),
-            403 =>
+            403 => 
             array (
-                'id' => 1904,
+                'wdt_ID' => 1904,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02250',
@@ -24775,9 +24775,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1453001',
                 'ssmatimestamp' => '<00000000 000040d3>',
             ),
-            404 =>
+            404 => 
             array (
-                'id' => 1905,
+                'wdt_ID' => 1905,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'G02261',
@@ -24788,9 +24788,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d4>',
             ),
-            405 =>
+            405 => 
             array (
-                'id' => 1906,
+                'wdt_ID' => 1906,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8507',
@@ -24801,9 +24801,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d5>',
             ),
-            406 =>
+            406 => 
             array (
-                'id' => 1907,
+                'wdt_ID' => 1907,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8509',
@@ -24814,9 +24814,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d6>',
             ),
-            407 =>
+            407 => 
             array (
-                'id' => 1908,
+                'wdt_ID' => 1908,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8510',
@@ -24827,9 +24827,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d7>',
             ),
-            408 =>
+            408 => 
             array (
-                'id' => 1909,
+                'wdt_ID' => 1909,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8511',
@@ -24840,9 +24840,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d8>',
             ),
-            409 =>
+            409 => 
             array (
-                'id' => 1910,
+                'wdt_ID' => 1910,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8513',
@@ -24853,9 +24853,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040d9>',
             ),
-            410 =>
+            410 => 
             array (
-                'id' => 1911,
+                'wdt_ID' => 1911,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8517',
@@ -24866,9 +24866,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040da>',
             ),
-            411 =>
+            411 => 
             array (
-                'id' => 1912,
+                'wdt_ID' => 1912,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8521',
@@ -24879,9 +24879,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040db>',
             ),
-            412 =>
+            412 => 
             array (
-                'id' => 1913,
+                'wdt_ID' => 1913,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8522',
@@ -24892,9 +24892,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040dc>',
             ),
-            413 =>
+            413 => 
             array (
-                'id' => 1914,
+                'wdt_ID' => 1914,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8526',
@@ -24905,9 +24905,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040dd>',
             ),
-            414 =>
+            414 => 
             array (
-                'id' => 1915,
+                'wdt_ID' => 1915,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8527',
@@ -24918,9 +24918,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040de>',
             ),
-            415 =>
+            415 => 
             array (
-                'id' => 1916,
+                'wdt_ID' => 1916,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8529',
@@ -24931,9 +24931,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040df>',
             ),
-            416 =>
+            416 => 
             array (
-                'id' => 1917,
+                'wdt_ID' => 1917,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8530',
@@ -24944,9 +24944,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e0>',
             ),
-            417 =>
+            417 => 
             array (
-                'id' => 1918,
+                'wdt_ID' => 1918,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8531',
@@ -24957,9 +24957,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e1>',
             ),
-            418 =>
+            418 => 
             array (
-                'id' => 1919,
+                'wdt_ID' => 1919,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8534',
@@ -24970,9 +24970,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e2>',
             ),
-            419 =>
+            419 => 
             array (
-                'id' => 1920,
+                'wdt_ID' => 1920,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8535',
@@ -24983,9 +24983,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e3>',
             ),
-            420 =>
+            420 => 
             array (
-                'id' => 1921,
+                'wdt_ID' => 1921,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8536',
@@ -24996,9 +24996,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e4>',
             ),
-            421 =>
+            421 => 
             array (
-                'id' => 1922,
+                'wdt_ID' => 1922,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8566',
@@ -25009,9 +25009,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e5>',
             ),
-            422 =>
+            422 => 
             array (
-                'id' => 1923,
+                'wdt_ID' => 1923,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8567',
@@ -25022,9 +25022,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e6>',
             ),
-            423 =>
+            423 => 
             array (
-                'id' => 1924,
+                'wdt_ID' => 1924,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8592',
@@ -25035,9 +25035,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e7>',
             ),
-            424 =>
+            424 => 
             array (
-                'id' => 1925,
+                'wdt_ID' => 1925,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8599',
@@ -25048,9 +25048,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e8>',
             ),
-            425 =>
+            425 => 
             array (
-                'id' => 1926,
+                'wdt_ID' => 1926,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8600',
@@ -25061,9 +25061,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040e9>',
             ),
-            426 =>
+            426 => 
             array (
-                'id' => 1927,
+                'wdt_ID' => 1927,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8620',
@@ -25074,9 +25074,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ea>',
             ),
-            427 =>
+            427 => 
             array (
-                'id' => 1928,
+                'wdt_ID' => 1928,
                 'cono' => 1,
                 'whse' => 'main',
                 'itemid' => 'MW8621',
@@ -25087,9 +25087,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040eb>',
             ),
-            428 =>
+            428 => 
             array (
-                'id' => 1929,
+                'wdt_ID' => 1929,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8646',
@@ -25100,9 +25100,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ec>',
             ),
-            429 =>
+            429 => 
             array (
-                'id' => 1930,
+                'wdt_ID' => 1930,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8654',
@@ -25113,9 +25113,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ed>',
             ),
-            430 =>
+            430 => 
             array (
-                'id' => 1931,
+                'wdt_ID' => 1931,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8673',
@@ -25126,9 +25126,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ee>',
             ),
-            431 =>
+            431 => 
             array (
-                'id' => 1932,
+                'wdt_ID' => 1932,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8676',
@@ -25139,9 +25139,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040ef>',
             ),
-            432 =>
+            432 => 
             array (
-                'id' => 1933,
+                'wdt_ID' => 1933,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8677',
@@ -25152,9 +25152,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040f0>',
             ),
-            433 =>
+            433 => 
             array (
-                'id' => 1934,
+                'wdt_ID' => 1934,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'MW8682',
@@ -25165,9 +25165,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '0',
                 'ssmatimestamp' => '<00000000 000040f1>',
             ),
-            434 =>
+            434 => 
             array (
-                'id' => 1935,
+                'wdt_ID' => 1935,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2389',
@@ -25178,9 +25178,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 000040f2>',
             ),
-            435 =>
+            435 => 
             array (
-                'id' => 1936,
+                'wdt_ID' => 1936,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'QA2561',
@@ -25191,9 +25191,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1040001',
                 'ssmatimestamp' => '<00000000 000040f3>',
             ),
-            436 =>
+            436 => 
             array (
-                'id' => 1937,
+                'wdt_ID' => 1937,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50024',
@@ -25204,9 +25204,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468701',
                 'ssmatimestamp' => '<00000000 0003d867>',
             ),
-            437 =>
+            437 => 
             array (
-                'id' => 1938,
+                'wdt_ID' => 1938,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50037',
@@ -25217,9 +25217,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468702',
                 'ssmatimestamp' => '<00000000 0003d86a>',
             ),
-            438 =>
+            438 => 
             array (
-                'id' => 1939,
+                'wdt_ID' => 1939,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50038',
@@ -25230,9 +25230,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468701',
                 'ssmatimestamp' => '<00000000 0003d869>',
             ),
-            439 =>
+            439 => 
             array (
-                'id' => 1940,
+                'wdt_ID' => 1940,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'ET50039',
@@ -25243,9 +25243,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1468702',
                 'ssmatimestamp' => '<00000000 0003d868>',
             ),
-            440 =>
+            440 => 
             array (
-                'id' => 1941,
+                'wdt_ID' => 1941,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02363',
@@ -25256,9 +25256,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461702',
                 'ssmatimestamp' => '<00000000 0003ff72>',
             ),
-            441 =>
+            441 => 
             array (
-                'id' => 1942,
+                'wdt_ID' => 1942,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'GZ54012',
@@ -25269,9 +25269,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 0003922d>',
             ),
-            442 =>
+            442 => 
             array (
-                'id' => 1943,
+                'wdt_ID' => 1943,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1023',
@@ -25282,9 +25282,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0003922e>',
             ),
-            443 =>
+            443 => 
             array (
-                'id' => 1944,
+                'wdt_ID' => 1944,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WS1027',
@@ -25295,9 +25295,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '1461501',
                 'ssmatimestamp' => '<00000000 0003922f>',
             ),
-            444 =>
+            444 => 
             array (
-                'id' => 1945,
+                'wdt_ID' => 1945,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30278',
@@ -25308,9 +25308,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf61b>',
             ),
-            445 =>
+            445 => 
             array (
-                'id' => 1946,
+                'wdt_ID' => 1946,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30288',
@@ -25321,9 +25321,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf61c>',
             ),
-            446 =>
+            446 => 
             array (
-                'id' => 1947,
+                'wdt_ID' => 1947,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32748',
@@ -25334,9 +25334,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf61d>',
             ),
-            447 =>
+            447 => 
             array (
-                'id' => 1948,
+                'wdt_ID' => 1948,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32758',
@@ -25347,9 +25347,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf61e>',
             ),
-            448 =>
+            448 => 
             array (
-                'id' => 1949,
+                'wdt_ID' => 1949,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32768',
@@ -25360,9 +25360,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf61f>',
             ),
-            449 =>
+            449 => 
             array (
-                'id' => 1950,
+                'wdt_ID' => 1950,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30228',
@@ -25373,9 +25373,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf620>',
             ),
-            450 =>
+            450 => 
             array (
-                'id' => 1951,
+                'wdt_ID' => 1951,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30238',
@@ -25386,9 +25386,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf621>',
             ),
-            451 =>
+            451 => 
             array (
-                'id' => 1952,
+                'wdt_ID' => 1952,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30188',
@@ -25399,9 +25399,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf622>',
             ),
-            452 =>
+            452 => 
             array (
-                'id' => 1953,
+                'wdt_ID' => 1953,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30198',
@@ -25412,9 +25412,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf623>',
             ),
-            453 =>
+            453 => 
             array (
-                'id' => 1954,
+                'wdt_ID' => 1954,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30208',
@@ -25425,9 +25425,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf624>',
             ),
-            454 =>
+            454 => 
             array (
-                'id' => 1955,
+                'wdt_ID' => 1955,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30218',
@@ -25438,9 +25438,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf625>',
             ),
-            455 =>
+            455 => 
             array (
-                'id' => 1956,
+                'wdt_ID' => 1956,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30528',
@@ -25451,9 +25451,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf626>',
             ),
-            456 =>
+            456 => 
             array (
-                'id' => 1957,
+                'wdt_ID' => 1957,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB30538',
@@ -25464,9 +25464,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001cf627>',
             ),
-            457 =>
+            457 => 
             array (
-                'id' => 1958,
+                'wdt_ID' => 1958,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'EC134328',
@@ -25477,9 +25477,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '29031',
                 'ssmatimestamp' => '<00000000 001d5ba1>',
             ),
-            458 =>
+            458 => 
             array (
-                'id' => 1959,
+                'wdt_ID' => 1959,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB97978',
@@ -25490,9 +25490,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001d7b6c>',
             ),
-            459 =>
+            459 => 
             array (
-                'id' => 1960,
+                'wdt_ID' => 1960,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02532',
@@ -25503,9 +25503,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 001d9a21>',
             ),
-            460 =>
+            460 => 
             array (
-                'id' => 1961,
+                'wdt_ID' => 1961,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1735',
@@ -25516,9 +25516,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001db9a4>',
             ),
-            461 =>
+            461 => 
             array (
-                'id' => 1962,
+                'wdt_ID' => 1962,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1734',
@@ -25529,9 +25529,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001db9a5>',
             ),
-            462 =>
+            462 => 
             array (
-                'id' => 1963,
+                'wdt_ID' => 1963,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1737',
@@ -25542,9 +25542,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001db9a6>',
             ),
-            463 =>
+            463 => 
             array (
-                'id' => 1964,
+                'wdt_ID' => 1964,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1734',
@@ -25555,9 +25555,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001dc147>',
             ),
-            464 =>
+            464 => 
             array (
-                'id' => 1965,
+                'wdt_ID' => 1965,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1735',
@@ -25568,9 +25568,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001dc148>',
             ),
-            465 =>
+            465 => 
             array (
-                'id' => 1966,
+                'wdt_ID' => 1966,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1737',
@@ -25581,9 +25581,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001dc149>',
             ),
-            466 =>
+            466 => 
             array (
-                'id' => 1967,
+                'wdt_ID' => 1967,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31198',
@@ -25594,9 +25594,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001dd8b8>',
             ),
-            467 =>
+            467 => 
             array (
-                'id' => 1968,
+                'wdt_ID' => 1968,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB31338',
@@ -25607,9 +25607,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001dd8b9>',
             ),
-            468 =>
+            468 => 
             array (
-                'id' => 1969,
+                'wdt_ID' => 1969,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32558',
@@ -25620,9 +25620,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6541>',
             ),
-            469 =>
+            469 => 
             array (
-                'id' => 1970,
+                'wdt_ID' => 1970,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32638',
@@ -25633,9 +25633,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6542>',
             ),
-            470 =>
+            470 => 
             array (
-                'id' => 1971,
+                'wdt_ID' => 1971,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32508',
@@ -25646,9 +25646,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6543>',
             ),
-            471 =>
+            471 => 
             array (
-                'id' => 1972,
+                'wdt_ID' => 1972,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32588',
@@ -25659,9 +25659,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6544>',
             ),
-            472 =>
+            472 => 
             array (
-                'id' => 1973,
+                'wdt_ID' => 1973,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32528',
@@ -25672,9 +25672,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6545>',
             ),
-            473 =>
+            473 => 
             array (
-                'id' => 1974,
+                'wdt_ID' => 1974,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32658',
@@ -25685,9 +25685,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6546>',
             ),
-            474 =>
+            474 => 
             array (
-                'id' => 1975,
+                'wdt_ID' => 1975,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32698',
@@ -25698,9 +25698,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6547>',
             ),
-            475 =>
+            475 => 
             array (
-                'id' => 1976,
+                'wdt_ID' => 1976,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32668',
@@ -25711,9 +25711,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6548>',
             ),
-            476 =>
+            476 => 
             array (
-                'id' => 1977,
+                'wdt_ID' => 1977,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32728',
@@ -25724,9 +25724,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e6549>',
             ),
-            477 =>
+            477 => 
             array (
-                'id' => 1978,
+                'wdt_ID' => 1978,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32688',
@@ -25737,9 +25737,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e654a>',
             ),
-            478 =>
+            478 => 
             array (
-                'id' => 1979,
+                'wdt_ID' => 1979,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32678',
@@ -25750,9 +25750,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e654b>',
             ),
-            479 =>
+            479 => 
             array (
-                'id' => 1980,
+                'wdt_ID' => 1980,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'AB32708',
@@ -25763,9 +25763,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e654c>',
             ),
-            480 =>
+            480 => 
             array (
-                'id' => 1981,
+                'wdt_ID' => 1981,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1739',
@@ -25776,9 +25776,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e7cb1>',
             ),
-            481 =>
+            481 => 
             array (
-                'id' => 1982,
+                'wdt_ID' => 1982,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1740',
@@ -25789,9 +25789,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e7cb2>',
             ),
-            482 =>
+            482 => 
             array (
-                'id' => 1983,
+                'wdt_ID' => 1983,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1741',
@@ -25802,9 +25802,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e7cb3>',
             ),
-            483 =>
+            483 => 
             array (
-                'id' => 1984,
+                'wdt_ID' => 1984,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1742',
@@ -25815,9 +25815,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e7cb4>',
             ),
-            484 =>
+            484 => 
             array (
-                'id' => 1985,
+                'wdt_ID' => 1985,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1743',
@@ -25828,9 +25828,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e7cb5>',
             ),
-            485 =>
+            485 => 
             array (
-                'id' => 1986,
+                'wdt_ID' => 1986,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1746',
@@ -25841,9 +25841,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e7cb6>',
             ),
-            486 =>
+            486 => 
             array (
-                'id' => 1987,
+                'wdt_ID' => 1987,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1747',
@@ -25854,9 +25854,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 0020de2a>',
             ),
-            487 =>
+            487 => 
             array (
-                'id' => 1988,
+                'wdt_ID' => 1988,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1748',
@@ -25867,9 +25867,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001e8481>',
             ),
-            488 =>
+            488 => 
             array (
-                'id' => 1989,
+                'wdt_ID' => 1989,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1802',
@@ -25880,9 +25880,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 002114c1>',
             ),
-            489 =>
+            489 => 
             array (
-                'id' => 1990,
+                'wdt_ID' => 1990,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1750',
@@ -25893,9 +25893,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c52>',
             ),
-            490 =>
+            490 => 
             array (
-                'id' => 1991,
+                'wdt_ID' => 1991,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1751',
@@ -25906,9 +25906,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c53>',
             ),
-            491 =>
+            491 => 
             array (
-                'id' => 1992,
+                'wdt_ID' => 1992,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1766',
@@ -25919,9 +25919,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c54>',
             ),
-            492 =>
+            492 => 
             array (
-                'id' => 1993,
+                'wdt_ID' => 1993,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1767',
@@ -25932,9 +25932,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c55>',
             ),
-            493 =>
+            493 => 
             array (
-                'id' => 1994,
+                'wdt_ID' => 1994,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1770',
@@ -25945,9 +25945,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c56>',
             ),
-            494 =>
+            494 => 
             array (
-                'id' => 1995,
+                'wdt_ID' => 1995,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1771',
@@ -25958,9 +25958,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c57>',
             ),
-            495 =>
+            495 => 
             array (
-                'id' => 1996,
+                'wdt_ID' => 1996,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1774',
@@ -25971,9 +25971,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c58>',
             ),
-            496 =>
+            496 => 
             array (
-                'id' => 1997,
+                'wdt_ID' => 1997,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1775',
@@ -25984,9 +25984,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c59>',
             ),
-            497 =>
+            497 => 
             array (
-                'id' => 1998,
+                'wdt_ID' => 1998,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1776',
@@ -25997,9 +25997,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c5a>',
             ),
-            498 =>
+            498 => 
             array (
-                'id' => 1999,
+                'wdt_ID' => 1999,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1777',
@@ -26010,9 +26010,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c5b>',
             ),
-            499 =>
+            499 => 
             array (
-                'id' => 2000,
+                'wdt_ID' => 2000,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1739',
@@ -26025,9 +26025,9 @@ class VwitemsTableSeeder extends Seeder
             ),
         ));
         \DB::table('vwitems')->insert(array (
-            0 =>
+            0 => 
             array (
-                'id' => 2001,
+                'wdt_ID' => 2001,
                 'cono' => NULL,
                 'whse' => '',
                 'itemid' => '',
@@ -26038,9 +26038,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001e8c5d>',
             ),
-            1 =>
+            1 => 
             array (
-                'id' => 2002,
+                'wdt_ID' => 2002,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1740',
@@ -26051,9 +26051,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c5e>',
             ),
-            2 =>
+            2 => 
             array (
-                'id' => 2003,
+                'wdt_ID' => 2003,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1741',
@@ -26064,9 +26064,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c5f>',
             ),
-            3 =>
+            3 => 
             array (
-                'id' => 2004,
+                'wdt_ID' => 2004,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1742',
@@ -26077,9 +26077,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c60>',
             ),
-            4 =>
+            4 => 
             array (
-                'id' => 2005,
+                'wdt_ID' => 2005,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1743',
@@ -26090,9 +26090,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c61>',
             ),
-            5 =>
+            5 => 
             array (
-                'id' => 2006,
+                'wdt_ID' => 2006,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1746',
@@ -26103,9 +26103,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c62>',
             ),
-            6 =>
+            6 => 
             array (
-                'id' => 2007,
+                'wdt_ID' => 2007,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1796',
@@ -26116,9 +26116,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00211c91>',
             ),
-            7 =>
+            7 => 
             array (
-                'id' => 2008,
+                'wdt_ID' => 2008,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1748',
@@ -26129,9 +26129,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c64>',
             ),
-            8 =>
+            8 => 
             array (
-                'id' => 2009,
+                'wdt_ID' => 2009,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1796',
@@ -26142,9 +26142,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 00212461>',
             ),
-            9 =>
+            9 => 
             array (
-                'id' => 2010,
+                'wdt_ID' => 2010,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1750',
@@ -26155,9 +26155,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c66>',
             ),
-            10 =>
+            10 => 
             array (
-                'id' => 2011,
+                'wdt_ID' => 2011,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF1751',
@@ -26168,9 +26168,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001e8c67>',
             ),
-            11 =>
+            11 => 
             array (
-                'id' => 2012,
+                'wdt_ID' => 2012,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1501',
@@ -26181,9 +26181,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001eab91>',
             ),
-            12 =>
+            12 => 
             array (
-                'id' => 2013,
+                'wdt_ID' => 2013,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78409',
@@ -26194,9 +26194,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea11>',
             ),
-            13 =>
+            13 => 
             array (
-                'id' => 2014,
+                'wdt_ID' => 2014,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78419',
@@ -26207,9 +26207,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea12>',
             ),
-            14 =>
+            14 => 
             array (
-                'id' => 2015,
+                'wdt_ID' => 2015,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78429',
@@ -26220,9 +26220,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea13>',
             ),
-            15 =>
+            15 => 
             array (
-                'id' => 2016,
+                'wdt_ID' => 2016,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78439',
@@ -26233,9 +26233,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea14>',
             ),
-            16 =>
+            16 => 
             array (
-                'id' => 2017,
+                'wdt_ID' => 2017,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78449',
@@ -26246,9 +26246,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea15>',
             ),
-            17 =>
+            17 => 
             array (
-                'id' => 2018,
+                'wdt_ID' => 2018,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78459',
@@ -26259,9 +26259,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea16>',
             ),
-            18 =>
+            18 => 
             array (
-                'id' => 2019,
+                'wdt_ID' => 2019,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78469',
@@ -26272,9 +26272,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea17>',
             ),
-            19 =>
+            19 => 
             array (
-                'id' => 2020,
+                'wdt_ID' => 2020,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78479',
@@ -26285,9 +26285,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea18>',
             ),
-            20 =>
+            20 => 
             array (
-                'id' => 2021,
+                'wdt_ID' => 2021,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78489',
@@ -26298,9 +26298,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea19>',
             ),
-            21 =>
+            21 => 
             array (
-                'id' => 2022,
+                'wdt_ID' => 2022,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78499',
@@ -26311,9 +26311,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea1a>',
             ),
-            22 =>
+            22 => 
             array (
-                'id' => 2023,
+                'wdt_ID' => 2023,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78539',
@@ -26324,9 +26324,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea1b>',
             ),
-            23 =>
+            23 => 
             array (
-                'id' => 2024,
+                'wdt_ID' => 2024,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78509',
@@ -26337,9 +26337,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea1c>',
             ),
-            24 =>
+            24 => 
             array (
-                'id' => 2025,
+                'wdt_ID' => 2025,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'WH78519',
@@ -26350,9 +26350,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001eea1d>',
             ),
-            25 =>
+            25 => 
             array (
-                'id' => 2026,
+                'wdt_ID' => 2026,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25124',
@@ -26363,9 +26363,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001f0181>',
             ),
-            26 =>
+            26 => 
             array (
-                'id' => 2027,
+                'wdt_ID' => 2027,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25126',
@@ -26376,9 +26376,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001f0182>',
             ),
-            27 =>
+            27 => 
             array (
-                'id' => 2028,
+                'wdt_ID' => 2028,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25127',
@@ -26389,9 +26389,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001f0183>',
             ),
-            28 =>
+            28 => 
             array (
-                'id' => 2029,
+                'wdt_ID' => 2029,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'P25125',
@@ -26402,9 +26402,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14641',
                 'ssmatimestamp' => '<00000000 001f0184>',
             ),
-            29 =>
+            29 => 
             array (
-                'id' => 2030,
+                'wdt_ID' => 2030,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02537',
@@ -26415,9 +26415,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001f0951>',
             ),
-            30 =>
+            30 => 
             array (
-                'id' => 2031,
+                'wdt_ID' => 2031,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02539',
@@ -26428,9 +26428,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14755',
                 'ssmatimestamp' => '<00000000 001f0952>',
             ),
-            31 =>
+            31 => 
             array (
-                'id' => 2032,
+                'wdt_ID' => 2032,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02536',
@@ -26441,9 +26441,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14768',
                 'ssmatimestamp' => '<00000000 001f0953>',
             ),
-            32 =>
+            32 => 
             array (
-                'id' => 2033,
+                'wdt_ID' => 2033,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02543',
@@ -26454,9 +26454,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 001f0954>',
             ),
-            33 =>
+            33 => 
             array (
-                'id' => 2034,
+                'wdt_ID' => 2034,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02546',
@@ -26467,9 +26467,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14760',
                 'ssmatimestamp' => '<00000000 001f0955>',
             ),
-            34 =>
+            34 => 
             array (
-                'id' => 2035,
+                'wdt_ID' => 2035,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02541',
@@ -26480,9 +26480,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 001f0956>',
             ),
-            35 =>
+            35 => 
             array (
-                'id' => 2036,
+                'wdt_ID' => 2036,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02533',
@@ -26493,9 +26493,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 001f0957>',
             ),
-            36 =>
+            36 => 
             array (
-                'id' => 2037,
+                'wdt_ID' => 2037,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'G02538',
@@ -26506,9 +26506,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14629',
                 'ssmatimestamp' => '<00000000 001f0958>',
             ),
-            37 =>
+            37 => 
             array (
-                'id' => 2038,
+                'wdt_ID' => 2038,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00396',
@@ -26519,9 +26519,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 001f0959>',
             ),
-            38 =>
+            38 => 
             array (
-                'id' => 2039,
+                'wdt_ID' => 2039,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00402',
@@ -26532,9 +26532,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14753',
                 'ssmatimestamp' => '<00000000 001f095a>',
             ),
-            39 =>
+            39 => 
             array (
-                'id' => 2040,
+                'wdt_ID' => 2040,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00403',
@@ -26545,9 +26545,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '12550',
                 'ssmatimestamp' => '<00000000 001f095b>',
             ),
-            40 =>
+            40 => 
             array (
-                'id' => 2041,
+                'wdt_ID' => 2041,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00399',
@@ -26558,9 +26558,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14400',
                 'ssmatimestamp' => '<00000000 001f095c>',
             ),
-            41 =>
+            41 => 
             array (
-                'id' => 2042,
+                'wdt_ID' => 2042,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00400',
@@ -26571,9 +26571,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14760',
                 'ssmatimestamp' => '<00000000 001f095d>',
             ),
-            42 =>
+            42 => 
             array (
-                'id' => 2043,
+                'wdt_ID' => 2043,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'E00401',
@@ -26584,9 +26584,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '14749',
                 'ssmatimestamp' => '<00000000 001f095e>',
             ),
-            43 =>
+            43 => 
             array (
-                'id' => 2044,
+                'wdt_ID' => 2044,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3010',
@@ -26597,9 +26597,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f095f>',
             ),
-            44 =>
+            44 => 
             array (
-                'id' => 2045,
+                'wdt_ID' => 2045,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3010',
@@ -26610,9 +26610,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0960>',
             ),
-            45 =>
+            45 => 
             array (
-                'id' => 2046,
+                'wdt_ID' => 2046,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3011',
@@ -26623,9 +26623,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0961>',
             ),
-            46 =>
+            46 => 
             array (
-                'id' => 2047,
+                'wdt_ID' => 2047,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3011',
@@ -26636,9 +26636,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0962>',
             ),
-            47 =>
+            47 => 
             array (
-                'id' => 2048,
+                'wdt_ID' => 2048,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3012',
@@ -26649,9 +26649,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0963>',
             ),
-            48 =>
+            48 => 
             array (
-                'id' => 2049,
+                'wdt_ID' => 2049,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3012',
@@ -26662,9 +26662,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0964>',
             ),
-            49 =>
+            49 => 
             array (
-                'id' => 2050,
+                'wdt_ID' => 2050,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3013',
@@ -26675,9 +26675,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0965>',
             ),
-            50 =>
+            50 => 
             array (
-                'id' => 2051,
+                'wdt_ID' => 2051,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3013',
@@ -26688,9 +26688,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0966>',
             ),
-            51 =>
+            51 => 
             array (
-                'id' => 2052,
+                'wdt_ID' => 2052,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3014',
@@ -26701,9 +26701,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0967>',
             ),
-            52 =>
+            52 => 
             array (
-                'id' => 2053,
+                'wdt_ID' => 2053,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3014',
@@ -26714,9 +26714,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0968>',
             ),
-            53 =>
+            53 => 
             array (
-                'id' => 2054,
+                'wdt_ID' => 2054,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3015',
@@ -26727,9 +26727,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f0969>',
             ),
-            54 =>
+            54 => 
             array (
-                'id' => 2055,
+                'wdt_ID' => 2055,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3015',
@@ -26740,9 +26740,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => NULL,
                 'ssmatimestamp' => '<00000000 001f096a>',
             ),
-            55 =>
+            55 => 
             array (
-                'id' => 2056,
+                'wdt_ID' => 2056,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3016',
@@ -26753,9 +26753,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1121>',
             ),
-            56 =>
+            56 => 
             array (
-                'id' => 2057,
+                'wdt_ID' => 2057,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3016',
@@ -26766,9 +26766,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1122>',
             ),
-            57 =>
+            57 => 
             array (
-                'id' => 2058,
+                'wdt_ID' => 2058,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3017',
@@ -26779,9 +26779,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1123>',
             ),
-            58 =>
+            58 => 
             array (
-                'id' => 2059,
+                'wdt_ID' => 2059,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3017',
@@ -26792,9 +26792,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1124>',
             ),
-            59 =>
+            59 => 
             array (
-                'id' => 2060,
+                'wdt_ID' => 2060,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3018',
@@ -26805,9 +26805,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1125>',
             ),
-            60 =>
+            60 => 
             array (
-                'id' => 2061,
+                'wdt_ID' => 2061,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3018',
@@ -26818,9 +26818,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f1>',
             ),
-            61 =>
+            61 => 
             array (
-                'id' => 2062,
+                'wdt_ID' => 2062,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3019',
@@ -26831,9 +26831,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f2>',
             ),
-            62 =>
+            62 => 
             array (
-                'id' => 2063,
+                'wdt_ID' => 2063,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3019',
@@ -26844,9 +26844,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f3>',
             ),
-            63 =>
+            63 => 
             array (
-                'id' => 2064,
+                'wdt_ID' => 2064,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3020',
@@ -26857,9 +26857,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f4>',
             ),
-            64 =>
+            64 => 
             array (
-                'id' => 2065,
+                'wdt_ID' => 2065,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3020',
@@ -26870,9 +26870,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f5>',
             ),
-            65 =>
+            65 => 
             array (
-                'id' => 2066,
+                'wdt_ID' => 2066,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3021',
@@ -26883,9 +26883,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f6>',
             ),
-            66 =>
+            66 => 
             array (
-                'id' => 2067,
+                'wdt_ID' => 2067,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3021',
@@ -26896,9 +26896,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f7>',
             ),
-            67 =>
+            67 => 
             array (
-                'id' => 2068,
+                'wdt_ID' => 2068,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3022',
@@ -26909,9 +26909,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f8>',
             ),
-            68 =>
+            68 => 
             array (
-                'id' => 2069,
+                'wdt_ID' => 2069,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3022',
@@ -26922,9 +26922,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18f9>',
             ),
-            69 =>
+            69 => 
             array (
-                'id' => 2070,
+                'wdt_ID' => 2070,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3023',
@@ -26935,9 +26935,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18fa>',
             ),
-            70 =>
+            70 => 
             array (
-                'id' => 2071,
+                'wdt_ID' => 2071,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3023',
@@ -26948,9 +26948,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18fb>',
             ),
-            71 =>
+            71 => 
             array (
-                'id' => 2072,
+                'wdt_ID' => 2072,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3024',
@@ -26961,9 +26961,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18fc>',
             ),
-            72 =>
+            72 => 
             array (
-                'id' => 2073,
+                'wdt_ID' => 2073,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3024',
@@ -26974,9 +26974,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18fd>',
             ),
-            73 =>
+            73 => 
             array (
-                'id' => 2074,
+                'wdt_ID' => 2074,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3025',
@@ -26987,9 +26987,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18fe>',
             ),
-            74 =>
+            74 => 
             array (
-                'id' => 2075,
+                'wdt_ID' => 2075,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3025',
@@ -27000,9 +27000,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f18ff>',
             ),
-            75 =>
+            75 => 
             array (
-                'id' => 2076,
+                'wdt_ID' => 2076,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3026',
@@ -27013,9 +27013,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1901>',
             ),
-            76 =>
+            76 => 
             array (
-                'id' => 2077,
+                'wdt_ID' => 2077,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3026',
@@ -27026,9 +27026,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1902>',
             ),
-            77 =>
+            77 => 
             array (
-                'id' => 2078,
+                'wdt_ID' => 2078,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3027',
@@ -27039,9 +27039,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1903>',
             ),
-            78 =>
+            78 => 
             array (
-                'id' => 2079,
+                'wdt_ID' => 2079,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CF3027',
@@ -27052,9 +27052,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1904>',
             ),
-            79 =>
+            79 => 
             array (
-                'id' => 2080,
+                'wdt_ID' => 2080,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC3028',
@@ -27065,9 +27065,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => '<00000000 001f1905>',
             ),
-            80 =>
+            80 => 
             array (
-                'id' => 2081,
+                'wdt_ID' => 2081,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC90541',
@@ -27078,9 +27078,9 @@ class VwitemsTableSeeder extends Seeder
                 'factoryno' => '10350',
                 'ssmatimestamp' => NULL,
             ),
-            81 =>
+            81 => 
             array (
-                'id' => 2082,
+                'wdt_ID' => 2082,
                 'cono' => 1,
                 'whse' => 'MAIN',
                 'itemid' => 'CC1830',
@@ -27092,7 +27092,7 @@ class VwitemsTableSeeder extends Seeder
                 'ssmatimestamp' => NULL,
             ),
         ));
-
-
+        
+        
     }
 }

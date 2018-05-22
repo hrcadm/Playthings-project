@@ -48,9 +48,9 @@ class LabController extends Controller
      * @param  \App\Lab  $lab
      * @return \Illuminate\Http\Response
      */
-    public function show(Lab $lab)
+    public function show($wdt_ID)
     {
-        $lab = Lab::findOrFail($lab->id);
+        $lab = Lab::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('labs.show', compact('lab'));
     }
@@ -61,9 +61,9 @@ class LabController extends Controller
      * @param  \App\Lab  $lab
      * @return \Illuminate\Http\Response
      */
-    public function edit(Lab $lab)
+    public function edit($wdt_ID)
     {
-        $lab = Lab::findOrFail($lab->id);
+        $lab = Lab::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('labs.manage', compact('lab'));
     }
@@ -75,9 +75,11 @@ class LabController extends Controller
      * @param  \App\Lab  $lab
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Lab $lab)
+    public function update(Request $request, $wdt_ID)
     {
-        $lab = Lab::findOrFail($lab->id)->update($request->all());
+        $lab = Lab::where('wdt_ID', '=', $wdt_ID)
+                    ->firstOrFail()
+                    ->update($request->all());
 
         return redirect()->route('labs.show', compact('lab'));
     }
@@ -88,9 +90,9 @@ class LabController extends Controller
      * @param  \App\Lab  $lab
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Lab $lab)
+    public function destroy($wdt_ID)
     {
-        $lab = Lab::findOrFail($lab->id);
+        $lab = Lab::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
         $lab->delete();
 
         return redirect()->route('labs.index');

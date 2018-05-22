@@ -48,21 +48,18 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 	// authed index route
 	Route::get('index', 'HomeController@index')->name('home');
 
-	////////// CRUD OPERATIONS ///////////
-
-	Route::resource('users', 'UserController');
-
-	Route::resource('vendors', 'VendorController');
-
-	Route::resource('factories', 'FactoryController');
-
-	Route::resource('items', 'ItemController');
-
-	Route::resource('labs', 'LabController');
-
-	Route::resource('standards', 'StandardController');
-
-	Route::resource('items-test-records', 'ItemsTestRecordController');
+	// updating index by year
 	Route::post('update-item-test-record', 'ItemsTestRecordController@updateIndex')->name('update-item-test-record');
+
+	////////// CRUD OPERATIONS ///////////
+	Route::resources([
+		'users' => 'UserController',
+		'vendors' => 'VendorController',
+		'factories' => 'FactoryController',
+		'items' => 'ItemController',
+		'labs' => 'LabController',
+		'standards' => 'StandardController',
+		'items-test-records' => 'ItemsTestRecordController'
+	]);
 
 });

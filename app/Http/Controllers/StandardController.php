@@ -48,9 +48,9 @@ class StandardController extends Controller
      * @param  \App\Standard  $standard
      * @return \Illuminate\Http\Response
      */
-    public function show(Standard $standard)
+    public function show($wdt_ID)
     {
-        $standard = Standard::findOrFail($standard->id);
+        $standard = Standard::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('standards.show', compact('standard'));
     }
@@ -61,9 +61,9 @@ class StandardController extends Controller
      * @param  \App\Standard  $standard
      * @return \Illuminate\Http\Response
      */
-    public function edit(Standard $standard)
+    public function edit($wdt_ID)
     {
-        $standard = Standard::findOrFail($standard->id);
+        $standard = Standard::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('standards.manage', compact('standard'));
     }
@@ -75,9 +75,11 @@ class StandardController extends Controller
      * @param  \App\Standard  $standard
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Standard $standard)
+    public function update(Request $request, $wdt_ID)
     {
-        $standard = Standard::findOrFail($standard->id)->update($request->all());
+        $standard = Standard::where('wdt_ID', '=', $wdt_ID)
+                            ->firstOrFail()
+                            ->update($request->all());
 
         return redirect()->route('standards.show', compact('standard'));
     }
@@ -88,7 +90,7 @@ class StandardController extends Controller
      * @param  \App\Standard  $standard
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Standard $standard)
+    public function destroy($wdt_ID)
     {
         //
     }

@@ -29,8 +29,8 @@
                     <td>{{ $lab->labstate }}</td>
                     <td>{{ $lab->labcountry }}</td>
                     <td>
-                        <a href="{{ route('labs.show', $lab->id) }}" class="btn btn-success btn-xs">Details</a>
-                        <a href="{{ route('labs.edit', $lab->id) }}" class="btn btn-warning btn-xs">Edit</a>
+                        <a href="{{ route('labs.show', $lab->wdt_ID) }}" class="btn btn-success btn-xs">Details</a>
+                        <a href="{{ route('labs.edit', $lab->wdt_ID) }}" class="btn btn-warning btn-xs">Edit</a>
                     </td>
                 </tr>
             @endforeach

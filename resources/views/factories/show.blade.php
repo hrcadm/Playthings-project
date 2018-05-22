@@ -145,7 +145,7 @@
                         data-toggle="tooltip"
                         data-original-title="Go back"><i class="glyphicon glyphicon-arrow-left"></i></a>
                 <span class="pull-right">
-                        <a href="{{ route('factories.edit', $factory->id) }}" class="btn btn-sm btn-warning" type="button"
+                        <a href="{{ route('factories.edit', $factory->wdt_ID) }}" class="btn btn-sm btn-warning" type="button"
                                 data-toggle="tooltip"
                                 data-original-title="Edit this Factory"><i class="glyphicon glyphicon-edit"></i></a>
                     </span>

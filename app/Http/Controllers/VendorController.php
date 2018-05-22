@@ -48,9 +48,9 @@ class VendorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($wdt_ID)
     {
-        $vendor = Vendor::findOrFail($id);
+        $vendor = Vendor::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('vendors.show', compact('vendor'));
     }
@@ -61,9 +61,9 @@ class VendorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($wdt_ID)
     {
-        $vendor = Vendor::findOrFail($id);
+        $vendor = Vendor::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
 
         return view('vendors.manage', compact('vendor'));
     }
@@ -75,9 +75,11 @@ class VendorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Vendor $vendor)
+    public function update(Request $request, $wdt_ID)
     {
-        $vendor = Vendor::findOrFail($vendor->id)->update($request->all());
+        $vendor = Vendor::where('wdt_ID', '=', $wdt_ID)
+                        ->firstOrFail()
+                        ->update($request->all());
 
         return redirect()->route('vendors.show', compact('vendor'));
     }
@@ -88,7 +90,7 @@ class VendorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($wdt_ID)
     {
         //
     }

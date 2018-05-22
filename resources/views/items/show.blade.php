@@ -97,7 +97,7 @@
                         data-toggle="tooltip"
                         data-original-title="Go back"><i class="glyphicon glyphicon-arrow-left"></i></a>
                 <span class="pull-right">
-                        <a href="{{ route('items.edit', $item->id) }}" class="btn btn-sm btn-warning" type="button"
+                        <a href="{{ route('items.edit', $item->wdt_ID) }}" class="btn btn-sm btn-warning" type="button"
                                 data-toggle="tooltip"
                                 data-original-title="Edit this item"><i class="glyphicon glyphicon-edit"></i></a>
                     </span>

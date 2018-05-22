@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Factory;
+use App\Models\Item;
 use App\Models\ItemsTestRecord;
+use App\Models\Lab;
+use App\Models\Standard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -32,10 +36,13 @@ class ItemsTestRecordController extends Controller
 
     /**
      * Update index method from year dropdown
-     * @return [type] [description]
+     *
+     * @param  \Illuminate\Http\Request
+     * @return \Illuminate\Http\Response
      */
     public function updateIndex(Request $request)
     {
+        // generate years for dropdown dinamically
         $years = $this->yearsForDropdown();
 
         $selectedYear = $request->year;
@@ -52,7 +59,20 @@ class ItemsTestRecordController extends Controller
      */
     public function create()
     {
-        return view('itemstestrecords.manage');
+        $item = Item::pluck('itemid', 'desc1');
+
+        $items =[];
+
+        foreach($item as $i => $a)
+        {
+            array_push($items, $a.' [ '.$i.' ]');
+        }
+
+        $lab = Lab::pluck('labname');
+        $factory = Factory::pluck('factname');
+        $standards = Standard::pluck('stdname');
+
+        return view('itemstestrecords.manage', compact('items', 'lab', 'factory', 'standards'));
     }
 
     /**
@@ -76,7 +96,20 @@ class ItemsTestRecordController extends Controller
     {
         $itemTest = ItemsTestRecord::findOrFail($id);
 
-        return view('itemstestrecords.manage', compact('itemTest'));
+        $item = Item::pluck('itemid', 'desc1');
+
+        $items =[];
+
+        foreach($item as $i => $a)
+        {
+            array_push($items, $a.' [ '.$i.' ]');
+        }
+
+        $lab = Lab::pluck('labname');
+        $factory = Factory::pluck('factname');
+        $standards = Standard::pluck('stdname');
+
+        return view('itemstestrecords.manage', compact('itemTest', 'items', 'lab', 'factory', 'standards'));
     }
 
     /**
@@ -104,20 +137,26 @@ class ItemsTestRecordController extends Controller
 
     /**
      * Generate a dropdown list for Item Test Reports
-     * @return [type] [description]
+     *
+     * @return $combinedArray
      */
     public function yearsForDropdown()
     {
+        // current year
         $endYear = date('Y');
+        // 20 years back limit
         $startYear = $endYear - 20;
 
+        // initiate array
         $years = [];
 
+        // foreach year from this to 20 years ago, populate array
         foreach(range(date('Y'), $startYear) as $year)
         {
             array_push($years, $year);
         }
 
+        // combining same key as value (2018 => 2018) cuz of dropdown option value
         $combinedArray = array_combine($years, $years);
 
         return $combinedArray;
