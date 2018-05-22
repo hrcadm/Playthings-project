@@ -15,16 +15,34 @@ class ItemsTestRecordController extends Controller
      */
     public function index()
     {
+        // generate years for dropdown dinamically
+        $years = $this->yearsForDropdown();
+
         if(Auth::user()->role === 'admin')
         {
             $itemsTest = ItemsTestRecord::whereYear('TestDate', '=', date('Y'))->paginate(10);
 
-            return view('itemstestrecords.index', compact('itemsTest'));
+            return view('itemstestrecords.index', compact('itemsTest', 'years'));
         }
 
         $itemsTest = ItemsTestRecord::whereYear('TestDate', '>=', '2016')->paginate(10);
 
-        return view('itemstestrecords.index', compact('itemsTest'));
+        return view('itemstestrecords.index', compact('itemsTest', 'years'));
+    }
+
+    /**
+     * Update index method from year dropdown
+     * @return [type] [description]
+     */
+    public function updateIndex(Request $request)
+    {
+        $years = $this->yearsForDropdown();
+
+        $selectedYear = $request->year;
+
+        $itemsTest = ItemsTestRecord::whereYear('TestDate', '=', $selectedYear)->paginate(10);
+
+        return view('itemstestrecords.index', compact('itemsTest', 'years'));
     }
 
     /**
@@ -82,5 +100,26 @@ class ItemsTestRecordController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    /**
+     * Generate a dropdown list for Item Test Reports
+     * @return [type] [description]
+     */
+    public function yearsForDropdown()
+    {
+        $endYear = date('Y');
+        $startYear = $endYear - 20;
+
+        $years = [];
+
+        foreach(range(date('Y'), $startYear) as $year)
+        {
+            array_push($years, $year);
+        }
+
+        $combinedArray = array_combine($years, $years);
+
+        return $combinedArray;
     }
 }

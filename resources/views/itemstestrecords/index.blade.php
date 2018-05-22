@@ -6,9 +6,9 @@
 <div class="panel panel-default">
     <div class="panel-heading text-center">
         <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Test</a>
-        {!! Form::open() !!}
+        {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record']) !!}
         {{ Form::label('Select year Filter') }}
-        {{ Form::select('year', []) }}
+        {{ Form::select('year', $years, $years, ['id' => 'updateIndex']) }}
         {!! Form::close() !!}
     </div>
 
@@ -51,4 +51,14 @@
     </div>
 </div>
 
+@stop
+
+@section('javascripts')
+<script>
+    $(document).ready(function(){
+        $('#updateIndex').on('change', function(){
+            $("form").submit();
+        });
+    });
+</script>
 @stop

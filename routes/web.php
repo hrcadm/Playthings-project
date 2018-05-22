@@ -63,5 +63,6 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 	Route::resource('standards', 'StandardController');
 
 	Route::resource('items-test-records', 'ItemsTestRecordController');
+	Route::post('update-item-test-record', 'ItemsTestRecordController@updateIndex')->name('update-item-test-record');
 
 });
