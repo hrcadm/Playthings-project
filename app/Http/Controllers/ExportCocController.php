@@ -17,7 +17,11 @@ class ExportCocController extends Controller
 
         $items = array_combine($items, $items);
 
-    	return view('export-views.coc.select', compact('items'));
+        if(\Auth::check())
+        {
+            return view('export-views.coc.select', compact('items'));
+        }
+    	return view('export-views.coc.guestSelect', compact('items'));
     }
 
     /**

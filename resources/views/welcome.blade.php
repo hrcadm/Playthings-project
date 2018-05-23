@@ -10,10 +10,13 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #efefef;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -45,8 +48,27 @@
                 text-align: center;
             }
 
-            .title {
-                font-size: 84px;
+            #homeLinks {
+                list-style-type: none;
+            }
+
+            #homeLinks > li > a {
+                text-decoration: none;
+                color: #636b6f;
+                margin-bottom: 10px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            #homeLinks > li > a:hover {
+                text-decoration: none;
+                color: green;
+                font-weight: 800;
+                font-size: 13px;
+
             }
 
             .links > a {
@@ -58,10 +80,6 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
         </style>
     </head>
     <body>
@@ -69,7 +87,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ route('home') }}">Home</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
@@ -77,19 +95,29 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+            <div class="content container">
+                <div style="padding-bottom: 5em;">
+                    <img src="{{ asset('assets/images/playthings_logo.jpg') }}">
+                </div>
+                <div style="padding-bottom: 7em;">
+                    <p style="font-weight:600;">
+                        Welcome to International Playthings’ online C.O.C. Access System. <br><br>
+                        This system has been developed in accordance with the guidelines of the U.S. Consumer Product Safety Improvement Act to give our customers instant access to Certificates of Conformity for each item that International Playthings imports and distributes. <br>
+                        We are currently in the process of testing a vast quantity of products. The system is updated daily as new data becomes available.
+                    </p>
+                    <p style="font-weight:600;color:red;">
+                        If you do not find the Certificate of Conformity that you are looking for, please check back at a later date.
+                    </p>
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div>
+                    <ul id="homeLinks">
+                        <li><a href="{{ route('export-coc') }}">Export Cerfiticate of Conformity</a></li>
+                        <li><a href="{{ route('export-item-test-report') }}">Export Item Safety Tests</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
+
     </body>
 </html>

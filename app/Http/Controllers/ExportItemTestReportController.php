@@ -21,7 +21,12 @@ class ExportItemTestReportController extends Controller
 
         $items = array_combine($items, $items);
 
-    	return view('export-views.item-tests.select', compact('items'));
+        if(\Auth::check())
+        {
+    	   return view('export-views.item-tests.select', compact('items'));
+        }
+
+        return view('export-views.item-tests.guestSelect', compact('items'));
     }
 
     /**

@@ -16,7 +16,17 @@
 //////////////////////   PUBLIC ROUTES //////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////
 
-Route::get('/', 'Auth\LoginController@showLoginForm');
+Route::get('/', function () {
+    return view('welcome');
+});
+
+// Export routes for Item Test Records
+Route::get('export-item-test-report', 'ExportItemTestReportController@exportItemTestReportView')->name('export-item-test-report');
+Route::post('export-item-test-report', 'ExportItemTestReportController@exportItemTestReport')->name('post-export-item-test');
+
+// Export routes for Certificate of Conformity
+Route::get('export-coc', 'ExportCocController@exportItemTestReportView')->name('export-coc');
+Route::post('export-coc', 'ExportCocController@exportItemTestReport')->name('post-export-coc');
 
 /////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////   AUTH ROUTES ////////////////////////////////////////////////////
@@ -52,13 +62,6 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 	Route::post('update-item-test-record', 'ItemsTestRecordController@updateIndex')->name('update-item-test-record');
 	Route::post('get-item-test', 'ItemsTestRecordController@getItemTest')->name('get-item-test');
 
-	// Export routes for Item Test Records
-	Route::get('export-item-test-report', 'ExportItemTestReportController@exportItemTestReportView')->name('export-item-test-report');
-	Route::post('export-item-test-report', 'ExportItemTestReportController@exportItemTestReport')->name('post-export-item-test');
-
-	// Export routes for Certificate of Conformity
-	Route::get('export-coc', 'ExportCocController@exportItemTestReportView')->name('export-coc');
-	Route::post('export-coc', 'ExportCocController@exportItemTestReport')->name('post-export-coc');
 
 	////////// CRUD OPERATIONS ///////////
 	Route::resources([
