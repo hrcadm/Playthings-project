@@ -4,6 +4,7 @@ namespace App\Exports;
 
 use App\Models\Item;
 use App\Models\ItemsTestRecord;
+use App\Models\Lab;
 use Illuminate\Contracts\View\View;
 use Maatwebsite\Excel\Concerns\FromView;
 
