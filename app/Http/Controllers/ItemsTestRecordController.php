@@ -22,16 +22,19 @@ class ItemsTestRecordController extends Controller
         // generate years for dropdown dinamically
         $years = $this->yearsForDropdown();
 
+        // get items list for dropdown
+        $items = Item::pluck('itemid');
+        $items = $items->toArray();
+
+        $items = array_combine($items, $items);
+
         if(Auth::user()->role === 'admin')
         {
-            $itemsTest = ItemsTestRecord::whereYear('TestDate', '=', date('Y'))->paginate(10);
-
-            return view('itemstestrecords.index', compact('itemsTest', 'years'));
+            return view('itemstestrecords.index', compact('years', 'items'));
         }
 
-        $itemsTest = ItemsTestRecord::whereYear('TestDate', '>=', '2016')->paginate(10);
 
-        return view('itemstestrecords.index', compact('itemsTest', 'years'));
+        return view('itemstestrecords.index', compact('years', 'items'));
     }
 
     /**
@@ -45,11 +48,47 @@ class ItemsTestRecordController extends Controller
         // generate years for dropdown dinamically
         $years = $this->yearsForDropdown();
 
-        $selectedYear = $request->year;
+        // get items list for dropdown
+        $items = Item::pluck('itemid');
+        $items = $items->toArray();
 
-        $itemsTest = ItemsTestRecord::whereYear('TestDate', '=', $selectedYear)->paginate(10);
+        $items = array_combine($items, $items);
 
-        return view('itemstestrecords.index', compact('itemsTest', 'years'));
+        if ($request->has('item'))
+        {
+            if(Auth::user()->role === 'admin')
+            {
+                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('Y'))->paginate(10);
+
+                if ($itemsTest == '') {
+                    $itemsTest = $request->item;
+                }
+
+                return view('itemstestrecords.index', compact('itemsTest', 'years', 'items'));
+            }
+
+            $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('2016'))->paginate(10);
+
+
+            return view('itemstestrecords.index', compact('itemsTest', 'years', 'items'));
+        }
+
+        if($request->has('year') && $request->has('selectedItem'))
+        {
+            $selectedYear = $request->year;
+            $selectedItem = $request->selectedItem;
+
+            if(Auth::user()->role === 'admin')
+            {
+                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->selectedItem)->whereYear('TestDate', '=', $selectedYear)->paginate(10);
+
+                return view('itemstestrecords.index', compact('itemsTest', 'years', 'items', 'selectedItem'));
+            }
+        }
+
+
+
+        return view('itemstestrecords.index', compact('years', 'items'))->withErrors('Choose an Item first.');
     }
 
     /**

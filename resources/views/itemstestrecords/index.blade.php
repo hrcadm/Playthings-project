@@ -5,15 +5,36 @@
 
 <div class="panel panel-default">
     <div class="panel-heading text-center">
-        <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Test</a>
+        <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Item Test</a>
+        <hr>
         {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record']) !!}
-        {{ Form::label('Select year Filter') }}
-        {{ Form::select('year', $years, $years[2018], ['id' => 'updateIndex']) }}
+        @if(isset($selectedItem))
+        {{ Form::select('item', $items, $selectedItem, ['id' => 'selectedItem', 'placeholder' => 'Select an Item']) }}
+        @else
+        {{ Form::select('item', $items, null, ['id' => 'selectedItem', 'placeholder' => 'Select an Item']) }}
+        @endif
         {!! Form::close() !!}
-    </div>
+        <hr>
+        @if(\Auth::user()->role === 'admin')
+            {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record']) !!}
+            @if(isset($itemsTest[0]) && (isset($itemsTest[0]->ItemID)))
+                {!! Form::hidden('selectedItem', $itemsTest[0]->ItemID) !!}
+            @elseif(isset($itemsTest))
+                {!! Form::hidden('selectedItem', $itemsTest) !!}
+            @endif
+            {{ Form::label('Select year Filter') }}<br>
+            {{ Form::select('year', $years, $years[2018], ['id' => 'updateIndex']) }}
+            {!! Form::close() !!}
+            @if(count($errors) > 0)
+            <p style="color:red;font-weight: 800;margin-top:2em;">{{$errors->first()}}</p>
+            @endif
+        @endif
 
+    </div>
+    @if(isset($itemsTest) && $itemsTest != '' && isset($itemsTest[0]->ItemID))
     <div class="panel-body table-responsive">
-        <table class="table table-bordered {{ count($itemsTest) > 0 ? 'datatable' : '' }}" class="hover">
+        <table class="table table-bordered hover @if(isset($itemsTest[0]->ItemID))
+            {{ count($itemsTest) > 0 ? 'datatable' : '' }} @endif">
             <thead>
             <tr>
                 <th>ID</th>
@@ -37,7 +58,7 @@
                     <td>{{ $test->StdDesc }}</td>
                     <td>{{ $test->TestDate }}</td>
                     <td>
-                        <a href="{{ route('items-test-records.edit', $test->id) }}" class="btn btn-warning btn-xs">Edit</a>
+                        <a href="{{ route('items-test-records.edit', $test) }}" class="btn btn-warning btn-xs">Edit</a>
                     </td>
                 </tr>
             @endforeach
@@ -49,6 +70,9 @@
         </div>
 
     </div>
+    @elseif((isset($itemsTest) && $itemsTest == '') || isset($itemsTest[0]->ItemID))
+        <p style="text-align: center; margin-top:2em;padding-bottom:2em;"><strong>No Tests Found for selected year.</strong></p>
+    @endif
 </div>
 
 @stop
@@ -57,7 +81,12 @@
 <script>
     $(document).ready(function(){
         $('#updateIndex').on('change', function(){
-            $("form").submit();
+            var form = $(this).parent();
+            $(form).submit();
+        });
+         $('#selectedItem').on('change', function(){
+            var form = $(this).parent();
+            $(form).submit();
         });
     });
 </script>

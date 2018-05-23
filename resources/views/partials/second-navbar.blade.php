@@ -34,9 +34,8 @@
 					<li><a href="{{ route('items-test-records.create') }}"><i class="icon-add"></i> Add New</a></li>
 				</ul>
 			</li>
-			<li><a href="#"><i class="icon-cc position-left"></i> View Cerfiticate of Conformity</a></li>
-			<li><a href="#"><i class="icon-pie-chart2 position-left"></i> View Item Safety Test Report</a></li>
-			<li><a href="#"><i class="icon-database-export position-left"></i> Export Item Safety Tests to Excel</a></li>
+			<li><a href="{{ route('export-coc') }}"><i class="icon-cc position-left"></i> Export Cerfiticate of Conformity</a></li>
+			<li><a href="{{ route('export-item-test-report') }}"><i class="icon-database-export position-left"></i> Export Item Safety Tests</a></li>
 			<li><a href="#"><i class="icon-archive position-left"></i> Archive</a></li>
 		</ul>
 	</div>
