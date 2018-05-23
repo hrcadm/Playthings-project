@@ -1,6 +1,6 @@
 <div class="navbar navbar-inverse bg-indigo">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="index.html"><img src="assets/images/logo_light.png" alt=""></a>
+		<a class="navbar-brand" href="{{ route('home') }}" style="padding:0;padding-bottom:16px;"><img src="{{ asset('assets/images/playthings_logo.png') }}" alt="Playthings" style="width:80%;height: 150%;margin-top:0;padding-top: 0;"></a>
 
 		<ul class="nav navbar-nav pull-right visible-xs-block">
 			<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-cog4"></i></a></li>
