@@ -21,7 +21,7 @@ class ItemTestsExport implements FromView
     	$item = Item::where('itemid', $this->itemId)->get();
         $lab = Lab::where('id', $itemTests[0]->TestLab)->get();
 
-        return view('export-views.items-tests.excelTemplate', [
+        return view('export-views.item-tests.excelTemplate', [
             'itemTests' => $itemTests,
             'item' => $item
         ]);
