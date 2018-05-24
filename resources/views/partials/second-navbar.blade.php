@@ -14,15 +14,15 @@
 
 				<ul class="dropdown-menu width-250">
 					<li class="dropdown-header">Manage Sections</li>
-					<li><a href="{{ route('users.index') }}"><i class="icon-users2"></i> Users</a></li>
+					<li><a href="{{ route('factories.index') }}"><i class="icon-store2"></i> Factories</a></li>
 					<li><a href="{{ route('items.index') }}"><i class="icon-file-empty"></i> Items</a></li>
 					<li><a href="{{ route('labs.index') }}"><i class="icon-library2"></i> Labs</a></li>
-					<li><a href="{{ route('factories.index') }}"><i class="icon-store2"></i> Factories</a></li>
 					<li><a href="{{ route('standards.index') }}"><i class="icon-certificate"></i> Standards</a></li>
+					<li><a href="{{ route('users.index') }}"><i class="icon-users2"></i> Users</a></li>
+					<li><a href="{{ route('vendors.index') }}"><i class="icon-ship position-left"></i> Vendors</a></li>
 				</ul>
 			</li>
 
-			<li><a href="{{ route('vendors.index') }}"><i class="icon-ship position-left"></i> Vendors</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 					<i class="icon-safe position-left"></i> Item Test Records <span class="caret"></span>

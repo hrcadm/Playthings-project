@@ -24,6 +24,7 @@ mix.js(	'resources/assets/js/app.js', 'public/js')
 	'node_modules/popper.js/dist/umd/popper.js',
 	'node_modules/bootstrap/dist/js/bootstrap.min.js',
 	'resources/assets/limitless/js/plugins/ui/moment/moment.min.js',
+	'node_modules/select2/dist/select2.js',
 	'resources/assets/limitless/js/plugins/tables/datatables/datatables.min.js',
 	'resources/assets/limitless/js/plugins/loaders/pace.min.js',
 	'resources/assets/limitless/js/plugins/loaders/blockui.min.js',
@@ -42,5 +43,6 @@ mix.js(	'resources/assets/js/app.js', 'public/js')
 	'resources/assets/limitless/css/components.min.css',
 	'resources/assets/limitless/css/colors.min.css',
 	'resources/assets/limitless/icons/styles.css',
-	'node_modules/font-awesome/css/font-awesome.css'
+	'node_modules/font-awesome/css/font-awesome.css',
+	'node_modules/select2/dist/css/select2.css'
 	], './public/css/main.css');

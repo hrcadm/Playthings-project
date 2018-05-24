@@ -10,6 +10,10 @@ use Illuminate\Http\Request;
 use Maatwebsite\Excel\Concerns\Exportable;
 use Maatwebsite\Excel\Concerns\FromView;
 use Maatwebsite\Excel\Facades\Excel;
+use PhpOffice\PhpWord\Exception\Exception;
+use PhpOffice\PhpWord\IOFactory;
+use PhpOffice\PhpWord\Shared\Converter;
+use PhpOffice\PhpWord\Style\TablePosition;
 
 class ExportItemTestReportController extends Controller
 {
@@ -87,6 +91,87 @@ class ExportItemTestReportController extends Controller
 
     public function exportReportToWord($itemId)
     {
-        return redirect()->back()->withErrors('Developing...');
+        $itemTests = ItemsTestRecord::where('ItemID', $itemId)->get();
+        $item = Item::where('itemid', $itemId)->get();
+
+        $wordDoc = new \PhpOffice\PhpWord\PhpWord();
+
+        $title = 'Item Safety Test Report';
+        $styleTitle = ['size' => 20, 'bold' => true];
+
+        // Handling badly stored data to get a string
+        $substrateLvl = $itemTests[0]->SubstrateLvl;
+        switch ($substrateLvl) {
+            case 1:
+                $substrateLvl = ' 600 PPM';
+                break;
+            case 2:
+                $substrateLvl = ' 300 PPM';
+                break;
+            case 3:
+                $substrateLvl = ' 100 PPM';
+                break;
+
+            default:
+                $substrateLvl = 'N/A';
+                break;
+        }
+
+        // Handling badly stored data to get a string
+        $surfaceLvl = $itemTests[0]->SurfaceLvl;
+        switch ($surfaceLvl) {
+            case 1:
+                $surfaceLvl = ' 600 PPM';
+                break;
+            case 2:
+                $surfaceLvl = ' 90 PPM';
+                break;
+
+            default:
+                $surfaceLvl = 'N/A';
+                break;
+        }
+
+        $addSection = $wordDoc->addSection();
+
+        $addSection->addText($title);
+        $addSection->addTextBreak(1);
+        $addSection->addText(
+            ' Item ID: '.$itemTests[0]->ItemID.
+            $item[0]->desc1
+            . 'Lab: '.$itemTests[0]->LabName
+            . 'Test Report No: '.$itemTests[0]->ReptNo
+            . 'Test Report PDF: '.$itemTests[0]->TestReptPdf
+            . 'CPSIA Lead Substrate Level: '.$substrateLvl
+            . 'CPSIA Lead Surface Coating Level: '.$surfaceLvl
+        );
+
+        $addSection->addTextBreak(1);
+
+        $table = $addSection->addTable();
+
+        // Table head
+        $row = $table->addRow();
+        $row->addCell()->addText('Test Date / Report Number');
+        $row->addCell()->addText('Test Name');
+        $row->addCell()->addText('Test Description');
+
+        // Table body
+        foreach ($itemTests as $test) {
+            $row = $table->addRow();
+            $row->addCell()->addTextRun($test->TestDate);
+            $row->addCell()->addTextRun($test->StdName);
+            $row->addCell()->addTextRun($test->StdDesc);
+        }
+
+        // Storing the Doc
+        $complete = \PhpOffice\PhpWord\IOFactory::createWriter($wordDoc, 'Word2007');
+
+        header("Content-Disposition: attachment; filename='ItemTestReport.docx'");
+
+        ob_clean();
+        $a = $complete->save("php://output");
+
+        return $a;
     }
 }

@@ -131,29 +131,29 @@
                                             {{ Form::radio('substrateLvl', 1, ['checked' => 'checked']) }}
                                             {{ Form::label('<600 PPM', null, ['style' => 'margin-right:1.5em;']) }}
                                         @else
-                                            {{ Form::radio('substrateLvl', 1) }}
-                                            {{ Form::label('<600 PPM', null, ['style' => 'margin-right:1.5em;']) }}
+                                            {{ Form::radio('substrateLvl', 1, false, ['id' => 'sublvl600']) }}
+                                            {{ Form::label('sublvl600', '<600 PPM', ['style' => 'margin-right:1.5em;']) }}
                                         @endif
                                         @if(isset($itemTest) && $itemTest->SubstrateLvl === 2)
                                             {{ Form::radio('substrateLvl', 2, ['checked' => 'checked']) }}
                                             {{ Form::label('<300 PPM', null, ['style' => 'margin-right:1.5em;']) }}
                                         @else
-                                            {{ Form::radio('substrateLvl', 2) }}
-                                            {{ Form::label('<300 PPM', null, ['style' => 'margin-right:1.5em;']) }}
+                                            {{ Form::radio('substrateLvl', 2, false, ['id' => 'sublvl300']) }}
+                                            {{ Form::label('sublvl300', '<300 PPM', ['style' => 'margin-right:1.5em;']) }}
                                         @endif
                                         @if(isset($itemTest) && $itemTest->SubstrateLvl === 3)
                                             {{ Form::radio('substrateLvl', 3, ['checked' => 'checked']) }}
                                             {{ Form::label('<100 PPM', null, ['style' => 'margin-right:1.5em;']) }}
                                         @else
-                                            {{ Form::radio('substrateLvl', 3) }}
-                                            {{ Form::label('<100 PPM', null, ['style' => 'margin-right:1.5em;']) }}
+                                            {{ Form::radio('substrateLvl', 3, false, ['id' => 'sublvl100']) }}
+                                            {{ Form::label('sublvl100', '<100 PPM', ['style' => 'margin-right:1.5em;']) }}
                                         @endif
                                         @if(isset($itemTest) && $itemTest->SubstrateLvl === 4)
                                             {{ Form::radio('substrateLvl', 4,['checked' => 'checked']) }}
                                             {{ Form::label('N/A') }}
                                         @else
-                                            {{ Form::radio('substrateLvl', 4) }}
-                                            {{ Form::label('N/A') }}
+                                            {{ Form::radio('substrateLvl', 4, false, ['id' => 'sublvlna']) }}
+                                            {{ Form::label('sublvlna', 'N/A') }}
                                         @endif
                                     </div>
                                 </div>
@@ -165,22 +165,22 @@
                                             {{ Form::radio('SurfaceLvl', 1, ['checked' => 'checked']) }}
                                             {{ Form::label('<600 PPM', null, ['style' => 'margin-right:2em;']) }}
                                         @else
-                                            {{ Form::radio('SurfaceLvl', 1) }}
-                                            {{ Form::label('<600 PPM', null, ['style' => 'margin-right:2em;']) }}
+                                            {{ Form::radio('SurfaceLvl', 1, false, ['id' => 'surflvl600']) }}
+                                            {{ Form::label('surflvl600', '<600 PPM', ['style' => 'margin-right:2em;']) }}
                                         @endif
                                         @if(isset($itemTest) && $itemTest->SurfaceLvl === 2)
                                             {{ Form::radio('SurfaceLvl', 2, ['checked' => 'checked']) }}
                                             {{ Form::label('<90 PPM', null, ['style' => 'margin-right:2em;']) }}
                                         @else
-                                            {{ Form::radio('SurfaceLvl', 2) }}
-                                            {{ Form::label('<90 PPM', null, ['style' => 'margin-right:2em;']) }}
+                                            {{ Form::radio('SurfaceLvl', 2, false, ['id' => 'surflvl90']) }}
+                                            {{ Form::label('surflvl90', '<90 PPM', ['style' => 'margin-right:2em;']) }}
                                         @endif
                                         @if(isset($itemTest) && $itemTest->SurfaceLvl === 2)
                                             {{ Form::radio('SurfaceLvl', 3, ['checked' => 'checked']) }}
                                             {{ Form::label('N/A') }}
                                         @else
-                                            {{ Form::radio('SurfaceLvl', 3) }}
-                                            {{ Form::label('N/A') }}
+                                            {{ Form::radio('SurfaceLvl', 3, false, ['id' => 'surflvlna']) }}
+                                            {{ Form::label('surflvlna', 'N/A') }}
                                         @endif
                                     </div>
                                 </div>
@@ -201,22 +201,22 @@
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         @foreach(array_slice($standards->toArray(), 0, 50) as $key => $value)
                                             @if(isset($itemTest) && $itemTest->StdName === $value)
-                                                {{ Form::checkbox('tests[]', $value, ['checked' => 'checked']) }}
-                                                {{ Form::label($value) }}<br>
+                                                {{ Form::checkbox('tests[]', null, $value, true, ['id' => $key]) }}
+                                                {{ Form::label($key, $value) }}<br>
                                             @else
-                                                {{ Form::checkbox('tests[]', $value) }}
-                                                {{ Form::label($value) }}<br>
+                                                {{ Form::checkbox('tests[]', $value, false, ['id' => $key]) }}
+                                                {{ Form::label($key, $value) }}<br>
                                             @endif
                                         @endforeach
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        @foreach(array_slice($standards->toArray(), 50, 100) as $standard)
-                                            @if(isset($itemTest) && $itemTest->StdName === $standard)
-                                                {{ Form::checkbox('tests[]', $standard, ['checked' =>'checked']) }}
-                                                {{ Form::label($standard) }}<br>
+                                        @foreach(array_slice($standards->toArray(), 50, 100) as $key => $value)
+                                            @if(isset($itemTest) && $itemTest->StdName === $value)
+                                                {{ Form::checkbox('tests[]', $value, true, ['id' => $value]) }}
+                                                {{ Form::label($value) }}<br>
                                             @else
-                                                {{ Form::checkbox('tests[]', $standard) }}
-                                                {{ Form::label($standard) }}<br>
+                                                {{ Form::checkbox('tests[]', $value, false, ['id' => $value]) }}
+                                                {{ Form::label($value, $value) }}<br>
                                             @endif
                                         @endforeach
                                     </div>
