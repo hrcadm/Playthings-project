@@ -37,10 +37,6 @@ Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
-// Registration Routes...
-Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-Route::post('register', 'Auth\RegisterController@register');
-
 // Password Reset Routes...
 Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
 Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
@@ -57,6 +53,10 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 
 	// authed index route
 	Route::get('index', 'HomeController@index')->name('home');
+
+	// Registration Routes...
+	Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+	Route::post('register', 'Auth\RegisterController@register');
 
 	// updating index by year
 	Route::post('update-item-test-record', 'ItemsTestRecordController@updateIndex')->name('update-item-test-record');

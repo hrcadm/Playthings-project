@@ -6,7 +6,7 @@
 {!! Form::open(['method' => 'POST', 'route' => 'post-export-coc']) !!}
 
 {{ Form::label('Select an Item*') }}<br>
-{{ Form::select('item', $items, null, ['id' => 'selectedItem', 'placeholder' => 'Select an Item', 'required' => 'required']) }}
+{{ Form::select('item', $items, null, ['id' => 'selectedItem1', 'placeholder' => 'Select an Item', 'required' => 'required']) }}
 <br><br>
 <p>Export as:*</p>
 {{ Form::radio('type', 'excel') }}
@@ -24,4 +24,12 @@
 <p class="alert alert-danger" style="margin-top:2em;">{{ $errors->first() }}</p>
 @endif
 
+@stop
+
+@section('javascripts')
+<script>
+	$(document).ready(function() {
+	    $('#selectedItem1').select2();
+	});
+</script>
 @stop
