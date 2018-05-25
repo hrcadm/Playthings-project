@@ -88,6 +88,9 @@
             var form = $(this).parent();
             $(form).submit();
         });
+
+
+        $('#selectedItem').select2();
     });
 </script>
 @stop

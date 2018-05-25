@@ -100,11 +100,17 @@ class ItemsTestRecordController extends Controller
     {
         $item = Item::pluck('itemid', 'desc1');
 
-        $items =[];
+        $itemList =[];
 
         foreach($item as $i => $a)
         {
-            array_push($items, $a.' [ '.$i.' ]');
+            array_push($itemList, $a.' [ '.$i.' ]');
+        }
+
+        foreach($itemList as $key => $val) {
+            $value = explode(" ", $val);
+
+            $items[$value[0]]=$val;
         }
 
         $lab = Lab::pluck('labname');
@@ -122,7 +128,12 @@ class ItemsTestRecordController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        foreach($request->tests as $store)
+        {
+            $test = ItemsTestRecord::create($request->all());
+        }
+
+        return redirect()->route('itemstestrecord.index');
     }
 
     /**
