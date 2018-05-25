@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-1">
-                <div class="panel panel-primary">
+                <div class="panel panel-success">
                     <div class="panel-heading">
                         <h3 class="panel-title">
                             <i class="glyphicon glyphicon-file"></i>
@@ -201,7 +201,7 @@
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         @foreach(array_slice($standards->toArray(), 0, 50) as $key => $value)
                                             @if(isset($itemTest) && $itemTest->StdName === $value)
-                                                {{ Form::checkbox('tests[]', null, $value, true, ['id' => $key]) }}
+                                                {{ Form::checkbox('tests[]', $value, true, ['id' => $key]) }}
                                                 {{ Form::label($key, $value) }}<br>
                                             @else
                                                 {{ Form::checkbox('tests[]', $value, false, ['id' => $key]) }}
