@@ -9,7 +9,7 @@
     </div>
 
     <div class="panel-body table-responsive">
-        <table class="table table-bordered {{ count($factories) > 0 ? 'datatable' : '' }}" class="hover">
+        <table class="table table-bordered {{ count($factories) > 0 ? 'datatable' : '' }} hover" id="factoriesTable">
             <thead>
             <tr>
                 <th>Factory No</th>
@@ -39,12 +39,14 @@
             </tbody>
         </table>
 
-        <div style="text-align: center;">
-            {{ $factories->links() }}
-        </div>
-
     </div>
 </div>
 
 @stop
-
+@section('javascripts')
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#factoriesTable').DataTable();
+        });
+    </script>
+@stop

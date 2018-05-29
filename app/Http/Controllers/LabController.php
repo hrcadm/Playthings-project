@@ -14,7 +14,7 @@ class LabController extends Controller
      */
     public function index()
     {
-        $labs = Lab::paginate(20);
+        $labs = Lab::all();
 
         return view('labs.index', compact('labs'));
     }

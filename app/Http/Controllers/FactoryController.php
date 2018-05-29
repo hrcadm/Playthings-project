@@ -14,7 +14,7 @@ class FactoryController extends Controller
      */
     public function index()
     {
-        $factories = Factory::paginate(10);
+        $factories = Factory::all();
 
         return view('factories.index', compact('factories'));
     }

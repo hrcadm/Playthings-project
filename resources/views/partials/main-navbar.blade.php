@@ -1,6 +1,8 @@
 <div class="navbar navbar-inverse" style="background-color: #4caf50">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="{{ route('home') }}" style="padding-top: 2px;margin-top: 2px;"><img style="height: 3em;padding-top: 0;margin-top: 0" src="{{ asset('assets/images/playthings_logo.png') }}" style="padding-top: 0;margin-top: 0;" alt="Playthings" ></a>
+		<a class="navbar-brand" href="{{ route('home') }}" style="padding-top: 0;margin-top: 2px;">
+			<img style="height: 3.5em;padding-top: 0;margin-top: 0;" src="{{ asset('assets/images/playthings_logo.png') }}" alt="Playthings" />
+		</a>
 
 		<ul class="nav navbar-nav pull-right visible-xs-block">
 			<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-cog4"></i></a></li>
@@ -18,8 +20,11 @@
 				</a>
 
 				<ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="{{ route('register') }}"><i class="icon-user-plus"></i> Create New User</a></li>
-					<li class="divider"></li>
+					@if(Auth::user()->role === 'admin')
+						<li><a href="{{ route('register') }}"><i class="icon-user-plus"></i> Create New User</a></li>
+						<li class="divider"></li>
+					@endif
+
 					<li>
 						<a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();

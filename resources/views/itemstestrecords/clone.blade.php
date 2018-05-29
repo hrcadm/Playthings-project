@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
 @if(isset($itemTest))
-    @section('page_title', 'Edit Test')
-@else
-    @section('page_title', 'Add New Test')
+    @section('page_title', 'Clone Test')
 @endif
 
 @section('content')
@@ -24,30 +22,16 @@
                             <i class="glyphicon glyphicon-file"></i>
                             @if(isset($itemTest))
                                 Item Test Information
-                            @else
-                                Add New Item Test
                             @endif
                         </h3>
                     </div>
                     <div class="panel-body">
-
-                        @if(isset($itemTest))
-
-                        {!! Form::model($itemTest, [
-                                'method' => 'PUT',
-                                'route' => ['items-test-records.update', $itemTest],
-                                ])
-                        !!}
-
-                        @else
 
                         {!! Form::open([
                                 'method' => 'POST',
                                 'route' => 'items-test-records.store',
                                 ])
                         !!}
-
-                        @endif
 
                         <div class="row">
 
@@ -61,11 +45,8 @@
                                         @endif
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        @if(isset($itemTest))
-                                            {{ Form::select('ItemID', $items, $itemTest->ItemID, ['style' => 'max-width:100%;min-width:100%;']) }}
-                                        @else
-                                            {{ Form::text('ItemID', null, ['class' => 'form-control', 'placeholder' => 'Enter Item ID for new item']) }}
-                                        @endif
+                                        {{ Form::select('ItemID', $items, $itemTest->ItemID, ['style' => 'max-width:100%;min-width:100%;']) }}
+
                                     </div>
                                 </div>
 
@@ -106,28 +87,28 @@
                                 <div class="row table editUserTableData">
                                     <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Test Report Number</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::text('ReptNo', null, ['class' => 'form-control']) }}
+                                        {{ Form::text('ReptNo', $itemTest->ReptNo, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
 
                                 <div class="row table editUserTableData">
                                     <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">PO Number</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::text('poNumber', null, ['class' => 'form-control']) }}
+                                        {{ Form::text('poNumber', $itemTest->poNumber, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
 
                                 <div class="row table editUserTableData">
                                     <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Testing Date (mm/dd/yyyy)</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::date('TestDate', null, ['class' => 'form-control']) }}
+                                        {{ Form::date('TestDate', $itemTest->TestDate, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
 
                                 <div class="row table editUserTableData">
                                     <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Description</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::text('Desc1', null, ['class' => 'form-control']) }}
+                                        {{ Form::text('Desc1', $itemTest->Desc1, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
 
@@ -195,7 +176,7 @@
                                 <div class="row table editUserTableData">
                                     <div class="col-lg-6 col-md-6 col-sm-5 col-xs-5">Lab Test Report (PDF)</div>
                                     <div class="col-lg-6 col-md-6 col-sm-7 col-xs-7">
-                                        {{ Form::text('TestReptPdf', null, ['class' => 'form-control']) }}
+                                        {{ Form::text('TestReptPdf', $itemTest->TestReptPdf, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
 
@@ -231,6 +212,7 @@
 
                             </div>
                         </div>
+                    </div>
                     </div>
 
                     <div class="panel-footer" style="margin-left: 2em; margin-right:2em;">

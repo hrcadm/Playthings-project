@@ -62,6 +62,9 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 	Route::post('update-item-test-record', 'ItemsTestRecordController@updateIndex')->name('update-item-test-record');
 	Route::post('get-item-test', 'ItemsTestRecordController@getItemTest')->name('get-item-test');
 
+	Route::get('items-test-records/{id}/clone', 'ItemsTestRecordController@clone')->name('items-test-records.clone');
+	Route::get('archive', 'ItemsTestRecordController@archive')->name('archive');
+
 
 	////////// CRUD OPERATIONS ///////////
 	Route::resources([

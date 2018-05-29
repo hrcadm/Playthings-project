@@ -22,11 +22,13 @@ class ItemsTestRecordController extends Controller
         // generate years for dropdown dinamically
         $years = $this->yearsForDropdown();
 
+
         // get items list for dropdown
         $items = Item::pluck('itemid');
         $items = $items->toArray();
 
         $items = array_combine($items, $items);
+        asort($items);
 
         if(Auth::user()->role === 'admin')
         {
@@ -53,21 +55,18 @@ class ItemsTestRecordController extends Controller
         $items = $items->toArray();
 
         $items = array_combine($items, $items);
+        asort($items);
 
         if ($request->has('item'))
         {
             if(Auth::user()->role === 'admin')
             {
-                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('Y'))->paginate(10);
-
-                if ($itemsTest == '') {
-                    $itemsTest = $request->item;
-                }
+                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('Y'))->get();
 
                 return view('itemstestrecords.index', compact('itemsTest', 'years', 'items'));
             }
 
-            $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('2016'))->paginate(10);
+            $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('2016'))->get();
 
 
             return view('itemstestrecords.index', compact('itemsTest', 'years', 'items'));
@@ -80,13 +79,11 @@ class ItemsTestRecordController extends Controller
 
             if(Auth::user()->role === 'admin')
             {
-                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->selectedItem)->whereYear('TestDate', '=', $selectedYear)->paginate(10);
+                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->selectedItem)->whereYear('TestDate', '=', $selectedYear)->get();
 
                 return view('itemstestrecords.index', compact('itemsTest', 'years', 'items', 'selectedItem'));
             }
         }
-
-
 
         return view('itemstestrecords.index', compact('years', 'items'))->withErrors('Choose an Item first.');
     }
@@ -113,11 +110,23 @@ class ItemsTestRecordController extends Controller
             $items[$value[0]]=$val;
         }
 
-        $lab = Lab::pluck('labname');
-        $factory = Factory::pluck('factname');
+        $lab = Lab::pluck('labname', 'id');
+        foreach($lab as $k => $v)
+        {
+            $labs[$k]=$v;
+        }
+
+
+        $factory = Factory::pluck('factname', 'wdt_ID');
+        foreach($factory as $k => $v)
+        {
+            $factories[$k]=$v;
+        }
+
+
         $standards = Standard::pluck('stdname');
 
-        return view('itemstestrecords.manage', compact('items', 'lab', 'factory', 'standards'));
+        return view('itemstestrecords.manage', compact('items', 'labs', 'factories', 'standards', 'itemTest'));
     }
 
     /**
@@ -128,12 +137,32 @@ class ItemsTestRecordController extends Controller
      */
     public function store(Request $request)
     {
-        foreach($request->tests as $store)
+        $labName = Lab::where('id', '=', $request->LabName)->get();
+
+        foreach($request->tests as $testKey => $testValue)
         {
-            $test = ItemsTestRecord::create($request->all());
+            // Find Test Desc
+            $testDesc = Standard::where('stdname', $testValue)->get();
+
+            $test = new ItemsTestRecord();
+            $test->ItemID = $request->ItemID;
+            $test->TestLab = $request->LabName;
+            $test->Active = -1;
+            $test->Desc1 = $request->Desc1;
+            $test->LabName = $labName[0]->labname;
+            $test->StdName = $testValue;
+            $test->StdDesc = $testDesc[0]->stddesc;
+            $test->TestDate = $request->TestDate;
+            $test->TestReptPdf = $request->TestReptPdf;
+            $test->ReptNo = $request->ReptNo;
+            $test->SubstrateLvl = $request->SubstrateLvl;
+            $test->SurfaceLvl = $request->SurfaceLvl;
+            $test->poNumber = $request->poNumber;
+            $test->factId = $request->factname;
+            $test->save();
         }
 
-        return redirect()->route('itemstestrecord.index');
+        return redirect()->route('items-test-records.index');
     }
 
     /**
@@ -152,14 +181,68 @@ class ItemsTestRecordController extends Controller
 
         foreach($item as $i => $a)
         {
-            array_push($items, $a.' [ '.$i.' ]');
+            $items[$a] = $a.' [ '.$i.' ]';
         }
+        asort($items);
 
-        $lab = Lab::pluck('labname');
-        $factory = Factory::pluck('factname');
+        $lab = Lab::pluck('labname', 'id');
+        foreach($lab as $k => $v)
+        {
+            $labs[$k]=$v;
+        }
+        asort($labs);
+
+
+        $factory = Factory::pluck('factname', 'wdt_ID');
+        foreach($factory as $k => $v)
+        {
+            $factories[$k]=$v;
+        }
+        asort($factories);
+
         $standards = Standard::pluck('stdname');
 
-        return view('itemstestrecords.manage', compact('itemTest', 'items', 'lab', 'factory', 'standards'));
+        return view('itemstestrecords.manage', compact('itemTest', 'items', 'labs', 'factories', 'standards'));
+    }
+
+    /**
+     * Show the form for cloning the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function clone($id)
+    {
+        $itemTest = ItemsTestRecord::findOrFail($id);
+
+        $item = Item::pluck('itemid', 'desc1');
+
+        $items =[];
+
+        foreach($item as $i => $a)
+        {
+            $items[$a] = $a.' [ '.$i.' ]';
+        }
+        asort($items);
+
+        $lab = Lab::pluck('labname', 'id');
+        foreach($lab as $k => $v)
+        {
+            $labs[$k]=$v;
+        }
+        asort($labs);
+
+
+        $factory = Factory::pluck('factname', 'wdt_ID');
+        foreach($factory as $k => $v)
+        {
+            $factories[$k]=$v;
+        }
+        asort($factories);
+
+        $standards = Standard::pluck('stdname');
+
+        return view('itemstestrecords.clone', compact('itemTest', 'items', 'labs', 'factories', 'standards'));
     }
 
     /**
@@ -171,18 +254,44 @@ class ItemsTestRecordController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $labName = Lab::where('id', '=', $request->LabName)->get();
+
+        foreach($request->tests as $testKey => $testValue)
+        {
+            // Find Test Desc
+            $testDesc = Standard::where('stdname', $testValue)->get();
+
+            $test = ItemsTestRecord::findOrFail($id);
+            $test->ItemID = $request->ItemID;
+            $test->TestLab = $request->LabName;
+            $test->Active = -1;
+            $test->Desc1 = $request->Desc1;
+            $test->LabName = $labName[0]->labname;
+            $test->StdName = $testValue;
+            $test->StdDesc = $testDesc[0]->stddesc;
+            $test->TestDate = $request->TestDate;
+            $test->TestReptPdf = $request->TestReptPdf;
+            $test->ReptNo = $request->ReptNo;
+            $test->SubstrateLvl = $request->SubstrateLvl;
+            $test->SurfaceLvl = $request->SurfaceLvl;
+            $test->factId = $request->factname;
+            $test->poNumber = $request->poNumber;
+            $test->save();
+        }
+
+        return redirect()->route('items-test-records.index');
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Archived Item Tests
      *
-     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function archive()
     {
-        //
+        $itemsTest = ItemsTestRecord::whereYear('TestDate', '<', date('2016'))->get();
+
+        return view('itemstestrecords.archive', compact('itemsTest'));
     }
 
     /**
