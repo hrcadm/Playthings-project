@@ -18,4 +18,11 @@ class ItemsTestRecord extends Model
     {
     	return $this->hasMany('App\Models\Item', 'itemid');
     }
+
+    public function getTestDateAttribute($date)
+	{
+	    $newDate = date('Y-m-d', strtotime($date));
+
+	    return $newDate;
+	}
 }

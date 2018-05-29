@@ -66,6 +66,23 @@
                                     </div>
                                 </div>
 
+                                <div class="form-group row">
+                                    <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
+
+                                    <div class="col-md-6">
+                                        <select id="role" class="form-control{{ $errors->has('role') ? ' is-invalid' : '' }}" name="role" required>
+                                            <option value="user">User</option>
+                                            <option value="admin">Admin</option>
+                                        </select>
+
+                                        @if ($errors->has('role'))
+                                            <span class="invalid-feedback">
+                                                <strong>{{ $errors->first('role') }}</strong>
+                                            </span>
+                                        @endif
+                                    </div>
+                                </div>
+
                                 <div class="form-group row mb-0">
                                     <div class="col-md-6 offset-md-4">
                                         <button type="submit" class="btn btn-success">

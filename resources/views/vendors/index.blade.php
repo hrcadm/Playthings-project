@@ -9,7 +9,7 @@
     </div>
 
     <div class="panel-body table-responsive">
-        <table class="table table-bordered {{ count($vendors) > 0 ? 'datatable' : '' }}" class="hover">
+        <table class="table table-bordered hover {{ count($vendors) > 0 ? 'datatable' : '' }}" id="vendorsTable">
             <thead>
             <tr>
                 <th>Name</th>
@@ -39,12 +39,15 @@
             </tbody>
         </table>
 
-        <div style="text-align: center;">
-            {{ $vendors->links() }}
-        </div>
-
     </div>
 </div>
 
 @stop
 
+@section('javascripts')
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#vendorsTable').DataTable();
+        });
+    </script>
+@stop

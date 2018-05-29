@@ -9,7 +9,7 @@
     </div>
 
     <div class="panel-body table-responsive">
-        <table class="table table-bordered {{ count($standards) > 0 ? 'datatable' : '' }}" id="standardsTable" class="hover">
+        <table class="table table-bordered hover {{ count($standards) > 0 ? 'datatable' : '' }}" id="standardsTable">
             <thead>
             <tr>
                 <th>Standard Name</th>
