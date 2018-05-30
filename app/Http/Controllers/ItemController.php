@@ -75,9 +75,9 @@ class ItemController extends Controller
      * @param  \App\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $wdt_ID)
+    public function update(Request $request, Item $item)
     {
-        $item = Item::where('wdt_ID', '=', $wdt_ID)
+        $item = Item::where('wdt_ID', '=', $item->wdt_ID)
                     ->firstOrFail()
                     ->update($request->all());
 

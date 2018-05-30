@@ -1,9 +1,9 @@
 @extends('layouts.master')
 
 @if(isset($itemTest))
-    @section('page_title', 'Edit Test')
+    @section('page_title', 'Edit Item Test Record')
 @else
-    @section('page_title', 'Add New Test')
+    @section('page_title', 'Add New Item Test Record')
 @endif
 
 @section('content')
@@ -23,9 +23,9 @@
                         <h3 class="panel-title">
                             <i class="glyphicon glyphicon-file"></i>
                             @if(isset($itemTest))
-                                Item Test Information
+                                Item Test Record Information
                             @else
-                                Add New Item Test
+                                Add New Item Test Record
                             @endif
                         </h3>
                     </div>

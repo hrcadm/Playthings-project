@@ -43,19 +43,6 @@ class StandardController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Standard  $standard
-     * @return \Illuminate\Http\Response
-     */
-    public function show($wdt_ID)
-    {
-        $standard = Standard::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
-
-        return view('standards.show', compact('standard'));
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Standard  $standard

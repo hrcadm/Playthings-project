@@ -43,19 +43,6 @@ class VendorController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($wdt_ID)
-    {
-        $vendor = Vendor::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
-
-        return view('vendors.show', compact('vendor'));
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  int  $id

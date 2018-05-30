@@ -109,12 +109,14 @@ class ItemsTestRecordController extends Controller
 
             $items[$value[0]]=$val;
         }
+        asort($items);
 
         $lab = Lab::pluck('labname', 'id');
         foreach($lab as $k => $v)
         {
             $labs[$k]=$v;
         }
+        asort($labs);
 
 
         $factory = Factory::pluck('factname', 'wdt_ID');
@@ -122,6 +124,7 @@ class ItemsTestRecordController extends Controller
         {
             $factories[$k]=$v;
         }
+        asort($factories);
 
 
         $standards = Standard::pluck('stdname');
@@ -138,6 +141,11 @@ class ItemsTestRecordController extends Controller
     public function store(Request $request)
     {
         $labName = Lab::where('id', '=', $request->LabName)->get();
+
+        // Create new Item
+        $newItem = new Item();
+        $newItem->itemid = $request->ItemID;
+        $newItem->save();
 
         foreach($request->tests as $testKey => $testValue)
         {
