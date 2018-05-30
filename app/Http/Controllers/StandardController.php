@@ -68,17 +68,6 @@ class StandardController extends Controller
                             ->firstOrFail()
                             ->update($request->all());
 
-        return redirect()->route('standards.show', compact('standard'));
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Standard  $standard
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($wdt_ID)
-    {
-        //
+        return redirect()->route('standards.index');
     }
 }

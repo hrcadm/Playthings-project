@@ -77,21 +77,14 @@ class FactoryController extends Controller
      */
     public function update(Request $request, $wdt_ID)
     {
-        $factory = Factory::where('wdt_ID', '=', $wdt_ID)
+        $updateFactory = Factory::where('wdt_ID', '=', $wdt_ID)
                             ->firstOrFail()
                             ->update($request->all());
 
-        return redirect()->route('factories.show', compact('factory'));
-    }
+        $factory = Factory::findOrFail($wdt_ID);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Factory  $factory
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($wdt_ID)
-    {
-        //
+
+
+        return redirect()->route('factories.show', compact('factory'));
     }
 }

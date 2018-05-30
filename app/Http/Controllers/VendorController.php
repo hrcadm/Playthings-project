@@ -68,17 +68,6 @@ class VendorController extends Controller
                         ->firstOrFail()
                         ->update($request->all());
 
-        return redirect()->route('vendors.show', compact('vendor'));
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($wdt_ID)
-    {
-        //
+        return redirect()->route('vendors.index');
     }
 }
