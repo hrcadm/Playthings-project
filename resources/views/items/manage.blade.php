@@ -35,7 +35,7 @@
 
                         {!! Form::model($item, [
                                 'method' => 'PUT',
-                                'route' => ['items.update', $item],
+                                'route' => ['items.update', $item]
                                 ])
                         !!}
 

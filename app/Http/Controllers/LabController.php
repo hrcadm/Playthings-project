@@ -64,11 +64,11 @@ class LabController extends Controller
      */
     public function update(Request $request, $wdt_ID)
     {
-        $lab = Lab::where('wdt_ID', '=', $wdt_ID)
+        $updateLab = Lab::where('wdt_ID', '=', $wdt_ID)
                     ->firstOrFail()
                     ->update($request->all());
 
-        return redirect()->route('labs.show', compact('lab'));
+        return redirect()->route('labs.index');
     }
 
     /**

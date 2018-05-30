@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Item extends Model
 {
     protected $table = 'vwitems';
+    public $primaryKey  = 'wdt_ID';
 
     public $timestamps = false;
 

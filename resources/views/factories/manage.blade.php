@@ -33,21 +33,14 @@
 
                         @if(isset($factory))
 
-                        {!! Form::model($factory, [
-                                'method' => 'PUT',
-                                'route' => ['factories.update', $factory],
-                                ])
-                        !!}
+                        {!! Form::model($factory, ['method' => 'PUT', 'route' => ['factories.update', $factory->wdt_ID]]) !!}
 
                         @else
 
-                        {!! Form::open([
-                                'method' => 'POST',
-                                'route' => 'factories.store',
-                                ])
-                        !!}
+                        {!! Form::open(['method' => 'POST', 'route' => 'factories.store']) !!}
 
                         @endif
+
 
                         <div class="row">
 

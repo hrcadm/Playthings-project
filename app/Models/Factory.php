@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Factory extends Model
 {
     protected $table = 'vwfactories';
+    public $primaryKey  = 'wdt_ID';
 
     public $timestamps = false;
 

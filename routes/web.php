@@ -65,16 +65,12 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
 	Route::get('items-test-records/{id}/clone', 'ItemsTestRecordController@clone')->name('items-test-records.clone');
 	Route::get('archive', 'ItemsTestRecordController@archive')->name('archive');
 
-
 	////////// CRUD OPERATIONS ///////////
-	Route::resources([
-		'users' => 'UserController',
-		'vendors' => 'VendorController',
-		'factories' => 'FactoryController',
-		'items' => 'ItemController',
-		'labs' => 'LabController',
-		'standards' => 'StandardController',
-		'items-test-records' => 'ItemsTestRecordController'
-	]);
-
+	Route::resource('items', 'ItemController');
+	Route::resource('users', 'UserController');
+	Route::resource('vendors', 'VendorController');
+	Route::resource('factories', 'FactoryController');
+	Route::resource('labs', 'LabController');
+	Route::resource('standards', 'StandardController');
+	Route::resource('items-test-records', 'ItemsTestRecordController');
 });

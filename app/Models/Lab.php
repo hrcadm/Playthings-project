@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Lab extends Model
 {
     protected $table = 'vwlabs';
+    public $primaryKey  = 'wdt_ID';
 
     public $timestamps = false;
 
