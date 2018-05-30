@@ -140,7 +140,7 @@ class ItemsTestRecordController extends Controller
      */
     public function store(Request $request)
     {
-        $labName = Lab::where('id', '=', $request->LabName)->get();
+        $labName = Lab::where('id', '=', $request->LabName)->first();
 
         // Create new Item
         $newItem = new Item();
@@ -150,16 +150,16 @@ class ItemsTestRecordController extends Controller
         foreach($request->tests as $testKey => $testValue)
         {
             // Find Test Desc
-            $testDesc = Standard::where('stdname', $testValue)->get();
+            $testDesc = Standard::where('stdname', $testValue)->first();
 
             $test = new ItemsTestRecord();
             $test->ItemID = $request->ItemID;
             $test->TestLab = $request->LabName;
             $test->Active = -1;
             $test->Desc1 = $request->Desc1;
-            $test->LabName = $labName[0]->labname;
+            $test->LabName = $labName->labname;
             $test->StdName = $testValue;
-            $test->StdDesc = $testDesc[0]->stddesc;
+            $test->StdDesc = $testDesc->stddesc;
             $test->TestDate = $request->TestDate;
             $test->TestReptPdf = $request->TestReptPdf;
             $test->ReptNo = $request->ReptNo;
