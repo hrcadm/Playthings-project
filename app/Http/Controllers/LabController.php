@@ -43,19 +43,6 @@ class LabController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Lab  $lab
-     * @return \Illuminate\Http\Response
-     */
-    public function show($wdt_ID)
-    {
-        $lab = Lab::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
-
-        return view('labs.show', compact('lab'));
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Lab  $lab
