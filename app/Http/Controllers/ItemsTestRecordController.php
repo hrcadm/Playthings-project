@@ -151,7 +151,7 @@ class ItemsTestRecordController extends Controller
         {
             // Find Test Desc
             $testDesc = Standard::where('stdname', $testValue)->first();
-            dd($testDesc);
+
 
             $test = new ItemsTestRecord();
             $test->ItemID = $request->ItemID;
@@ -160,7 +160,7 @@ class ItemsTestRecordController extends Controller
             $test->Desc1 = $request->Desc1;
             $test->LabName = $labName->labname;
             $test->StdName = $testValue;
-            $test->StdDesc = $testDesc[0]->stddesc;
+            $test->StdDesc = $testDesc->stddesc;
             $test->TestDate = $request->TestDate;
             $test->TestReptPdf = $request->TestReptPdf;
             $test->ReptNo = $request->ReptNo;
