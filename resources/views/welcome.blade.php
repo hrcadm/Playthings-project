@@ -13,6 +13,9 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+        <!-- Webpack CSS -->
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -45,7 +48,12 @@
             }
 
             .content {
-                text-align: center;
+                min-width: 450px;
+                width: 50%;
+                margin: 0 auto;
+                border: 1px solid #bbb;
+                background: white;
+                box-shadow: 5px 5px 10px #ccc;
             }
 
             #homeLinks {
@@ -68,7 +76,6 @@
                 color: green;
                 font-weight: 800;
                 font-size: 13px;
-
             }
 
             .links > a {
@@ -80,6 +87,20 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+            #welcomeLogo {
+                padding-top: 20px;
+            }
+            .icon-download {
+                font-size: 26px;
+                text-align: left;
+                padding: 5px 0;
+            }
+            #downloadLinks {
+                padding: 20px 0;
+            }
+            #mainContent {
+                padding-top: 15px;
+            }
         </style>
     </head>
     <body>
@@ -87,7 +108,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ route('home') }}">Playthings</a>
+                        <a href="{{ route('home') }}">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                     @endauth
@@ -95,28 +116,37 @@
             @endif
 
             <div class="content container">
-                <div style="padding-bottom: 5em;">
-                    <img src="{{ asset('assets/images/playthings_logo.jpg') }}">
+                <div style="padding: 30px 0;text-align: center;">
+                    <img src="{{ asset('assets/images/playthings_logo.jpg') }}" id="welcomeLogo">
                 </div>
-                <div style="padding-bottom: 7em;">
-                    <p style="font-weight:600;">
-                        Welcome to International Playthings’ online C.O.C. Access System. <br><br>
-                        This system has been developed in accordance with the guidelines of the U.S. Consumer Product Safety Improvement Act to give our customers instant access to Certificates of Conformity for each item that International Playthings imports and distributes. <br>
-                        We are currently in the process of testing a vast quantity of products. The system is updated daily as new data becomes available.
-                    </p>
-                    <p style="font-weight:600;color:red;">
-                        If you do not find the Certificate of Conformity that you are looking for, please check back at a later date.
-                    </p>
+                <div class="row" id="mainContent">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <p style="font-weight:600;">
+                            Welcome to International Playthings’ online C.O.C. Access System. <br><br>
+                            This system has been developed in accordance with the guidelines of the U.S. Consumer Product Safety Improvement Act to give our customers instant access to Certificates of Conformity for each item that International Playthings imports and distributes. <br>
+                            We are currently in the process of testing a vast quantity of products. The system is updated daily as new data becomes available.
+                        </p>
+                        <p style="font-weight:600;color:red;">
+                            If you do not find the Certificate of Conformity that you are looking for, please check back at a later date.
+                        </p>
+                    </div>
+                    <div class="col-lg-2"></div>
                 </div>
 
-                <div>
-                    <ul id="homeLinks">
-                        <li><a href="{{ route('export-coc') }}">Export Cerfiticate of Conformity</a></li>
-                        <li><a href="{{ route('export-item-test-report') }}">Export Item Safety Tests</a></li>
-                    </ul>
+                <div class="row" id="downloadLinks">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <ul id="homeLinks">
+                            <li><a href="{{ route('export-coc') }}"><i class="icon-download"></i>  Export Cerfiticate of Conformity</a></li>
+                            <li><a href="{{ route('export-item-test-report') }}"><i class="icon-download"></i>  Export Item Safety Tests</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2"></div>
                 </div>
             </div>
         </div>
-
+    {{-- WEBPACK JAVASCRIPTS --}}
+    <script src="{{ asset('js/scripts.js') }}"></script>
     </body>
 </html>

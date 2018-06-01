@@ -44,9 +44,6 @@
 			@endif
 			<li><a href="{{ route('export-coc') }}"><i class="icon-cc position-left"></i> Export Cerfiticate of Conformity</a></li>
 			<li><a href="{{ route('export-item-test-report') }}"><i class="icon-database-export position-left"></i> Export Item Safety Tests</a></li>
-			@if(Auth::user()->role === 'admin')
-				<li><a href="{{ route('archive') }}"><i class="icon-archive position-left"></i> Archive</a></li>
-			@endif
 		</ul>
 	</div>
 </div>
