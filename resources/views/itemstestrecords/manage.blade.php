@@ -36,6 +36,7 @@
                         {!! Form::model($itemTest, [
                                 'method' => 'PUT',
                                 'route' => ['items-test-records.update', $itemTest],
+                                'onsubmit' => 'return confirm("Are you sure?")'
                                 ])
                         !!}
 
@@ -237,7 +238,7 @@
                         <span class="pull-right">
                             {{ Form::submit('submit', ['class' => 'btn btn-sm btn-success', 'data-toggle' => 'tooltip', 'data-original-title' => 'Save changes', 'type' => 'submit'])  }}
                             {!! Form::close() !!}
-                            <a href="{{ URL::previous() }}" class="btn btn-sm btn-primary" type="button"
+                            <a href="{{ route('items-test-records.index') }}" class="btn btn-sm btn-primary" type="button"
                                data-toggle="tooltip"
                                data-original-title="Cancel Changes">Cancel</a>
                             </span>

@@ -1,7 +1,22 @@
 @extends('layouts.master')
-@section('page_title', 'Item Tests Records')
+@section('page_title', 'Item Test Records')
 
 @section('content')
+
+<style>
+    .actionBtn {
+        display: inline-block;
+        min-width: 100%;
+    }
+    #updateIndex {
+        min-width: 150px;
+        max-width: 150px;
+    }
+    #selectedItem {
+        min-width: 150px;
+        max-width: 150px;
+    }
+</style>
 
 <div class="panel panel-default">
     <div class="panel-heading text-center">
@@ -9,33 +24,26 @@
 
         <hr>
 
-        {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record']) !!}
-        @if(isset($selectedItem))
-            {{ Form::select('item', $items, $selectedItem, ['id' => 'selectedItem', 'placeholder' => 'Select an Item']) }}
-        @else
-            {{ Form::select('item', $items, null, ['id' => 'selectedItem', 'placeholder' => 'Select an Item']) }}
-        @endif
-            {!! Form::close() !!}
+        {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record', 'style' => 'display: inline;']) !!}
+            @if(isset($selectedItem))
+                {{ Form::select('item', $items, $selectedItem, ['id' => 'selectedItem', 'placeholder' => 'Select an Item']) }}
+            @else
+                {{ Form::select('item', $items, [null => 'Select an Item'] ,['id' => 'selectedItem', 'placeholder' => 'Select an Item']) }}
+            @endif
+
+            @if(\Auth::user()->role === 'admin')
+                {{ Form::select('year', $years, [null => 'Select Year'], ['id' => 'updateIndex', 'placeholder' => 'Select Year']) }}
+
+                @if(count($errors) > 0)
+                    <p style="color:red;font-weight: 800;margin-top:2em;">{{$errors->first()}}</p>
+                @endif
+            @endif
+
+            {{ Form::submit('submit', ['class' => 'btn btn-xs btn-success']) }}
+
+        {!! Form::close() !!}
 
         <hr>
-
-        @if(\Auth::user()->role === 'admin')
-            {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record']) !!}
-
-            @if(isset($itemsTest[0]) && (isset($itemsTest[0]->ItemID)))
-                {!! Form::hidden('selectedItem', $itemsTest[0]->ItemID) !!}
-            @elseif(isset($itemsTest))
-                {!! Form::hidden('selectedItem', $itemsTest) !!}
-            @endif
-
-            {{ Form::label('Select year Filter') }}<br>
-            {{ Form::select('year', $years, $years[2018], ['id' => 'updateIndex']) }}
-            {!! Form::close() !!}
-
-            @if(count($errors) > 0)
-                <p style="color:red;font-weight: 800;margin-top:2em;">{{$errors->first()}}</p>
-            @endif
-        @endif
 
     </div>
     @if(isset($itemsTest))
@@ -66,8 +74,8 @@
                         <td>{{ $test->StdDesc }}</td>
                         <td>{{ $test->TestDate }}</td>
                         <td>
-                            <a href="{{ route('items-test-records.edit', $test) }}" class="btn btn-warning btn-xs">Edit</a>
-                            <a href="{{ route('items-test-records.clone', $test) }}" class="btn btn-primary btn-xs">Clone</a>
+                            <a href="{{ route('items-test-records.edit', $test) }}" class="btn btn-warning btn-xs actionBtn">Edit</a>
+                            <a href="{{ route('items-test-records.clone', $test) }}" class="btn btn-primary btn-xs actionBtn">Clone</a>
                         </td>
                     </tr>
                 @endforeach
@@ -83,21 +91,8 @@
 @section('javascripts')
 <script>
     $(document).ready(function(){
-
-        $('#itemsTestRecordsTable').DataTable();
-
-        $('#updateIndex').on('change', function(){
-            var form = $(this).parent();
-            $(form).submit();
-        });
-
-        $('#selectedItem').on('change', function(){
-            var form = $(this).parent();
-            $(form).submit();
-        });
-
-
         $('#selectedItem').select2();
+        $('#updateIndex').select2();
     });
 </script>
 @stop

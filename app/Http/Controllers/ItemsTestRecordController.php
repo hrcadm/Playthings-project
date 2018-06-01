@@ -57,11 +57,14 @@ class ItemsTestRecordController extends Controller
         $items = array_combine($items, $items);
         asort($items);
 
-        if ($request->has('item'))
+        $selectedItem = $request->item;
+        $selectedYear = $request->year;
+
+        if ($request->has('item') && ($selectedYear == null || $selectedYear === 'All'))
         {
             if(Auth::user()->role === 'admin')
             {
-                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('Y'))->get();
+                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->get();
 
                 return view('itemstestrecords.index', compact('itemsTest', 'years', 'items'));
             }
@@ -69,17 +72,14 @@ class ItemsTestRecordController extends Controller
             $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->item)->whereYear('TestDate', '=', date('2016'))->get();
 
 
-            return view('itemstestrecords.index', compact('itemsTest', 'years', 'items'));
+            return view('itemstestrecords.index', compact('itemsTest', 'years', 'items', 'selectedItem'));
         }
 
-        if($request->has('year') && $request->has('selectedItem'))
+        if($request->has('year') && $request->has('item'))
         {
-            $selectedYear = $request->year;
-            $selectedItem = $request->selectedItem;
-
             if(Auth::user()->role === 'admin')
             {
-                $itemsTest = ItemsTestRecord::where('ItemID', '=', $request->selectedItem)->whereYear('TestDate', '=', $selectedYear)->get();
+                $itemsTest = ItemsTestRecord::where('ItemID', '=', $selectedItem)->whereYear('TestDate', '=', $selectedYear)->get();
 
                 return view('itemstestrecords.index', compact('itemsTest', 'years', 'items', 'selectedItem'));
             }
@@ -316,7 +316,7 @@ class ItemsTestRecordController extends Controller
         $startYear = $endYear - 20;
 
         // initiate array
-        $years = [];
+        $years = [1 => 'All'];
 
         // foreach year from this to 20 years ago, populate array
         foreach(range(date('Y'), $startYear) as $year)
