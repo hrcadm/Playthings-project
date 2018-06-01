@@ -16,8 +16,15 @@
         min-width: 150px;
         max-width: 150px;
     }
+    .select2-selection--single {
+        padding: 0;
+    }
 </style>
-
+@if (session('message'))
+    <div class="alert alert-success">
+        {{ session('message') }}
+    </div>
+@endif
 <div class="panel panel-default">
     <div class="panel-heading text-center">
         <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Item Test</a>

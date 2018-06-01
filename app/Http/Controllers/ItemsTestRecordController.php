@@ -171,7 +171,7 @@ class ItemsTestRecordController extends Controller
             $test->save();
         }
 
-        return redirect()->route('items-test-records.index');
+        return redirect()->route('items-test-records.index')->with('message', 'Item Test Record stored successfully!');
     }
 
     /**
@@ -288,7 +288,7 @@ class ItemsTestRecordController extends Controller
             $test->save();
         }
 
-        return redirect()->route('items-test-records.index');
+        return redirect()->route('items-test-records.index')->with('message', 'Item Test Record updated successfully!');
     }
 
     /**

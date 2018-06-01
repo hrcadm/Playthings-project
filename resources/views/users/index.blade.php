@@ -5,7 +5,7 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        Users
+        <a href="{{ route('register') }}"><i class="icon-user-plus"></i> Create New User</a>
     </div>
 
     <div class="panel-body table-responsive">
