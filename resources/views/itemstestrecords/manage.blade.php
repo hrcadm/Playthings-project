@@ -36,7 +36,6 @@
                         {!! Form::model($itemTest, [
                                 'method' => 'PUT',
                                 'route' => ['items-test-records.update', $itemTest],
-                                'onsubmit' => 'return confirm("Are you sure?")'
                                 ])
                         !!}
 

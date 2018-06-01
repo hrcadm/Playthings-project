@@ -4016,3 +4016,9 @@
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb; }
 
+.select2-search--dropdown:after {
+	left:10px !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	padding-left: 22px !important;
+}
