@@ -30,7 +30,6 @@
                         {!! Form::open([
                                 'method' => 'POST',
                                 'route' => 'items-test-records.store',
-                                'onsubmit' => 'return confirm("Are you sure?")'
                                 ])
                         !!}
 
