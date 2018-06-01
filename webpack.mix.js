@@ -17,6 +17,7 @@ mix.js(	'resources/assets/js/app.js', 'public/js')
 	.copy('node_modules/font-awesome/fonts', 'public/fonts')
 	.copy('node_modules/icomoon', 'public/css/icons/icomoon')
 	.copy('public/css/icons/icomoon/fonts', 'public/fonts')
+	.copy('node_modules/select2/dist/css/select2.css', 'public/css')
 
    .combine([
 	'resources/assets/limitless/js/core/libraries/jquery.min.js',
@@ -44,5 +45,6 @@ mix.js(	'resources/assets/js/app.js', 'public/js')
 	'resources/assets/limitless/css/colors.min.css',
 	'resources/assets/limitless/icons/styles.css',
 	'node_modules/font-awesome/css/font-awesome.css',
-	'node_modules/select2/dist/css/select2.css'
+	'public/css/select2.css',
+	'public/css/dev.css'
 	], './public/css/main.css');
