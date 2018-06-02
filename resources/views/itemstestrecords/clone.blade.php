@@ -188,7 +188,7 @@
                                 <div class="row editUserTableData">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         @foreach(array_slice($standards->toArray(), 0, 50) as $key => $value)
-                                            @if(isset($itemTest) && $itemTest->StdName === $value)
+                                            @if(isset($itemTest) && in_array($value, $itemStandards))
                                                 {{ Form::checkbox('tests[]', $value, true, ['id' => $key]) }}
                                                 {{ Form::label($key, $value) }}<br>
                                             @else
@@ -199,7 +199,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         @foreach(array_slice($standards->toArray(), 50, 100) as $key => $value)
-                                            @if(isset($itemTest) && $itemTest->StdName === $value)
+                                            @if(isset($itemTest) && in_array($value, $itemStandards))
                                                 {{ Form::checkbox('tests[]', $value, true, ['id' => $value]) }}
                                                 {{ Form::label($value) }}<br>
                                             @else

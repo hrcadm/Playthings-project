@@ -251,7 +251,10 @@ class ItemsTestRecordController extends Controller
 
         $standards = Standard::pluck('stdname');
 
-        return view('itemstestrecords.clone', compact('itemTest', 'items', 'labs', 'factories', 'standards'));
+        $itemId = ItemsTestRecord::where('id', $id)->value('ItemId');
+        $itemStandards = ItemsTestRecord::where('ItemId', $itemId)->pluck('StdName')->toArray();
+
+        return view('itemstestrecords.clone', compact('itemTest', 'items', 'labs', 'factories', 'standards', 'itemStandards'));
     }
 
     /**
