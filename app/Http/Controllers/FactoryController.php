@@ -43,16 +43,11 @@ class FactoryController extends Controller
             'vendorno' => 'required',
             'factname' => 'required',
             'factaddr1' => 'required',
-            'factaddr2' => 'required',
             'factcity' => 'required',
-            'factdistrict' => 'required',
             'factstate' => 'required',
             'factcountry' => 'required',
-            'factpostalcd' => 'required',
             'factphone' => 'required',
             'factfax' => 'required',
-            'factemail' => 'required',
-            'factwebsite' => 'required',
             'ssmatimestamp' => 'required',
         ]);
 
@@ -106,16 +101,11 @@ class FactoryController extends Controller
             'vendorno' => 'required',
             'factname' => 'required',
             'factaddr1' => 'required',
-            'factaddr2' => 'required',
             'factcity' => 'required',
-            'factdistrict' => 'required',
             'factstate' => 'required',
             'factcountry' => 'required',
-            'factpostalcd' => 'required',
             'factphone' => 'required',
             'factfax' => 'required',
-            'factemail' => 'required',
-            'factwebsite' => 'required',
             'ssmatimestamp' => 'required',
         ]);
 
