@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Factory;
 use Illuminate\Http\Request;
+use Validator;
 
 class FactoryController extends Controller
 {
@@ -37,6 +38,29 @@ class FactoryController extends Controller
      */
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'factno' => 'required',
+            'vendorno' => 'required',
+            'factname' => 'required',
+            'factaddr1' => 'required',
+            'factaddr2' => 'required',
+            'factcity' => 'required',
+            'factdistrict' => 'required',
+            'factstate' => 'required',
+            'factcountry' => 'required',
+            'factpostalcd' => 'required',
+            'factphone' => 'required',
+            'factfax' => 'required',
+            'factemail' => 'required',
+            'factwebsite' => 'required',
+            'ssmatimestamp' => 'required',
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $factory = Factory::create($request->all());
 
         return redirect()->route('factories.index');
@@ -77,14 +101,49 @@ class FactoryController extends Controller
      */
     public function update(Request $request, $wdt_ID)
     {
+        $validator = Validator::make($request->all(), [
+            'factno' => 'required',
+            'vendorno' => 'required',
+            'factname' => 'required',
+            'factaddr1' => 'required',
+            'factaddr2' => 'required',
+            'factcity' => 'required',
+            'factdistrict' => 'required',
+            'factstate' => 'required',
+            'factcountry' => 'required',
+            'factpostalcd' => 'required',
+            'factphone' => 'required',
+            'factfax' => 'required',
+            'factemail' => 'required',
+            'factwebsite' => 'required',
+            'ssmatimestamp' => 'required',
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $updateFactory = Factory::where('wdt_ID', '=', $wdt_ID)
                             ->firstOrFail()
                             ->update($request->all());
 
         $factory = Factory::findOrFail($wdt_ID);
 
-
-
         return redirect()->route('factories.show', compact('factory'));
+    }
+
+    /**
+     *  Delete Factory
+     *
+     * @param  Request $request
+     * @param  $wdt_ID
+     * @return Response
+     */
+    public function destroy(Request $request, $wdt_ID)
+    {
+        $deleteFactory = Factory::destroy($wdt_ID);
+
+        return redirect()->back()->with('message', 'Factory deleted successfully!');
     }
 }

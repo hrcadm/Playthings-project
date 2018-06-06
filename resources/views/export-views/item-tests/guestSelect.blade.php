@@ -13,12 +13,8 @@
 		{{ Form::select('item', $items, null, ['id' => 'selectedItem4', 'placeholder' => 'Select an Item', 'required' => 'required']) }}
 		<br><br>
 		<p>Export as:*</p>
-		{{ Form::radio('type', 'excel') }}
-		{{ Form::label('Excel') }}<br>
-		{{ Form::radio('type', 'pdf') }}
+		{{ Form::radio('type', 'pdf', true) }}
 		{{ Form::label('PDF') }}<br>
-		{{ Form::radio('type', 'word') }}
-		{{ Form::label('Word') }}<br>
 		<br>
 		{{ Form::submit('Submit', ['class' => 'btn btn-success']) }} <br>
 		<a href="{{ URL::previous() }}" style="btn btn-primary">Back</a>

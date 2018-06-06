@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Lab;
 use Illuminate\Http\Request;
+use Validator;
 
 class LabController extends Controller
 {
@@ -37,6 +38,26 @@ class LabController extends Controller
      */
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'labname' => 'required',
+            'labaddr1' => 'required',
+            'labaddr2' => 'required',
+            'labcity' => 'required',
+            'labdistrict' => 'required',
+            'labstate' => 'required',
+            'labcountry' => 'required',
+            'labpostalcode' => 'required',
+            'labphone' => 'required',
+            'labfax' => 'required',
+            'labemail' => 'required',
+            'labwebsite' => 'required'
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $lab = Lab::create($request->all());
 
         return redirect()->route('labs.index');
@@ -64,6 +85,26 @@ class LabController extends Controller
      */
     public function update(Request $request, $wdt_ID)
     {
+        $validator = Validator::make($request->all(), [
+            'labname' => 'required',
+            'labaddr1' => 'required',
+            'labaddr2' => 'required',
+            'labcity' => 'required',
+            'labdistrict' => 'required',
+            'labstate' => 'required',
+            'labcountry' => 'required',
+            'labpostalcode' => 'required',
+            'labphone' => 'required',
+            'labfax' => 'required',
+            'labemail' => 'required',
+            'labwebsite' => 'required'
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $updateLab = Lab::where('wdt_ID', '=', $wdt_ID)
                     ->firstOrFail()
                     ->update($request->all());
@@ -79,9 +120,8 @@ class LabController extends Controller
      */
     public function destroy($wdt_ID)
     {
-        $lab = Lab::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
-        $lab->delete();
+        $lab = Lab::destroy($wdt_ID);
 
-        return redirect()->route('labs.index');
+        return redirect()->route('labs.index')->with('message', 'Lab deleted successfully!');
     }
 }

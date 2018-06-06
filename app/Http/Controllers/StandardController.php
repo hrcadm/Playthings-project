@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Standard;
 use Illuminate\Http\Request;
+use Validator;
 
 class StandardController extends Controller
 {
@@ -37,6 +38,17 @@ class StandardController extends Controller
      */
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'stdname' => 'required',
+            'stddesc' => 'required',
+            'sortsequence' => 'required',
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $standard = Standard::create($request->all());
 
         return redirect()->route('standards.index');
@@ -64,10 +76,35 @@ class StandardController extends Controller
      */
     public function update(Request $request, $wdt_ID)
     {
+        $validator = Validator::make($request->all(), [
+            'stdname' => 'required',
+            'stddesc' => 'required',
+            'sortsequence' => 'required',
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $standard = Standard::where('wdt_ID', '=', $wdt_ID)
                             ->firstOrFail()
                             ->update($request->all());
 
         return redirect()->route('standards.index');
+    }
+
+    /**
+     *  Delete Standard
+     *
+     * @param  Request $request
+     * @param  $wdt_ID
+     * @return Response
+     */
+    public function destroy(Request $request, $wdt_ID)
+    {
+        $deleteStandard = Standard::destroy($wdt_ID);
+
+        return redirect()->back()->with('message', 'Standard deleted successfully!');
     }
 }
