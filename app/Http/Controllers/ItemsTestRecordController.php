@@ -9,6 +9,7 @@ use App\Models\Lab;
 use App\Models\Standard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Validator;
 
 class ItemsTestRecordController extends Controller
 {
@@ -140,6 +141,25 @@ class ItemsTestRecordController extends Controller
      */
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'ItemID' => 'required',
+            'LabName' => 'required',
+            'factname' => 'required',
+            'ReptNo' => 'required',
+            'poNumber' => 'required',
+            'TestDate' => 'required',
+            'Desc1' => 'required',
+            'SubstrateLvl' => 'required',
+            'SurfaceLvl' => 'required',
+            'TestReptPdf' => 'required',
+            'tests' => 'required'
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $labName = Lab::where('id', '=', $request->LabName)->first();
 
         // Create new Item
@@ -266,6 +286,25 @@ class ItemsTestRecordController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $validator = Validator::make($request->all(), [
+            'ItemID' => 'required',
+            'LabName' => 'required',
+            'factname' => 'required',
+            'ReptNo' => 'required',
+            'poNumber' => 'required',
+            'TestDate' => 'required',
+            'Desc1' => 'required',
+            'SubstrateLvl' => 'required',
+            'SurfaceLvl' => 'required',
+            'TestReptPdf' => 'required',
+            'tests' => 'required'
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $labName = Lab::where('id', '=', $request->LabName)->get();
 
         foreach($request->tests as $testKey => $testValue)

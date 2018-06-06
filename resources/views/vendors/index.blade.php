@@ -3,6 +3,12 @@
 
 @section('content')
 
+@if (session('message'))
+    <div class="alert alert-success" style="text-align: center;">
+        {{ session('message') }}
+    </div>
+@endif
+
 <div class="panel panel-default">
     <div class="panel-heading text-center">
         <a href="{{ route('vendors.create') }}" class="btn btn-sm btn-success">Add New Vendor</a>
@@ -33,6 +39,9 @@
                     <td>
                         <a href="{{ route('vendors.show', $vendor->wdt_ID) }}" class="btn btn-success btn-xs">Details</a>
                         <a href="{{ route('vendors.edit', $vendor->wdt_ID) }}" class="btn btn-warning btn-xs">Edit</a>
+                        {!! Form::open(['method' => 'DELETE', 'route' => ['vendors.destroy', $vendor->wdt_ID], 'onsubmit' => 'confirm("Are you sure?")', 'style' => 'display:inline;']) !!}
+                        {{ Form::submit('delete', ['class' => 'btn btn-xs btn-danger']) }}
+                        {!! Form::close() !!}
                     </td>
                 </tr>
             @endforeach

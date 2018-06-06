@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Item;
 use Illuminate\Http\Request;
+use Validator;
 
 class ItemController extends Controller
 {
@@ -37,6 +38,23 @@ class ItemController extends Controller
      */
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'cono' => 'required',
+            'whse' => 'required',
+            'itemid' => 'required',
+            'desc1' => 'required',
+            'desc2' => 'required',
+            'prodcat' => 'required',
+            'catalogyear' => 'required',
+            'factoryno' => 'required',
+            'ssmatimestamp' => 'required',
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $item = Item::create($request->all());
 
         return redirect()->route('items.index');
@@ -77,6 +95,23 @@ class ItemController extends Controller
      */
     public function update(Request $request, Item $item)
     {
+        $validator = Validator::make($request->all(), [
+            'cono' => 'required',
+            'whse' => 'required',
+            'itemid' => 'required',
+            'desc1' => 'required',
+            'desc2' => 'required',
+            'prodcat' => 'required',
+            'catalogyear' => 'required',
+            'factoryno' => 'required',
+            'ssmatimestamp' => 'required',
+        ]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+
         $item = Item::where('wdt_ID', '=', $item->wdt_ID)
                     ->firstOrFail()
                     ->update($request->all());
@@ -90,11 +125,10 @@ class ItemController extends Controller
      * @param  \App\Item  $item
      * @return \Illuminate\Http\Response
      */
-    public function destroy($wdt_ID)
+    public function destroy(Request $request, $wdt_ID)
     {
-        $item = Item::where('wdt_ID', '=', $wdt_ID)->firstOrFail();
-        $item->delete();
+        $item = Item::destroy($wdt_ID);
 
-        return redirect()->route('items.index');
+        return redirect()->route('items.index')->with('message', 'Item deleted successfully!');
     }
 }
