@@ -9,8 +9,8 @@
 {{ Form::select('item', $items, null, ['id' => 'selectedItem3', 'placeholder' => 'Select an Item', 'required' => 'required']) }}
 <br><br>
 <p>Export as:*</p>
-{{ Form::radio('type', 'pdf', true) }}
-{{ Form::label('PDF') }}<br>
+{{ Form::radio('type', 'excel', true) }}
+{{ Form::label('excel') }}<br>
 
 {{ Form::submit('Submit', ['class' => 'btn btn-success']) }}
 
