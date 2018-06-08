@@ -101,23 +101,21 @@
             #mainContent {
                 padding-top: 15px;
             }
+            .icon-user {
+                padding-right: 0.3em;
+                padding-left: 0.3em;
+            }
+            .icon-cog2 {
+                padding-right: 0.3em;
+                padding-left: 0.3em;
+            }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ route('home') }}">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                    @endauth
-                </div>
-            @endif
-
             <div class="content container">
                 <div style="padding: 30px 0;text-align: center;">
-                    <img src="{{ asset('assets/images/playthings_logo.jpg') }}" id="welcomeLogo">
+                    <img src="{{ asset('assets/images/logo-epoch.png') }}" id="welcomeLogo">
                 </div>
                 <div class="row" id="mainContent">
                     <div class="col-lg-2"></div>
@@ -138,15 +136,29 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8">
                         <ul id="homeLinks">
-                            <li><a href="{{ route('export-coc') }}"><i class="icon-download"></i>  Export Cerfiticate of Conformity</a></li>
-                            <li><a href="{{ route('export-item-test-report') }}"><i class="icon-download"></i>  Export Item Safety Tests</a></li>
+                            <li>
+                                <a href="{{ route('export-coc') }}"><i class="icon-download"></i>  Export Cerfiticate of Conformity</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('export-item-test-report') }}"><i class="icon-download"></i>  Export Item Safety Tests</a>
+                            </li>
+                            <hr>
+                            <li>
+                                @auth
+                                    <a href="{{ route('home') }}">Admin section</a>
+                                @else
+                                    <a href="{{ route('login') }}">Login</a>
+                                @endauth
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-2"></div>
                 </div>
             </div>
         </div>
+
     {{-- WEBPACK JAVASCRIPTS --}}
     <script src="{{ asset('js/scripts.js') }}"></script>
+
     </body>
 </html>

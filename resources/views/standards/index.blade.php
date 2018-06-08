@@ -18,6 +18,7 @@
         <table class="table table-bordered hover {{ count($standards) > 0 ? 'datatable' : '' }}" id="standardsTable">
             <thead>
             <tr>
+                <th>ID</th>
                 <th>Standard Name</th>
                 <th>Standard Description</th>
                 <th>Sort Sequence</th>
@@ -27,6 +28,7 @@
             <tbody>
             @foreach($standards as $standard)
                 <tr>
+                    <td>{{ $standard->wdt_ID }}</td>
                     <td>{{ $standard->stdname }}</td>
                     <td>{{ $standard->stddesc }}</td>
                     <td>{{ $standard->sortsequence }}</td>

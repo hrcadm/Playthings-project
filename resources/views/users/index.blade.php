@@ -3,6 +3,12 @@
 
 @section('content')
 
+@if (session('message'))
+    <div class="alert alert-success" style="text-align: center;">
+        {{ session('message') }}
+    </div>
+@endif
+
 <div class="panel panel-default">
     <div class="panel-heading">
         <a href="{{ route('register') }}"><i class="icon-user-plus"></i> Create New User</a>
@@ -29,6 +35,9 @@
                     <td>
                         <a href="{{ route('users.show', $user->id) }}" class="btn btn-success btn-xs">Details</a>
                         <a href="{{ route('users.edit', $user->id) }}" class="btn btn-warning btn-xs">Edit</a>
+                        {!! Form::open(['method' => 'DELETE', 'route' => ['users.destroy', $user->id], 'onsubmit' => 'confirm("Are you sure?")', 'style' => 'display:inline;']) !!}
+                        {{ Form::submit('delete', ['class' => 'btn btn-xs btn-danger']) }}
+                        {!! Form::close() !!}
                     </td>
                 </tr>
             @endforeach

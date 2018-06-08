@@ -144,14 +144,11 @@ class ItemsTestRecordController extends Controller
         $validator = Validator::make($request->all(), [
             'ItemID' => 'required',
             'LabName' => 'required',
-            'factname' => 'required',
             'ReptNo' => 'required',
-            'poNumber' => 'required',
             'TestDate' => 'required',
             'Desc1' => 'required',
             'SubstrateLvl' => 'required',
             'SurfaceLvl' => 'required',
-            'TestReptPdf' => 'required',
             'tests' => 'required'
         ]);
 
@@ -289,14 +286,11 @@ class ItemsTestRecordController extends Controller
         $validator = Validator::make($request->all(), [
             'ItemID' => 'required',
             'LabName' => 'required',
-            'factname' => 'required',
             'ReptNo' => 'required',
-            'poNumber' => 'required',
             'TestDate' => 'required',
             'Desc1' => 'required',
             'SubstrateLvl' => 'required',
             'SurfaceLvl' => 'required',
-            'TestReptPdf' => 'required',
             'tests' => 'required'
         ]);
 
