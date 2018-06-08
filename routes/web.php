@@ -25,8 +25,8 @@ Route::get('export-item-test-report', 'ExportItemTestReportController@exportItem
 Route::post('export-item-test-report', 'ExportItemTestReportController@exportItemTestReport')->name('post-export-item-test');
 
 // Export routes for Certificate of Conformity
-Route::get('export-coc', 'ExportCocController@exportItemTestReportView')->name('export-coc');
-Route::post('export-coc', 'ExportCocController@exportItemTestReport')->name('post-export-coc');
+Route::get('export-coc', 'ExportCocController@exportCocView')->name('export-coc');
+Route::post('export-coc', 'ExportCocController@exportCoc')->name('post-export-coc');
 
 /////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////   AUTH ROUTES ////////////////////////////////////////////////////

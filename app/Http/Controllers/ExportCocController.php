@@ -3,14 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Models\Item;
+use App\Models\Factory;
+use App\Models\Vendor;
+use App\Models\Lab;
 use Illuminate\Http\Request;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Facades\Excel;
+use App\Models\ItemsTestRecord;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class ExportCocController extends Controller
 {
-    public function exportItemTestReportView()
+    public function exportCocView()
     {
     	$items = Item::pluck('itemid');
         $items = $items->toArray();
@@ -34,46 +36,36 @@ class ExportCocController extends Controller
     	$itemId = $request->item;
     	$type = $request->type;
 
-    	switch ($type) {
-    		case 'excel':
-    			return $this->exportCocToExcel($itemId);
-    			break;
-
-			case 'pdf':
-				return $this->exportCocToPdf($itemId);
-				break;
-
-			case 'word':
-				return $this->exportCocToWord($itemId);
-				break;
-
-    		default:
-    			return redirect()->back()->withErrors('Please select all required inputs.');
-    			break;
-    	}
+		return $this->exportCocToPdf($itemId);
     }
 
     /**
-     * Export CoC to Excel
+     *  EXPORT COC TO PDF
      * @param $itemId
-     * @return Download
+     * @return PDF document
      */
-    public function exportCocToExcel($itemId)
-    {
-    	//$exportData = new ItemTestsExport($itemId);
-
-    	//return Excel::download($exportData, 'Cert of Conformity.xls');
-
-        return redirect()->back()->withErrors('Developing...');
-    }
-
     public function exportCocToPdf($itemId)
     {
-        return redirect()->back()->withErrors('Developing...');
-    }
+        $itemTests = ItemsTestRecord::where('ItemID', $itemId)->get();
 
-    public function exportCocToWord($itemId)
-    {
-        return redirect()->back()->withErrors('Developing...');
+        $item = Item::where('itemid', '=', $itemTests[0]->ItemID)->get();
+
+        $factory = Factory::where('vendorno', '=', $item[0]->factoryno)->get();
+
+        $vendor = Vendor::where('vendno', '=', $factory[0]->vendorno)->get();
+
+        $lab = Lab::where('id', '=', $itemTests[0]->TestLab)->get();
+
+        $data = [
+            'tests' => $itemTests,
+            'item' => $item,
+            'factory' => $factory,
+            'vendor' => $vendor,
+            'lab' => $lab
+        ];
+
+        $pdf = PDF::loadView('export-views.coc.template', $data);
+
+        return $pdf->download('invoice.pdf');
     }
 }

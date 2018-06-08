@@ -61,19 +61,34 @@
 <table>
 	<thead>
 		<tr>
+<<<<<<< HEAD
             <th>Test Date</th>
             <th>Report Number</th>
 			<th>Test Name</th>
 			<th>Test Description</th>
+=======
+			<th colspan="4">Test Date / Report Number</th>
+			<th colspan="4">Test Name</th>
+			<th colspan="4">Test Description</th>
+>>>>>>> 88e117c50e7b216e17e17fbd059b4060cdfb016e
 		</tr>
 	</thead>
 	<tbody>
 		@foreach($itemTests as $item)
 		<tr>
+<<<<<<< HEAD
 			<td>{{ date('m/d/Y', strtotime($item->TestDate)) }}</td>
             <td>{{ $item->ReptNo }}</td>
 			<td>{{ $item->StdName }}</td>
 			<td>{{ $item->StdDesc }}</td>
+=======
+			<td colspan="4">
+				{{ date('m/d/Y', strtotime($item->TestDate)) }} ||
+				{{ $item->ReptNo }}
+			</td>
+			<td colspan="4">{{ $item->StdName }}</td>
+			<td colspan="4">{{ $item->StdDesc }}</td>
+>>>>>>> 88e117c50e7b216e17e17fbd059b4060cdfb016e
 		</tr>
 		@endforeach
 	</tbody>

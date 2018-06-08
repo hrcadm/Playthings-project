@@ -1,86 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="charset=utf-8"/>
 	<title></title>
 </head>
 <body>
 
-<table>
-	<thead>
-		<tr>
-			<th colspan="6"></th>
-			<th colspan="6" style="color:#5186a5;">ITEM SAFETY TEST REPORT</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Item ID: </td>
-			<td>{{ $item[0]->itemid }}</td>
-			<td></td>
-			<td>{{ $item[0]->desc1 }}</td>
-		</tr>
-		<tr></tr>
-		<tr>
-			<td>Lab:</td>
-			<td>{{ $itemTests[0]->LabName }}</td>
-			<td></td>
-			<td></td>
-			<td colspan="3">Test Report Number</td>
-			<td>{{ $itemTests[0]->ReptNo }}</td>
-		</tr>
-		<tr>
-			<td>Test Report PDF:</td>
-			<td>{{ $itemTests[0]->TestReptPdf }}</td>
-		</tr>
-		<tr>
-			<td colspan="3">CPSIA Lead Substrate Level:</td>
-			<td>
-				@if($itemTests[0]->SubstrateLvl === 1)
-					&lt; 600 PPM
-				@elseif($itemTests[0]->SubstrateLvl === 2)
-					&lt; 300 PPM
-				@elseif($itemTests[0]->SubstrateLvl === 3)
-					&lt; 100 PPM
-				@else
-					N/A
-				@endif
-			</td>
-			<td></td>
-			<td colspan="4">CPSIA Lead Surface Coating Level</td>
-			<td>
-				@if($itemTests[0]->SurfaceLvl === 1)
-					&lt; 600 PPM
-				@elseif($itemTests[0]->SurfaceLvl === 2)
-					&lt; 90 PPM
-				@else
-					N/A
-				@endif
-			</td>
-		</tr>
-	</tbody>
-</table>
+<div>
+	<div>
+		<h1 style="text-align: center;color:#3968a3;">Cerfiticate of Conformity</h1>
+	</div>
 
-<table>
-	<thead>
-		<tr>
-			<th colspan="4">Test Date / Report Number</th>
-			<th colspan="3">Test Name</th>
-			<th colspan="3">Test Description</th>
-		</tr>
-	</thead>
-	<tbody>
-		@foreach($itemTests as $item)
-		<tr>
-			<td colspan="4" rowspan="2">
-				{{ date('m/d/Y', strtotime($item->TestDate)) }}
-				{{ $item->ReptNo }}
-			</td>
-			<td colspan="3" rowspan="2">{{ $item->StdName }}</td>
-			<td colspan="3" rowspan="2">{{ $item->StdDesc }}</td>
-		</tr>
-		@endforeach
-	</tbody>
-</table>
+	<div>
+		<p><strong>Item ID:</strong> {{ $tests[0]->ItemID }}</p>
+		<p><strong>Description:</strong> {{ $tests[0]->Desc1 }}</p>
+		<p><strong>Style:</strong></p>
+		<p><strong>UPC:</strong> {{ $tests[0]->ItemID }}</p>
+	</div>
+
+	<hr>
+
+	<div>
+		<p>
+			<strong>Importer:</strong> {{ $vendor[0]->vendname }} <br>
+			{{ $vendor[0]->addr1 }} <br>
+			{{ $vendor[0]->city }}, {{ $vendor[0]->zipcd }}
+		</p>
+	</div>
+
+	<hr>
+
+	<div>
+		<p><strong>Place of Manufacture:</strong> {{ $factory[0]->factaddr1 }}, {{ $factory[0]->factcity }}, {{ $factory[0]->factcountry }} </p>
+		<p><strong>Date of Manufacture:</strong> </p>
+	</div>
+
+	<hr>
+
+	<div>
+		<table style="width:100%;min-width: 100%;max-width: 100%;">
+			<thead style="border: 2px solid black;">
+				<tr>
+					<th><strong>Testing Laboratory</strong></th>
+					<th><strong>Safety Regulation to which this product is being Certified</strong></th>
+				</tr>
+			</thead>
+			<tbody style="border: 2px solid black;">
+				@foreach($tests as $test)
+					@foreach($test->TestLab as $labLoop)
+					<tr>
+						<td>
+							{{ $labLoop->labname }} <br>
+							{{ $labLoop->labaddr1 }} <br>
+							{{ $labLoop->labaddr2 }} <br>
+							{{ $labLoop->labcity }} {{ $labLoop->labcity }} <br>
+							{{ $labLoop->labcountry }} <br>
+							<strong>Phone:</strong> {{ $labLoop->labphone }} <br>
+							<strong>Test Date:</strong> {{ $test->TestDate }} <br>
+							<strong>Report Number:</strong> {{ $test->ReptNo }}
+							<br><br><br><br>
+							<strong>CPSIA Lead Substrate Level: {{ $test->SubstrateLvl }}</strong>
+							<strong>CPSIA Lead Surface Coating Level: {{ $test->SurfaceLvl }}</strong>
+						</td>
+						<td>
+							{{ $test->StdName }}
+						</td>
+					</tr>
+					@endforeach
+				@endforeach
+			</tbody>
+		</table>
+	</div>
+
+
+</div>
 
 </body>
 </html>

@@ -3,6 +3,12 @@
 
 @section('content')
 
+@if (session('message'))
+    <div class="alert alert-warning">
+        {{ session('message') }}
+    </div>
+@endif
+
 {!! Form::open(['method' => 'POST', 'route' => 'post-export-item-test']) !!}
 
 <div class="row">
