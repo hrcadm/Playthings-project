@@ -18,6 +18,7 @@ class ItemTestsExport implements FromView
     public function view(): View
     {
     	$itemTests = ItemsTestRecord::where('ItemID', $this->itemId)->get();
+
     	$item = Item::where('itemid', $this->itemId)->get();
         $lab = Lab::where('id', $itemTests[0]->TestLab)->get();
 

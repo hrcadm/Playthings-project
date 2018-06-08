@@ -64,19 +64,19 @@
 	<thead>
 		<tr>
 			<th colspan="4">Test Date / Report Number</th>
-			<th colspan="3">Test Name</th>
-			<th colspan="3">Test Description</th>
+			<th colspan="4">Test Name</th>
+			<th colspan="4">Test Description</th>
 		</tr>
 	</thead>
 	<tbody>
 		@foreach($itemTests as $item)
 		<tr>
-			<td colspan="4" rowspan="2">
-				{{ date('m/d/Y', strtotime($item->TestDate)) }}
+			<td colspan="4">
+				{{ date('m/d/Y', strtotime($item->TestDate)) }} ||
 				{{ $item->ReptNo }}
 			</td>
-			<td colspan="3" rowspan="2">{{ $item->StdName }}</td>
-			<td colspan="3" rowspan="2">{{ $item->StdDesc }}</td>
+			<td colspan="4">{{ $item->StdName }}</td>
+			<td colspan="4">{{ $item->StdDesc }}</td>
 		</tr>
 		@endforeach
 	</tbody>

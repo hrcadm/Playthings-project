@@ -3,7 +3,7 @@
 
 @section('content')
 
-{!! Form::open(['method' => 'POST', 'route' => 'post-export-item-test']) !!}
+{!! Form::open(['method' => 'POST', 'route' => 'post-export-coc']) !!}
 <div class="row">
 	<div class="col-lg-5"></div>
 	<div class="col-lg-5" style="text-align: left;">
