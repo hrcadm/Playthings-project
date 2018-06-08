@@ -328,6 +328,19 @@ class ItemsTestRecordController extends Controller
     }
 
     /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\ItemTestRecord
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        $lab = ItemsTestRecord::destroy($id);
+
+        return redirect()->route('items-test-records.index')->with('message', 'Test Record deleted successfully!');
+    }
+
+    /**
      * Archived Item Tests
      *
      * @return \Illuminate\Http\Response

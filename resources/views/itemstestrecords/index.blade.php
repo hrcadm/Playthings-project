@@ -21,15 +21,16 @@
     }
 </style>
 @if (session('message'))
-    <div class="alert alert-success">
+    <div class="alert alert-success" style="text-align: center;">
         {{ session('message') }}
     </div>
 @endif
 <div class="panel panel-default">
     <div class="panel-heading text-center">
-        <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Item Test</a>
-
-        <hr>
+        @if(Auth::user()->role === 'admin')
+            <a href="{{ route('items-test-records.create') }}" class="btn btn-sm btn-success">Add New Item Test</a>
+            <hr>
+        @endif
 
         {!! Form::open(['method' => 'POST', 'route' => 'update-item-test-record', 'style' => 'display: inline;']) !!}
             @if(isset($selectedItem))
@@ -67,7 +68,9 @@
                     <th>Test Passed</th>
                     <th>Test Desc</th>
                     <th>Test Date</th>
-                    <th>Actions</th>
+                    @if(Auth::user()->role === 'admin')
+                        <th>Actions</th>
+                    @endif
                 </tr>
                 </thead>
                 <tbody>
@@ -80,10 +83,15 @@
                         <td>{{ $test->StdName }}</td>
                         <td>{{ $test->StdDesc }}</td>
                         <td>{{ $test->TestDate }}</td>
-                        <td>
-                            <a href="{{ route('items-test-records.edit', $test) }}" class="btn btn-warning btn-xs actionBtn">Edit</a>
-                            <a href="{{ route('items-test-records.clone', $test) }}" class="btn btn-primary btn-xs actionBtn">Clone</a>
-                        </td>
+                        @if(Auth::user()->role === 'admin')
+                            <td>
+                                <a href="{{ route('items-test-records.edit', $test) }}" class="btn btn-warning btn-xs actionBtn">Edit</a>
+                                <a href="{{ route('items-test-records.clone', $test) }}" class="btn btn-primary btn-xs actionBtn">Clone</a>
+                                {!! Form::open(['method' => 'DELETE', 'route' => ['items-test-records.destroy', $test->id], 'onsubmit' => 'confirm("Are you sure?")', 'style' => 'display:inline;']) !!}
+                                {{ Form::submit('delete', ['class' => 'btn btn-xs btn-danger actionBtn']) }}
+                                {!! Form::close() !!}
+                            </td>
+                        @endif
                     </tr>
                 @endforeach
                 </tbody>
