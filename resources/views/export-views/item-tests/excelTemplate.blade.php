@@ -8,15 +8,13 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="6"></th>
-			<th colspan="6" style="color:#5186a5;">ITEM SAFETY TEST REPORT</th>
+			<th colspan="6" style="color:#5186a5; text-align: center;">ITEM SAFETY TEST REPORT</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Item ID: </td>
 			<td>{{ $item[0]->itemid }}</td>
-			<td></td>
 			<td>{{ $item[0]->desc1 }}</td>
 		</tr>
 		<tr></tr>
@@ -63,20 +61,19 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="4">Test Date / Report Number</th>
-			<th colspan="3">Test Name</th>
-			<th colspan="3">Test Description</th>
+            <th>Test Date</th>
+            <th>Report Number</th>
+			<th>Test Name</th>
+			<th>Test Description</th>
 		</tr>
 	</thead>
 	<tbody>
 		@foreach($itemTests as $item)
 		<tr>
-			<td colspan="4" rowspan="2">
-				{{ date('m/d/Y', strtotime($item->TestDate)) }}
-				{{ $item->ReptNo }}
-			</td>
-			<td colspan="3" rowspan="2">{{ $item->StdName }}</td>
-			<td colspan="3" rowspan="2">{{ $item->StdDesc }}</td>
+			<td>{{ date('m/d/Y', strtotime($item->TestDate)) }}</td>
+            <td>{{ $item->ReptNo }}</td>
+			<td>{{ $item->StdName }}</td>
+			<td>{{ $item->StdDesc }}</td>
 		</tr>
 		@endforeach
 	</tbody>
