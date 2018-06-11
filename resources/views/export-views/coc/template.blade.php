@@ -12,30 +12,32 @@
 	</div>
 
 	<div>
-		<p><strong>Item ID:</strong> {{ $tests[0]->ItemID }}</p>
-		<p><strong>Description:</strong> {{ $tests[0]->Desc1 }}</p>
+		<p><strong>Item ID:</strong> {{ $item->itemid }}</p>
+		<p><strong>Description:</strong> {{ $item->desc1 }}</p>
 		<p><strong>Style:</strong></p>
-		<p><strong>UPC:</strong> {{ $tests[0]->ItemID }}</p>
+		<p><strong>UPC:</strong> {{ $item->itemid }}</p>
 	</div>
 
 	<hr>
 
 	<div>
 		<p>
-			<strong>Importer:</strong> {{ $vendor[0]->vendname }} <br>
+			<strong>Importer:</strong> @if($vendor == '') @else {{ $vendor[0]->vendname }} <br>
 			{{ $vendor[0]->addr1 }} <br>
-			{{ $vendor[0]->city }}, {{ $vendor[0]->zipcd }}
+			{{ $vendor[0]->city }}, {{ $vendor[0]->zipcd }} @endif
 		</p>
 	</div>
 
 	<hr>
 
 	<div>
-		<p><strong>Place of Manufacture:</strong> {{ $factory[0]->factaddr1 }}, {{ $factory[0]->factcity }}, {{ $factory[0]->factcountry }} </p>
+		<p><strong>Place of Manufacture:</strong> @if($factory == '')  @else {{ $factory[0]->factaddr1 }}, {{ $factory[0]->factcity }}, {{ $factory[0]->factcountry }} @endif</p>
 		<p><strong>Date of Manufacture:</strong> </p>
 	</div>
 
 	<hr>
+
+	<div style="page-break-after: always;"></div>
 
 	<div>
 		<table style="width:100%;min-width: 100%;max-width: 100%;">
@@ -46,27 +48,40 @@
 				</tr>
 			</thead>
 			<tbody style="border: 2px solid black;">
-				@foreach($tests as $test)
-					@foreach($test->TestLab as $labLoop)
-					<tr>
-						<td>
-							{{ $labLoop->labname }} <br>
-							{{ $labLoop->labaddr1 }} <br>
-							{{ $labLoop->labaddr2 }} <br>
-							{{ $labLoop->labcity }} {{ $labLoop->labcity }} <br>
-							{{ $labLoop->labcountry }} <br>
-							<strong>Phone:</strong> {{ $labLoop->labphone }} <br>
-							<strong>Test Date:</strong> {{ $test->TestDate }} <br>
-							<strong>Report Number:</strong> {{ $test->ReptNo }}
+				@foreach($lab as $labKey => $labValue)
+				<tr>
+					<td style="border-bottom: 1px solid black; vertical-align: top;">
+
+						{{ $labValue->labname }} <br>
+						{{ $labValue->labaddr1 }} <br>
+						{{ $labValue->labaddr2 }} <br>
+						{{ $labValue->labcity }} {{ $labValue->labcity }} <br>
+						{{ $labValue->labcountry }} <br>
+						<strong>Phone:</strong> {{ $labValue->labphone }} <br>
+
+						@if($testData['TestLab'] == $labValue->id)
+							<strong>Test Date:</strong>  {{ date('d-m-Y', strtotime($testData['TestDate'])) }} <br>
+							<strong>Report Number:</strong> {{ $testData['ReptNo'] }}
 							<br><br><br><br>
-							<strong>CPSIA Lead Substrate Level: {{ $test->SubstrateLvl }}</strong>
-							<strong>CPSIA Lead Surface Coating Level: {{ $test->SurfaceLvl }}</strong>
-						</td>
-						<td>
-							{{ $test->StdName }}
-						</td>
-					</tr>
-					@endforeach
+							<strong>CPSIA Lead Substrate Level:</strong> {{ $testData['SubstrateLvl'] }} <br>
+							<strong>CPSIA Lead Surface Coating Level:</strong> {{ $testData['SurfaceLvl'] }}
+						@endif
+
+					</td>
+					<td style="border-bottom: 1px solid black;">
+						@foreach($tests as $key => $value)
+							@foreach($value as $k => $v)
+								@foreach($v as $testKey => $testValue)
+									@if(array_key_exists('StdName', $testValue) && $testValue['TestLab'] == $labValue->id)
+										<ul>
+											<li>{{ $testValue['StdName'] }}</li>
+										</ul>
+									@endif
+								@endforeach
+							@endforeach
+						@endforeach
+					</td>
+				</tr>
 				@endforeach
 			</tbody>
 		</table>

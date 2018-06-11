@@ -10,10 +10,6 @@ use Illuminate\Http\Request;
 use Maatwebsite\Excel\Concerns\Exportable;
 use Maatwebsite\Excel\Concerns\FromView;
 use Maatwebsite\Excel\Facades\Excel;
-use PhpOffice\PhpWord\Exception\Exception;
-use PhpOffice\PhpWord\IOFactory;
-use PhpOffice\PhpWord\Shared\Converter;
-use PhpOffice\PhpWord\Style\TablePosition;
 
 class ExportItemTestReportController extends Controller
 {
@@ -61,6 +57,13 @@ class ExportItemTestReportController extends Controller
 
     	$exportData = new ItemTestsExport($itemId);
 
-    	return Excel::download($exportData, 'ItemTestReport.xls');
+    	return Excel::download($exportData, 'ItemTestReport.xlsx');
+    }
+
+    public function exportAllTests()
+    {
+        $exportData = new ItemTestsExport();
+
+        return Excel::download($exportData, 'ItemTestReport.xls');
     }
 }

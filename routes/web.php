@@ -23,6 +23,7 @@ Route::get('/', function () {
 // Export routes for Item Test Records
 Route::get('export-item-test-report', 'ExportItemTestReportController@exportItemTestReportView')->name('export-item-test-report');
 Route::post('export-item-test-report', 'ExportItemTestReportController@exportItemTestReport')->name('post-export-item-test');
+Route::get('export-item-test-reports-all', 'ExportItemTestReportController@exportAllTests')->name('export-item-test-reports-all');
 
 // Export routes for Certificate of Conformity
 Route::get('export-coc', 'ExportCocController@exportCocView')->name('export-coc');

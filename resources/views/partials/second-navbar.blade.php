@@ -5,7 +5,6 @@
 
 	<div class="navbar-collapse collapse" id="navbar-second-toggle">
 		<ul class="nav navbar-nav navbar-nav-material">
-			<li class="active"><a href="{{ route('home') }}"><i class="icon-home2 position-left"></i> Dashboard</a></li>
 
 			@if(Auth::user()->role === 'admin')
 				<li class="dropdown">
@@ -43,7 +42,8 @@
 				</li>
 			@endif
 			<li><a href="{{ route('export-coc') }}"><i class="icon-cc position-left"></i> Export Cerfiticate of Conformity</a></li>
-			<li><a href="{{ route('export-item-test-report') }}"><i class="icon-database-export position-left"></i> Export Item Safety Tests</a></li>
+			<li><a href="{{ route('export-item-test-report') }}"><i class="icon-database-export position-left"></i> Export Item Safety Test</a></li>
+			<li><a href="{{ route('export-item-test-reports-all') }}"><i class="icon-database-export position-left"></i> Export All Safety Tests</a></li>
 		</ul>
 	</div>
 </div>
