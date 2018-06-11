@@ -11,28 +11,25 @@
 			<th>Item ID</th>
 			<th colspan="4">Description</th>
 			@foreach($tests as $key => $test)
-			<th>{{ $test }}</th>
+				<th colspan="3">{{ $test }}</th>
 			@endforeach
 		</tr>
 	</thead>
 	<tbody>
-		@foreach($itemTests as $key => $value)
-		<tr>
-			<td>
-				{{ $key }}
-			</td>
-			@foreach($value as $k => $v)
-				<td>{{ $v->Desc1 }}</td>
-				@foreach($tests as $testKey => $test)
-					<td>
-						@if($v->StdName === $test)
-							PASS
-						@else
-						@endif
-					</td>
+		@foreach($array as $key => $value)
+			<tr>
+				<td>
+					{{ $key }}
+				</td>
+				<td colspan="4">{{ $value['Desc1'] }}</td>
+				@foreach($value as $k => $v)
+					@if(array_search("StdName", $tests) !== false)
+						<td colspan="3">PASS</td>
+					@else
+						<td colspan="3"></td>
+					@endif
 				@endforeach
-			@endforeach
-		</tr>
+			</tr>
 		@endforeach
 	</tbody>
 </table>

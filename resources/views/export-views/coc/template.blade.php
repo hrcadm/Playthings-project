@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="charset=utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 	<title></title>
 </head>
 <body>
@@ -37,10 +37,8 @@
 
 	<hr>
 
-	<div style="page-break-after: always;"></div>
-
 	<div>
-		<table style="width:100%;min-width: 100%;max-width: 100%;">
+		<table style="width:100%;min-width: 100%;max-width: 100%;page-break-before: avoid;">
 			<thead style="border: 2px solid black;">
 				<tr>
 					<th><strong>Testing Laboratory</strong></th>
@@ -49,7 +47,7 @@
 			</thead>
 			<tbody style="border: 2px solid black;">
 				@foreach($lab as $labKey => $labValue)
-				<tr>
+				<tr style="page-break-before: avoid;">
 					<td style="border-bottom: 1px solid black; vertical-align: top;">
 
 						{{ $labValue->labname }} <br>
@@ -60,7 +58,7 @@
 						<strong>Phone:</strong> {{ $labValue->labphone }} <br>
 
 						@if($testData['TestLab'] == $labValue->id)
-							<strong>Test Date:</strong>  {{ date('d-m-Y', strtotime($testData['TestDate'])) }} <br>
+							<strong style="vertical-align: bottom;">Test Date:</strong>  {{ date('d-m-Y', strtotime($testData['TestDate'])) }} <br>
 							<strong>Report Number:</strong> {{ $testData['ReptNo'] }}
 							<br><br><br><br>
 							<strong>CPSIA Lead Substrate Level:</strong> {{ $testData['SubstrateLvl'] }} <br>

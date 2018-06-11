@@ -57,7 +57,7 @@ class ExportItemTestReportController extends Controller
 
     	$exportData = new ItemTestsExport($itemId);
 
-    	return Excel::download($exportData, 'ItemTestReport.xlsx');
+    	return Excel::download($exportData, 'ItemTestReport.xls');
     }
 
     public function exportAllTests()

@@ -132,6 +132,6 @@ class ExportCocController extends Controller
 
         $pdf = PDF::loadView('export-views.coc.template', $data);
 
-        return $pdf->download('invoice.pdf');
+        return $pdf->download('CoC-'.$itemId.'.pdf');
     }
 }

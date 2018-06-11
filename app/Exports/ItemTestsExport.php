@@ -18,7 +18,7 @@ class ItemTestsExport implements FromView
 
     public function view(): View
     {
-        if(isset($itemId))
+        if(isset($this->itemId))
         {
             $itemTests = ItemsTestRecord::where('ItemID', $this->itemId)->get();
 
@@ -29,17 +29,29 @@ class ItemTestsExport implements FromView
                 'itemTests' => $itemTests,
                 'item' => $item
             ]);
+        } else {
+
+
+            $tests = Standard::pluck('stdname')->toArray();
+            $itemTests = ItemsTestRecord::whereYear('TestDate', '>=', date('2017'))->get()->groupBy('ItemID')->toArray();
+
+            $array = $itemTests;
+
+            foreach($array as $key => $value)
+            {
+                foreach($value as $k => $v)
+                {
+                    $array[$key]['Desc1'] = $v['Desc1'];
+                }
+            }
+
+            return view('export-views.item-tests.excelTemplateAllTests', [
+            'itemTests' => $itemTests,
+            'tests' => $tests,
+            'array' => $array
+            ]);
+
         }
-
-        $tests = Standard::pluck('stdname');
-        $itemTests = ItemsTestRecord::all()->groupBy('ItemID');
-
-
-
-        return view('export-views.item-tests.excelTemplateAllTests', [
-        'itemTests' => $itemTests,
-        'tests' => $tests
-        ]);
 
     }
 }

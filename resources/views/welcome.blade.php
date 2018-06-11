@@ -140,7 +140,7 @@
                                 <a href="{{ route('export-coc') }}"><i class="icon-download"></i>  Export Cerfiticate of Conformity</a>
                             </li>
                             <li>
-                                <a href="{{ route('export-item-test-report') }}"><i class="icon-download"></i>  Export Item Safety Tests</a>
+                                <a href="{{ route('export-item-test-reports-all') }}"><i class="icon-download"></i>  Export Item Safety Tests</a>
                             </li>
                             <hr>
                             <li>
