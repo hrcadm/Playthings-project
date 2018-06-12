@@ -64,6 +64,6 @@ class ExportItemTestReportController extends Controller
     {
         $exportData = new ItemTestsExport();
 
-        return Excel::download($exportData, 'ItemTestReport.xls');
+        return Excel::download($exportData, 'ItemTestReports.xls');
     }
 }

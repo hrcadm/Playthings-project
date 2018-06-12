@@ -23,7 +23,7 @@
 				</td>
 				<td colspan="4">{{ $value['Desc1'] }}</td>
 				@foreach($value as $k => $v)
-					@if(array_search("StdName", $tests) !== false)
+					@if($k !== 'Desc1' && in_array($v["StdName"], $tests))
 						<td colspan="3">PASS</td>
 					@else
 						<td colspan="3"></td>

@@ -169,7 +169,6 @@ class ItemsTestRecordController extends Controller
             // Find Test Desc
             $testDesc = Standard::where('stdname', $testValue)->first();
 
-
             $test = new ItemsTestRecord();
             $test->ItemID = $request->ItemID;
             $test->TestLab = $request->LabName;
