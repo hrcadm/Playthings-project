@@ -14,6 +14,11 @@ use Maatwebsite\Excel\Facades\Excel;
 class ExportItemTestReportController extends Controller
 {
 
+    /**
+     *  Export Item Test Report view
+     *
+     * @return \Illuminate\Http\View
+     */
     public function exportItemTestReportView()
     {
     	$items = Item::pluck('itemid');
@@ -31,6 +36,7 @@ class ExportItemTestReportController extends Controller
 
     /**
      *  Handles Test Reports exports logic
+     *
      * @param  Request $request
      * @return download
      */
@@ -44,6 +50,7 @@ class ExportItemTestReportController extends Controller
 
     /**
      * Export Test Report to Excel
+     *
      * @param $itemId
      * @return Download
      */
@@ -60,6 +67,11 @@ class ExportItemTestReportController extends Controller
     	return Excel::download($exportData, 'ItemTestReport.xls');
     }
 
+    /**
+     * Export All Item Test Records to Excel
+     *
+     * @return Excel
+     */
     public function exportAllTests()
     {
         $exportData = new ItemTestsExport();

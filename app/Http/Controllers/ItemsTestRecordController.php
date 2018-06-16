@@ -41,7 +41,7 @@ class ItemsTestRecordController extends Controller
     }
 
     /**
-     * Update index method from year dropdown
+     * Update index method from year and Item Id dropdown
      *
      * @param  \Illuminate\Http\Request
      * @return \Illuminate\Http\Response
@@ -55,9 +55,11 @@ class ItemsTestRecordController extends Controller
         $items = Item::pluck('itemid');
         $items = $items->toArray();
 
+        // Organize and sort Items for the dropdown
         $items = array_combine($items, $items);
         asort($items);
 
+        // Get parameters for the request
         $selectedItem = $request->item;
         $selectedYear = $request->year;
 

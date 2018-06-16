@@ -12,6 +12,11 @@ use Barryvdh\DomPDF\Facade as PDF;
 
 class ExportCocController extends Controller
 {
+    /**
+     *  Export Certificate of Conformity View-page
+     *
+     * @return \Illuminate\Http\View
+     */
     public function exportCocView()
     {
     	$items = Item::pluck('itemid');
@@ -27,7 +32,8 @@ class ExportCocController extends Controller
     }
 
     /**
-     *  Handles Coc exports logic
+     *  Handles Coc exports by type and item
+     *
      * @param  Request $request
      * @return download
      */
@@ -41,22 +47,27 @@ class ExportCocController extends Controller
 
     /**
      *  EXPORT COC TO PDF
-     * @param $itemId
+     *
+     * @param  int $itemId
      * @return PDF document
      */
     public function exportCocToPdf($itemId)
     {
         $itemTests = ItemsTestRecord::where('ItemID', $itemId)->get()->groupBy('TestLab');
 
+        // Sth wierd here so playing with the arrays, format it better stupid!
         $testsToArray = $itemTests->toArray();
 
         $tests = [$testsToArray];
+
+        ////////////////////////////////////////////
 
         $lab = [];
 
         $testData = [];
 
-
+        /// Loop through Item Tests to organize and nest dedicated
+        /// lab to each Item Test Record
         foreach($tests as $key => $value)
         {
             foreach($value as $k => $v)
@@ -67,6 +78,8 @@ class ExportCocController extends Controller
             }
         }
 
+        // Loop through the result of the previous loop to handle client bad Database structure
+        // and replace INTs with actual text for export
         foreach($lab as $key => $value)
         {
             foreach($tests as $k => $v)

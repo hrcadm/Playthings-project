@@ -16,8 +16,15 @@ class ItemTestsExport implements FromView
 	    $this->itemId = $itemId;
 	}
 
+    /**
+     *  Handle export
+     *
+     * @return \Illuminate\Http\View
+     */
     public function view(): View
     {
+        // If Item ID is set, export Item Test Record data for that item
+        // Ele, request wants to export all Item Test Records
         if(isset($this->itemId))
         {
             $itemTests = ItemsTestRecord::where('ItemID', $this->itemId)->get();
